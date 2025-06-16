@@ -12,41 +12,29 @@ format:
     toc: true
     respect-user-color-scheme: true
     page-navigation: true
+    html-math-method:
+      method: webtex
+      url: https://latex.codecogs.com/svg.latex?
     theme:
       light: flatly
       dark: darkly
+    css: styles.css
     mainfont: "IosevkaTerm Nerd Font Mono"
     fontsize: 20px
 
 website:
   title: "My Notes"
   sidebar:
-    - id: calc1
-      title: "Calculus I"
-      contents:
-        - calc1/index.qmd
-        - calc1/u1-the-derivative.md
-        - calc1/u3-transcendental.md
-        - calc1/u4-.qmd
-    - id: fund-elec2
-      title: "Fund. Elec. II"
-      contents:
-        - fund-elec2/index.qmd
-        - fund-elec2/doubts.qmd
-        - fund-elec2/revision.qmd
-        - fund-elec2/t01-sinusoidal-alternating-waveforms.qmd
-        - fund-elec2/t02-basic-elements-and-phasors.qmd
-        - fund-elec2/t03-series-ac-circuits.qmd
-        - fund-elec2/t04-parallel-ac-circuits.qmd
-        - fund-elec2/t05-series-parallel-ac-circuits.qmd
-        - fund-elec2/t06-power(ac).qmd
-        - fund-elec2/t07-introduction-to-three-phase-systems.qmd
-        - fund-elec2/t08-resonance-and-filters.qmd
-        - fund-elec2/t09-methods-of-analysis.qmd
     tools:
-    - icon: github
-      menu:
-        - text: Source Code
-          href: https://github.com/coglinks/notes
-        - text: Report an Issue
-          href: https://github.com/coglinks/notes/issues
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/coglinks/notes
+          - text: Report an Issue
+            href: https://github.com/coglinks/notes/issues
+    style: "docked"
+    contents:
+      - section: "Calculus I"
+        contents: calc1/*
+      - section: "Fund. Elec. II"
+        contents: fund-elec2/*
