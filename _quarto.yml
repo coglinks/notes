@@ -12,13 +12,9 @@ format:
     toc: true
     respect-user-color-scheme: true
     page-navigation: true
-    html-math-method:
-      method: webtex
-      url: https://latex.codecogs.com/svg.latex?
     theme:
       light: flatly
       dark: darkly
-    css: styles.css
     mainfont: "IosevkaTerm Nerd Font Mono"
     fontsize: 20px
 
