@@ -2,6 +2,17 @@ project:
   type: website
   output-dir: _site
 
+format:
+  html:
+    embed-resources: true
+    toc: true
+    respect-user-color-scheme: true
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+
 website:
   title: "My Notes"
   sidebar:
