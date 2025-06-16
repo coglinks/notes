@@ -4,7 +4,14 @@ project:
 
 website:
   title: "My Notes"
-  navbar:
+  sidebar:
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/coglinks/notes
+          - text: Report an Issue
+            href: https://github.com/coglinks/notes/issues
     left:
       - text: "Calculus I"
         menu:
