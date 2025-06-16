@@ -3,6 +3,7 @@ title: '8. Resonance and Filters'
 format:
   html:
     respect-user-color-scheme: true
+    toc: true
     embed-resources: true
     theme:
       light: flatly

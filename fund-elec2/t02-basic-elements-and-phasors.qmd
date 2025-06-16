@@ -3,6 +3,7 @@ title: '2. Basic Elements and Phasors'
 format:
   html:
     respect-user-color-scheme: true
+    toc: true
     embed-resources: true
     theme:
       light: flatly

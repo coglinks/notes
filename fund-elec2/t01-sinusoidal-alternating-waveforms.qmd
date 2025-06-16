@@ -3,6 +3,7 @@ title: '1. Sinusoidal Alternating Waveforms'
 format:
   html:
     embed-resources: true
+    toc: true
     respect-user-color-scheme: true
     theme:
       light: flatly

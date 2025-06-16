@@ -3,16 +3,17 @@ title: '7. Introduction To Three Phase Systems'
 
 format:
   html:
-    math:
-      method: mathjax
-      extensions: [mhchem, amssymb]
     respect-user-color-scheme: true
+    toc: true
     embed-resources: true
     theme:
       light: flatly
       dark: darkly
     mainfont: "IosevkaTerm Nerd Font Mono"
     fontsize: 20px
+    math:
+      method: mathjax
+      extensions: [mhchem, amssymb]
 ---
 
 ## Some General Knowledge

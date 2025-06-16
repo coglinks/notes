@@ -3,6 +3,7 @@ title: '9. Methods of Analysis'
 format:
   html:
     respect-user-color-scheme: true
+    toc: true
     embed-resources: true
     math:
       method: mathjax

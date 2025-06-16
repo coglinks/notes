@@ -3,6 +3,7 @@ title: '3. Series AC Circuits'
 format:
   html:
     respect-user-color-scheme: true
+    toc: true
     embed-resources: true
     theme:
       light: flatly
