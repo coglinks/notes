@@ -3,9 +3,9 @@
 
 # quarto build outputs
 *_files
+/.quarto/
+/_site/
+site_libs
 
 # MyST build outputs
 _build
-
-/.quarto/
-/_site/
