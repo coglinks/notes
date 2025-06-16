@@ -26,11 +26,13 @@ website:
     left:
       - text: "Calculus I"
         menu:
+          - href: calc1/index.qmd
           - href: calc1/u1-the-derivative.md
           - href: calc1/u3-transcendental.md
           - href: calc1/u4-.qmd
       - text: "Fund. Elec. II"
         menu:
+          - href: fund-elec2/index.qmd
           - href: fund-elec2/doubts.qmd
           - href: fund-elec2/revision.qmd
           - href: fund-elec2/t01-sinusoidal-alternating-waveforms.qmd
