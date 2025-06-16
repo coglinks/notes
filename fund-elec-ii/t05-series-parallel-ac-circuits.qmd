@@ -1,5 +1,5 @@
 ---
-title: 'Series Parallel AC Circuits'
+title: '5. Series Parallel AC Circuits'
 format:
   html:
     respect-user-color-scheme: true

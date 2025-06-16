@@ -1,5 +1,5 @@
 ---
-title: 'Series AC Circuits'
+title: '3. Series AC Circuits'
 format:
   html:
     respect-user-color-scheme: true

@@ -1,5 +1,5 @@
 ---
-title: 'Resonance and Filters'
+title: '8. Resonance and Filters'
 format:
   html:
     respect-user-color-scheme: true

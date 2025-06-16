@@ -1,5 +1,5 @@
 ---
-title: 'Power (AC)'
+title: '6. Power (AC)'
 format:
   html:
     respect-user-color-scheme: true

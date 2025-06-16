@@ -1,5 +1,5 @@
 ---
-title: 'Sinusoidal Alternating Waveforms'
+title: '1. Sinusoidal Alternating Waveforms'
 format:
   html:
     embed-resources: true

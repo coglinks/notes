@@ -1,4 +1,6 @@
 ---
+title: '7. Introduction To Three Phase Systems'
+
 format:
   html:
     math:

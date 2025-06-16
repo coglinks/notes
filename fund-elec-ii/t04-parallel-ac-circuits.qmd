@@ -1,5 +1,5 @@
 ---
-title: 'Parallel AC Circuits'
+title: '4. Parallel AC Circuits'
 format:
   html:
     respect-user-color-scheme: true

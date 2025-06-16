@@ -1,5 +1,5 @@
 ---
-title: 't02'
+title: '2. Basic Elements and Phasors'
 format:
   html:
     respect-user-color-scheme: true

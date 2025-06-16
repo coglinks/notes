@@ -1,4 +1,5 @@
 ---
+title: '9. Methods of Analysis'
 format:
   html:
     respect-user-color-scheme: true

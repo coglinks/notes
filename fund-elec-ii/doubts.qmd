@@ -1,5 +1,5 @@
 ---
-title: 'Resonance and Filters'
+title: 'Doubts'
 format:
   html:
     embed-resources: true
