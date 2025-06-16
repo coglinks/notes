@@ -8,33 +8,19 @@ website:
     left:
       - text: "Calculus I"
         menu:
-          - text: "The Derivative"
-            href: calc-1/u1-the-derivative.md
-          - text: "Transcendental"
-            href: calc-1/u3-transcendental.md
-          - text: "Unit 4"
-            href: calc-1/u4-.qmd
+          - href: calc1/u1-the-derivative.md
+          - href: calc1/u3-transcendental.md
+          - href: calc1/u4-.qmd
       - text: "Fund. Elec. II"
         menu:
-          - href: fund-elec-ii/doubts.qmd
-            text: "Doubts"
-          - href: fund-elec-ii/revision.qmd
-            text: "Revision"
-          - href: fund-elec-ii/t01-sinusoidal-alternating-waveforms.qmd
-            text: "T01: Sinusoidal"
-          - href: fund-elec-ii/t02.qmd
-            text: "T02"
-          - href: fund-elec-ii/t03-series-ac-circuits.qmd
-            text: "T03: Series AC"
-          - href: fund-elec-ii/t04-parallel-ac-circuits.qmd
-            text: "T04: Parallel AC"
-          - href: fund-elec-ii/t05-series-parallel-ac-circuits.qmd
-            text: "T05: Series-Parallel"
-          - href: fund-elec-ii/t06-power(ac).qmd
-            text: "T06: Power (AC)"
-          - href: fund-elec-ii/t07-introduction-to-three-phase-systems.qmd
-            text: "T07: 3-Phase Systems"
-          - href: fund-elec-ii/t08-resonance-and-filters.qmd
-            text: "T08: Resonance/Filters"
-          - href: fund-elec-ii/t09-methods-of-analysis.qmd
-            text: "T09: Analysis"
+          - href: fund-elec2/doubts.qmd
+          - href: fund-elec2/revision.qmd
+          - href: fund-elec2/t01-sinusoidal-alternating-waveforms.qmd
+          - href: fund-elec2/t02-basic-elements-and-phasors.qmd
+          - href: fund-elec2/t03-series-ac-circuits.qmd
+          - href: fund-elec2/t04-parallel-ac-circuits.qmd
+          - href: fund-elec2/t05-series-parallel-ac-circuits.qmd
+          - href: fund-elec2/t06-power(ac).qmd
+          - href: fund-elec2/t07-introduction-to-three-phase-systems.qmd
+          - href: fund-elec2/t08-resonance-and-filters.qmd
+          - href: fund-elec2/t09-methods-of-analysis.qmd
