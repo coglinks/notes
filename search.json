@@ -46,392 +46,605 @@
     "href": "calc1/u1-the-derivative.html#practice-1",
     "title": "Limits",
     "section": "Practice",
-    "text": "Practice\n1.Calculate the average slope of the graphbelow between \\(x=2\\) and \\(x=4\\)\n\n\n\n2.For the two lines in the graph: a.Calculate the slope\n\n\n\nb.Find the equation of each line.\nThe actual slope of a curve is represented by aTangent Line.\nGraphically the Tangent Line:\na)istheslope of the curve atonepoint b) touches the curve at only that point\n\n\n\nAlgebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.\n\nThe Tangent Line\nWe need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:\n\n\n\nBut thiswould be dividing by zero!\nWe can shrinkthe distance between the twopoints until \\(\\Delta x=0\\) .\n\\[\\overline{\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}}\\]\n\n\nThe Delta Process - Definition of the Derivative.\nPreviously we used limits to find the slope of the tangent at a particular value of \\(x\\) Algebraically,it is more useful toknow the slope at any value of \\(x\\) . In this case, we leave \\(x\\) in theequation and solve. \\[\\mathrm{m}_{\\mathrm{tangent}}=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\]\nFor \\(f(x)=x^{2}\\)\n\n\n\nThis is a function that gives us the slope of the tangent line at any \\(x\\) \\[x=0\\]\n\\[x=1\\]\n\\[x=-1\\]\nDefinition: The derivative of a function expressed as a function is.\n\\[f'\\left(x\\right)=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\quad\\text{OR}\\quad f'\\left(x\\right)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\nIt isread“The derivative of \\(f\\) withrespect to \\(x^{\\prime\\prime}\\) or \\(“f\\) -prime of \\(x^{\\prime\\prime}\\)\n\n\nDerivative Notation\nSome common notations for the derivative of \\(y=f(x)\\) are:\ny’ \\quad D_x y \\quad f’(x) \\quad \\frac{dy}{dx}\nThe process of finding a derivative is called differentiation..\nRemember: At a point \\((x,y)\\) on a curve,\nThe derivative The slope o the = The slope of the tangent line curve\n\n\nExample: Find the function for the slope of the following functions using the definition of the\nderivative. a) \\(f(x)=5x^{2}-1\\) \\[\\begin{matrix}\\text{b)}&f(x)=2x^2+3x\\end{matrix}\\]\nExample: Find the derivative of \\(f(x)=-4(x-2)^{2}+4\\) using the definition\n\\[f'(x)=\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}\\]\n\\[\n\\begin{align*}\nf(x)=-4(x^2-4x+4) \\\\\n&= -4x^2+16x-16 \\\\\nf(x+h) =\n\\end{align*}\n\\]\n\n\n\nWhat is the slope at \\(x=1\\) ？\nx=2? x=3?\n\n\nPractice\nFind the derivative of the following functions by the delta-process\n\\[y=-4x+2\\]\n\n\\(y=6x-2x^{2}\\)\ny=x2+5x-2\n\nAs you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.\n\n\nBasic Derivative Rules\nAlgebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are\ngiven:\nFunction: \\(y=2x^{2}+3x\\) either \\(f(x)=2x^{2}+3x\\) Derivative: \\(\\frac{dy}{dx}=4x+3\\) \\(\\frac{d(2x^{2}+3x)}{dx}=4x+3\\) \\(f'(x)=4x+3\\) \\(\\quad y'=4x+3\\) \\(\\quad \\frac{d}{dx}(2x^{2}+3x)=4x+3\\)\nConstant Rule: For a function \\(f(x)=c\\) where c is a constant number \\(f'(x)=0\\)\nAlgebraically, \\[f'(x)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\n\n\n\nExample: Find the derivative of the following\n\\[\\text{b)}f(x)=e\\]\n\\[\\text{c)}y=\\sin(2\\pi)\\] a) \\(y=5\\)\n\n\nPower Rule\nFor a variable raised to a constant power n,\n\\[\\frac{d}{dx}\\Big(x^n\\Big)=nx^{n-1}\\]\nExample: Find the following derivatives: a) \\(y=x^3\\)\n\\[)\\:f(x)=x^{8}\\quad\\mathrm{c})\\:y=x\\quad\\mathrm{d})\\:f(x)=x^{2}\\]\n\n\nConstant Multiple Rule\nFor a constant \\(a.\\)\n\\[\\frac{d}{dx}\\Big(ax^n\\Big)=a\\Big(nx^{n-1}\\Big)\\]\nExample:Find the derivative of each of the following:\n\\[f(x)={\\frac{x^{4}}{8}}\\]\n\\[y=3x^{5}\\quad(b)\\quad y=-6x^{3}\\quad(c)\\quad y=\\frac{1}{3}x^{9}\\]\n\n\nSum & Difference Rule\nFor any number of terms,\n\\[\\frac{d}{dx}\\big(f(x)+g(x)\\big)=f'(x)+g'(x)\\]\nExample: Find the derivative of each of the following:.\n\\[\\mid y=3x^{5}+7x^{3}-3x+2\\quad(\\mathbf{b})\\quad y=-6x^{3}-5x\\]\nOften we need to rewrite a power to use the rule:.\n\nExample: Find the derivative of each of the following:.\n\n\\(y=\\sqrt{x}\\)\n\\(f(x)=\\frac{1}{x}\\)\n\\(y=x\\sqrt[3]{x}\\)\n\n\\[\n\\begin{align*}\n    y = x \\cdot x^{1/3} \\\\\n    f' = x\n\\end{align*}\n\\]\n$$\n\\[(\\text{e})\\:y=\\frac{x^2-3x}{x^2}\\]\n\\[\\mid y={\\frac{x}{\\sqrt{x}}}\\]\n\\[\n\\begin{align*}\n    y = x^{1-1/2} \\\\\n    y = x^1/2 \\\\\n    f' = \\frac{1}{2}x^{-1/2} \\\\\n\\end{align*}\n\\]\nExample: Find the derivative of each of the following\n\\[(\\mathbf{b})\\:y=x^4+3x^3+x^2-x+2\\]\n\\[y=x^{2}+7x\\]\n\n\\(y=2x-4x^{3}\\)\n\n\\[y={\\frac{2}{x^{2}}}\\]\nExample:Find the slope of the curve at theindicated point:\n\n\\(y=9x-x^{3}\\) at the point(2,10).\n\\(y=x^4-\\frac12x^2+2\\) at the point-2,16)\n\\(y=4\\sqrt[3]{x^2}\\) at the point where \\(x=8\\)\n\n\\[\\mid y={\\frac{\\sqrt{x}-x^{2}}{x}}\\:\\mathrm{at}\\:x=4\\:.\\]\n\n\nPractice\n\nUsing the definition of derivative find \\(f'(x)\\) of the following \\[f(x)=x^2-2x\\]\n\n2.Find the derivative of each of the following\n\\[\\mathbf{b})\\:f(x)=7x^{3}-3x^{2}+13\\]\n\\[\\mid f(x)=3x-\\frac{1}{3}x^{3}\\]\n\\[\\mid f(x)=5x^{2}-{\\frac{4}{\\sqrt{x}}}\\]\n() \\(f(x)=\\frac{\\pi}{2}x^{8}\\)\n3.What is the slope of the function \\(f(x)=3x^{3}+4x^{2}-6x+3\\) at thepoint (-2,7) ?"
+    "text": "Practice\n1.Calculate the average slope of the graphbelow between  and \n\n\n\n2.For the two lines in the graph: a.Calculate the slope\n\n\n\nb.Find the equation of each line.\nThe actual slope of a curve is represented by aTangent Line.\nGraphically the Tangent Line:\na)istheslope of the curve atonepoint b) touches the curve at only that point\n\n\n\nAlgebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.\n\nThe Tangent Line\nWe need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:\n\n\n\nBut thiswould be dividing by zero!\nWe can shrinkthe distance between the twopoints until  .\n\n\n\nThe Delta Process - Definition of the Derivative.\nPreviously we used limits to find the slope of the tangent at a particular value of  Algebraically,it is more useful toknow the slope at any value of  . In this case, we leave  in theequation and solve. \nFor \n\n\n\nThis is a function that gives us the slope of the tangent line at any  \n\n\nDefinition: The derivative of a function expressed as a function is.\n\nIt isread“The derivative of  withrespect to  or  -prime of \n\n\nDerivative Notation\nSome common notations for the derivative of  are:\ny’ \\quad D_x y \\quad f’(x) \\quad \\frac{dy}{dx}\nThe process of finding a derivative is called differentiation..\nRemember: At a point  on a curve,\nThe derivative The slope o the = The slope of the tangent line curve\n\n\nExample: Find the function for the slope of the following functions using the definition of the\nderivative. a)  \nExample: Find the derivative of  using the definition\n\n\n\n\n\nWhat is the slope at  ？\nx=2? x=3?\n\n\nPractice\nFind the derivative of the following functions by the delta-process\n\n\n\ny=x2+5x-2\n\nAs you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.\n\n\nBasic Derivative Rules\nAlgebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are\ngiven:\nFunction:  either  Derivative:     \nConstant Rule: For a function  where c is a constant number \nAlgebraically, \n\n\n\nExample: Find the derivative of the following\n\n a) \n\n\nPower Rule\nFor a variable raised to a constant power n,\n\nExample: Find the following derivatives: a) \n\n\n\nConstant Multiple Rule\nFor a constant \n\nExample:Find the derivative of each of the following:\n\n\n\n\nSum & Difference Rule\nFor any number of terms,\n\nExample: Find the derivative of each of the following:.\n\nOften we need to rewrite a power to use the rule:.\n\nExample: Find the derivative of each of the following:.\n\n\n\n\n\n\n$$\n\n\n\nExample: Find the derivative of each of the following\n\n\n\n\n\n\nExample:Find the slope of the curve at theindicated point:\n\n at the point(2,10).\n at the point-2,16)\n at the point where \n\n\n\n\nPractice\n\nUsing the definition of derivative find  of the following \n\n2.Find the derivative of each of the following\n\n\n\n() \n3.What is the slope of the function  at thepoint (-2,7) ?",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
   },
   {
     "objectID": "calc1/u1-the-derivative.html#chain-rule",
     "href": "calc1/u1-the-derivative.html#chain-rule",
     "title": "Limits",
     "section": "Chain Rule",
-    "text": "Chain Rule\nWhen we have a composite function,\n\\[\\frac{d}{dx}\\Big[f\\big(g(x)\\big)\\Big]=f'(g(x))g'(x)\\]\n\nExample: Find the derivative of the following functions:\n\\[y=\\left(x^2+4x+6\\right)^5\\]\n\n\\(f(x)=\\left(x^{2}-x+1\\right)^{3}\\)\n\\(f(x)=\\sqrt{5x+x^{2}}\\)\n\n\\[y=\\frac{1}{\\left(x^2-5\\right)^4}\\]\n\n\nPractice:\n1.Find the derivative of each of the following 司\\(r=\\frac{1}{\\left(t^2-2t-5\\right)^4}\\)\n\\[y=\\sqrt[5]{3x+2}\\]\n\nFin the sope of the tangent line to the curve \\(y=\\left(4+3x^2\\right)^{\\frac43}\\)\n\n3.For \\(y=\\left(4-x^2\\right)^{-2}\\) What is the slope of the graph of at the point \\(\\left(3,\\frac{1}{25}\\right)?\\)\n\nFind the derivative of the function \\(q(x)=\\left(4x^{2}-3+6x\\right)^{18}\\)\n\n5.Given \\(f\\Big(g\\big(x\\big)\\Big)=\\Big(x^{2}+1\\Big)^{3}+2\\Big(x^{2}+1\\Big)^{2}+5\\) ,what is \\(D_{x}f\\big(g\\big(x\\big)\\big)\\)?\n6.What is the slope of the curve representing the function \\(P(x)=\\sqrt[4]{\\left(x^{2}+7x\\right)^{3}}\\) at the point(14,71)?\n\n\nImplicit Differentiation\nThere will be times when we are not able to solve for \\(y\\) explicitly. For example. given the expression, \\[y^5+xy^2+3x^2=5\\:,\\]\nwe are unable to get an expression \\(y=f(x)\\)\nSuch a function where. \\(y\\) is defined implicitly as a function of \\(x\\) (i.e.) \\(y\\) as a function of itself,which is a function of \\(x\\) )is called an implicit function\nTo find \\(\\frac{dy}{dx}\\) when \\(y\\) is implicitly defined as function of \\(x\\) , we differentiate each term of the equation with respect to. \\(x\\) by applying the appropriate rule.\nNote: The derivative of \\(y\\) with respect to \\(x\\) is \\(\\frac{dy}{dx}\\) (or \\(y'\\)).\nExample: Find \\(\\frac{dy}{dx}\\) if \\(x+y=2\\)\nExam ple: Find \\(\\frac{dy}{dx}\\) if \\(y^{2}+2x^{2}=5\\)\nExample: Find \\(\\frac{dy}{dx}\\) if \\(3y^{4}+xy^{2}+2x^{3}-6=0\\)\nExample:Find the slope of a line tangent to the curve of \\(2y^{3}+xy+1=0\\) at thepoint (-3,1).\n\n\nMixed Derivatives\nSo far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples\nExample: Find the derivative of the following functions\n\n\\(f\\left(x\\right)=\\left(\\frac{x^3+2x^2}{4-x}\\right)^3\\)\n\\(f\\left(x\\right)=\\left(\\left(x-7x^{3}\\right)\\left(14+x^{2}\\right)\\right)^{11}\\)\n\n\\[\\text{c)}\\quad f\\left(x\\right)=\\frac{\\left(8x-4+9x^3\\right)\\left(3x^2+4x^5-\\frac{1}{x^3}\\right)}{\\left(x-9+x^5\\right)}\\]\nExample Fid the sope of y=(2x2) at \\(x=1\\)"
+    "text": "Chain Rule\nWhen we have a composite function,\n\n\nExample: Find the derivative of the following functions:\n\n\n\n\n\n\n\n\nPractice:\n1.Find the derivative of each of the following 司\n\n\nFin the sope of the tangent line to the curve \n\n3.For  What is the slope of the graph of at the point \n\nFind the derivative of the function \n\n5.Given  ,what is ?\n6.What is the slope of the curve representing the function  at the point(14,71)?\n\n\nImplicit Differentiation\nThere will be times when we are not able to solve for  explicitly. For example. given the expression, \nwe are unable to get an expression \nSuch a function where.  is defined implicitly as a function of  (i.e.)  as a function of itself,which is a function of  )is called an implicit function\nTo find  when  is implicitly defined as function of  , we differentiate each term of the equation with respect to.  by applying the appropriate rule.\nNote: The derivative of  with respect to  is  (or ).\nExample: Find  if \nExam ple: Find  if \nExample: Find  if \nExample:Find the slope of a line tangent to the curve of  at thepoint (-3,1).\n\n\nMixed Derivatives\nSo far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples\nExample: Find the derivative of the following functions\n\n\n\n\n\nExample Fid the sope of y=(2x2) at",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
   },
   {
     "objectID": "calc1/u1-the-derivative.html#higher-derivatives",
     "href": "calc1/u1-the-derivative.html#higher-derivatives",
     "title": "Limits",
     "section": "Higher Derivatives",
-    "text": "Higher Derivatives\nSince the derivative of a function is also a function we may take the derivative of the derivative.\nThe derivative of a function is called the first derivative.\nThe derivative of the first derivative is the second derivative, and so on.\nThe second derivative, third derivative and so on are collectively known as higher derivatives.\nHigher Derivative Notation\n\n\n\n\n\n\n\n\n\nFirst\nSecond\nThird\nFourth\n\n\n\n\n\\(y'\\)\n\\(y''\\)\n\\(y'''\\)\n\\(y^{(4)}\\)\n\n\n\\(\\frac{dy}{dx}\\)\n\\(\\frac{d^2y}{dx^2}\\)\n\\(\\frac{d^3y}{dx^3}\\)\n\\(\\frac{d^4y}{dx^4}\\)\n\n\n\\(D_y\\)\n\\(D_x^2y\\)\n\\(D_x^3y\\)\n\\(D_x^4y\\)\n\n\n\\(f'(x)\\)\n\\(f''(x)\\)\n\\(f'''(x)\\)\n\\(f^{(4)}(x)\\)\n\n\n\nExample: Find the higher derivatives for \\(y=5x^{3}-2x\\)\nExample: Find the higher derivatives of \\(f(x)=x(x^{2}-1)^{2}\\) (Hint: Simplify \\(f\\) )\nExample: Evaluate the second derivatie of \\(y=\\frac{2}{1-x}\\) for \\(x=-2\\)\nExample: Find \\(y^{n}\\) for the implicit function defined by \\(2x^{2}+3y^{2}=6\\)\n\nPractice:\n\nFind \\(D_{x}y\\) given \\(y=\\frac{\\sqrt{2x^2+1}}{3x}\\)\n\n2.Given \\(xy^{3}+3y+x^{2}=9\\) ,find \\(y\\)\n3.Evaluate the second derivative of y = x(1-x),for \\(x=2\\)\n\nFind the derivativeof the funtion \\(K(p)=\\left(3\\:p^{2}+p\\sqrt{p^{3}+2\\:p}\\right)^{4}\\) (Do not simplify).\n\n\n\n5.Given \\(\\left(y^{2}+2\\right)^{3}=\\pi x^{4}y+3e^{2}y^{3}\\) ,what is \\(D_xy\\)\n\nWhat is the second derivativeof the functio \\(P\\bigl(x\\bigr)=x-\\frac{2}{x^3}\\) athe point417"
+    "text": "Higher Derivatives\nSince the derivative of a function is also a function we may take the derivative of the derivative.\nThe derivative of a function is called the first derivative.\nThe derivative of the first derivative is the second derivative, and so on.\nThe second derivative, third derivative and so on are collectively known as higher derivatives.\nHigher Derivative Notation\n\n\n\n\n\n\n\n\n\nFirst\nSecond\nThird\nFourth\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample: Find the higher derivatives for \nExample: Find the higher derivatives of  (Hint: Simplify  )\nExample: Evaluate the second derivatie of  for \nExample: Find  for the implicit function defined by \n\nPractice:\n\nFind  given \n\n2.Given  ,find \n3.Evaluate the second derivative of y = x(1-x),for \n\nFind the derivativeof the funtion  (Do not simplify).\n\n\n\n5.Given  ,what is \n\nWhat is the second derivativeof the functio  athe point417",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
   },
   {
     "objectID": "calc1/u1-the-derivative.html#variables-other-than-x",
     "href": "calc1/u1-the-derivative.html#variables-other-than-x",
     "title": "Limits",
     "section": "Variables other than x",
-    "text": "Variables other than x\nWhile most of our work has focused on the functions of \\(x\\) ,the same rules of derivatives apply to any variables."
+    "text": "Variables other than x\nWhile most of our work has focused on the functions of  ,the same rules of derivatives apply to any variables.",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
   },
   {
     "objectID": "calc1/u1-the-derivative.html#practice-8",
     "href": "calc1/u1-the-derivative.html#practice-8",
     "title": "Limits",
     "section": "Practice:",
-    "text": "Practice:\n1.Find the derivative of \\(A\\) with respect to \\(t:\\) \\(A= 3t^{2}- 5t\\)\n2.Find the derivative of \\(z\\) with respect to \\(r:4r^{3}-3r^{2}z=5\\sqrt{z}\\)\n3.Find the derivative of \\(P\\) with respect to \\(V\\) : \\(P= \\left ( 4V- 5\\right ) \\left ( - 3V^{2}+ 2\\right ) ^{3}\\)"
+    "text": "Practice:\n1.Find the derivative of  with respect to  \n2.Find the derivative of  with respect to \n3.Find the derivative of  with respect to  :",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
   },
   {
     "objectID": "fund-elec2/doubts.html",
     "href": "fund-elec2/doubts.html",
     "title": "Doubts",
     "section": "",
-    "text": "What does real power mean? How is it different from \\(Q,~P\\) and \\(S\\)?\nAns:  Real power stands for the power dissipated by the resistor.\nExplain: &gt;Impedance, like resistance or reactance, is not a phasor quantity representing a time-varying function with a particular phase shift. It is simply an operating tool that is extremely useful in determining the magnitude and angle of quantities in a sinusoidal ac network.\nAre output voltages the same as voltage drops?"
+    "text": "What does real power mean? How is it different from  and ?\nAns:  Real power stands for the power dissipated by the resistor.\nExplain: &gt;Impedance, like resistance or reactance, is not a phasor quantity representing a time-varying function with a particular phase shift. It is simply an operating tool that is extremely useful in determining the magnitude and angle of quantities in a sinusoidal ac network.\nAre output voltages the same as voltage drops?",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Doubts"
+    ]
   },
   {
     "objectID": "fund-elec2/doubts.html#three-phase-systems",
     "href": "fund-elec2/doubts.html#three-phase-systems",
     "title": "Doubts",
     "section": "three phase systems",
-    "text": "three phase systems\n\nIn a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?\nAns:  Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.\nCan resonance occur without resistance?\nAns:  Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits\nWhich is correct: \\(j5~\\Omega\\) or \\(5j~\\Omega\\)?\nAns:  \\(j5~\\Omega\\)\nHow to solve:\n\n\n\n\n\nq4-a-vs-f.png"
+    "text": "three phase systems\n\nIn a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?\nAns:  Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.\nCan resonance occur without resistance?\nAns:  Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits\nWhich is correct:  or ?\nAns:  \nHow to solve:\n\n\n\n\n\nq4-a-vs-f.png",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Doubts"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html",
     "href": "fund-elec2/t08-resonance-and-filters.html",
     "title": "8. Resonance and Filters",
     "section": "",
-    "text": "Resonance in a circuit is a combination of RLC components\nOccurs when \\(X_L = X_C\\)\nThe frequency at which resonance occurs is called resonance frequency\n\\(I = \\dfrac{E\\angle\\theta}{R}\\)\n\\(Z_T = R\\)\nResponse is max at \\(f_r\\)\n\n\n\nThe tuning process (setting the dial to \\(f_s\\)) is the reason for the terminology tuned circuit.\nWhen resonance occurs at the frequency \\(( f_s )\\), the energy absorbed by one reactive element is the same as that released by another reactive element within the system. In other words, energy pulsates from one reactive element to the other."
+    "text": "Resonance in a circuit is a combination of RLC components\nOccurs when \nThe frequency at which resonance occurs is called resonance frequency\n\n\nResponse is max at \n\n\n\nThe tuning process (setting the dial to ) is the reason for the terminology tuned circuit.\nWhen resonance occurs at the frequency , the energy absorbed by one reactive element is the same as that released by another reactive element within the system. In other words, energy pulsates from one reactive element to the other.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#introduction-to-resonance-circuit",
     "href": "fund-elec2/t08-resonance-and-filters.html#introduction-to-resonance-circuit",
     "title": "8. Resonance and Filters",
     "section": "",
-    "text": "Resonance in a circuit is a combination of RLC components\nOccurs when \\(X_L = X_C\\)\nThe frequency at which resonance occurs is called resonance frequency\n\\(I = \\dfrac{E\\angle\\theta}{R}\\)\n\\(Z_T = R\\)\nResponse is max at \\(f_r\\)\n\n\n\nThe tuning process (setting the dial to \\(f_s\\)) is the reason for the terminology tuned circuit.\nWhen resonance occurs at the frequency \\(( f_s )\\), the energy absorbed by one reactive element is the same as that released by another reactive element within the system. In other words, energy pulsates from one reactive element to the other."
+    "text": "Resonance in a circuit is a combination of RLC components\nOccurs when \nThe frequency at which resonance occurs is called resonance frequency\n\n\nResponse is max at \n\n\n\nThe tuning process (setting the dial to ) is the reason for the terminology tuned circuit.\nWhen resonance occurs at the frequency , the energy absorbed by one reactive element is the same as that released by another reactive element within the system. In other words, energy pulsates from one reactive element to the other.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#series-resonant-circuit",
     "href": "fund-elec2/t08-resonance-and-filters.html#series-resonant-circuit",
     "title": "8. Resonance and Filters",
     "section": "Series Resonant Circuit",
-    "text": "Series Resonant Circuit\nResonace frequency,\n\\[\nf_s = \\dfrac{1}{2 \\pi \\sqrt{LC}} \\iff \\omega_s = \\dfrac{1}{\\sqrt{LC}}\n\\]\nIn a resonance circuit:\n\nThe magnitudes of the voltage drops across the inductor and capacitor are equal and have \\(180^\\circ\\) \\(\\Delta \\phi\\) \\[\n| V_{L_s} | = | V_{C_s} |\n\\]\n\\(Q_T = 0 \\implies P_T = S_T\\)\n\n\\[\n\\therefore F_{P_s} = 1~\\&~\\theta_s = 0^\\circ\n\\]"
+    "text": "Series Resonant Circuit\nResonace frequency,\n\nIn a resonance circuit:\n\nThe magnitudes of the voltage drops across the inductor and capacitor are equal and have",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#quality-factor-q_s",
     "href": "fund-elec2/t08-resonance-and-filters.html#quality-factor-q_s",
     "title": "8. Resonance and Filters",
-    "section": "Quality Factor \\((Q_s)\\)",
-    "text": "Quality Factor \\((Q_s)\\)\nDefinition:\n\nThe quality factor \\(Q_s\\) of a series resonant circuit is the ratio of the reactive power of either the inductor or the capacitor to the average power of the resistor at resonance.\nThe quality factor is also an indication of how much energy is placed in storage (continual transfer from one reactive element to the other) compared to that dissipated.\n\n\\[\nQ_s = \\mathrm{ \\dfrac{reactive~power}{average~power} }\n\\]\nFormulas:\n\n\\(Q_s = \\dfrac{Q_{L \\text{ or } C}}{P} = \\dfrac{X_L}{R}\\)\n\\(Q_s=\\dfrac{1}{R} \\sqrt{\\dfrac{L}{C}}\\)\n\n\n\nDerivation\n\n\\[\nQ_s=\\dfrac{\\omega_sL}{R}=\\dfrac{2\\pi f_sL}{R}=\\dfrac{2\\pi}{R}\\left(\\dfrac{1}{2\\pi\\sqrt{LC}}\\right)L=\\dfrac{L}{R}\\left(\\dfrac{1}{\\sqrt{LC}}\\right)=\\left(\\dfrac{\\sqrt{L}}{\\sqrt{L}}\\right)\\dfrac{L}{R\\sqrt{LC}}\\quad\\boxed{Q_s=\\dfrac{1}{R}\\sqrt{\\dfrac{L}{C}}}\n\\]\n\nIn a series RLC circuit:\n\\[\nV_L=V_C = Q_s E\n\\]\n\n\nDerivation\n\nBy applying the voltage divider rule, we obtain\n\\[V_{L}=\\dfrac{X_{L} E}{Z_{T_s}}=\\dfrac{X_{L} E}{R} \\]\n\\[V_{C}=\\dfrac{X_{C} E}{Z_{T_s}}=\\dfrac{X_{C} E}{R}\\]\n\\[V_{L_{s}}=Q_{s} E\\]\n\\[V_{C_{s}}=Q_{s} E\\]"
+    "section": "Quality Factor ",
+    "text": "Quality Factor \nDefinition:\n\nThe quality factor  of a series resonant circuit is the ratio of the reactive power of either the inductor or the capacitor to the average power of the resistor at resonance.\nThe quality factor is also an indication of how much energy is placed in storage (continual transfer from one reactive element to the other) compared to that dissipated.\n\n\nFormulas:\n\n\n\n\n\n\nDerivation\n\n\n\nIn a series RLC circuit:\n\n\n\nDerivation\n\nBy applying the voltage divider rule, we obtain",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#z_t-vs-frequency",
     "href": "fund-elec2/t08-resonance-and-filters.html#z_t-vs-frequency",
     "title": "8. Resonance and Filters",
     "section": "Z_T vs Frequency",
-    "text": "Z_T vs Frequency\n\n\n\nCondition\nNature\nPhase Relation\nRemember\n\n\n\n\n\\(f &lt; f_s\\)\nCapacitive\n\\(I\\) leads \\(E\\)\n\\(f \\propto \\dfrac{1}{C}\\)\n\n\n\\(f &gt; f_s\\)\nInductive\n\\(E\\) leads \\(I\\)\n\\(f \\propto L\\)\n\n\n\\(f = f_s\\)\nResistive\n\\(E\\) and \\(I\\) in phase\n\\(X_L = X_C\\)"
+    "text": "Z_T vs Frequency\n\n\n\nCondition\nNature\nPhase Relation\nRemember\n\n\n\n\n\nCapacitive\n leads \n\n\n\n\nInductive\n leads \n\n\n\n\nResistive\n and  in phase",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#selectivity",
     "href": "fund-elec2/t08-resonance-and-filters.html#selectivity",
     "title": "8. Resonance and Filters",
     "section": "Selectivity",
-    "text": "Selectivity\nBandwidth: distance b/w 2 the cut off frequencies of a given circuit\nCut off frequency: RMS current frequency (2 frequencies for each circuit)\nSelectivity:\nThe quality factor is the measure of “selectivity” of an AC resonant circuit.\nResonant circuits are used to respond selectively to signals of a given frequency while discriminating against signals of different frequencies. If the response of the circuit is more narrowly peaked around the chosen frequency, we say that the circuit has higher “selectivity”. A “quality factor” Q, is a measure of that selectivity, and we speak of a circuit having a “high Q” if it is more narrowly selective and “low Q” if it is less narrowly selective. refer:\n\n\\(\\mathrm{Selectivity \\propto \\dfrac{1}{Bandwidth}}\\)\n\n\\[P_{HPF} = I^2R = \\dfrac{1}{2}P_{max} = \\dfrac{1}{2} I_m^2R\\]\nBandwidth definition:\n\\[BW = f_2 - f_1\\]\nDerivations:\n\\[\n\\begin{align*}\n    BW &= \\dfrac{f_S}{Q_S} = \\dfrac{R}{2 \\pi L}\\\\\n    f_s &= \\sqrt{f_1 f_2} \\\\\n    f_1 &= f_S - \\dfrac{BW}{2} \\\\\n    f_2 &= f_S + \\dfrac{BW}{2} \\\\\n\\end{align*}\n\\]"
+    "text": "Selectivity\nBandwidth: distance b/w 2 the cut off frequencies of a given circuit\nCut off frequency: RMS current frequency (2 frequencies for each circuit)\nSelectivity:\nThe quality factor is the measure of “selectivity” of an AC resonant circuit.\nResonant circuits are used to respond selectively to signals of a given frequency while discriminating against signals of different frequencies. If the response of the circuit is more narrowly peaked around the chosen frequency, we say that the circuit has higher “selectivity”. A “quality factor” Q, is a measure of that selectivity, and we speak of a circuit having a “high Q” if it is more narrowly selective and “low Q” if it is less narrowly selective. refer:\n\n\n\n\nBandwidth definition:\n\nDerivations:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#introduction-to-filters",
     "href": "fund-elec2/t08-resonance-and-filters.html#introduction-to-filters",
     "title": "8. Resonance and Filters",
     "section": "Introduction to Filters",
-    "text": "Introduction to Filters\n\nFilter Definition: Any combination of passive (R, L, and C) and/or active (transistors or operational amplifiers) elements that are designed to select or reject a band of frequencies.\nFilter applications: communication systems, stereo systems, noise filtering.\nPassive Filters are analyzed in this module.\nFilter categories: low-pass, high-pass, pass-band, and stop-band.\nFor type of filter, there are critical frequencies that define the regions of pass-bands and stop-bands (often called reject bands), as depicted in the next slide."
+    "text": "Introduction to Filters\n\nFilter Definition: Any combination of passive (R, L, and C) and/or active (transistors or operational amplifiers) elements that are designed to select or reject a band of frequencies.\nFilter applications: communication systems, stereo systems, noise filtering.\nPassive Filters are analyzed in this module.\nFilter categories: low-pass, high-pass, pass-band, and stop-band.\nFor type of filter, there are critical frequencies that define the regions of pass-bands and stop-bands (often called reject bands), as depicted in the next slide.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t08-resonance-and-filters.html#filter-categories",
     "href": "fund-elec2/t08-resonance-and-filters.html#filter-categories",
     "title": "8. Resonance and Filters",
     "section": "Filter Categories",
-    "text": "Filter Categories\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRC Low-Pass Filter\nRC High-Pass Filter\n\n\n\n\nRC circuit\nRC circuit\n\n\n\n\n\n\nIf the positions of the resistor and capacitor are interchanged and the output is taken off the resistor, the response is that of a high-pass filter.\nIf the positions of the resistor and capacitor are interchanged and the output is taken off the capacitor, the response is that of a low-pass filter.\n\n\nOutput at low frequencies only\nOutput at high frequencies only\n\n\n\n\n\n\nNo output at high frequencies\nNo output at low frequencies\n\n\n\n\n\n\nA resistive live wire and a neutral wire are connected by a capacitor\nA resistive live wire and a neutral wire are connected by a resistor\n\n\nWe are taking output from the capacitor\nWe are taking output from the resistor\n\n\nBy VDR (parallel circuit),\\[V_o =\\frac{V_i}{R-jX_C}X_C\\]\nBy VDR (parallel circuit),\\[V_o =\\frac{V_i}{R-jX_C}R\\]\n\n\n\\[A_v=\\frac{V_o}{V_i}=\\frac{X_C}{\\sqrt{R^2+X_C^2}}=\\frac{1}{\\sqrt{\\left(\\frac{R}{X_C}\\right)^2+1}}\\]  At \\(X_C=R\\), \\(A_v \\approx 0.707\\)\n\\[A_{v}=\\frac{V_{o}}{V_{i}}=\\frac{R}{\\sqrt{R^{2}+X_{C}^{2}}}=\\frac{1}{\\sqrt{1+\\left(\\frac{X_{C}}{R}\\right)^{2}}}\\]  At \\(X_C=R\\), \\(A_v \\approx 0.707\\)\n\n\nCut off frequency, \\(f_c = \\dfrac{1}{2\\pi RC}\\)\nCut off frequency, \\(f_c = \\dfrac{1}{2\\pi RC}\\)\n\n\nSignificance of \\(f_c\\): The application of any frequency less than \\(f_c\\) results in an output voltage Vo that is at least \\(70.7~\\%\\) of the magnitude of the input signal. For any frequency above \\(f_c\\) , the output is less than \\(70.7~\\%\\) of the input signal.\nSignificance of \\(f_c\\): The application of any frequency greater than \\(f_c\\) results in an output voltage \\(V_o\\) that is at least \\(70.7~\\%\\) of the magnitude of the input signal. For any frequency below \\(f_c\\) , the output is less than \\(70.7~\\%\\) of the input signal."
+    "text": "Filter Categories\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRC Low-Pass Filter\nRC High-Pass Filter\n\n\n\n\nRC circuit\nRC circuit\n\n\n\n\n\n\nIf the positions of the resistor and capacitor are interchanged and the output is taken off the resistor, the response is that of a high-pass filter.\nIf the positions of the resistor and capacitor are interchanged and the output is taken off the capacitor, the response is that of a low-pass filter.\n\n\nOutput at low frequencies only\nOutput at high frequencies only\n\n\n\n\n\n\nNo output at high frequencies\nNo output at low frequencies\n\n\n\n\n\n\nA resistive live wire and a neutral wire are connected by a capacitor\nA resistive live wire and a neutral wire are connected by a resistor\n\n\nWe are taking output from the capacitor\nWe are taking output from the resistor\n\n\nBy VDR (parallel circuit),\nBy VDR (parallel circuit),\n\n\n  At , \n  At , \n\n\nCut off frequency, \nCut off frequency, \n\n\nSignificance of : The application of any frequency less than  results in an output voltage Vo that is at least  of the magnitude of the input signal. For any frequency above  , the output is less than  of the input signal.\nSignificance of : The application of any frequency greater than  results in an output voltage  that is at least  of the magnitude of the input signal. For any frequency below  , the output is less than  of the input signal.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "8. Resonance and Filters"
+    ]
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html",
     "href": "fund-elec2/t01-sinusoidal-alternating-waveforms.html",
     "title": "1. Sinusoidal Alternating Waveforms",
     "section": "",
-    "text": "The waveform of a signal is the shape of its graph as a function of time\nThe term alternating indicates that the waveform alternates between two prescribed levels in a set time sequence\nThe term AC means alternating current\n\n\n\nIllustated using a voltage graph (Current graph is not the same but similar).\nIn a sinuisoidal voltage, \\(v = f(t) = V_m \\sin (\\omega t \\pm \\theta)\\): - Cycle: One positive and one negative peaks together - Instantaneous value - Periodic waveform: repeats after the same interval - Alternating voltage, \\(v\\) or \\(e\\) - Alternating current, \\(i\\) - \\(V_p=V_m=\\) Amplitude - \\(I_p=I_m=\\) Amplitude - \\(V_{p-p}\\) - \\(I_{p-p}\\) - Time Period, \\(T\\) - Unit: \\(\\mathrm{s}\\) - Frequency, \\(f\\) - Units: 1 hertz \\(\\text{(Hz)}\\) = 1 cycle per second \\(\\text{(cps)}\\) - Angular velocity, \\(\\omega = \\dfrac{2\\pi}{T} = \\dfrac{\\alpha}{t}\\) - \\(\\alpha\\) is the angle - Unit: \\(\\mathrm{rad\\cdot s^{-1}=rad/s}\\) - \\(\\theta\\) is the phase difference between voltage and current with respect to one of them. To illustrate this: When \\(\\theta\\) is \\(30^\\circ\\) with current leading: - \\(\\theta_V\\) is \\(-30^\\circ\\) and \\(\\theta_I\\) is \\(0^\\circ\\)\n    or\n- $\\theta_I$ is $30^\\circ$ and $\\theta_V$ is $0^\\circ$\n\nThe following is for clarity. Don’t use it. Cuz this isn’t usually used in UDST\nA formula with a more definition exact notation would be: \\[v = f(t) = V_m \\sin (\\omega t \\pm \\Delta\\phi_{VI})\\] or \\[v = f(t) = V_m \\sin (\\omega t \\pm \\Delta\\phi_{IV})\\]\n\n\n\n\n\n\\(V_{rms} = \\dfrac{V_m}{\\sqrt{2}}\\)\n\\(I_{rms} = \\dfrac{I_m}{\\sqrt{2}}\\)\n\n\n\nUsually in exam questions:\n\n\\(I=I_{rms}\\)\n\\(V=V_{rms}\\)\n\n\n\n\n\n\n\\(v = V_m \\sin (\\omega t \\pm \\phi) = V \\angle \\pm \\phi = V_{rms} \\angle \\pm \\phi\\)\nWhen \\(v = V\\angle 60^\\circ\\) and \\(i = I \\angle 30^\\circ\\): - The voltage is leading the current by \\(30^\\circ\\)\nor\n\nThe current is lagging the voltage by \\(30^\\circ\\)\n\n\n\n\nFrom graph:\nArea of a cycle (Addition of positive area and negative area) divided by the time period\n\n\nAnalytical average (General derivation. Alternative to above)\n\nAnswer: The average value of the positive portion of a sinusoidal function \\(f(t) = A \\sin(\\omega t)\\) over one positive half-cycle is:\n\\[\n\\boxed{\\frac{2A}{\\pi}}\n\\]\n\n\n\nLet’s define:\n\n\\(f(t) = A \\sin(\\omega t)\\)\nThe positive portion of the sinusoid lies over \\(t \\in [0, T/2]\\), where \\(T = \\frac{2\\pi}{\\omega}\\)\nSo we want the average value of \\(f(t)\\) over \\([0, T/2]\\)\n\n\n\n\\[\n\\text{Average} = \\frac{1}{T/2} \\int_0^{T/2} A \\sin(\\omega t)\\, dt\n\\]\n\n\n\n\\[\n= \\frac{2}{T} \\cdot A \\int_0^{T/2} \\sin(\\omega t)\\, dt\n\\]\nChange variable: \\(\\theta = \\omega t \\Rightarrow d\\theta = \\omega dt \\Rightarrow dt = \\frac{d\\theta}{\\omega}\\)\n\nWhen \\(t = 0 \\Rightarrow \\theta = 0\\)\nWhen \\(t = T/2 \\Rightarrow \\theta = \\omega \\cdot \\frac{T}{2} = \\omega \\cdot \\frac{\\pi}{\\omega} = \\pi\\)\n\nSo the integral becomes:\n\\[\n= \\frac{2A}{T} \\int_0^{T/2} \\sin(\\omega t)\\, dt\n= \\frac{2A}{T} \\cdot \\int_0^\\pi \\sin(\\theta) \\cdot \\frac{d\\theta}{\\omega}\n= \\frac{2A}{T \\omega} \\int_0^\\pi \\sin(\\theta) \\, d\\theta\n\\]\n\\[\n= \\frac{2A}{T \\omega} \\cdot [-\\cos(\\theta)]_0^\\pi\n= \\frac{2A}{T \\omega} \\cdot [ -\\cos(\\pi) + \\cos(0) ]\n= \\frac{2A}{T \\omega} \\cdot [1 + 1] = \\frac{4A}{T \\omega}\n\\]\nNow recall \\(T = \\frac{2\\pi}{\\omega} \\Rightarrow T \\omega = 2\\pi\\), so:\n\\[\n\\frac{4A}{T \\omega} = \\frac{4A}{2\\pi} = \\boxed{\\frac{2A}{\\pi}}\n\\]\n\n\n\n\n\nFor any sinusoidal signal \\(A \\sin(\\omega t)\\), the average value over the positive half-cycle is:\n\\[\n\\boxed{\\frac{2A}{\\pi}}\n\\]"
+    "text": "The waveform of a signal is the shape of its graph as a function of time\nThe term alternating indicates that the waveform alternates between two prescribed levels in a set time sequence\nThe term AC means alternating current\n\n\n\nIllustated using a voltage graph (Current graph is not the same but similar).\nIn a sinuisoidal voltage, : - Cycle: One positive and one negative peaks together - Instantaneous value - Periodic waveform: repeats after the same interval - Alternating voltage,  or  - Alternating current,  -  Amplitude -  Amplitude -  -  - Time Period,  - Unit:  - Frequency,  - Units: 1 hertz  = 1 cycle per second  - Angular velocity,  -  is the angle - Unit:  -  is the phase difference between voltage and current with respect to one of them. To illustrate this: When  is  with current leading: -  is  and  is \n    or\n- $\\theta_I$ is $30^\\circ$ and $\\theta_V$ is $0^\\circ$\n\nThe following is for clarity. Don’t use it. Cuz this isn’t usually used in UDST\nA formula with a more definition exact notation would be:  or \n\n\n\n\n\n\n\n\n\n\nUsually in exam questions:\n\n\n\n\n\n\n\n\n\n\nWhen  and : - The voltage is leading the current by \nor\n\nThe current is lagging the voltage by \n\n\n\n\nFrom graph:\nArea of a cycle (Addition of positive area and negative area) divided by the time period\n\n\nAnalytical average (General derivation. Alternative to above)\n\nAnswer: The average value of the positive portion of a sinusoidal function  over one positive half-cycle is:\n\n\n\n\nLet’s define:\n\n\nThe positive portion of the sinusoid lies over , where \nSo we want the average value of  over \n\n\n\n\n\n\n\n\nChange variable: \n\nWhen \nWhen \n\nSo the integral becomes:\n\n\nNow recall , so:\n\n\n\n\n\n\nFor any sinusoidal signal , the average value over the positive half-cycle is:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "1. Sinusoidal Alternating Waveforms"
+    ]
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#attributes",
     "href": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#attributes",
     "title": "1. Sinusoidal Alternating Waveforms",
     "section": "",
-    "text": "Illustated using a voltage graph (Current graph is not the same but similar).\nIn a sinuisoidal voltage, \\(v = f(t) = V_m \\sin (\\omega t \\pm \\theta)\\): - Cycle: One positive and one negative peaks together - Instantaneous value - Periodic waveform: repeats after the same interval - Alternating voltage, \\(v\\) or \\(e\\) - Alternating current, \\(i\\) - \\(V_p=V_m=\\) Amplitude - \\(I_p=I_m=\\) Amplitude - \\(V_{p-p}\\) - \\(I_{p-p}\\) - Time Period, \\(T\\) - Unit: \\(\\mathrm{s}\\) - Frequency, \\(f\\) - Units: 1 hertz \\(\\text{(Hz)}\\) = 1 cycle per second \\(\\text{(cps)}\\) - Angular velocity, \\(\\omega = \\dfrac{2\\pi}{T} = \\dfrac{\\alpha}{t}\\) - \\(\\alpha\\) is the angle - Unit: \\(\\mathrm{rad\\cdot s^{-1}=rad/s}\\) - \\(\\theta\\) is the phase difference between voltage and current with respect to one of them. To illustrate this: When \\(\\theta\\) is \\(30^\\circ\\) with current leading: - \\(\\theta_V\\) is \\(-30^\\circ\\) and \\(\\theta_I\\) is \\(0^\\circ\\)\n    or\n- $\\theta_I$ is $30^\\circ$ and $\\theta_V$ is $0^\\circ$\n\nThe following is for clarity. Don’t use it. Cuz this isn’t usually used in UDST\nA formula with a more definition exact notation would be: \\[v = f(t) = V_m \\sin (\\omega t \\pm \\Delta\\phi_{VI})\\] or \\[v = f(t) = V_m \\sin (\\omega t \\pm \\Delta\\phi_{IV})\\]"
+    "text": "Illustated using a voltage graph (Current graph is not the same but similar).\nIn a sinuisoidal voltage, : - Cycle: One positive and one negative peaks together - Instantaneous value - Periodic waveform: repeats after the same interval - Alternating voltage,  or  - Alternating current,  -  Amplitude -  Amplitude -  -  - Time Period,  - Unit:  - Frequency,  - Units: 1 hertz  = 1 cycle per second  - Angular velocity,  -  is the angle - Unit:  -  is the phase difference between voltage and current with respect to one of them. To illustrate this: When  is  with current leading: -  is  and  is \n    or\n- $\\theta_I$ is $30^\\circ$ and $\\theta_V$ is $0^\\circ$\n\nThe following is for clarity. Don’t use it. Cuz this isn’t usually used in UDST\nA formula with a more definition exact notation would be:  or",
+    "crumbs": [
+      "Fund. Elec. II",
+      "1. Sinusoidal Alternating Waveforms"
+    ]
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#root-mean-square",
     "href": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#root-mean-square",
     "title": "1. Sinusoidal Alternating Waveforms",
     "section": "",
-    "text": "\\(V_{rms} = \\dfrac{V_m}{\\sqrt{2}}\\)\n\\(I_{rms} = \\dfrac{I_m}{\\sqrt{2}}\\)\n\n\n\nUsually in exam questions:\n\n\\(I=I_{rms}\\)\n\\(V=V_{rms}\\)"
+    "text": "Usually in exam questions:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "1. Sinusoidal Alternating Waveforms"
+    ]
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#polar-representation",
     "href": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#polar-representation",
     "title": "1. Sinusoidal Alternating Waveforms",
     "section": "",
-    "text": "\\(v = V_m \\sin (\\omega t \\pm \\phi) = V \\angle \\pm \\phi = V_{rms} \\angle \\pm \\phi\\)\nWhen \\(v = V\\angle 60^\\circ\\) and \\(i = I \\angle 30^\\circ\\): - The voltage is leading the current by \\(30^\\circ\\)\nor\n\nThe current is lagging the voltage by \\(30^\\circ\\)"
+    "text": "When  and : - The voltage is leading the current by \nor\n\nThe current is lagging the voltage by",
+    "crumbs": [
+      "Fund. Elec. II",
+      "1. Sinusoidal Alternating Waveforms"
+    ]
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#average",
     "href": "fund-elec2/t01-sinusoidal-alternating-waveforms.html#average",
     "title": "1. Sinusoidal Alternating Waveforms",
     "section": "",
-    "text": "From graph:\nArea of a cycle (Addition of positive area and negative area) divided by the time period\n\n\nAnalytical average (General derivation. Alternative to above)\n\nAnswer: The average value of the positive portion of a sinusoidal function \\(f(t) = A \\sin(\\omega t)\\) over one positive half-cycle is:\n\\[\n\\boxed{\\frac{2A}{\\pi}}\n\\]\n\n\n\nLet’s define:\n\n\\(f(t) = A \\sin(\\omega t)\\)\nThe positive portion of the sinusoid lies over \\(t \\in [0, T/2]\\), where \\(T = \\frac{2\\pi}{\\omega}\\)\nSo we want the average value of \\(f(t)\\) over \\([0, T/2]\\)\n\n\n\n\\[\n\\text{Average} = \\frac{1}{T/2} \\int_0^{T/2} A \\sin(\\omega t)\\, dt\n\\]\n\n\n\n\\[\n= \\frac{2}{T} \\cdot A \\int_0^{T/2} \\sin(\\omega t)\\, dt\n\\]\nChange variable: \\(\\theta = \\omega t \\Rightarrow d\\theta = \\omega dt \\Rightarrow dt = \\frac{d\\theta}{\\omega}\\)\n\nWhen \\(t = 0 \\Rightarrow \\theta = 0\\)\nWhen \\(t = T/2 \\Rightarrow \\theta = \\omega \\cdot \\frac{T}{2} = \\omega \\cdot \\frac{\\pi}{\\omega} = \\pi\\)\n\nSo the integral becomes:\n\\[\n= \\frac{2A}{T} \\int_0^{T/2} \\sin(\\omega t)\\, dt\n= \\frac{2A}{T} \\cdot \\int_0^\\pi \\sin(\\theta) \\cdot \\frac{d\\theta}{\\omega}\n= \\frac{2A}{T \\omega} \\int_0^\\pi \\sin(\\theta) \\, d\\theta\n\\]\n\\[\n= \\frac{2A}{T \\omega} \\cdot [-\\cos(\\theta)]_0^\\pi\n= \\frac{2A}{T \\omega} \\cdot [ -\\cos(\\pi) + \\cos(0) ]\n= \\frac{2A}{T \\omega} \\cdot [1 + 1] = \\frac{4A}{T \\omega}\n\\]\nNow recall \\(T = \\frac{2\\pi}{\\omega} \\Rightarrow T \\omega = 2\\pi\\), so:\n\\[\n\\frac{4A}{T \\omega} = \\frac{4A}{2\\pi} = \\boxed{\\frac{2A}{\\pi}}\n\\]\n\n\n\n\n\nFor any sinusoidal signal \\(A \\sin(\\omega t)\\), the average value over the positive half-cycle is:\n\\[\n\\boxed{\\frac{2A}{\\pi}}\n\\]"
+    "text": "From graph:\nArea of a cycle (Addition of positive area and negative area) divided by the time period\n\n\nAnalytical average (General derivation. Alternative to above)\n\nAnswer: The average value of the positive portion of a sinusoidal function  over one positive half-cycle is:\n\n\n\n\nLet’s define:\n\n\nThe positive portion of the sinusoid lies over , where \nSo we want the average value of  over \n\n\n\n\n\n\n\n\nChange variable: \n\nWhen \nWhen \n\nSo the integral becomes:\n\n\nNow recall , so:\n\n\n\n\n\n\nFor any sinusoidal signal , the average value over the positive half-cycle is:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "1. Sinusoidal Alternating Waveforms"
+    ]
   },
   {
     "objectID": "fund-elec2/t03-series-ac-circuits.html",
     "href": "fund-elec2/t03-series-ac-circuits.html",
     "title": "3. Series AC Circuits",
     "section": "",
-    "text": "In a series circuit, in place of \\(R\\), we use \\(Z\\): - \\(Z_T = Z_1 + Z_2 + Z_3 \\dots\\)\n\n\nFor a circuit with a resistor and ac source: - \\(i = I \\sin \\omega t = I \\angle 0^\\circ, \\text{ where } I = I_m\\) - \\(Z = R \\angle 0^\\circ\\)\n\n\n\nFor a circuit with an inductor and an AC source: - \\(i = I_m \\sin (\\omega t -90^\\circ) = I\\angle -90^\\circ\\), when \\(v = V \\angle 0^\\circ\\) - \\(v = V\\angle 90^\\circ\\), when \\(i = I \\angle 0^\\circ\\) - \\(Z = X_L \\angle 90^\\circ\\)\n\n\n\nFor a circuit with a capacitor and an AC source:\n\n\\(i = I_m \\sin (\\omega t + 90^\\circ) = I\\angle 90^\\circ\\), when \\(v = V \\angle 0^\\circ\\)\n\\(v = V\\angle -90^\\circ\\), when \\(i = I \\angle 0^\\circ\\)\n\n\n\n\nIn an \\(RLC\\) circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.\n\n\n\n\n\n\nimage\n\n\n\nⓘ Note  \\(Z_C \\neq X_C\\angle90^\\circ\\)  \\(Z_C = X_C\\angle-90^\\circ\\)\n\nFor any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.\n\n\n\nNetwork\n\\(\\theta_{Z_T}\\)\n\n\n\n\nInductive\n\\(+ve\\)\n\n\nCapacitive\n\\(-ve\\)\n\n\n\n\n\n\nImpedances behave like resistors in series. \\[Z_T = \\sum Z_n\\]\nCalculating in complex mode (recommended to use):\n\nⓘ Note  In all places, angles are required in equations except in avg power formula (\\(P=VI\\cos\\theta\\)).  Each attribute has its own angle except avg power\n\n\nPolar notation \\[\n\\begin{align*}\n  E &= I \\cdot Z_T \\\\\n  I &= \\frac{E}{Z_T} \\\\\n  V_{Z_x} &= I_T \\cdot Z_x \\\\\n  I_{Z_x} &= I \\\\\n\\end{align*}\n\\]\nRectangular notation\n\n\\[\n\\begin{align*}\n    Z &= R+j(X_L-X_C) \\\\\n\\end{align*}\n\\]\nCalculating in non-complex mode (not recommended to use):\n\\[\n\\begin{align*}\n    Z &= \\sqrt{R^2+X} \\\\\n    X &= X_L-X_C\\\\\n    \\theta &= \\tan^{-1} \\frac{X}{R} \\\\\n\\end{align*}\n\\]\nCalculations that are complex independant:\n\\(P=EI\\cos\\theta\\)\n\n\n\\(V_x = \\dfrac{E}{Z_T}Z_x\\)\n\n\nⓘ Note  Basically, this is Ohm’s law. The only change is that \\(I\\) has been expanded\n\n\\(V_x = I \\cdot Z_x = \\dfrac{E}{Z_T}Z_x\\)\n\n\n\n\nThe sum of the input voltages and voltage drops in a closed loop is zero\n\n\n\n\nCondition for resonance:\n\\[X_L = X_C\\]\nFrequency:\n\\[f = \\frac{1}{2\\pi\\sqrt{LC}}\\]\nDerivation for \\(f\\)\n\nⓘ Note  This is very simple, use when you forget the formula for \\(f\\), all you need to remember is the condition for resonace.\n\n\\[\n\\begin{align*}\n    X_L &= X_C \\\\\n    \\omega L &= \\frac{1}{\\omega C} \\\\\n    2\\pi fL &= \\frac{1}{2\\pi fC} \\\\\n    f^2 &= \\frac{1}{(2\\pi)^2LC} \\\\\n    f& = \\frac{1}{2\\pi\\sqrt{LC}} \\\\\n\\end{align*}\n\\]\n\n\n\n\nApply the phasor notation\n\n\n\n\nimage\n\n\n\nCalculate the total impedance of the circuit\n\n\\(Z_T = Z_R + Z_L + Z_C\\)\n\nDraw: Impedance diagram\nDetermine the total current\n\n\\(I = \\dfrac{E}{Z_T}\\)\n\nFind the voltage across each element\n\n\\(V_R = IZ_R = (I\\angle\\theta)(R\\angle 0^\\circ)\\)\n\\(V_L = IZ_L = (I\\angle\\theta)(X_L\\angle 90^\\circ)\\)\n\\(V_C = IZ_C = (I\\angle\\theta)(X_C\\angle -90^\\circ)\\)\n\nApply Kirchoff’s voltage law \\(\\sum V = E-V_R-V_L-V_C = 0 \\text{ or } E = V_R+V_L+V_C\\), verified through phasor diagram\nDraw the phasor diagram\nDetermine the power to the circuit\n\n\\(P=V_mI_m\\cos\\theta\\)\n\nCalculate the power factor\n\n\\(F_p = \\cos \\theta_T = \\dfrac{R}{Z_T}\\)"
+    "text": "In a series circuit, in place of , we use : - \n\n\nFor a circuit with a resistor and ac source: -  - \n\n\n\nFor a circuit with an inductor and an AC source: - , when  - , when  - \n\n\n\nFor a circuit with a capacitor and an AC source:\n\n, when \n, when \n\n\n\n\nIn an  circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.\n\n\n\n\n\n\nimage\n\n\n\nⓘ Note    \n\nFor any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.\n\n\n\nNetwork\n\n\n\n\n\nInductive\n\n\n\nCapacitive\n\n\n\n\n\n\n\nImpedances behave like resistors in series. \nCalculating in complex mode (recommended to use):\n\nⓘ Note  In all places, angles are required in equations except in avg power formula ().  Each attribute has its own angle except avg power\n\n\nPolar notation \nRectangular notation\n\n\nCalculating in non-complex mode (not recommended to use):\n\nCalculations that are complex independant:\n\n\n\n\n\n\nⓘ Note  Basically, this is Ohm’s law. The only change is that  has been expanded\n\n\n\n\n\n\nThe sum of the input voltages and voltage drops in a closed loop is zero\n\n\n\n\nCondition for resonance:\n\nFrequency:\n\nDerivation for \n\nⓘ Note  This is very simple, use when you forget the formula for , all you need to remember is the condition for resonace.\n\n\n\n\n\n\nApply the phasor notation\n\n\n\n\nimage\n\n\n\nCalculate the total impedance of the circuit\n\n\n\nDraw: Impedance diagram\nDetermine the total current\n\n\n\nFind the voltage across each element\n\n\n\n\n\nApply Kirchoff’s voltage law , verified through phasor diagram\nDraw the phasor diagram\nDetermine the power to the circuit\n\n\n\nCalculate the power factor",
+    "crumbs": [
+      "Fund. Elec. II",
+      "3. Series AC Circuits"
+    ]
   },
   {
     "objectID": "fund-elec2/t03-series-ac-circuits.html#circuits",
     "href": "fund-elec2/t03-series-ac-circuits.html#circuits",
     "title": "3. Series AC Circuits",
     "section": "",
-    "text": "In a series circuit, in place of \\(R\\), we use \\(Z\\): - \\(Z_T = Z_1 + Z_2 + Z_3 \\dots\\)\n\n\nFor a circuit with a resistor and ac source: - \\(i = I \\sin \\omega t = I \\angle 0^\\circ, \\text{ where } I = I_m\\) - \\(Z = R \\angle 0^\\circ\\)\n\n\n\nFor a circuit with an inductor and an AC source: - \\(i = I_m \\sin (\\omega t -90^\\circ) = I\\angle -90^\\circ\\), when \\(v = V \\angle 0^\\circ\\) - \\(v = V\\angle 90^\\circ\\), when \\(i = I \\angle 0^\\circ\\) - \\(Z = X_L \\angle 90^\\circ\\)\n\n\n\nFor a circuit with a capacitor and an AC source:\n\n\\(i = I_m \\sin (\\omega t + 90^\\circ) = I\\angle 90^\\circ\\), when \\(v = V \\angle 0^\\circ\\)\n\\(v = V\\angle -90^\\circ\\), when \\(i = I \\angle 0^\\circ\\)\n\n\n\n\nIn an \\(RLC\\) circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.\n\n\n\n\n\n\nimage\n\n\n\nⓘ Note  \\(Z_C \\neq X_C\\angle90^\\circ\\)  \\(Z_C = X_C\\angle-90^\\circ\\)\n\nFor any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.\n\n\n\nNetwork\n\\(\\theta_{Z_T}\\)\n\n\n\n\nInductive\n\\(+ve\\)\n\n\nCapacitive\n\\(-ve\\)\n\n\n\n\n\n\nImpedances behave like resistors in series. \\[Z_T = \\sum Z_n\\]\nCalculating in complex mode (recommended to use):\n\nⓘ Note  In all places, angles are required in equations except in avg power formula (\\(P=VI\\cos\\theta\\)).  Each attribute has its own angle except avg power\n\n\nPolar notation \\[\n\\begin{align*}\n  E &= I \\cdot Z_T \\\\\n  I &= \\frac{E}{Z_T} \\\\\n  V_{Z_x} &= I_T \\cdot Z_x \\\\\n  I_{Z_x} &= I \\\\\n\\end{align*}\n\\]\nRectangular notation\n\n\\[\n\\begin{align*}\n    Z &= R+j(X_L-X_C) \\\\\n\\end{align*}\n\\]\nCalculating in non-complex mode (not recommended to use):\n\\[\n\\begin{align*}\n    Z &= \\sqrt{R^2+X} \\\\\n    X &= X_L-X_C\\\\\n    \\theta &= \\tan^{-1} \\frac{X}{R} \\\\\n\\end{align*}\n\\]\nCalculations that are complex independant:\n\\(P=EI\\cos\\theta\\)\n\n\n\\(V_x = \\dfrac{E}{Z_T}Z_x\\)\n\n\nⓘ Note  Basically, this is Ohm’s law. The only change is that \\(I\\) has been expanded\n\n\\(V_x = I \\cdot Z_x = \\dfrac{E}{Z_T}Z_x\\)\n\n\n\n\nThe sum of the input voltages and voltage drops in a closed loop is zero\n\n\n\n\nCondition for resonance:\n\\[X_L = X_C\\]\nFrequency:\n\\[f = \\frac{1}{2\\pi\\sqrt{LC}}\\]\nDerivation for \\(f\\)\n\nⓘ Note  This is very simple, use when you forget the formula for \\(f\\), all you need to remember is the condition for resonace.\n\n\\[\n\\begin{align*}\n    X_L &= X_C \\\\\n    \\omega L &= \\frac{1}{\\omega C} \\\\\n    2\\pi fL &= \\frac{1}{2\\pi fC} \\\\\n    f^2 &= \\frac{1}{(2\\pi)^2LC} \\\\\n    f& = \\frac{1}{2\\pi\\sqrt{LC}} \\\\\n\\end{align*}\n\\]\n\n\n\n\nApply the phasor notation\n\n\n\n\nimage\n\n\n\nCalculate the total impedance of the circuit\n\n\\(Z_T = Z_R + Z_L + Z_C\\)\n\nDraw: Impedance diagram\nDetermine the total current\n\n\\(I = \\dfrac{E}{Z_T}\\)\n\nFind the voltage across each element\n\n\\(V_R = IZ_R = (I\\angle\\theta)(R\\angle 0^\\circ)\\)\n\\(V_L = IZ_L = (I\\angle\\theta)(X_L\\angle 90^\\circ)\\)\n\\(V_C = IZ_C = (I\\angle\\theta)(X_C\\angle -90^\\circ)\\)\n\nApply Kirchoff’s voltage law \\(\\sum V = E-V_R-V_L-V_C = 0 \\text{ or } E = V_R+V_L+V_C\\), verified through phasor diagram\nDraw the phasor diagram\nDetermine the power to the circuit\n\n\\(P=V_mI_m\\cos\\theta\\)\n\nCalculate the power factor\n\n\\(F_p = \\cos \\theta_T = \\dfrac{R}{Z_T}\\)"
+    "text": "In a series circuit, in place of , we use : - \n\n\nFor a circuit with a resistor and ac source: -  - \n\n\n\nFor a circuit with an inductor and an AC source: - , when  - , when  - \n\n\n\nFor a circuit with a capacitor and an AC source:\n\n, when \n, when \n\n\n\n\nIn an  circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.\n\n\n\n\n\n\nimage\n\n\n\nⓘ Note    \n\nFor any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.\n\n\n\nNetwork\n\n\n\n\n\nInductive\n\n\n\nCapacitive\n\n\n\n\n\n\n\nImpedances behave like resistors in series. \nCalculating in complex mode (recommended to use):\n\nⓘ Note  In all places, angles are required in equations except in avg power formula ().  Each attribute has its own angle except avg power\n\n\nPolar notation \nRectangular notation\n\n\nCalculating in non-complex mode (not recommended to use):\n\nCalculations that are complex independant:\n\n\n\n\n\n\nⓘ Note  Basically, this is Ohm’s law. The only change is that  has been expanded\n\n\n\n\n\n\nThe sum of the input voltages and voltage drops in a closed loop is zero\n\n\n\n\nCondition for resonance:\n\nFrequency:\n\nDerivation for \n\nⓘ Note  This is very simple, use when you forget the formula for , all you need to remember is the condition for resonace.\n\n\n\n\n\n\nApply the phasor notation\n\n\n\n\nimage\n\n\n\nCalculate the total impedance of the circuit\n\n\n\nDraw: Impedance diagram\nDetermine the total current\n\n\n\nFind the voltage across each element\n\n\n\n\n\nApply Kirchoff’s voltage law , verified through phasor diagram\nDraw the phasor diagram\nDetermine the power to the circuit\n\n\n\nCalculate the power factor",
+    "crumbs": [
+      "Fund. Elec. II",
+      "3. Series AC Circuits"
+    ]
   },
   {
     "objectID": "fund-elec2/t03-series-ac-circuits.html#frequency-response-for-series-ac-circuits",
     "href": "fund-elec2/t03-series-ac-circuits.html#frequency-response-for-series-ac-circuits",
     "title": "3. Series AC Circuits",
     "section": "Frequency Response for Series ac Circuits",
-    "text": "Frequency Response for Series ac Circuits\nIn a series R-L-C circuit: - At very low frequencies, the total impedance will be determined primarily by the capacitor (C). - At very high frequencies, the total impedance will be determined primarily by the inductor (L).\n\n\n\nimage"
+    "text": "Frequency Response for Series ac Circuits\nIn a series R-L-C circuit: - At very low frequencies, the total impedance will be determined primarily by the capacitor (C). - At very high frequencies, the total impedance will be determined primarily by the inductor (L).\n\n\n\nimage",
+    "crumbs": [
+      "Fund. Elec. II",
+      "3. Series AC Circuits"
+    ]
   },
   {
     "objectID": "fund-elec2/t02-basic-elements-and-phasors.html",
     "href": "fund-elec2/t02-basic-elements-and-phasors.html",
     "title": "2. Basic Elements and Phasors",
     "section": "",
-    "text": "Capacitors are added to decrease the current\nCapacitive Reactance , \\(X_C\\) - Unit: \\(\\Omega\\) - Formula: \\(X_C = \\dfrac{1}{\\omega C} = \\dfrac{1}{2\\pi fC}\\)\nPhase differences between \\(V\\) & \\(I\\) wrt \\(V\\): - \\(0^\\circ \\implies\\) Resistors - \\(-90^\\circ \\implies\\) Inductor - \\(+90^\\circ \\implies\\) Capacitor\nImpedance\n\n\nⓘ Note  Here, the angle of \\(X_C\\) is wrong. It’s actually \\(-90^\\circ\\).\n\nPhasor representation:\n\nTime domain representation:\n\n\n\nimage"
+    "text": "Capacitors are added to decrease the current\nCapacitive Reactance ,  - Unit:  - Formula: \nPhase differences between  &  wrt : -  Resistors -  Inductor -  Capacitor\nImpedance\n\n\nⓘ Note  Here, the angle of  is wrong. It’s actually .\n\nPhasor representation:\n\nTime domain representation:\n\n\n\nimage",
+    "crumbs": [
+      "Fund. Elec. II",
+      "2. Basic Elements and Phasors"
+    ]
   },
   {
     "objectID": "fund-elec2/t02-basic-elements-and-phasors.html#capacitive-circuits",
     "href": "fund-elec2/t02-basic-elements-and-phasors.html#capacitive-circuits",
     "title": "2. Basic Elements and Phasors",
     "section": "",
-    "text": "Capacitors are added to decrease the current\nCapacitive Reactance , \\(X_C\\) - Unit: \\(\\Omega\\) - Formula: \\(X_C = \\dfrac{1}{\\omega C} = \\dfrac{1}{2\\pi fC}\\)\nPhase differences between \\(V\\) & \\(I\\) wrt \\(V\\): - \\(0^\\circ \\implies\\) Resistors - \\(-90^\\circ \\implies\\) Inductor - \\(+90^\\circ \\implies\\) Capacitor\nImpedance\n\n\nⓘ Note  Here, the angle of \\(X_C\\) is wrong. It’s actually \\(-90^\\circ\\).\n\nPhasor representation:\n\nTime domain representation:\n\n\n\nimage"
+    "text": "Capacitors are added to decrease the current\nCapacitive Reactance ,  - Unit:  - Formula: \nPhase differences between  &  wrt : -  Resistors -  Inductor -  Capacitor\nImpedance\n\n\nⓘ Note  Here, the angle of  is wrong. It’s actually .\n\nPhasor representation:\n\nTime domain representation:\n\n\n\nimage",
+    "crumbs": [
+      "Fund. Elec. II",
+      "2. Basic Elements and Phasors"
+    ]
   },
   {
     "objectID": "fund-elec2/t02-basic-elements-and-phasors.html#average-power",
     "href": "fund-elec2/t02-basic-elements-and-phasors.html#average-power",
     "title": "2. Basic Elements and Phasors",
     "section": "Average Power",
-    "text": "Average Power\n\nⓘ Note  In UDST, \\(P \\implies P_{avg}\\)\n\nFor a resistive circuit, - \\(P=VI=\\dfrac{V^2}{R}=I^2R\\)\nFor a single phase (inductor or capacitor): - \\(P = VI\\cos\\theta = \\dfrac{V_mI_m}{2} \\cos\\theta\\) - \\(\\theta = |\\theta_v-\\theta_i |\\) Where \\(\\theta\\) is the absolute phase difference b/w \\(i\\) and \\(v\\).\nFor an Inductor and Capacitor: \\(\\cos 90^\\circ = 0 \\implies P = 0~\\mathrm{W}\\)"
+    "text": "Average Power\n\nⓘ Note  In UDST, \n\nFor a resistive circuit, - \nFor a single phase (inductor or capacitor): -  -  Where  is the absolute phase difference b/w  and .\nFor an Inductor and Capacitor:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "2. Basic Elements and Phasors"
+    ]
   },
   {
     "objectID": "fund-elec2/t02-basic-elements-and-phasors.html#power-factor",
     "href": "fund-elec2/t02-basic-elements-and-phasors.html#power-factor",
     "title": "2. Basic Elements and Phasors",
     "section": "Power factor",
-    "text": "Power factor\n\nWhether \\(F_p\\) is lagging or leading is determined by the angle of current.\n\nLagging \\(F_p \\implies\\) inductive circuit\nLeading \\(F_p \\implies\\) capacitive circuit\nUnity \\(F_p\\) or \\(F_p=1\\) \\(\\implies\\) resistive circuit\n\nUnit: Unitless\nPower factor, \\(F_p = \\cos\\theta,~\\text{where}~\\theta=|\\theta_v-\\theta_i |\\)"
+    "text": "Power factor\n\nWhether  is lagging or leading is determined by the angle of current.\n\nLagging  inductive circuit\nLeading  capacitive circuit\nUnity  or   resistive circuit\n\nUnit: Unitless\nPower factor,",
+    "crumbs": [
+      "Fund. Elec. II",
+      "2. Basic Elements and Phasors"
+    ]
   },
   {
     "objectID": "fund-elec2/t02-basic-elements-and-phasors.html#rlc-circuits",
     "href": "fund-elec2/t02-basic-elements-and-phasors.html#rlc-circuits",
     "title": "2. Basic Elements and Phasors",
     "section": "RLC Circuits",
-    "text": "RLC Circuits\n\nPolar representation\n\nIn math, we have \\(i = \\sqrt{-1}\\)\nIn engineering, we have \\(j = \\sqrt{-1}\\)\n\n\n\n\nPolar Form\nRectangular form\n\n\n\n\n\\(\\vec{C}=Z \\angle \\theta\\)\n\\(\\vec{C}=R+jX\\)\n\n\n\\(Z=\\) Impedance\n\\(R=\\) Resistance, \\(X=\\) Reactance\n\n\n\n\nHere, \\(X\\) is any type of reactance or the difference of the inductive and capacitive reactance.\n\\(\\vec{C}\\) is a vector. \\(Z \\angle \\theta\\) and \\(R+jX\\) are its expansions. For now, we shall ignore \\(\\vec{C}\\).\n\n\n\nMath\n\nFor \\(x \\angle \\theta_1\\) and \\(y \\angle \\theta_2\\): - For calculation by hand, we convert them to rectangular form - For calculation by calculator, we directly do calculations in complex mode"
+    "text": "RLC Circuits\n\nPolar representation\n\nIn math, we have \nIn engineering, we have \n\n\n\n\nPolar Form\nRectangular form\n\n\n\n\n\n\n\n\n Impedance\n Resistance,  Reactance\n\n\n\n\nHere,  is any type of reactance or the difference of the inductive and capacitive reactance.\n is a vector.  and  are its expansions. For now, we shall ignore .\n\n\n\nMath\n\nFor  and : - For calculation by hand, we convert them to rectangular form - For calculation by calculator, we directly do calculations in complex mode",
+    "crumbs": [
+      "Fund. Elec. II",
+      "2. Basic Elements and Phasors"
+    ]
   },
   {
     "objectID": "fund-elec2/t09-methods-of-analysis.html#source-conversions",
     "href": "fund-elec2/t09-methods-of-analysis.html#source-conversions",
     "title": "9. Methods of Analysis",
     "section": "Source Conversions",
-    "text": "Source Conversions\nSame as in DC with impedance used in place of resistance"
+    "text": "Source Conversions\nSame as in DC with impedance used in place of resistance",
+    "crumbs": [
+      "Fund. Elec. II",
+      "9. Methods of Analysis"
+    ]
   },
   {
     "objectID": "fund-elec2/t09-methods-of-analysis.html#mesh-analysis",
     "href": "fund-elec2/t09-methods-of-analysis.html#mesh-analysis",
     "title": "9. Methods of Analysis",
     "section": "Mesh Analysis",
-    "text": "Mesh Analysis\n\nGeneral Approach\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\nFor \\[\n\\begin{array}\na_1 I_1 + b_1 I_2 = c_1\na_1 I_1+ b_2 I_2 = c_2\n\\]\n\\[\n\\begin{align*}\nI_1 = \\frac{\n    \\begin{matrix}\n        c_1 & b_1\n        c_2 & b_2\n    \\end{matrix}\n    }{\n    \\begin{matrix}\n        a_1 & b_1\n        a_2 & b_2\n    \\end{matrix}\n    } \\\\\nI_2 = \\frac{\n    \\begin{matrix}\n        a_1 & c_1\n        a_2 & c_2\n    \\end{matrix}\n    }{\n    \\begin{matrix}\n        a_1 & b_1\n        a_2 & b_2\n    \\end{matrix}\n    }\n\\end{align*}\n\\]\n\nHere, as per KVL:\n\\[\\begin{align*}\n    E_1 - I_1 Z_1 - (I_1 - I_2) Z_2 = 0 \\\\\n    E_1 - I_1 Z_1 - I_1 Z_2 + I_2 Z_2 = 0 \\\\\n    E_1 - I_1 (Z_1 + Z_2) + I_2 Z_2 = 0 \\\\\n    \\boxed{- I_1 (Z_1 + Z_2) + I_2 Z_2 = -E_1} \\\\\n    -(I_2 - I_1) Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 Z_2 + I_1 Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 (Z_2 + Z_3) + I_1 Z_2 = E_2 \\\\\n\\end{align*}\\]\nNow you have your equations, assign theme\n\n\nFormat Approach\nFor loop 1:\n$ I_1 ( Z_x ) - I_2 ( Z_x ) = E_x $\nFor loop 2:\n$ - I_1 ( Z_x ) + I_2 ( Z_x ) = E_x $"
+    "text": "Mesh Analysis\n\nGeneral Approach\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\nFor \n\n\nHere, as per KVL:\n\nNow you have your equations, assign theme\n\n\nFormat Approach\nFor loop 1:\n$ I_1 ( Z_x ) - I_2 ( Z_x ) = E_x $\nFor loop 2:\n$ - I_1 ( Z_x ) + I_2 ( Z_x ) = E_x $",
+    "crumbs": [
+      "Fund. Elec. II",
+      "9. Methods of Analysis"
+    ]
   },
   {
     "objectID": "fund-elec2/t09-methods-of-analysis.html#nodal-analysis",
     "href": "fund-elec2/t09-methods-of-analysis.html#nodal-analysis",
     "title": "9. Methods of Analysis",
     "section": "Nodal Analysis",
-    "text": "Nodal Analysis\n\nFormat Approach\nAs per KCL:\n\nIn node 1:\n\n\\[\nV_1 \\cdot \\sum \\frac{1}{Z_x} \\text{(Impedances of V_1)} - V_2 \\cdot \\sum \\frac{1}{Z_x} \\text{(Impedances common to V_1 and V_2)} = \\pm \\sum \\frac{E_x}{Z_x} \\text{(Polarity depending on whether the current is input or output)}\n\\]"
+    "text": "Nodal Analysis\n\nFormat Approach\nAs per KCL:\n\nIn node 1:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "9. Methods of Analysis"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html",
     "title": "7. Introduction To Three Phase Systems",
     "section": "",
-    "text": "Process\nVoltage\nPhase\n\n\n\n\nGeneration\n11-15 kV\n3 phase\n\n\nTransmission\n100-400 kV\n3 phase\n\n\nDistribution\n11 kV\n3 phase\n\n\nConsumption\n415 V or 240 V\n3 phase or single phase\n\n\n\nCycle of electricity transfer from power plan to a house:\n\nPower Plant\nStep-up transformer\nHigh-voltage Transmission line\nStep-down transformer (substation)\n\n\n\n\nWire Colour\nNotation\n\n\n\n\nR red\nL1\n\n\nY yellow\nL2\n\n\nB blue\nL3\n\n\nN"
+    "text": "Process\nVoltage\nPhase\n\n\n\n\nGeneration\n11-15 kV\n3 phase\n\n\nTransmission\n100-400 kV\n3 phase\n\n\nDistribution\n11 kV\n3 phase\n\n\nConsumption\n415 V or 240 V\n3 phase or single phase\n\n\n\nCycle of electricity transfer from power plan to a house:\n\nPower Plant\nStep-up transformer\nHigh-voltage Transmission line\nStep-down transformer (substation)\n\n\n\n\nWire Colour\nNotation\n\n\n\n\nR red\nL1\n\n\nY yellow\nL2\n\n\nB blue\nL3\n\n\nN",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#some-general-knowledge",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#some-general-knowledge",
     "title": "7. Introduction To Three Phase Systems",
     "section": "",
-    "text": "Process\nVoltage\nPhase\n\n\n\n\nGeneration\n11-15 kV\n3 phase\n\n\nTransmission\n100-400 kV\n3 phase\n\n\nDistribution\n11 kV\n3 phase\n\n\nConsumption\n415 V or 240 V\n3 phase or single phase\n\n\n\nCycle of electricity transfer from power plan to a house:\n\nPower Plant\nStep-up transformer\nHigh-voltage Transmission line\nStep-down transformer (substation)\n\n\n\n\nWire Colour\nNotation\n\n\n\n\nR red\nL1\n\n\nY yellow\nL2\n\n\nB blue\nL3\n\n\nN"
+    "text": "Process\nVoltage\nPhase\n\n\n\n\nGeneration\n11-15 kV\n3 phase\n\n\nTransmission\n100-400 kV\n3 phase\n\n\nDistribution\n11 kV\n3 phase\n\n\nConsumption\n415 V or 240 V\n3 phase or single phase\n\n\n\nCycle of electricity transfer from power plan to a house:\n\nPower Plant\nStep-up transformer\nHigh-voltage Transmission line\nStep-down transformer (substation)\n\n\n\n\nWire Colour\nNotation\n\n\n\n\nR red\nL1\n\n\nY yellow\nL2\n\n\nB blue\nL3\n\n\nN",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-phase-generator",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-phase-generator",
     "title": "7. Introduction To Three Phase Systems",
     "section": "Three-Phase Generator:",
-    "text": "Three-Phase Generator:\n\nHas 3 coils each seperated by an angle of $120^$\nHence has 3 sine waves\nMade of magnet (mobile) and conductor (stationary)\nThe 3 line wires are of colors: Red, Yellow, Blue\n\nVoltage differences between wires: - \\(415~V\\) between line and line - \\(240~V\\) between line and neutral\n\\[\\begin{align*}\n    e_{AN} &= E_{m(AN)} \\sin \\omega t \\\\\n    e_{BN} &= E_{m(VN)} \\sin (\\omega t - 120^\\circ) \\\\\n    e_{CN} &= E_{m(CN)} \\sin (\\omega t + 120^\\circ) \\\\\n\\end{align*}\\]\n\n\\(AN\\) stands for: from A (line) to the neutral\nLine voltage \\((V_{ph} \\text{ or } V_\\phi)\\): \\(\\Delta V\\) b/w line-line\nPhase voltage \\((V_L)\\): \\(\\Delta V\\) b/w line-neutral\n\nPhase sequence change can change the direction of turns of a motor\nMotor:\n\n\n\nDelta connection\nY (Wye) connection\n\n\n\n\nNo common point\nHas common point"
+    "text": "Three-Phase Generator:\n\nHas 3 coils each seperated by an angle of $120^$\nHence has 3 sine waves\nMade of magnet (mobile) and conductor (stationary)\nThe 3 line wires are of colors: Red, Yellow, Blue\n\nVoltage differences between wires: -  between line and line -  between line and neutral\n\n\n stands for: from A (line) to the neutral\nLine voltage :  b/w line-line\nPhase voltage :  b/w line-neutral\n\nPhase sequence change can change the direction of turns of a motor\nMotor:\n\n\n\nDelta connection\nY (Wye) connection\n\n\n\n\nNo common point\nHas common point",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator",
     "title": "7. Introduction To Three Phase Systems",
     "section": "Y-Connected Generator",
-    "text": "Y-Connected Generator\n\\(E_L = V_\\phi \\sqrt{3}\\)\n\\(I_L = I_\\phi\\)\n\nSum of line voltages is \\(0~\\text{V}\\).\nPhase rotation, or phase sequence, is the order in which the voltage waveforms of a polyphase AC source reach their respective peaks.\nThe phase sequence can be determined by the order in which the phasors pass through a fixed point on the phasor diagram if the phasors are rotated in a counterclockwise direction.\nThe phase sequence for the line voltages is the same as for phase voltages.\nThe phase sequence is quite important in the three-phase distribution of power.\nIn a three-phase motor, for example, if two phase voltages are interchanged, the sequence will change, and the direction of rotation of the motor will be reversed.\nIf the load is balanced, the neutral connection can be removed without affecting the circuit in any manner; that is, if \\(Z_1 = Z_2 = Z_3\\) then \\(I_N\\) will be zero."
+    "text": "Y-Connected Generator\n\n\n\nSum of line voltages is .\nPhase rotation, or phase sequence, is the order in which the voltage waveforms of a polyphase AC source reach their respective peaks.\nThe phase sequence can be determined by the order in which the phasors pass through a fixed point on the phasor diagram if the phasors are rotated in a counterclockwise direction.\nThe phase sequence for the line voltages is the same as for phase voltages.\nThe phase sequence is quite important in the three-phase distribution of power.\nIn a three-phase motor, for example, if two phase voltages are interchanged, the sequence will change, and the direction of rotation of the motor will be reversed.\nIf the load is balanced, the neutral connection can be removed without affecting the circuit in any manner; that is, if  then  will be zero.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-with-a-y-connected-load",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-with-a-y-connected-load",
     "title": "7. Introduction To Three Phase Systems",
     "section": "Y-Connected Generator with a Y-Connected Load",
-    "text": "Y-Connected Generator with a Y-Connected Load\n\\(E_L = V_\\phi \\sqrt{3}\\)\n\\(I_L = I_\\phi\\)"
+    "text": "Y-Connected Generator with a Y-Connected Load",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-delta-system",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-delta-system",
     "title": "7. Introduction To Three Phase Systems",
-    "section": "Y-\\(\\Delta\\) System",
-    "text": "Y-\\(\\Delta\\) System\n\\(V_L = V_\\phi\\)\n\\(I_L = I_\\phi \\cdot \\sqrt{3}\\)\n\nHere the magnitudes of the line and phase currents will be equal\n\n\\[\\begin{align*}\n    P_\\phi &= V_\\phi I_\\phi \\cos \\theta \\\\\n    P_T &= 3 P_\\phi \\\\\n    P_T &= \\sqrt 3 V_\\phi I_\\phi \\cos \\theta \\\\\n    Q_\\phi &= V_\\phi I_\\phi \\sin \\theta \\\\\n\\end{align*}\\]"
+    "section": "Y- System",
+    "text": "Y- System\n\n\n\nHere the magnitudes of the line and phase currents will be equal",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-wattmeter-method",
     "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-wattmeter-method",
     "title": "7. Introduction To Three Phase Systems",
     "section": "Three-Wattmeter Method",
-    "text": "Three-Wattmeter Method\n\\(P_{T_Y} = P_1 + P_2 + P_3\\)"
+    "text": "Three-Wattmeter Method",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
   },
   {
     "objectID": "fund-elec2/revision.html",
     "href": "fund-elec2/revision.html",
     "title": "Revision",
     "section": "",
-    "text": "u1\n\nFind:\n\naverage from graph\ntotal impedance\n\nDraw impedance diagram\n\n\n\nseries rlc circuit\n\nFind:\n\ntotal current\nvoltage drop across each element\ntotal voltage\n\nApply KVL\nDraw:\n\nphasor diagram (of current and voltage in the same diagram)\n\n\n\n\npower"
+    "text": "u1\n\nFind:\n\naverage from graph\ntotal impedance\n\nDraw impedance diagram\n\n\n\nseries rlc circuit\n\nFind:\n\ntotal current\nvoltage drop across each element\ntotal voltage\n\nApply KVL\nDraw:\n\nphasor diagram (of current and voltage in the same diagram)\n\n\n\n\npower",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Revision"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html",
     "href": "fund-elec2/t06-power(ac).html",
     "title": "6. Power (AC)",
     "section": "",
-    "text": "All circuits have an inductance. Why?"
+    "text": "All circuits have an inductance. Why?",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#general-equation",
     "href": "fund-elec2/t06-power(ac).html#general-equation",
     "title": "6. Power (AC)",
     "section": "General Equation",
-    "text": "General Equation\n\\(W = P~t\\)\n\\(p = V_mI_m\\sin\\omega t \\sin (\\omega t +\\theta)\\)\n\\(p=VI \\cos\\theta (1-\\cos 2\\omega t) + VI \\sin\\theta (\\sin 2\\omega t)\\)\n\n\nDerivation\n\n\\[\\begin{align}\n    \\text{From:} \\notag \\\\\n    p(t) &= V_mI_m\\sin\\omega t \\sin (\\omega t +\\theta) \\\\\n    \\sin A \\sin B &= \\frac{1}{2}[\\cos(A - B) - \\cos(A + B)] \\\\\n    \\text{We have:} \\notag \\\\\n     \\sin(\\omega t)\\sin(\\omega t + \\theta) &= \\frac{1}{2}[\\cos(\\omega t - (\\omega t + \\theta)) - \\cos(\\omega t + (\\omega t + \\theta))] \\\\\n    \\sin(\\omega t)\\sin(\\omega t + \\theta) &= \\frac{1}{2}[\\cos(-\\theta) - \\cos(2\\omega t + \\theta)] \\\\\n    \\text{But:} \\notag \\\\\n    \\cos(-\\theta) &= \\cos(\\theta) \\notag \\\\\n    \\implies  \\sin(\\omega t)\\sin(\\omega t + \\theta) &= \\frac{1}{2}[\\cos(\\theta) - \\cos(2\\omega t + \\theta)] \\\\\n    \\text{(6) in (1):} \\notag \\\\\n    \\implies p(t) &= V_m I_m \\cdot \\frac{1}{2}[\\cos(\\theta) - \\cos(2\\omega t + \\theta)] \\\\\n    \\text{But:} \\notag \\\\\n    V_m &= \\sqrt{2}V, I_m = \\sqrt{2}I \\notag \\\\\n    \\implies p(t) &= VI [\\cos(\\theta) - \\cos(2\\omega t + \\theta)] \\\\\n\\end{align}\\]\n\n\\[\n\\boxed{p(t) = VI \\cos(\\theta) - VI \\cos(2\\omega t + \\theta)}\n\\]\n\nThe first term is constant: real (average) power\nThe second term oscillates at \\(2\\omega\\): reactive power component\n\n\n\\[\\begin{align*}\n    \\text{From:} \\qquad p(t) &= VI [\\cos(\\theta) - \\cos(2\\omega t + \\theta)] \\\\\n    \\cos(a+b) &= \\cos a \\cos b - \\sin a \\sin b \\\\\n    \\text{We have:} \\qquad p(t) &= VI \\left[ \\cos\\theta - \\left( \\cos 2\\omega t \\cos\\theta - \\sin 2\\omega t \\sin\\theta \\right) \\right] \\\\\n    p(t) &= VI \\left[ \\cos\\theta - \\cos 2\\omega t \\cos\\theta + \\sin 2\\omega t \\sin\\theta \\right] \\\\\n    p(t) &= VI \\left[ \\cos\\theta (1 - \\cos 2\\omega t) + \\sin\\theta \\sin 2\\omega t \\right] \\\\\n\\end{align*}\\]\n\n\\[\n\\boxed{p(t) = VI \\cos\\theta (1 - \\cos 2\\omega t) + VI \\sin\\theta \\sin 2\\omega t}\n\\]\n\nInterpretation:\n\n\\(VI\\cos\\theta\\): average real power\n\\(VI\\sin\\theta\\): reactive power magnitude\nOscillating terms: power fluctuates at \\(2\\omega\\)\n\nThis form is useful in power electronics and phasor analysis.\n\n\nIf the load is: - Purely resistive, \\(\\theta = 0^\\circ\\). - Purely inductive, \\(\\theta = 90^\\circ\\). - Purely capacitive, \\(\\theta = -90^\\circ\\). - Primarily inductive, \\(\\theta &gt; 0^\\circ\\), \\(i\\) lags \\(v\\). - Primarily capacitive, \\(\\theta &lt; 0^\\circ\\), \\(i\\) leads \\(v\\)"
+    "text": "General Equation\n\n\n\n\n\nDerivation\n\n\n\n\n\nThe first term is constant: real (average) power\nThe second term oscillates at : reactive power component\n\n\n\n\n\n\nInterpretation:\n\n: average real power\n: reactive power magnitude\nOscillating terms: power fluctuates at \n\nThis form is useful in power electronics and phasor analysis.\n\n\nIf the load is: - Purely resistive, . - Purely inductive, . - Purely capacitive, . - Primarily inductive, ,  lags . - Primarily capacitive, ,  leads",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#apparent-power",
     "href": "fund-elec2/t06-power(ac).html#apparent-power",
     "title": "6. Power (AC)",
     "section": "Apparent power",
-    "text": "Apparent power\n\\(S = VI = I^2Z = \\dfrac{V^2}{Z}\\)\nUnit: \\(\\text{VA}\\), Volt Ampere\n\\(P = S \\cos \\theta\\)\n\\(F_p = \\dfrac{P}{S}\\)"
+    "text": "Apparent power\n\nUnit: , Volt Ampere",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#the-reactive-power-q",
     "href": "fund-elec2/t06-power(ac).html#the-reactive-power-q",
     "title": "6. Power (AC)",
     "section": "The Reactive Power (Q)",
-    "text": "The Reactive Power (Q)\n\\(Q = VI \\sin \\theta\\)\nUnit: \\(\\text{VAR}\\), Volt Ampere Reactive\n\n\nAverage Value of Energy stored in a Reactive Element over a Positive Sinusoidal Half-Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecall that the average value of the positive portion of a sinusoid is:\n\\[\n\\frac{2A}{\\pi}\n\\]\nAlso, in this case, the time interval considered is:\n\\[\nt = \\frac{T_2}{2}\n\\]\nEnergy stored in an inductor or capacitor:\n\\[\\begin{aligned}\n    W_L &= P~t \\\\\n    &=\\left( \\frac{2VI}{\\pi} \\right) \\times \\left( \\frac{T_2}{2} \\right) \\\\\n        &= \\boxed{\\frac{V I T_2}{\\pi}} \\quad \\text{(J)} \\\\\n\\end{aligned}\\]\nNow, since\n\n\\(T_2 = \\dfrac{1}{f_2}\\), where \\(f_2\\) is the frequency of the \\(p\\) curve,\nand \\(f_2 = 2f_1\\),\n\nwe get:\n\\[\nW_L = \\frac{VI}{\\pi (2f_1)} = \\frac{VI}{\\omega_1} \\quad \\text{(since } \\omega_1 = 2\\pi f_1 \\text{)}\n\\]"
+    "text": "The Reactive Power (Q)\n\nUnit: , Volt Ampere Reactive\n\n\nAverage Value of Energy stored in a Reactive Element over a Positive Sinusoidal Half-Cycle\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecall that the average value of the positive portion of a sinusoid is:\n\nAlso, in this case, the time interval considered is:\n\nEnergy stored in an inductor or capacitor:\n\nNow, since\n\n, where  is the frequency of the  curve,\nand ,\n\nwe get:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#elements",
     "href": "fund-elec2/t06-power(ac).html#elements",
     "title": "6. Power (AC)",
     "section": "Elements",
-    "text": "Elements\n\nResistors\nFrom:\n\\[W = P~t\\]\nWe get:\n\\[W = VIT = \\frac{VI}{f}\\]\n\nⓘ Note  These are scalar values.\n\nThis is the energy dissipated over one cycle of AC.\nSince \\(\\theta=0^\\circ\\),\n\\(P = VI = I^2R = \\dfrac{V^2}{R}\\)\n\n\nInductor\n\nSince the \\(\\theta=90^\\circ\\), \\[Q_L = VI = I^2X_L = \\dfrac{V^2}{X_L}\\]\nEnergy stored in a inductor over one positive half-cycle:\n\\[\nW_L = \\frac{VI}{\\omega} = L I^2\n\\]\n\nⓘ Note  These are scalar values.\n\n\n\nCapacitor\n\nSince the \\(\\theta=90^\\circ\\), \\[Q_C = VI = I^2X_C = \\dfrac{V^2}{X_C}\\]\nEnergy stored in a capacitor over one positive half-cycle: \\[\nW_C = \\frac{VI}{\\omega} = CV^2\n\\]\n\nⓘ Note  These are scalar values."
+    "text": "Elements\n\nResistors\nFrom:\n\nWe get:\n\n\nⓘ Note  These are scalar values.\n\nThis is the energy dissipated over one cycle of AC.\nSince ,\n\n\n\nInductor\n\nSince the , \nEnergy stored in a inductor over one positive half-cycle:\n\n\nⓘ Note  These are scalar values.\n\n\n\nCapacitor\n\nSince the , \nEnergy stored in a capacitor over one positive half-cycle: \n\nⓘ Note  These are scalar values.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#the-power-triangle",
     "href": "fund-elec2/t06-power(ac).html#the-power-triangle",
     "title": "6. Power (AC)",
     "section": "The Power Triangle",
-    "text": "The Power Triangle\n\\(S \\angle \\theta_S = P\\angle 0^\\circ +Q\\)"
+    "text": "The Power Triangle",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#power-factor-correction",
     "href": "fund-elec2/t06-power(ac).html#power-factor-correction",
     "title": "6. Power (AC)",
     "section": "Power Factor Correction",
-    "text": "Power Factor Correction\n\\(Q_C\\) negates the \\(Q_L\\)\n\\(\\implies Q_T = Q_L - Q_C\\)\nProblem:"
+    "text": "Power Factor Correction\n negates the \n\nProblem:",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t06-power(ac).html#collection-of-formulas",
     "href": "fund-elec2/t06-power(ac).html#collection-of-formulas",
     "title": "6. Power (AC)",
     "section": "Collection of formulas",
-    "text": "Collection of formulas\n\\[\\begin{align*}\n    S&=\\sqrt{P^2+Q^2_L}\\\\\n    S &= \\frac{P}{p.f.} \\\\\n    I &= \\frac{S}{E} \\\\\n    Q_L &= \\sqrt{S^2-P^2} \\\\\n    Q_C &= Q_L-Q_T \\\\\n    X_C&=\\dfrac{E^2_{rms}}{Q_C} \\\\\n    C &= \\dfrac{1}{2\\pi f X_C} \\\\\n\\end{align*}\\]"
+    "text": "Collection of formulas",
+    "crumbs": [
+      "Fund. Elec. II",
+      "6. Power (AC)"
+    ]
   },
   {
     "objectID": "fund-elec2/t04-parallel-ac-circuits.html",
     "href": "fund-elec2/t04-parallel-ac-circuits.html",
     "title": "4. Parallel AC Circuits",
     "section": "",
-    "text": "Vector: A quantity that has direction"
+    "text": "Vector: A quantity that has direction",
+    "crumbs": [
+      "Fund. Elec. II",
+      "4. Parallel AC Circuits"
+    ]
   },
   {
     "objectID": "fund-elec2/t04-parallel-ac-circuits.html#admittance-y-and-susceptance-b",
     "href": "fund-elec2/t04-parallel-ac-circuits.html#admittance-y-and-susceptance-b",
     "title": "4. Parallel AC Circuits",
-    "section": "Admittance (\\(Y\\)) and Susceptance (\\(B\\))",
-    "text": "Admittance (\\(Y\\)) and Susceptance (\\(B\\))\nIn parallel: - Susceptances are added together. - Impedances are treated in the same manner as resistors\n\\[\n\\begin{align*}\n    Y &= \\frac{1}{Z} \\\\\n    B &= \\frac{1}{X} \\\\\n\\end{align*}\n\\]\n\n\n\n\n\n\n\nAdmittance, \\(Y\\)\nSusceptance, \\(B\\)\n\n\n\n\n\\(Y\\) is a vector\n\\(B\\) is a magnitude.\n\n\nHas an angle like \\(Z\\) does\nHas no angle like \\(R\\) or \\(X\\) does not\n\n\nDefined from impedance or used for all elements\nDefined from reactance or used only for reactive elements\n\n\n\n\n\n\nSusceptance, \\(B\\)\nConductance, \\(G\\)\n\n\n\n\nReciprocal of reactance\nReciprocal of resistance\n\n\nOnly for reactive elements\nOnly for resistive elements\n\n\n\n\n\n\nReactive elements\nResistive elements\n\n\n\n\n\\(Y= B \\angle\\theta\\)\n\\(Y=G\\angle\\theta\\)\n\n\n\n\nAdmittance Diagram\n\n\n\nimage"
+    "section": "Admittance () and Susceptance ()",
+    "text": "Admittance () and Susceptance ()\nIn parallel: - Susceptances are added together. - Impedances are treated in the same manner as resistors\n\n\n\n\n\n\n\n\nAdmittance, \nSusceptance, \n\n\n\n\n is a vector\n is a magnitude.\n\n\nHas an angle like  does\nHas no angle like  or  does not\n\n\nDefined from impedance or used for all elements\nDefined from reactance or used only for reactive elements\n\n\n\n\n\n\nSusceptance, \nConductance, \n\n\n\n\nReciprocal of reactance\nReciprocal of resistance\n\n\nOnly for reactive elements\nOnly for resistive elements\n\n\n\n\n\n\nReactive elements\nResistive elements\n\n\n\n\n\n\n\n\n\n\nAdmittance Diagram\n\n\n\nimage",
+    "crumbs": [
+      "Fund. Elec. II",
+      "4. Parallel AC Circuits"
+    ]
   },
   {
     "objectID": "fund-elec2/t04-parallel-ac-circuits.html#parallel-ac-circuits",
     "href": "fund-elec2/t04-parallel-ac-circuits.html#parallel-ac-circuits",
     "title": "4. Parallel AC Circuits",
     "section": "Parallel AC Circuits",
-    "text": "Parallel AC Circuits\n\nGeneral approach to solving a parallel circuit\n\nApply the phasor notation to the network.\nI think this means change the time domain representations of voltage and current to phasor notation\nFind:\n\n\\(Z_T\\) or \\(Y_T\\), then \\(Z_T=\\dfrac{1}{Y_T}\\)\n\nDraw: Admittance diagram\nFind:\n\n\\(I_S\\)\n\\(I_x\\), use CDR:\n\nfor Multiple branches \\[I_x = I_T\\frac{Z_T}{Z_x}\\]\nor for 2 branches: \\[I_\\text{branch of interest} = I_T\\frac{Z_\\text{opposite branch}}{Z_\\text{branch of interest}+Z_\\text{opposite branch}}\\]\n\n\nApply KCL at node of interest: ,.\nConnecting source current branch and the branches where current splits\n\\(I_{\\text{in}}\\angle\\theta_{I_{\\text{in}}}=I_{\\text{out}}\\angle\\theta_{I_{\\text{out}}}\\)\n\nRemember: this is in the same way as in DC circuits except the only difference is that current in AC is a vector.\n\nDraw: Phasor diagram\nFind:\n\n\\(P~(P_\\text{avg})\\)\n\\(F_p\\), Power factor."
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html",
-    "href": "calc1/u3-transcendental.html",
-    "title": "My Notes",
-    "section": "",
-    "text": "\\[\n\\begin{array}{c|c}\n    y & y' \\\\\n    \\hline\n    \\sin x & &\\cos x \\\\\n    \\cos x & - &\\sin x \\\\\n    \\tan x & &\\sec x \\cdot \\sec x \\\\\n    \\sec x & &\\tan x \\cdot \\sec x \\\\\n    \\cot x & - &\\csc x \\cdot \\csc x \\\\\n    \\csc x & - &\\cot x \\cdot \\csc x \\\\\n    e^x & &e^x \\\\\n    \\ln x & &\\dfrac{1}{x} \\\\\n\\end{array}\n\\]\n\\[\n\\begin{array}{c|c}\n    y & y' \\\\\n    \\hline\n    \\sin [f(x)] & &f'(x) \\cdot \\cos [f(x)] \\\\\n    \\cos [f(x)] & - &f'(x) \\cdot \\sin [f(x)] \\\\\n    \\tan [f(x)] & &f'(x) \\cdot \\sec [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\sec [f(x)] & &f'(x) \\cdot \\tan [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\cot [f(x)] & - &f'(x) \\cdot \\csc [f(x)] \\cdot \\csc [f(x)] \\\\\n    \\csc [f(x)] & - &f'(x) \\cdot \\cot [f(x)] \\cdot \\csc [f(x)] \\\\\n    e^{f(x)} & &f'(x) \\cdot e^{f(x)} \\\\\n    \\ln [f(x)] & &\\dfrac{f'(x)}{f(x)} \\\\\n\\end{array}\n\\]\n\\[\n\\begin{align*}\n    y &= e^{f(x)} \\\\\n    y' &= \\frac{d}{dx} \\left( e^{f(x)} \\right) \\\\\n    y' &= \\frac{d}{dx}(f(x))~\\cdot e^{f(x)} \\\\ \\\\\n\\end{align*}\n\\]"
+    "text": "Parallel AC Circuits\n\nGeneral approach to solving a parallel circuit\n\nApply the phasor notation to the network.\nI think this means change the time domain representations of voltage and current to phasor notation\nFind:\n\n or , then \n\nDraw: Admittance diagram\nFind:\n\n\n, use CDR:\n\nfor Multiple branches \nor for 2 branches: \n\n\nApply KCL at node of interest: ,.\nConnecting source current branch and the branches where current splits\n\n\nRemember: this is in the same way as in DC circuits except the only difference is that current in AC is a vector.\n\nDraw: Phasor diagram\nFind:\n\n\n, Power factor.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "4. Parallel AC Circuits"
+    ]
   },
   {
     "objectID": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
     "href": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
     "title": "My Notes",
     "section": "Derivative of General Exponential and Logarithmic Functions",
-    "text": "Derivative of General Exponential and Logarithmic Functions\nFind the derivative of $ y = a^{f(x)},\n\\[\\begin{array}\n        f(x) &= g(x)\\\\\n        \\ln(f(x) &= \\ln(g(x))\n    \\end{array}\\]\n$\nTake \\(\\ln\\) on both sides\n\\[\n\\begin{align*}\n    \\ln y &= \\ln a^{f(x)} \\\\\n    \\frac{y'}{y} &= f'(x) \\cdot a^{f(x)} \\\\\n    y' = y \\cdot f'(x) \\cdot a^{f(x)} \\\\\n    y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)} \\\\\n\\end{align*}\n\\]\n\\(\\boxed{y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)}}\\)\n\\[\n\\begin{align*}\n    \\log_n m &= \\frac{\\log m}{\\log n} \\\\\n    \\therefore y &= \\frac{\\ln [f(x)}{\\ln b} \\\\\n    y' &= \\frac{f'(x)}{f(x)} \\cdot \\frac{1}{\\ln b}\n    y' &= \\frac{f'(x)}{f(x) \\cdot \\ln b}\n\\end{align*}\n\\]"
+    "text": "Derivative of General Exponential and Logarithmic Functions\nFind the derivative of $ y = a^{f(x)},\n\n$\nTake  on both sides",
+    "crumbs": [
+      "Calculus I",
+      "Derivative of General Exponential and Logarithmic Functions"
+    ]
   },
   {
     "objectID": "calc1/u3-transcendental.html#logarithmic-differentiation",
     "href": "calc1/u3-transcendental.html#logarithmic-differentiation",
     "title": "My Notes",
     "section": "Logarithmic Differentiation",
-    "text": "Logarithmic Differentiation\nFind derivative of $ y = x^x$\nTaking \\(\\ln\\) on both side:\n\\[\n\\begin{align*}\n    \\ln y &= \\ln x^x \\\\\n    \\ln y &= x \\ln x \\\\\n\\end{align*}\n\\]\nFind the derivative on both sides:\n\\[\n\\begin{align*}\n    \\frac{y'}{y} = 1+\\ln x \\\\\n    y' = y( 1+\\ln x ) \\\\\n    y' = x^x( 1+\\ln x )\n\\end{align*}\n\\]"
+    "text": "Logarithmic Differentiation\nFind derivative of $ y = x^x$\nTaking  on both side:\n\nFind the derivative on both sides:",
+    "crumbs": [
+      "Calculus I",
+      "Derivative of General Exponential and Logarithmic Functions"
+    ]
   },
   {
     "objectID": "calc1/u4-.html",
     "href": "calc1/u4-.html",
     "title": "My Notes",
     "section": "",
-    "text": "Draw your sketch\nWhich formulas do we use to construct the shape\n2D: Area and Perimeter 3D: Volume and Surface area"
+    "text": "Draw your sketch\nWhich formulas do we use to construct the shape\n2D: Area and Perimeter 3D: Volume and Surface area",
+    "crumbs": [
+      "Calculus I",
+      "Optimasation Problem Steps"
+    ]
   },
   {
     "objectID": "calc1/u4-.html#optimasation-problem-steps",
     "href": "calc1/u4-.html#optimasation-problem-steps",
     "title": "My Notes",
     "section": "",
-    "text": "Draw your sketch\nWhich formulas do we use to construct the shape\n2D: Area and Perimeter 3D: Volume and Surface area"
+    "text": "Draw your sketch\nWhich formulas do we use to construct the shape\n2D: Area and Perimeter 3D: Volume and Surface area",
+    "crumbs": [
+      "Calculus I",
+      "Optimasation Problem Steps"
+    ]
   },
   {
     "objectID": "calc1/u4-.html#related-rates",
     "href": "calc1/u4-.html#related-rates",
     "title": "My Notes",
     "section": "Related Rates",
-    "text": "Related Rates\nThis is always differentiation wrt time\nfor \\(f(x)\\)\n\\(\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}\\), (Chain Rule)\n\\(\\frac{dx}{dt} = \\frac{1}{d~[f(x)]} \\cdot \\frac{d~[f(x)]}{dt}\\)"
+    "text": "Related Rates\nThis is always differentiation wrt time\nfor \n, (Chain Rule)",
+    "crumbs": [
+      "Calculus I",
+      "Optimasation Problem Steps"
+    ]
   },
   {
     "objectID": "plan/class-enroll/available-courses.html",
