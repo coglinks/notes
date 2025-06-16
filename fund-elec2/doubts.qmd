@@ -1,15 +1,5 @@
 ---
 title: 'Doubts'
-format:
-  html:
-    embed-resources: true
-    toc: true
-    respect-user-color-scheme: true
-    theme:
-      light: flatly
-      dark: darkly
-    mainfont: "IosevkaTerm Nerd Font Mono"
-    fontsize: 20px
 ---
 
 1. What does real power mean? How is it different from $Q,~P$ and $S$?

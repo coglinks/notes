@@ -1,15 +1,5 @@
 ---
 title: '5. Series Parallel AC Circuits'
-format:
-  html:
-    respect-user-color-scheme: true
-    toc: true
-    embed-resources: true
-    theme:
-      light: flatly
-      dark: darkly
-    mainfont: "IosevkaTerm Nerd Font Mono"
-    fontsize: 20px
 ---
 
 ## Ground
