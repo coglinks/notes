@@ -2,6 +2,10 @@ project:
   type: website
   output-dir: _site
 
+execute:
+  freeze: auto
+  cache: true
+
 format:
   html:
     embed-resources: true
@@ -17,31 +21,32 @@ format:
 website:
   title: "My Notes"
   sidebar:
+    - id: calc1
+      title: "Calculus I"
+      contents:
+        - calc1/index.qmd
+        - calc1/u1-the-derivative.md
+        - calc1/u3-transcendental.md
+        - calc1/u4-.qmd
+    - id: fund-elec2
+      title: "Fund. Elec. II"
+      contents:
+        - fund-elec2/index.qmd
+        - fund-elec2/doubts.qmd
+        - fund-elec2/revision.qmd
+        - fund-elec2/t01-sinusoidal-alternating-waveforms.qmd
+        - fund-elec2/t02-basic-elements-and-phasors.qmd
+        - fund-elec2/t03-series-ac-circuits.qmd
+        - fund-elec2/t04-parallel-ac-circuits.qmd
+        - fund-elec2/t05-series-parallel-ac-circuits.qmd
+        - fund-elec2/t06-power(ac).qmd
+        - fund-elec2/t07-introduction-to-three-phase-systems.qmd
+        - fund-elec2/t08-resonance-and-filters.qmd
+        - fund-elec2/t09-methods-of-analysis.qmd
     tools:
-      - icon: github
-        menu:
-          - text: Source Code
-            href: https://github.com/coglinks/notes
-          - text: Report an Issue
-            href: https://github.com/coglinks/notes/issues
-    left:
-      - text: "Calculus I"
-        menu:
-          - href: calc1/index.qmd
-          - href: calc1/u1-the-derivative.md
-          - href: calc1/u3-transcendental.md
-          - href: calc1/u4-.qmd
-      - text: "Fund. Elec. II"
-        menu:
-          - href: fund-elec2/index.qmd
-          - href: fund-elec2/doubts.qmd
-          - href: fund-elec2/revision.qmd
-          - href: fund-elec2/t01-sinusoidal-alternating-waveforms.qmd
-          - href: fund-elec2/t02-basic-elements-and-phasors.qmd
-          - href: fund-elec2/t03-series-ac-circuits.qmd
-          - href: fund-elec2/t04-parallel-ac-circuits.qmd
-          - href: fund-elec2/t05-series-parallel-ac-circuits.qmd
-          - href: fund-elec2/t06-power(ac).qmd
-          - href: fund-elec2/t07-introduction-to-three-phase-systems.qmd
-          - href: fund-elec2/t08-resonance-and-filters.qmd
-          - href: fund-elec2/t09-methods-of-analysis.qmd
+    - icon: github
+      menu:
+        - text: Source Code
+          href: https://github.com/coglinks/notes
+        - text: Report an Issue
+          href: https://github.com/coglinks/notes/issues
