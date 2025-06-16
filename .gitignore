@@ -1,0 +1,11 @@
+*.pdf
+*.html
+
+# quarto build outputs
+*_files
+
+# MyST build outputs
+_build
+
+/.quarto/
+/_site/
