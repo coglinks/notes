@@ -102,7 +102,6 @@ When you label your diagram, it may have width and length and height or radius, 
 Read your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.
 
 Constants can be substituted into the equation before taking the derivatve.
-::
-
+:::
 
 4. Write the conclusion
