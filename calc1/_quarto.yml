@@ -1,0 +1,15 @@
+project:
+  type: website
+
+format:
+  html:
+    embed-resources: true
+    toc: true
+    respect-user-color-scheme: true
+    page-navigation: true
+    theme:
+      light: flatly
+      dark: darkly
+    mainfont: "IosevkaTerm Nerd Font Mono"
+    fontsize: 20px
+
