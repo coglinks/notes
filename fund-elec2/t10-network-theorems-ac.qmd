@@ -1,0 +1,24 @@
+---
+title: '10. Network Theorems (AC)'
+---
+
+## Superposition Theorem
+
+Same as DC, except AC voltage and impedance is used.
+
+Use of AC only changes the calculations and not the theory involved.
+
+# begin: This is to be transfered to the parallel circuit notes
+
+In a simple parallel circuit, if the impedance of the parallel branches are equal, then CDR is applied as:
+
+$$I = \frac{I_S}{\text{No of branches having an equal impedance}}$$
+
+# end
+
+## Thevenin's Theorem
+
+
+Same as DC, except AC voltage and impedance is used.
+
+Use of AC only changes the calculations and not the theory involved.
