@@ -1,99 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/other-sems/current-plan.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/other-sems/schedule.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/other-sems/completed.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/current-plan.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/data-makers/request.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/calc1/u1-the-derivative.html</loc>
-    <lastmod>2025-06-16T14:39:08.108Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/calc1/index.html</loc>
-    <lastmod>2025-06-16T15:26:34.924Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/doubts.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/t05-series-parallel-ac-circuits.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t10-network-theorems-ac.html</loc>
+    <lastmod>2025-06-18T15:01:54.701Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t08-resonance-and-filters.html</loc>
-    <lastmod>2025-06-16T15:26:34.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/t01-sinusoidal-alternating-waveforms.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/t03-series-ac-circuits.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/t02-basic-elements-and-phasors.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/t09-methods-of-analysis.html</loc>
-    <lastmod>2025-06-16T15:26:34.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/t07-introduction-to-three-phase-systems.html</loc>
-    <lastmod>2025-06-16T15:26:34.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://coglinks.github.io/notes/fund-elec2/revision.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
+    <lastmod>2025-06-18T15:01:54.700Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t06-power(ac).html</loc>
-    <lastmod>2025-06-16T15:26:34.949Z</lastmod>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t04-parallel-ac-circuits.html</loc>
-    <lastmod>2025-06-16T15:26:34.948Z</lastmod>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t02-basic-elements-and-phasors.html</loc>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/revision.html</loc>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/doubts.html</loc>
+    <lastmod>2025-06-18T15:01:54.696Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/calc1/u3-transcendental.html</loc>
-    <lastmod>2025-06-16T14:39:08.108Z</lastmod>
+    <lastmod>2025-06-18T15:01:54.696Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/calc1/u4-.html</loc>
-    <lastmod>2025-06-16T14:39:08.108Z</lastmod>
+    <loc>https://coglinks.github.io/notes/calc1/index.html</loc>
+    <lastmod>2025-06-18T15:12:18.364Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/available-courses.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
+    <loc>https://coglinks.github.io/notes/calc1/u1-the-derivative.html</loc>
+    <lastmod>2025-06-18T15:01:54.696Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/other-sems/abandoned-courses.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
+    <loc>https://coglinks.github.io/notes/calc1/u4-applications-of-the-derivative2.html</loc>
+    <lastmod>2025-06-18T15:01:54.696Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/other-sems/course-catalogue.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t01-sinusoidal-alternating-waveforms.html</loc>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/plan/class-enroll/other-sems/available-courses.html</loc>
-    <lastmod>2025-06-16T14:39:08.112Z</lastmod>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t03-series-ac-circuits.html</loc>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t05-series-parallel-ac-circuits.html</loc>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t07-introduction-to-three-phase-systems.html</loc>
+    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t09-methods-of-analysis.html</loc>
+    <lastmod>2025-06-18T15:01:54.700Z</lastmod>
   </url>
 </urlset>
