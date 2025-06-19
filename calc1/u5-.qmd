@@ -1,0 +1,21 @@
+---
+
+---
+
+## Antiderivatives
+
+$\int f'(x)$ # incomplete
+
+## Integration rules
+
+| Power Rule |
+|---|
+| For $f(x) = x^n$ <br> $$\int x^n~dx = \frac{x^{n+1}}{n+1}+C$$ <br> Exception: $\int \frac{1}{x}~dx = \ln |x|+C$ |
+
+| Constant Multiple Rule |
+|---|
+| $$\int an^x~dx = a \int x^n~dx$$ |
+
+| Sum and Difference Rule |
+|---|
+| $$\int [ u(x) + v(x) + w(x) ] = \int u(x) + \int v(x) + \int w(x)$$ |
