@@ -26,8 +26,9 @@ Depending on the direction of current (Current flows from higher to lower potent
 For 
 $$
 \begin{array}
-a_1 I_1 + b_1 I_2 = c_1
-a_1 I_1+ b_2 I_2 = c_2
+a_1 I_1 + b_1 I_2 &= c_1 \\
+a_1 I_1+ b_2 I_2 &= c_2 \\
+\end{array}
 $$
 
 $$
@@ -77,11 +78,11 @@ Now you have your equations, assign theme
 
 For loop 1:
 
-$ I_1 ( \sum Z_x\text{(in loop 1)} ) - I_2 ( \sum Z_x\text{(in loop 2)} ) = \sum E_x \text{(The polarity of voltages here are the opposite of the original polarity)} $
+$I_1 [~\sum Z_x\text{(in loop 1)}~] - I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum E_x \text{(The polarity of voltages here are the opposite of the original polarity)}~]$
 
 For loop 2:
 
-$ - I_1 ( \sum Z_x\text{(in loop 1)} ) + I_2 ( \sum Z_x\text{(in loop 2)} ) = \sum E_x \text{(The polarity of voltages here are the opposite of the original polarity)} $
+$- I_1 [~\sum Z_x\text{(in loop 1)}~] + I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum E_x \text{(The polarity of voltages here are the opposite of the original polarity)}~]$
 
 ## Nodal Analysis
 
@@ -92,5 +93,8 @@ As per KCL:
 - In node 1:
 
 $$
-V_1 \cdot \sum \frac{1}{Z_x} \text{(Impedances of V_1)} - V_2 \cdot \sum \frac{1}{Z_x} \text{(Impedances common to V_1 and V_2)} = \pm \sum \frac{E_x}{Z_x} \text{(Polarity depending on whether the current is input or output)}
+V_1 \cdot \sum \frac{1}{Z_x} \text{ (impedances of } V_1 \text{)}
+- V_2 \cdot \sum \frac{1}{Z_x} \text{ (impedances common to } V_1 \text{ and } V_2 \text{)}
+= \pm \sum \frac{E_x}{Z_x} \text{ (polarity depends on direction of current)}
 $$
+
