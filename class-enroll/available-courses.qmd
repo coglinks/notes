@@ -1,4 +1,4 @@
-# COMM II
+## old- COMM II
 
 | Class ID | Days and Times | Room | Instructor | Status | Rating |
 |----------|----------------|------|------------|--------|--------|
@@ -27,7 +27,7 @@
 | Lecture - Class 2227 -Section 32 | Tuesday 4:00PM to 5:00PM<br><hr>Thursday 2:00PM to 4:00PM | 12.1.13<br><hr>12.1.03 | Irum Naz<br><hr>Irum Naz | open (30-30)<br>open (30-30) | |
 | Lecture - Class 2228 -Section 33 | Tuesday 4:00PM to 5:00PM<br><hr>Wednesday 4:00PM to 6:00PM | 12.1.13<br><hr>05.2.25 | Irum Naz<br><hr>Irum Naz | open (30-30)<br>open (30-30) | |
 
-## PHYS1020 General Physics 
+## old- PHYS1020 General Physics 
 
 Recommendations:
 - Feras Alzubi
@@ -45,7 +45,7 @@ Recommendations:
 | Laboratory - Class 1879 -Section 7 | Sunday 8:00AM to 11:00AM       | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
 
 
-## PHYS1021 General Physics Lab
+## old- PHYS1021 General Physics Lab
 
 | Class ID | Days and Times | Room | Instructor | Status |
 |----------|----------------|------|------------|--------|
@@ -77,16 +77,13 @@ Recommendations:
 | Laboratory - Class 2555 -Section 26 | Monday 2:00PM to 5:00PM | 05.1.06 | Eyad Omair | open (18-18) |
 | Laboratory - Class 2556 -Section 27 | Sunday 2:00PM to 5:00PM | 05.1.06 | Eyad Omair | open (18-18) |
 
-## Digital Electronics
+## AETN 1112 Digital Electronics
 
-| Class ID                          | Days and Times                                                                 | Room         | Instructor              | Status           |
-|----------------------------------|--------------------------------------------------------------------------------|--------------|--------------------------|------------------|
-| Lecture - Class 1867 -Section 1  | Tuesday 6:00PM to 7:00PM<br><hr>Thursday 6:00PM to 7:00PM<br><hr>Sunday 6:00PM to 7:00PM | 05.2.55      | Staff                   | open (30-30)     |
-| Lecture - Class 1868 -Section 2  | Tuesday 12:00PM to 1:00PM<br><hr>Thursday 12:00PM to 1:00PM<br><hr>Sunday 12:00PM to 1:00PM | 05.2.37      | Zeina Rihawi            | open (30-30)     |
-| Lecture - Class 1869 -Section 3  | Tuesday 1:00PM to 2:00PM<br><hr>Thursday 1:00PM to 2:00PM<br><hr>Sunday 1:00PM to 2:00PM | 05.2.55      | Ghufran Khalaf Ja'afreh | open (30-30)     |
-| Lecture - Class 1870 -Section 4  | Tuesday 12:00PM to 1:00PM<br><hr>Thursday 12:00PM to 1:00PM<br><hr>Sunday 12:00PM to 1:00PM | 05.2.25      | Ghufran Khalaf Ja'afreh | open (30-30)     |
-| Lecture - Class 1871 -Section 5  | Tuesday 12:00PM to 1:00PM<br><hr>Thursday 12:00PM to 1:00PM<br><hr>Sunday 12:00PM to 1:00PM | 05.1.66      | Staff                   | open (30-30)     |
-| Lecture - Class 1872 -Section 6  | Tuesday 9:00AM to 10:00AM<br><hr>Thursday 9:00AM to 10:00AM<br><hr>Sunday 9:00AM to 10:00AM | 05.1.56      | Staff                   | open (30-30)     |
+| Class ID                         | Days and Times                                     | Room                      | Instructor                          | Status       |
+|----------------------------------|-----------------------------------------------------|---------------------------|-------------------------------------|--------------|
+| Lecture - Class 1868 -Section 2 | Sunday<br>Tuesday<br>Thursday<br>12:00PM - 1:00PM <hr> | 05.2.37<br>05.2.37<br>05.2.37 | Staff<br>Staff<br>Staff               | open (30-30) |
+| Lecture - Class 1869 -Section 3 | Sunday<br>Tuesday<br>Thursday<br>1:00PM - 2:00PM <hr>  | 05.2.55<br>05.2.55<br>05.2.55 | Ghufran Khalaf Ja'afreh<br>Ghufran Khalaf Ja'afreh<br>Ghufran Khalaf Ja'afreh | open (28-30) |
+| Lecture - Class 1870 -Section 4 | Sunday<br>Tuesday<br>Thursday<br>12:00PM - 1:00PM <hr> | 05.2.25<br>05.2.25<br>05.2.25 | Ghufran Khalaf Ja'afreh<br>Ghufran Khalaf Ja'afreh<br>Ghufran Khalaf Ja'afreh | open (28-30) |
 
 ## AETN1212 Digital Electronics Lab:
 | Class ID                         | Days and Times                                            | Room     | Instructor             | Status         | Rating |
@@ -103,38 +100,30 @@ Recommendations:
 | Laboratory - Class 1889 -Section 10| Sunday<br>12:00PM to 2:00PM <hr>                          | 09.1.41  | Alaa Elsaqa            | open (15-15)   |        |
 | Laboratory - Class 1890 -Section 11| Wednesday<br>8:00AM to 10:00AM <hr>                       | 09.2.69  | Ghufran Khalaf Ja'afreh| open (15-15)   |        |
 
-## Network Fundamentals
+## AETN 1102 Network Fundamentals
 
-| Class ID                          | Days and Times                                                                 | Room     | Instructor       | Status           |
-|----------------------------------|--------------------------------------------------------------------------------|----------|------------------|------------------|
-| Lecture - Class 1862 -Section 1  | Tuesday 5:00PM to 6:00PM<br><hr>Thursday 5:00PM to 6:00PM<br><hr>Sunday 5:00PM to 6:00PM | 05.2.35  | Permjit Soora    | open (30-30)     |
-| Lecture - Class 1863 -Section 2  | Tuesday 1:00PM to 2:00PM<br><hr>Thursday 1:00PM to 2:00PM<br><hr>Sunday 1:00PM to 2:00PM | 05.2.36  | Permjit Soora    | open (30-30)     |
-| Lecture - Class 1864 -Section 3  | Tuesday 4:00PM to 5:00PM<br><hr>Thursday 4:00PM to 5:00PM<br><hr>Sunday 4:00PM to 5:00PM | 05.1.56  | Nicolae Nechita  | open (30-30)     |
-| Lecture - Class 1865 -Section 4  | Tuesday 12:00PM to 1:00PM<br><hr>Thursday 12:00PM to 1:00PM<br><hr>Sunday 12:00PM to 1:00PM | 05.2.54  | Nicolae Nechita  | open (30-30)     |
-| Lecture - Class 1866 -Section 5  | Tuesday 3:00PM to 4:00PM<br><hr>Thursday 3:00PM to 4:00PM<br><hr>Sunday 3:00PM to 4:00PM | 05.2.25  | Nicolae Nechita  | open (30-30)     |
+| Class ID                         | Days and Times                                | Room                | Instructor         | Status         |
+|----------------------------------|-----------------------------------------------|---------------------|--------------------|----------------|
+| Lecture - Class 1863 -Section 2 | Sunday<br>Tuesday<br>Thursday<br>1:00PM - 2:00PM <hr> | 05.2.36<br>05.2.36<br>05.2.36 | Permjit Soora<br>Permjit Soora<br>Permjit Soora | open (25-30)   |
+| Lecture - Class 1866 -Section 5 | Sunday<br>Tuesday<br>Thursday<br>3:00PM - 4:00PM <hr> | 05.2.25<br>05.2.25<br>05.2.25 | Nicolae Nechita<br>Nicolae Nechita<br>Nicolae Nechita | open (28-30)   |
 
-## Network Fundamentals Lab
+## AETN 1202 Network Fundamentals Lab
 
-| Class ID                          | Days and Times                 | Room    | Instructor         | Status           |
-|----------------------------------|--------------------------------|---------|--------------------|------------------|
-| Laboratory - Class 1873 -Section 1 | Wednesday 10:00AM to 1:00PM    | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
-| Laboratory - Class 1874 -Section 2 | Tuesday 2:00PM to 5:00PM       | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
-| Laboratory - Class 1875 -Section 3 | Monday 2:00PM to 5:00PM        | 09.2.07 | Staff              | open (20-20)     |
-| Laboratory - Class 1876 -Section 4 | Tuesday 8:00AM to 11:00AM      | 09.2.07 | Staff              | open (20-20)     |
-| Laboratory - Class 1877 -Section 5 | Monday 10:00AM to 1:00PM       | 09.2.07 | Alaa Elsaqa        | open (20-20)     |
-| Laboratory - Class 1878 -Section 6 | Thursday 2:00PM to 5:00PM      | 09.2.07 | Alaa Elsaqa        | open (20-20)     |
-| Laboratory - Class 1879 -Section 7 | Sunday 8:00AM to 11:00AM       | 09.2.07 | Mariam Al-Ghanma   | open (20-20)     |
+| Class ID                          | Days and Times             | Room     | Instructor         | Status       |
+|-----------------------------------|-----------------------------|----------|--------------------|--------------|
+| Laboratory - Class 1873 -Section 1 | Wednesday<br>10:00AM - 1:00PM <hr> | 09.2.07 | Mariam Al-Ghanma   | open (18-20) |
+| Laboratory - Class 1874 -Section 2 | Tuesday<br>2:00PM - 5:00PM <hr>    | 09.2.07 | Mariam Al-Ghanma   | open (20-20) |
+| Laboratory - Class 1877 -Section 5 | Monday<br>10:00AM - 1:00PM <hr>    | 09.2.07 | Alaa Elsaqa        | open (19-20) |
+| Laboratory - Class 1878 -Section 6 | Thursday<br>2:00PM - 5:00PM <hr>   | 09.2.07 | Alaa Elsaqa        | open (18-20) |
 
 ## MATH 2010 Calculus II 
 
-| Class ID | Days and Times | Room | Instructor | Status |
-|----------|----------------|------|------------|--------|
-| LecTheatre - Class 2504 -Section 1<br>Lecture - Class 2505 -Section 2 | Sunday 11:00AM to 12:30PM<br><hr>Tuesday 2:00PM to 3:30PM | 01.1.04<br><hr>05.2.60 | Ramzan Ali<br><hr>Ramzan Ali | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2504 -Section 1<br>Lecture - Class 2506 -Section 3 | Sunday 11:00AM to 12:30PM<br><hr>Tuesday 9:30AM to 11:00AM | 01.1.04<br><hr>05.2.43 | Ramzan Ali<br><hr>Ramzan Ali | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2504 -Section 1<br>Lecture - Class 2507 -Section 4 | Sunday 11:00AM to 12:30PM<br><hr>Tuesday 11:00AM to 12:30PM | 01.1.04<br><hr>05.2.24 | Ramzan Ali<br><hr>Ramzan Ali | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2509 -Section 6 | Sunday 12:30PM to 2:00PM<br><hr>Wednesday 8:00AM to 9:30AM | 01.1.04<br><hr>05.2.60 | Staff<br><hr>Staff | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2510 -Section 7 | Sunday 12:30PM to 2:00PM<br><hr>Wednesday 2:00PM to 3:30PM | 01.1.04<br><hr>05.2.36 | Staff<br><hr>Staff | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2511 -Section 8 | Sunday 12:30PM to 2:00PM<br><hr>Wednesday 9:30AM to 11:00AM | 01.1.04<br><hr>05.1.51 | Staff<br><hr>Staff | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2513 -Section 10 | Sunday 5:00PM to 6:30PM<br><hr>Wednesday 5:00PM to 6:30PM | 01.1.04<br><hr>05.2.43 | Staff<br><hr>Staff | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2514 -Section 11 | Sunday 5:00PM to 6:30PM<br><hr>Wednesday 3:30PM to 5:00PM | 01.1.04<br><hr>05.2.24 | Staff<br><hr>Staff | open (90-90)<br>open (30-30) |
-| LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2515 -Section 12 | Sunday 5:00PM to 6:30PM<br><hr>Wednesday 2:00PM to 3:30PM | 01.1.04<br><hr>05.1.56 | Staff<br><hr>Staff | open (90-90)<br>open (30-30) |
+| Class ID                             | Days and Times                                              | Room                    | Instructor     | Status         |
+|--------------------------------------|--------------------------------------------------------------|-------------------------|----------------|----------------|
+| LecTheatre - Class 2504 -Section 1 <br>Lecture - Class 2505 -Section 2 | Sunday<br>11:00AM - 12:30PM<br><hr>Tuesday<br>2:00PM - 3:30PM<br><hr> | 01.1.04<br>05.2.60       | Ramzan Ali<br>Ramzan Ali | open (40-90)<br>open (18-30) |
+| LecTheatre - Class 2504 -Section 1 <br>Lecture - Class 2506 -Section 3 | Sunday<br>11:00AM - 12:30PM<br><hr>Tuesday<br>9:30AM - 11:00AM<br><hr> | 01.1.04<br>05.2.43       | Ramzan Ali<br>Ramzan Ali | open (40-90)<br>open (22-30) |
+| LecTheatre - Class 2508 -Section 5 <br>Lecture - Class 2509 -Section 6 | Sunday<br>12:30PM - 2:00PM<br><hr>Wednesday<br>8:00AM - 9:30AM<br><hr> | 01.1.04<br>05.2.60       | Staff<br>Staff           | open (80-90)<br>open (29-30) |
+| LecTheatre - Class 2508 -Section 5 <br>Lecture - Class 2510 -Section 7 | Sunday<br>12:30PM - 2:00PM<br><hr>Wednesday<br>2:00PM - 3:30PM<br><hr> | 01.1.04<br>05.2.36       | Staff<br>Staff           | open (80-90)<br>open (24-30) |
+| LecTheatre - Class 2508 -Section 5 <br>Lecture - Class 2511 -Section 8 | Sunday<br>12:30PM - 2:00PM<br><hr>Wednesday<br>9:30AM - 11:00AM<br><hr> | 01.1.04<br>05.1.51       | Staff<br>Staff           | open (80-90)<br>open (27-30) |
+| LecTheatre - Class 2512 -Section 9 <br>Lecture - Class 2513 -Section 10 | Sunday<br>5:00PM - 6:30PM<br><hr>Wednesday<br>5:00PM - 6:30PM<br><hr>  | 01.1.04<br>05.2.43       | Staff<br>Staff           | open (75-90)<br>open (15-30) |
+| LecTheatre - Class 2504 -Section 1 <br>Lecture - Class 2507 -Section 4 | Sunday<br>11:00AM - 12:30PM<br><hr>Tuesday<br>11:00AM - 12:30PM<br><hr> | 01.1.04<br>05.2.24       | Ramzan Ali<br>Ramzan Ali | open (40-90)<br>closed       |
