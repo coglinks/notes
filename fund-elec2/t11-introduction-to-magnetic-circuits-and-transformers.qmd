@@ -1,0 +1,64 @@
+---
+title: 'Introduction to Magnetic Circuits and Transformers'
+---
+
+## Introduction
+
+$\Phi = \frac{\mathcal{F}}{\mathcal{R}}$
+
+Where,
+
+- $Phi$ = electromotive force
+- $\mathcal{F}$ = Magnetomotive force (MMF)
+- $\mathcal{R}$ = 
+
+## Magnetic Field
+
+Flux density, $B$
+
+- $B = \frac{\Phi}{A}$
+
+Unit:
+
+- $B=\mathrm{Wb/m^2 = T}$ (teslas)
+- $\Phi = \text{Wb}$ (webers)
+- $A = m^2$
+
+$\mathcal{F} = NI$
+
+Permeability $\mu$
+
+$\mu_r = \frac{\mu_r}
+
+## Reluctance
+
+reluctance is the opposition to the magnetic flux
+
+$\mathcal{R} = \frac{l}{\mu A}$
+
+## Ohm's Law for Magnetic Circuits
+
+$\Phi = \frac{\mathcal{F}}{\mathcal{R}}$
+
+## Magnetizing Force $(H)$
+
+$H = \frac{\mathcal{F}}{l} = \frac{NI}{l}$
+
+$B = \mu H$
+
+## Hysteresis
+
+When you magnetize something and remove the magnetizing force, the material will resist losing its magnetization and will take longer time to lose it than the time it took to gain it
+
+## Ampere's Circuital Law
+
+The algebric sum of the rise and drops of the mmf around a closed loop of a magnetic circuit is zero. This is similar to KVL.
+
+## Air Gaps
+
+$B_g = \frac{Phi_g}{A_g}$
+
+## Applications
+
+## Transformers
+
