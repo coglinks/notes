@@ -3,7 +3,6 @@ project:
   output-dir: _site
   render:
     - "*.qmd"
-    - "!plan/"
     - "!sem1/"
 
 execute:
@@ -37,3 +36,5 @@ website:
         contents: calc1/*
       - section: "Fund. Elec. II"
         contents: fund-elec2/*
+      - section: "course list"
+        contents: class-enroll/*
