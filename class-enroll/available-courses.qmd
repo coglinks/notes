@@ -1,74 +1,29 @@
-##  COMM1020
+> Note: Please avoid "Staff" instructor sections if possible. Their instructors have not been decided yet and idk if they are good
+
+## AETN2221 Analog & Digital Communication (Lab)
 
 | Class ID | Days and Times | Room | Instructor | Status |
-|----------|----------------|------|------------|--------|
-| Lecture - Class 2197 -Section 2 | Wednesday<br>12:00PM to 1:00PM<hr>Sunday<br>10:00AM to 12:00PM | 01.2.08<br>10.2.01 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (30-30) |
-| Lecture - Class 2198 -Section 3 | Wednesday<br>12:00PM to 1:00PM<hr>Tuesday<br>12:00PM to 2:00PM | 01.2.08<br>12.2.13 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (22-24) |
-| Lecture - Class 2199 -Section 4 | Wednesday<br>12:00PM to 1:00PM<hr>Tuesday<br>10:00AM to 12:00PM | 01.2.08<br>10.2.05 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (30-30) |
-| Lecture - Class 2200 -Section 5 | Wednesday<br>12:00PM to 1:00PM<hr>Thursday<br>10:00AM to 12:00PM | 01.2.08<br>10.2.05 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (30-30) |
-| Lecture - Class 2205 -Section 10 | Sunday<br>6:00PM to 7:00PM<hr>Thursday<br>2:00PM to 4:00PM | 01.1.06<br>10.2.06 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (28-30) |
-| Lecture - Class 2202 -Section 7 | Sunday<br>6:00PM to 7:00PM<hr>Monday<br>2:00PM to 4:00PM | 01.1.06<br>12.2.10 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (30-30) |
-| Lecture - Class 2203 -Section 8 | Sunday<br>6:00PM to 7:00PM<hr>Tuesday<br>12:00PM to 2:00PM | 01.1.06<br>05.2.26 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (26-30) |
-| Lecture - Class 2204 -Section 9 | Sunday<br>6:00PM to 7:00PM<hr>Wednesday<br>2:00PM to 4:00PM | 01.1.06<br>12.1.03 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (27-30) |
-| Lecture - Class 2211 -Section 16 | Monday<br>12:00PM to 1:00PM<hr>Wednesday<br>2:00PM to 4:00PM | 01.1.06<br>12.2.10 | Irum Naz<br>Irum Naz | open (87-90)<br>open (29-30) |
-| Lecture - Class 2212 -Section 17 | Monday<br>12:00PM to 1:00PM<hr>Tuesday<br>12:00PM to 2:00PM | 01.1.06<br>10.1.31 | Irum Naz<br>Irum Naz | open (87-90)<br>open (30-30) |
-| Lecture - Class 2213 -Section 18 | Monday<br>12:00PM to 1:00PM<hr>Thursday<br>12:00PM to 2:00PM | 01.1.06<br>10.1.31 | Irum Naz<br>Irum Naz | open (87-90)<br>open (28-30) |
-| Lecture - Class 2216 -Section 21 | Tuesday<br>2:00PM to 3:00PM<hr>Wednesday<br>2:00PM to 4:00PM | 01.1.06<br>05.1.66 | Cristina Fabretto<br>Cristina Fabretto | open (117-120)<br>open (30-30) |
-| Lecture - Class 2217 -Section 22 | Tuesday<br>2:00PM to 3:00PM<hr>Monday<br>2:00PM to 4:00PM | 01.1.06<br>10.2.01 | Cristina Fabretto<br>Cristina Fabretto | open (117-120)<br>open (29-30) |
-| Lecture - Class 2218 -Section 23 | Tuesday<br>2:00PM to 3:00PM<hr>Wednesday<br>4:00PM to 6:00PM | 01.1.06<br>05.1.38 | Cristina Fabretto<br>Cristina Fabretto | open (117-120)<br>open (28-30) |
-| Lecture - Class 2220 -Section 25 | Monday<br>4:00PM to 5:00PM<hr>Tuesday<br>2:00PM to 4:00PM | 05.2.44<br>10.2.06 | Shawn Ramsey<br>Shawn Ramsey | open (53-58)<br>open (25-29) |
-| Lecture - Class 2221 -Section 26 | Monday<br>4:00PM to 5:00PM<hr>Tuesday<br>4:00PM to 6:00PM | 05.2.44<br>10.2.06 | Shawn Ramsey<br>Shawn Ramsey | open (53-58)<br>open (28-29) |
-| Lecture - Class 2227 -Section 32 | Tuesday<br>4:00PM to 5:00PM<hr>Thursday<br>2:00PM to 4:00PM | 12.1.08<br>12.1.03 | Irum Naz<br>Irum Naz | open (60-60)<br>open (30-30) |
-| Lecture - Class 2228 -Section 33 | Tuesday<br>4:00PM to 5:00PM<hr>Wednesday<br>4:00PM to 6:00PM | 12.1.08<br>05.2.25 | Irum Naz<br>Irum Naz | open (60-60)<br>open (30-30) |
+|---|---|---|---|---|
+| Laboratory - Class 1921 -Section 3 | Thursday<br>2:00PM to 4:00PM | 09.2.79 | Staff | open (5-14) |
+| Laboratory - Class 1919 -Section 1 | Sunday<br>2:00PM to 4:00PM | 09.2.79 | Ghufran Khalaf Ja'afreh | closed (0-14) |
+| Laboratory - Class 1920 -Section 2 | Monday<br>4:00PM to 6:00PM | 09.2.79 | Ghufran Khalaf Ja'afreh | closed (0-14) |
 
-## PHYS1020 General Physics 
-
-Recommendations:
-- Feras Alzubi
-- AETN 1102
+## AETN 2121
 
 | Class ID | Days and Times | Room | Instructor | Status |
-|----------|----------------|------|------------|--------|
-| Lecture - Class 2197 -Section 2 | Wednesday<br>12:00PM to 1:00PM<hr>Sunday<br>10:00AM to 12:00PM | 01.2.08<br>10.2.01 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (30-30) |
-| Lecture - Class 2198 -Section 3 | Wednesday<br>12:00PM to 1:00PM<hr>Tuesday<br>12:00PM to 2:00PM | 01.2.08<br>12.2.13 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (22-24) |
-| Lecture - Class 2199 -Section 4 | Wednesday<br>12:00PM to 1:00PM<hr>Tuesday<br>10:00AM to 12:00PM | 01.2.08<br>10.2.05 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (30-30) |
-| Lecture - Class 2200 -Section 5 | Wednesday<br>12:00PM to 1:00PM<hr>Thursday<br>10:00AM to 12:00PM | 01.2.08<br>10.2.05 | Andrea Comeau<br>Andrea Comeau | open (118-120)<br>open (30-30) |
-| Lecture - Class 2205 -Section 10 | Sunday<br>6:00PM to 7:00PM<hr>Thursday<br>2:00PM to 4:00PM | 01.1.06<br>10.2.06 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (28-30) |
-| Lecture - Class 2202 -Section 7 | Sunday<br>6:00PM to 7:00PM<hr>Monday<br>2:00PM to 4:00PM | 01.1.06<br>12.2.10 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (30-30) |
-| Lecture - Class 2203 -Section 8 | Sunday<br>6:00PM to 7:00PM<hr>Tuesday<br>12:00PM to 2:00PM | 01.1.06<br>05.2.26 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (26-30) |
-| Lecture - Class 2204 -Section 9 | Sunday<br>6:00PM to 7:00PM<hr>Wednesday<br>2:00PM to 4:00PM | 01.1.06<br>12.1.03 | Ridha Ben Rejeb<br>Ridha Ben Rejeb | open (111-120)<br>open (27-30) |
-| Lecture - Class 2211 -Section 16 | Monday<br>12:00PM to 1:00PM<hr>Wednesday<br>2:00PM to 4:00PM | 01.1.06<br>12.2.10 | Irum Naz<br>Irum Naz | open (87-90)<br>open (29-30) |
-| Lecture - Class 2212 -Section 17 | Monday<br>12:00PM to 1:00PM<hr>Tuesday<br>12:00PM to 2:00PM | 01.1.06<br>10.1.31 | Irum Naz<br>Irum Naz | open (87-90)<br>open (30-30) |
-| Lecture - Class 2213 -Section 18 | Monday<br>12:00PM to 1:00PM<hr>Thursday<br>12:00PM to 2:00PM | 01.1.06<br>10.1.31 | Irum Naz<br>Irum Naz | open (87-90)<br>open (28-30) |
-| Lecture - Class 2216 -Section 21 | Tuesday<br>2:00PM to 3:00PM<hr>Wednesday<br>2:00PM to 4:00PM | 01.1.06<br>05.1.66 | Cristina Fabretto<br>Cristina Fabretto | open (117-120)<br>open (30-30) |
-| Lecture - Class 2217 -Section 22 | Tuesday<br>2:00PM to 3:00PM<hr>Monday<br>2:00PM to 4:00PM | 01.1.06<br>10.2.01 | Cristina Fabretto<br>Cristina Fabretto | open (117-120)<br>open (29-30) |
-| Lecture - Class 2218 -Section 23 | Tuesday<br>2:00PM to 3:00PM<hr>Wednesday<br>4:00PM to 6:00PM | 01.1.06<br>05.1.38 | Cristina Fabretto<br>Cristina Fabretto | open (117-120)<br>open (28-30) |
-| Lecture - Class 2220 -Section 25 | Monday<br>4:00PM to 5:00PM<hr>Tuesday<br>2:00PM to 4:00PM | 05.2.44<br>10.2.06 | Shawn Ramsey<br>Shawn Ramsey | open (53-58)<br>open (25-29) |
-| Lecture - Class 2221 -Section 26 | Monday<br>4:00PM to 5:00PM<hr>Tuesday<br>4:00PM to 6:00PM | 05.2.44<br>10.2.06 | Shawn Ramsey<br>Shawn Ramsey | open (53-58)<br>open (28-29) |
-| Lecture - Class 2227 -Section 32 | Tuesday<br>4:00PM to 5:00PM<hr>Thursday<br>2:00PM to 4:00PM | 12.1.08<br>12.1.03 | Irum Naz<br>Irum Naz | open (60-60)<br>open (30-30) |
-| Lecture - Class 2228 -Section 33 | Tuesday<br>4:00PM to 5:00PM<hr>Wednesday<br>4:00PM to 6:00PM | 12.1.08<br>05.2.25 | Irum Naz<br>Irum Naz | open (60-60)<br>open (30-30) |
+|---|---|---|---|---|
+| Lecture - Class 1901 -Section 2 | Tuesday<br>8:00AM to 9:00AM<br><hr>Thursday<br>8:00AM to 9:00AM<br><hr>Sunday<br>8:00AM to 9:00AM | 05.2.23<br>05.2.23<br>05.2.23 | Zeina Rihawi<br>Zeina Rihawi<br>Zeina Rihawi | open (6-25) |
+| Lecture - Class 1900 -Section 1 | Tuesday<br>9:00AM to 10:00AM<br><hr>Thursday<br>9:00AM to 10:00AM<br><hr>Sunday<br>9:00AM to 10:00AM | 05.2.35<br>05.2.35<br>05.2.35 | Zeina Rihawi<br>Zeina Rihawi<br>Zeina Rihawi | closed (0-25) |
 
-## PHYS1021 General Physics Lab
+## AETN 2201
 
 | Class ID | Days and Times | Room | Instructor | Status |
-|----------|----------------|------|------------|--------|
-| Laboratory - Class 2530 -Section 1 | Tuesday<br>8:00AM to 11:00AM | 05.1.06 | Fasna Olikkal | open (15-18) |
-| Laboratory - Class 2533 -Section 4 | Tuesday<br>5:00PM to 8:00PM | 05.1.06 | Luka Tanasijin | open (13-18) |
-| Laboratory - Class 2534 -Section 5 | Sunday<br>5:00PM to 8:00PM | 05.1.06 | Luka Tanasijin | open (14-18) |
-| Laboratory - Class 2535 -Section 6 | Thursday<br>2:00PM to 5:00PM | 05.1.02 | Fasna Olikkal | open (6-18) |
-| Laboratory - Class 2536 -Section 7 | Wednesday<br>2:00PM to 5:00PM | 05.1.06 | Fasna Olikkal | open (8-18) |
-| Laboratory - Class 2537 -Section 8 | Monday<br>2:00PM to 5:00PM | 05.1.02 | Luka Tanasijin | open (6-18) |
-| Laboratory - Class 2538 -Section 9 | Monday<br>10:00AM to 1:00PM | 05.1.02 | Fasna Olikkal | open (2-18) |
-| Laboratory - Class 2539 -Section 10 | Wednesday<br>10:00AM to 1:00PM | 05.1.02 | Luka Tanasijin | open (8-18) |
-| Laboratory - Class 2540 -Section 11 | Tuesday<br>2:00PM to 5:00PM | 05.1.02 | Luka Tanasijin<br>Luka Tanasijin | open (15-18) |
-| Laboratory - Class 2541 -Section 12 | Tuesday<br>11:00AM to 2:00PM | 05.1.02 | Staff | open (16-18) |
-| Laboratory - Class 2543 -Section 14 | Thursday<br>11:00AM to 2:00PM | 05.1.06 | Luka Tanasijin<br>Luka Tanasijin<br>Luka Tanasijin<br>Luka Tanasijin | open (16-18) |
-| Laboratory - Class 2544 -Section 15 | Tuesday<br>2:00PM to 5:00PM | 05.1.06 | Fasna Olikkal | open (15-18) |
-| Laboratory - Class 2545 -Section 16 | Sunday<br>11:00AM to 2:00PM | 05.1.02 | Fasna Olikkal | open (9-18) |
-| Laboratory - Class 2547 -Section 18 | Sunday<br>8:00AM to 11:00AM | 05.1.06 | Staff | open (15-18) |
-| Laboratory - Class 2548 -Section 19 | Thursday<br>8:00AM to 11:00AM | 05.1.02 | Fasna Olikkal | open (5-18) |
-| Laboratory - Class 2551 -Section 22 | Sunday<br>2:00PM to 5:00PM | 05.1.02 | Fasna Olikkal<br>Fasna Olikkal<br>Fasna Olikkal | open (15-18) |
-| Laboratory - Class 2556 -Section 27 | Sunday<br>2:00PM to 5:00PM | 05.1.06 | Luka Tanasijin<br>Luka Tanasijin<br>Luka Tanasijin | open (18-18) |
+|---|---|---|---|---|
+| Laboratory - Class 1912 -Section 9 | Sunday<br>4:00PM to 6:00PM | 09.2.72 | Yasen Abdullahi Harrye | open (1-15) |
+| Laboratory - Class 1906 -Section 3 | Wednesday<br>8:00AM to 10:00AM | 09.2.72 | Muhammad Sheikh | closed (0-15) |
+| Laboratory - Class 1905 -Section 2 | Monday<br>9:00AM to 11:00AM | 09.2.72 | Yasen Abdullahi Harrye | closed (0-15) |
+| Laboratory - Class 1908 -Section 5 | Sunday<br>10:00AM to 12:00PM | 09.2.72 | Muhammad Sheikh | closed (0-15) |
+| Laboratory - Class 1907 -Section 4 | Monday<br>11:00AM to 1:00PM | 09.2.72 | Yasen Abdullahi Harrye | closed (0-15) |
 
 ## AETN 1112 Digital Electronics
 
@@ -111,12 +66,9 @@ Recommendations:
 
 ## MATH 2010 Calculus II 
 
-| Class ID                             | Days and Times                                              | Room                    | Instructor     | Status         |
-|--------------------------------------|--------------------------------------------------------------|-------------------------|----------------|----------------|
-| LecTheatre - Class 2504 -Section 1 <br>Lecture - Class 2505 -Section 2 | Sunday<br>11:00AM - 12:30PM<br><hr>Tuesday<br>2:00PM - 3:30PM<br><hr> | 01.1.04<br>05.2.60       | Ramzan Ali<br>Ramzan Ali | open (40-90)<br>open (18-30) |
-| LecTheatre - Class 2504 -Section 1 <br>Lecture - Class 2506 -Section 3 | Sunday<br>11:00AM - 12:30PM<br><hr>Tuesday<br>9:30AM - 11:00AM<br><hr> | 01.1.04<br>05.2.43       | Ramzan Ali<br>Ramzan Ali | open (40-90)<br>open (22-30) |
-| LecTheatre - Class 2508 -Section 5 <br>Lecture - Class 2509 -Section 6 | Sunday<br>12:30PM - 2:00PM<br><hr>Wednesday<br>8:00AM - 9:30AM<br><hr> | 01.1.04<br>05.2.60       | Staff<br>Staff           | open (80-90)<br>open (29-30) |
-| LecTheatre - Class 2508 -Section 5 <br>Lecture - Class 2510 -Section 7 | Sunday<br>12:30PM - 2:00PM<br><hr>Wednesday<br>2:00PM - 3:30PM<br><hr> | 01.1.04<br>05.2.36       | Staff<br>Staff           | open (80-90)<br>open (24-30) |
-| LecTheatre - Class 2508 -Section 5 <br>Lecture - Class 2511 -Section 8 | Sunday<br>12:30PM - 2:00PM<br><hr>Wednesday<br>9:30AM - 11:00AM<br><hr> | 01.1.04<br>05.1.51       | Staff<br>Staff           | open (80-90)<br>open (27-30) |
-| LecTheatre - Class 2512 -Section 9 <br>Lecture - Class 2513 -Section 10 | Sunday<br>5:00PM - 6:30PM<br><hr>Wednesday<br>5:00PM - 6:30PM<br><hr>  | 01.1.04<br>05.2.43       | Staff<br>Staff           | open (75-90)<br>open (15-30) |
-| LecTheatre - Class 2504 -Section 1 <br>Lecture - Class 2507 -Section 4 | Sunday<br>11:00AM - 12:30PM<br><hr>Tuesday<br>11:00AM - 12:30PM<br><hr> | 01.1.04<br>05.2.24       | Ramzan Ali<br>Ramzan Ali | open (40-90)<br>closed       |
+| Class ID | Days and Times | Room | Instructor | Status |
+|---|---|---|---|---|
+| LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2509 -Section 6 | Sunday<br>12:30PM to 2:00PM<hr>Wednesday<br>8:00AM to 9:30AM | 01.1.04<br>05.2.60 | Staff<br>Staff | open (38-90)<br>open (24-30) |
+| LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2511 -Section 8 | Sunday<br>12:30PM to 2:00PM<hr>Wednesday<br>9:30AM to 11:00AM | 01.1.04<br>05.1.51 | Staff<br>Staff | open (38-90)<br>open (14-30) |
+| LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2514 -Section 11 | Sunday<br>5:00PM to 6:30PM<hr>Wednesday<br>3:30PM to 5:00PM | 01.1.04<br>05.2.24 | Staff<br>Staff | open (45-90)<br>open (30-30) |
+| LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2515 -Section 12 | Sunday<br>5:00PM to 6:30PM<hr>Wednesday<br>2:00PM to 3:30PM | 01.1.04<br>05.1.56 | Staff<br>Staff | open (45-90)<br>open (15-30) |
