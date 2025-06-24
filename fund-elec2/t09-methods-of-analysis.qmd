@@ -17,48 +17,57 @@ Same as in DC with impedance used in place of resistance
 
 ## Mesh Analysis
 
+### Math
+
+For
+
+$$
+\begin{aligned}
+a_1 I_1 + b_1 I_2 &= c_1 \\
+a_2 I_1 + b_2 I_2 &= c_2
+\end{aligned}
+$$
+
+we use Cramer's Rule:
+
+$$
+\begin{aligned}
+I_1 &= \frac{
+    \begin{vmatrix}
+        c_1 & b_1 \\
+        c_2 & b_2
+    \end{vmatrix}
+}{
+    \begin{vmatrix}
+        a_1 & b_1 \\
+        a_2 & b_2
+    \end{vmatrix}
+} \\
+I_2 &= \frac{
+    \begin{vmatrix}
+        a_1 & c_1 \\
+        a_2 & c_2
+    \end{vmatrix}
+}{
+    \begin{vmatrix}
+        a_1 & b_1 \\
+        a_2 & b_2
+    \end{vmatrix}
+}
+\end{aligned}
+$$
+
 ### General Approach
+
+:::{.callout-warning}
+This section is incomplete
+:::
 
 Depending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows: 
 
-<img src="t09-methods-of-analysis-img/circuit-polarity.png" width=300 alt="circuit-polarity.png">
-
-For 
-$$
-\begin{array}
-a_1 I_1 + b_1 I_2 &= c_1 \\
-a_1 I_1+ b_2 I_2 &= c_2 \\
-\end{array}
-$$
-
-$$
-\begin{align*}
-I_1 = \frac{
-    \begin{matrix}
-        c_1 & b_1 
-        c_2 & b_2
-    \end{matrix}
-    }{
-    \begin{matrix}
-        a_1 & b_1 
-        a_2 & b_2
-    \end{matrix}
-    } \\
-I_2 = \frac{
-    \begin{matrix}
-        a_1 & c_1
-        a_2 & c_2
-    \end{matrix}
-    }{
-    \begin{matrix}
-        a_1 & b_1 
-        a_2 & b_2
-    \end{matrix}
-    }
-\end{align*}
-$$
-
-<img src="t09-methods-of-analysis-img/circuit-polarity.png" width=300 alt="circuit-polarity.png">
+:::{.centre}
+![circuit-polarity](t09-methods-of-analysis-img/circuit-polarity.png){#circuit-polarity width=300}
+:::
 
 Here, as per KVL:
 
@@ -76,25 +85,36 @@ Now you have your equations, assign theme
 
 ### Format Approach
 
+Depending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows: 
+
+:::{.centre}
+![circuit-polarity](t09-methods-of-analysis-img/circuit-polarity.png){#circuit-polarity width=300}
+:::
+
 For loop 1:
 
-$I_1 [~\sum Z_x\text{(in loop 1)}~] - I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum E_x \text{(The polarity of voltages here are the opposite of the original polarity)}~]$
+$I_1 [~\sum Z_x\text{(in loop 1)}~] - I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]$
 
 For loop 2:
 
-$- I_1 [~\sum Z_x\text{(in loop 1)}~] + I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum E_x \text{(The polarity of voltages here are the opposite of the original polarity)}~]$
+$- I_1 [~\sum Z_x\text{(in loop 1)}~] + I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]$
 
 ## Nodal Analysis
 
 ### Format Approach
-
-As per KCL:
 
 - In node 1:
 
 $$
 V_1 \cdot \sum \frac{1}{Z_x} \text{ (impedances of } V_1 \text{)}
 - V_2 \cdot \sum \frac{1}{Z_x} \text{ (impedances common to } V_1 \text{ and } V_2 \text{)}
-= \pm \sum \frac{E_x}{Z_x} \text{ (polarity depends on direction of current)}
+= \sum \pm \frac{E_x}{Z_x} \text{ (polarity depends on direction of current)}
 $$
 
+- In node 2:
+
+$$
+- V_1 \cdot \sum \frac{1}{Z_x} \text{ ((impedances common to } V_2 \text{ and } V_1 \text{)}
++ V_2 \cdot \sum \frac{1}{Z_x} \text{ (impedances of } V_2 \text{)}
+= \sum \pm \frac{E_x}{Z_x} \text{ (polarity depends on direction of current)}
+$$

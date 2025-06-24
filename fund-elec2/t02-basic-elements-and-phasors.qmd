@@ -17,14 +17,14 @@ Phase differences between $V$ & $I$ wrt $V$:
 
 **Impedance**
 
-<img src="images/impedance.png" alt="image" width="300"/>
+![Impedance diagram](images/impedance.png){width=300px}
 
 > **&#9432; Note** <br>
 > Here, the angle of $X_C$ is wrong. It's actually $-90^\circ$.
 
 **Phasor representation:**
 
-<img src="images/phasor.png" alt="image" width="300"/>
+![Phasor diagram](images/phasor.png){width=300px}
 
 **Time domain representation:**
 
