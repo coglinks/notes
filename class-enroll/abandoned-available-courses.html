@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3. Series AC Circuits – My Notes</title>
+<title>abandoned-available-courses – My Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../fund-elec2/t04-parallel-ac-circuits.html" rel="next">
-<link href="../fund-elec2/t02-basic-elements-and-phasors.html" rel="prev">
+<link href="../class-enroll/available-courses.html" rel="next">
+<link href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -74,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -286,7 +257,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fund-elec2/index.html">Fund. Elec. II</a></li><li class="breadcrumb-item"><a href="../fund-elec2/t03-series-ac-circuits.html">3. Series AC Circuits</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../class-enroll/abandoned-available-courses.html">course list</a></li><li class="breadcrumb-item"><a href="../class-enroll/abandoned-available-courses.html">COMM1020</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -399,7 +370,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link active">
+  <a href="../fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">3. Series AC Circuits</span></a>
   </div>
 </li>
@@ -464,7 +435,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../class-enroll/abandoned-available-courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../class-enroll/abandoned-available-courses.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">COMM1020</span></a>
   </div>
 </li>
@@ -492,214 +463,417 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#circuits" id="toc-circuits" class="nav-link active" data-scroll-target="#circuits">Circuits</a>
-  <ul class="collapse">
-  <li><a href="#resistors" id="toc-resistors" class="nav-link" data-scroll-target="#resistors">Resistors</a></li>
-  <li><a href="#inductors" id="toc-inductors" class="nav-link" data-scroll-target="#inductors">Inductors</a></li>
-  <li><a href="#capacitors" id="toc-capacitors" class="nav-link" data-scroll-target="#capacitors">Capacitors</a></li>
-  <li><a href="#impedence-diagram" id="toc-impedence-diagram" class="nav-link" data-scroll-target="#impedence-diagram">Impedence Diagram</a></li>
-  <li><a href="#series-ac-circuits-configurations" id="toc-series-ac-circuits-configurations" class="nav-link" data-scroll-target="#series-ac-circuits-configurations">Series ac Circuits (Configurations)</a></li>
-  <li><a href="#resonance" id="toc-resonance" class="nav-link" data-scroll-target="#resonance">Resonance</a></li>
-  <li><a href="#applying-the-general-approach-to-a-series-rlc-circuit" id="toc-applying-the-general-approach-to-a-series-rlc-circuit" class="nav-link" data-scroll-target="#applying-the-general-approach-to-a-series-rlc-circuit">Applying the general approach to a series RLC circuit</a></li>
-  </ul></li>
-  <li><a href="#frequency-response-for-series-ac-circuits" id="toc-frequency-response-for-series-ac-circuits" class="nav-link" data-scroll-target="#frequency-response-for-series-ac-circuits">Frequency Response for Series ac Circuits</a></li>
+  <li><a href="#comm1020" id="toc-comm1020" class="nav-link active" data-scroll-target="#comm1020">COMM1020</a></li>
+  <li><a href="#phys1020-general-physics" id="toc-phys1020-general-physics" class="nav-link" data-scroll-target="#phys1020-general-physics">PHYS1020 General Physics</a></li>
+  <li><a href="#phys1021-general-physics-lab" id="toc-phys1021-general-physics-lab" class="nav-link" data-scroll-target="#phys1021-general-physics-lab">PHYS1021 General Physics Lab</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fund-elec2/index.html">Fund. Elec. II</a></li><li class="breadcrumb-item"><a href="../fund-elec2/t03-series-ac-circuits.html">3. Series AC Circuits</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">3. Series AC Circuits</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../class-enroll/abandoned-available-courses.html">course list</a></li><li class="breadcrumb-item"><a href="../class-enroll/abandoned-available-courses.html">COMM1020</a></li></ol></nav></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="circuits" class="level2">
-<h2 class="anchored" data-anchor-id="circuits">Circuits</h2>
-<p>In a series circuit, in place of <span class="math inline">\(R\)</span>, we use <span class="math inline">\(Z\)</span>: - <span class="math inline">\(Z_T = Z_1 + Z_2 + Z_3 \dots\)</span></p>
-<section id="resistors" class="level3">
-<h3 class="anchored" data-anchor-id="resistors">Resistors</h3>
-<p>For a circuit with a resistor and ac source: - <span class="math inline">\(i = I \sin \omega t = I \angle 0^\circ, \text{ where } I = I_m\)</span> - <span class="math inline">\(Z = R \angle 0^\circ\)</span></p>
-</section>
-<section id="inductors" class="level3">
-<h3 class="anchored" data-anchor-id="inductors">Inductors</h3>
-<p>For a circuit with an inductor and an AC source: - <span class="math inline">\(i = I_m \sin (\omega t -90^\circ) = I\angle -90^\circ\)</span>, when <span class="math inline">\(v = V \angle 0^\circ\)</span> - <span class="math inline">\(v = V\angle 90^\circ\)</span>, when <span class="math inline">\(i = I \angle 0^\circ\)</span> - <span class="math inline">\(Z = X_L \angle 90^\circ\)</span></p>
-</section>
-<section id="capacitors" class="level3">
-<h3 class="anchored">Capacitors</h3>
-<p>For a circuit with a capacitor and an AC source:</p>
-<ul>
-<li><span class="math inline">\(i = I_m \sin (\omega t + 90^\circ) = I\angle 90^\circ\)</span>, when <span class="math inline">\(v = V \angle 0^\circ\)</span></li>
-<li><span class="math inline">\(v = V\angle -90^\circ\)</span>, when <span class="math inline">\(i = I \angle 0^\circ\)</span></li>
-<li><h2 id="z-x_c-angle--90circ" class="anchored" data-anchor-id="capacitors"><span class="math inline">\(Z = X_C \angle -90^\circ\)</span></h2>
-<hr>
-<h2 id="rlc-circuit" class="anchored">RLC circuit</h2></li>
-</ul>
-<p>In an <span class="math inline">\(RLC\)</span> circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.</p>
-</section>
-<section id="impedence-diagram" class="level3">
-<h3 class="anchored" data-anchor-id="impedence-diagram">Impedence Diagram</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-1.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
 <blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> <span class="math inline">\(Z_C \neq X_C\angle90^\circ\)</span> <br> <span class="math inline">\(Z_C = X_C\angle-90^\circ\)</span></p>
+<p>Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good</p>
 </blockquote>
-<p>For any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.</p>
+<section id="comm1020" class="level2">
+<h2 class="anchored" data-anchor-id="comm1020">COMM1020</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 45%">
+<col style="width: 11%">
+<col style="width: 9%">
+<col style="width: 12%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Network</th>
-<th><span class="math inline">\(\theta_{Z_T}\)</span></th>
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Inductive</td>
-<td><span class="math inline">\(+ve\)</span></td>
+<td>LecTheatre - Class 2196 -Section 1<br>Lecture - Class 2197 -Section 2</td>
+<td>Wednesday<br>12:00PM–1:00PM</td>
+<td>01.2.08<br>10.2.01</td>
+<td>Andrea Comeau</td>
+<td>open (118-120)<br>open (30-30)</td>
 </tr>
 <tr class="even">
-<td>Capacitive</td>
-<td><span class="math inline">\(-ve\)</span></td>
+<td>LecTheatre - Class 2196 -Section 1<br>Lecture - Class 2198 -Section 3</td>
+<td>Wednesday<br>12:00PM–1:00PM</td>
+<td>01.2.08<br>12.2.13</td>
+<td>Andrea Comeau</td>
+<td>open (118-120)<br>open (22-24)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2196 -Section 1<br>Lecture - Class 2199 -Section 4</td>
+<td>Wednesday<br>12:00PM–1:00PM</td>
+<td>01.2.08<br>10.2.05</td>
+<td>Andrea Comeau</td>
+<td>open (118-120)<br>open (30-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2196 -Section 1<br>Lecture - Class 2200 -Section 5</td>
+<td>Wednesday<br>12:00PM–1:00PM</td>
+<td>01.2.08<br>10.2.05</td>
+<td>Andrea Comeau</td>
+<td>open (118-120)<br>open (30-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2201 -Section 6<br>Lecture - Class 2205 -Section 10</td>
+<td>Sunday<br>6:00PM–7:00PM</td>
+<td>01.1.06<br>10.2.06</td>
+<td>Ridha Ben Rejeb</td>
+<td>open (111-120)<br>open (28-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2201 -Section 6<br>Lecture - Class 2202 -Section 7</td>
+<td>Sunday<br>6:00PM–7:00PM</td>
+<td>01.1.06<br>12.2.10</td>
+<td>Ridha Ben Rejeb</td>
+<td>open (111-120)<br>open (30-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2201 -Section 6<br>Lecture - Class 2203 -Section 8</td>
+<td>Sunday<br>6:00PM–7:00PM</td>
+<td>01.1.06<br>05.2.26</td>
+<td>Ridha Ben Rejeb</td>
+<td>open (111-120)<br>open (26-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2201 -Section 6<br>Lecture - Class 2204 -Section 9</td>
+<td>Sunday<br>6:00PM–7:00PM</td>
+<td>01.1.06<br>12.1.03</td>
+<td>Ridha Ben Rejeb</td>
+<td>open (111-120)<br>open (27-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2210 -Section 15<br>Lecture - Class 2211 -Section 16</td>
+<td>Monday<br>12:00PM–1:00PM</td>
+<td>01.1.06<br>12.2.10</td>
+<td>Irum Naz</td>
+<td>open (87-90)<br>open (29-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2210 -Section 15<br>Lecture - Class 2212 -Section 17</td>
+<td>Monday<br>12:00PM–1:00PM</td>
+<td>01.1.06<br>10.1.31</td>
+<td>Irum Naz</td>
+<td>open (87-90)<br>open (30-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2210 -Section 15<br>Lecture - Class 2213 -Section 18</td>
+<td>Monday<br>12:00PM–1:00PM</td>
+<td>01.1.06<br>10.1.31</td>
+<td>Irum Naz</td>
+<td>open (87-90)<br>open (28-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2214 -Section 19<br>Lecture - Class 2216 -Section 21</td>
+<td>Tuesday<br>2:00PM–3:00PM</td>
+<td>01.1.06<br>05.1.66</td>
+<td>Cristina Fabretto</td>
+<td>open (117-120)<br>open (30-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2214 -Section 19<br>Lecture - Class 2217 -Section 22</td>
+<td>Tuesday<br>2:00PM–3:00PM</td>
+<td>01.1.06<br>10.2.01</td>
+<td>Cristina Fabretto</td>
+<td>open (117-120)<br>open (29-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2214 -Section 19<br>Lecture - Class 2218 -Section 23</td>
+<td>Tuesday<br>2:00PM–3:00PM</td>
+<td>01.1.06<br>05.1.38</td>
+<td>Cristina Fabretto</td>
+<td>open (117-120)<br>open (28-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2219 -Section 24<br>Lecture - Class 2220 -Section 25</td>
+<td>Monday<br>4:00PM–5:00PM</td>
+<td>05.2.44<br>10.2.06</td>
+<td>Shawn Ramsey</td>
+<td>open (53-58)<br>open (25-29)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2219 -Section 24<br>Lecture - Class 2221 -Section 26</td>
+<td>Monday<br>4:00PM–5:00PM</td>
+<td>05.2.44<br>10.2.06</td>
+<td>Shawn Ramsey</td>
+<td>open (53-58)<br>open (28-29)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2226 -Section 31<br>Lecture - Class 2227 -Section 32</td>
+<td>Tuesday<br>4:00PM–5:00PM</td>
+<td>12.1.08<br>12.1.03</td>
+<td>Irum Naz</td>
+<td>open (60-60)<br>open (30-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2226 -Section 31<br>Lecture - Class 2228 -Section 33</td>
+<td>Tuesday<br>4:00PM–5:00PM</td>
+<td>12.1.08<br>05.2.25</td>
+<td>Irum Naz</td>
+<td>open (60-60)<br>open (30-30)</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="series-ac-circuits-configurations" class="level3">
-<h3 class="anchored" data-anchor-id="series-ac-circuits-configurations">Series ac Circuits (Configurations)</h3>
-<p>Impedances behave like resistors in series. <span class="math display">\[Z_T = \sum Z_n\]</span></p>
-<p>Calculating in complex mode (recommended to use):</p>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> In all places, angles are required in equations except in avg power formula (<span class="math inline">\(P=VI\cos\theta\)</span>). <br> Each attribute has its own angle except avg power</p>
-</blockquote>
+<section id="phys1020-general-physics" class="level2">
+<h2 class="anchored" data-anchor-id="phys1020-general-physics">PHYS1020 General Physics</h2>
+<p>Recommendations: - Feras Alzubi - AETN 1102</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PHYS 1020 - Lecture - Class 2516 -Section 1</td>
+<td>Tuesday 8:00AM to 9:00AM<br>Thursday 8:00AM to 9:00AM<br>Sunday 8:00AM to 9:00AM</td>
+<td>12.2.10<br>12.2.10<br>12.2.10</td>
+<td>Feras Alzubi</td>
+<td>open (26-40)</td>
+</tr>
+<tr class="even">
+<td>PHYS 1020 - Lecture - Class 2517 -Section 2</td>
+<td>Tuesday 11:00AM to 12:00PM<br>Thursday 11:00AM to 12:00PM<br>Sunday 11:00AM to 12:00PM</td>
+<td>12.2.10<br>12.2.10<br>12.2.10</td>
+<td>Feras Alzubi</td>
+<td>open (22-40)</td>
+</tr>
+<tr class="odd">
+<td>PHYS 1020 - Lecture - Class 2519 -Section 4</td>
+<td>Tuesday 2:00PM to 3:00PM<br>Thursday 2:00PM to 3:00PM<br>Sunday 2:00PM to 3:00PM</td>
+<td>05.2.44<br>05.2.44<br>05.2.44</td>
+<td>Kerry Suek</td>
+<td>open (26-40)</td>
+</tr>
+<tr class="even">
+<td>PHYS 1020 - Lecture - Class 2520 -Section 5</td>
+<td>Tuesday 11:00AM to 12:00PM<br>Thursday 11:00AM to 12:00PM<br>Sunday 11:00AM to 12:00PM</td>
+<td>05.2.55<br>05.2.55<br>05.2.55</td>
+<td>Kerry Suek</td>
+<td>open (35-40)</td>
+</tr>
+<tr class="odd">
+<td>PHYS 1020 - Lecture - Class 2521 -Section 6</td>
+<td>Monday 2:00PM to 3:30PM<br>Wednesday 2:00PM to 3:30PM</td>
+<td>12.2.20<br>12.2.20</td>
+<td>Feras Alzubi</td>
+<td>open (18-40)</td>
+</tr>
+<tr class="even">
+<td>PHYS 1020 - Lecture - Class 2522 -Section 7</td>
+<td>Tuesday 10:00AM to 11:00AM<br>Thursday 10:00AM to 11:00AM<br>Sunday 10:00AM to 11:00AM</td>
+<td>12.1.08<br>12.1.08<br>12.1.08</td>
+<td>Eyad Omair</td>
+<td>open (35-40)</td>
+</tr>
+<tr class="odd">
+<td>PHYS 1020 - Lecture - Class 2523 -Section 8</td>
+<td>Tuesday 8:00AM to 9:00AM<br>Thursday 8:00AM to 9:00AM<br>Sunday 8:00AM to 9:00AM</td>
+<td>20.2.51A<br>20.2.51A<br>20.2.51A</td>
+<td>Eyad Omair</td>
+<td>open (39-40)</td>
+</tr>
+<tr class="even">
+<td>PHYS 1020 - Lecture - Class 2524 -Section 9</td>
+<td>Tuesday 11:00AM to 12:00PM<br>Thursday 11:00AM to 12:00PM<br>Sunday 11:00AM to 12:00PM</td>
+<td>20.2.51A<br>20.2.51A<br>20.2.51A</td>
+<td>Eyad Omair</td>
+<td>open (40-40)</td>
+</tr>
+<tr class="odd">
+<td>PHYS 1020 - Lecture - Class 2527 -Section 12</td>
+<td>Monday 11:00AM to 12:30PM<br>Wednesday 11:00AM to 12:30PM</td>
+<td>05.1.30<br>05.1.30</td>
+<td>Kerry Suek</td>
+<td>open (27-40)</td>
+</tr>
+<tr class="even">
+<td>PHYS 1020 - Lecture - Class 2528 -Section 13</td>
+<td>Tuesday 4:00PM to 5:00PM<br>Thursday 4:00PM to 5:00PM<br>Sunday 4:00PM to 5:00PM</td>
+<td>05.1.48<br>05.1.48<br>05.1.48</td>
+<td>Kerry Suek</td>
+<td>open (26-40)</td>
+</tr>
+<tr class="odd">
+<td>PHYS 1020 - Lecture - Class 2529 -Section 14</td>
+<td>Monday 3:30PM to 5:00PM<br>Wednesday 3:30PM to 5:00PM</td>
+<td>20.2.51A<br>20.2.51A</td>
+<td>Kerry Suek</td>
+<td>open (35-40)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="phys1021-general-physics-lab" class="level2">
+<h2 class="anchored" data-anchor-id="phys1021-general-physics-lab">PHYS1021 General Physics Lab</h2>
+<p>Absolutely avoid:</p>
 <ul>
-<li><p>Polar notation <span class="math display">\[
-\begin{align*}
-  E &amp;= I \cdot Z_T \\
-  I &amp;= \frac{E}{Z_T} \\
-  V_{Z_x} &amp;= I_T \cdot Z_x \\
-  I_{Z_x} &amp;= I \\
-\end{align*}
-\]</span></p></li>
-<li><p>Rectangular notation</p></li>
+<li>Luka Tanasijin</li>
 </ul>
-<p><span class="math display">\[
-\begin{align*}
-    Z &amp;= R+j(X_L-X_C) \\
-\end{align*}
-\]</span></p>
-<p>Calculating in non-complex mode (not recommended to use):</p>
-<p><span class="math display">\[
-\begin{align*}
-    Z &amp;= \sqrt{R^2+X} \\
-    X &amp;= X_L-X_C\\
-    \theta &amp;= \tan^{-1} \frac{X}{R} \\
-\end{align*}
-\]</span></p>
-<p>Calculations that are complex independant:</p>
-<p><span class="math inline">\(P=EI\cos\theta\)</span></p>
-<section id="voltage-divider-rule" class="level4">
-<h4 class="anchored" data-anchor-id="voltage-divider-rule">Voltage Divider Rule</h4>
-<p><span class="math inline">\(V_x = \dfrac{E}{Z_T}Z_x\)</span></p>
-<details>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> Basically, this is Ohm’s law. The only change is that <span class="math inline">\(I\)</span> has been expanded</p>
-</blockquote>
-<p><span class="math inline">\(V_x = I \cdot Z_x = \dfrac{E}{Z_T}Z_x\)</span></p>
-</details>
-</section>
-<section id="kirchoffs-voltage-law" class="level4">
-<h4 class="anchored" data-anchor-id="kirchoffs-voltage-law">Kirchoff’s Voltage Law</h4>
-<p>The sum of the input voltages and voltage drops in a closed loop is zero</p>
-</section>
-</section>
-<section id="resonance" class="level3">
-<h3 class="anchored" data-anchor-id="resonance">Resonance</h3>
-<p>Condition for resonance:</p>
-<p><span class="math display">\[X_L = X_C\]</span></p>
-<p>Frequency:</p>
-<p><span class="math display">\[f = \frac{1}{2\pi\sqrt{LC}}\]</span></p>
-<p>Derivation for <span class="math inline">\(f\)</span></p>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> This is very simple, use when you forget the formula for <span class="math inline">\(f\)</span>, all you need to remember is the condition for resonace.</p>
-</blockquote>
-<p><span class="math display">\[
-\begin{align*}
-    X_L &amp;= X_C \\
-    \omega L &amp;= \frac{1}{\omega C} \\
-    2\pi fL &amp;= \frac{1}{2\pi fC} \\
-    f^2 &amp;= \frac{1}{(2\pi)^2LC} \\
-    f&amp; = \frac{1}{2\pi\sqrt{LC}} \\
-\end{align*}
-\]</span></p>
-</section>
-<section id="applying-the-general-approach-to-a-series-rlc-circuit" class="level3">
-<h3 class="anchored" data-anchor-id="applying-the-general-approach-to-a-series-rlc-circuit">Applying the general approach to a series RLC circuit</h3>
-<ul>
-<li>Apply the phasor notation</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-2.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
-<ul>
-<li><p>Calculate the total impedance of the circuit</p>
-<ul>
-<li><span class="math inline">\(Z_T = Z_R + Z_L + Z_C\)</span></li>
-</ul></li>
-<li><p>Draw: Impedance diagram</p></li>
-<li><p>Determine the total current</p>
-<ul>
-<li><span class="math inline">\(I = \dfrac{E}{Z_T}\)</span></li>
-</ul></li>
-<li><p>Find the voltage across each element</p>
-<ul>
-<li><span class="math inline">\(V_R = IZ_R = (I\angle\theta)(R\angle 0^\circ)\)</span></li>
-<li><span class="math inline">\(V_L = IZ_L = (I\angle\theta)(X_L\angle 90^\circ)\)</span></li>
-<li><span class="math inline">\(V_C = IZ_C = (I\angle\theta)(X_C\angle -90^\circ)\)</span></li>
-</ul></li>
-<li><p>Apply Kirchoff’s voltage law <span class="math inline">\(\sum V = E-V_R-V_L-V_C = 0 \text{ or } E = V_R+V_L+V_C\)</span>, verified through phasor diagram</p></li>
-<li><p>Draw the phasor diagram</p></li>
-<li><p>Determine the power to the circuit</p>
-<ul>
-<li><span class="math inline">\(P=V_mI_m\cos\theta\)</span></li>
-</ul></li>
-<li><p>Calculate the power factor</p>
-<ul>
-<li><span class="math inline">\(F_p = \cos \theta_T = \dfrac{R}{Z_T}\)</span></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="frequency-response-for-series-ac-circuits" class="level2">
-<h2 class="anchored" data-anchor-id="frequency-response-for-series-ac-circuits">Frequency Response for Series ac Circuits</h2>
-<p>In a series R-L-C circuit: - At very low frequencies, the total impedance will be determined primarily by the capacitor (C). - At very high frequencies, the total impedance will be determined primarily by the inductor (L).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-4.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 30%">
+<col style="width: 11%">
+<col style="width: 23%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Laboratory - Class 2530 -Section 1</td>
+<td>Tuesday<br>8:00AM to 11:00AM</td>
+<td>05.1.06</td>
+<td>Fasna Olikkal</td>
+<td>open (15-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2533 -Section 4</td>
+<td>Tuesday<br>5:00PM to 8:00PM</td>
+<td>05.1.06</td>
+<td>Luka Tanasijin</td>
+<td>open (13-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2534 -Section 5</td>
+<td>Sunday<br>5:00PM to 8:00PM</td>
+<td>05.1.06</td>
+<td>Luka Tanasijin</td>
+<td>open (14-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2535 -Section 6</td>
+<td>Thursday<br>2:00PM to 5:00PM</td>
+<td>05.1.02</td>
+<td>Fasna Olikkal</td>
+<td>open (6-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2536 -Section 7</td>
+<td>Wednesday<br>2:00PM to 5:00PM</td>
+<td>05.1.06</td>
+<td>Fasna Olikkal</td>
+<td>open (8-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2537 -Section 8</td>
+<td>Monday<br>2:00PM to 5:00PM</td>
+<td>05.1.02</td>
+<td>Luka Tanasijin</td>
+<td>open (6-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2538 -Section 9</td>
+<td>Monday<br>10:00AM to 1:00PM</td>
+<td>05.1.02</td>
+<td>Fasna Olikkal</td>
+<td>open (2-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2539 -Section 10</td>
+<td>Wednesday<br>10:00AM to 1:00PM</td>
+<td>05.1.02</td>
+<td>Luka Tanasijin</td>
+<td>open (8-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2540 -Section 11</td>
+<td>Tuesday<br>2:00PM to 5:00PM</td>
+<td>05.1.02</td>
+<td>Luka Tanasijin<br>Luka Tanasijin</td>
+<td>open (15-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2541 -Section 12</td>
+<td>Tuesday<br>11:00AM to 2:00PM</td>
+<td>05.1.02</td>
+<td>Staff</td>
+<td>open (16-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2543 -Section 14</td>
+<td>Thursday<br>11:00AM to 2:00PM</td>
+<td>05.1.06</td>
+<td>Luka Tanasijin<br>Luka Tanasijin<br>Luka Tanasijin<br>Luka Tanasijin</td>
+<td>open (16-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2544 -Section 15</td>
+<td>Tuesday<br>2:00PM to 5:00PM</td>
+<td>05.1.06</td>
+<td>Fasna Olikkal</td>
+<td>open (15-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2545 -Section 16</td>
+<td>Sunday<br>11:00AM to 2:00PM</td>
+<td>05.1.02</td>
+<td>Fasna Olikkal</td>
+<td>open (9-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2547 -Section 18</td>
+<td>Sunday<br>8:00AM to 11:00AM</td>
+<td>05.1.06</td>
+<td>Staff</td>
+<td>open (15-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2548 -Section 19</td>
+<td>Thursday<br>8:00AM to 11:00AM</td>
+<td>05.1.02</td>
+<td>Fasna Olikkal</td>
+<td>open (5-18)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 2551 -Section 22</td>
+<td>Sunday<br>2:00PM to 5:00PM</td>
+<td>05.1.02</td>
+<td>Fasna Olikkal<br>Fasna Olikkal<br>Fasna Olikkal</td>
+<td>open (15-18)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 2556 -Section 27</td>
+<td>Sunday<br>2:00PM to 5:00PM</td>
+<td>05.1.06</td>
+<td>Luka Tanasijin<br>Luka Tanasijin<br>Luka Tanasijin</td>
+<td>open (18-18)</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
@@ -1119,13 +1293,13 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../fund-elec2/t02-basic-elements-and-phasors.html" class="pagination-link" aria-label="2. Basic Elements and Phasors">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">2. Basic Elements and Phasors</span>
+      <a href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" class="pagination-link" aria-label="Introduction to Magnetic Circuits and Transformers">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction to Magnetic Circuits and Transformers</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../fund-elec2/t04-parallel-ac-circuits.html" class="pagination-link" aria-label="4. Parallel AC Circuits">
-        <span class="nav-page-text">4. Parallel AC Circuits</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../class-enroll/available-courses.html" class="pagination-link" aria-label="AETN2221 Analog &amp; Digital Communication (Lab)">
+        <span class="nav-page-text">AETN2221 Analog &amp; Digital Communication (Lab)</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

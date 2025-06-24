@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "general.html",
+    "href": "general.html",
+    "title": "Random Non-Degree Stuff",
+    "section": "",
+    "text": "A general approach to studying\n\n\n\n\n\nAn approach to memorizing math formulas"
+  },
+  {
+    "objectID": "general.html#studying-approches",
+    "href": "general.html#studying-approches",
+    "title": "Random Non-Degree Stuff",
+    "section": "",
+    "text": "A general approach to studying\n\n\n\n\n\nAn approach to memorizing math formulas"
+  },
+  {
+    "objectID": "general.html#the-psych",
+    "href": "general.html#the-psych",
+    "title": "Random Non-Degree Stuff",
+    "section": "The Psych",
+    "text": "The Psych\n\n\n\nA simple trap"
+  },
+  {
     "objectID": "fund-elec2/t10-network-theorems-ac.html",
     "href": "fund-elec2/t10-network-theorems-ac.html",
     "title": "10. Network Theorems (AC)",
     "section": "",
-    "text": "Same as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.",
+    "text": "Superposition theorem\n\n\n\n\nFor a circuit with multiple sources, the current in one branch is the sum of specific source currents\n\n\n\nThe specific source current is found by:\n\nKeep only one source on and turn the rest off\nFind the current in the subject branch\n\n\n\n\n\n\n\nNote\n\n\n\nThe current direction taken in a circuit is independant of the directions taken in the other circuits\nThe current direction should be taken wrt the polarity of the voltage source\nIf a \\(\\vec{I}\\) is negative, that means the actual current direction is opposite the direction taken in \\(\\vec{I}\\) with the same magnitude\n\n\nSame as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.",
     "crumbs": [
       "Fund. Elec. II",
       "10. Network Theorems (AC)"
@@ -15,7 +36,7 @@
     "href": "fund-elec2/t10-network-theorems-ac.html#superposition-theorem",
     "title": "10. Network Theorems (AC)",
     "section": "",
-    "text": "Same as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.",
+    "text": "Superposition theorem\n\n\n\n\nFor a circuit with multiple sources, the current in one branch is the sum of specific source currents\n\n\n\nThe specific source current is found by:\n\nKeep only one source on and turn the rest off\nFind the current in the subject branch\n\n\n\n\n\n\n\nNote\n\n\n\nThe current direction taken in a circuit is independant of the directions taken in the other circuits\nThe current direction should be taken wrt the polarity of the voltage source\nIf a \\(\\vec{I}\\) is negative, that means the actual current direction is opposite the direction taken in \\(\\vec{I}\\) with the same magnitude\n\n\nSame as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.",
     "crumbs": [
       "Fund. Elec. II",
       "10. Network Theorems (AC)"
@@ -26,7 +47,40 @@
     "href": "fund-elec2/t10-network-theorems-ac.html#thevenins-theorem",
     "title": "10. Network Theorems (AC)",
     "section": "Thevenin’s Theorem",
-    "text": "Thevenin’s Theorem\nSame as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.",
+    "text": "Thevenin’s Theorem\n\n\n\n\n\n\nThevenin’s theorem\n\n\n\n\nAny complex network can be replaced by a voltage source \\((E_{Th})\\) in series with an impedance \\((Z_{Th})\\)\n\n\n\nSame as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.\n\n\n\n\n\n\nNote\n\n\n\nMake sure the final equivalent circuit has it’s \\(Z_N\\) is in pure form. i.e., If \\(Z_N\\) is an impure impedance, convert it to its pure components.\n\n\n\n\nthevinins-circuit.png",
+    "crumbs": [
+      "Fund. Elec. II",
+      "10. Network Theorems (AC)"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t10-network-theorems-ac.html#nortons-theorem",
+    "href": "fund-elec2/t10-network-theorems-ac.html#nortons-theorem",
+    "title": "10. Network Theorems (AC)",
+    "section": "Norton’s Theorem",
+    "text": "Norton’s Theorem\n\n\n\n\n\n\nNorton’s theorem\n\n\n\n\nAny complex network can be replaced by a current source \\((I_{N})\\) in series with an impedance \\((Z_{N})\\)\n\n\n\nSame as DC, except AC voltage and impedance is used.\nUse of AC only changes the calculations and not the theory involved.\n\nMethod:\n\nRemove the load (it can be an impedance or a circuit) and mark the opened terminals as \\(a\\) and \\(b\\)\nTurn off all sources\nFind the \\(Z_N\\), same as \\(Z_{Th}\\)\nTurn on all sources\nShort the terminals \\(a\\) and \\(b\\)\nFind the \\(I_N\\) which is between the open terminals, \\(a\\) and \\(b\\)\n\n\n\n\n\n\n\nNote\n\n\n\nMake sure the final equivalent circuit has it’s \\(Z_N\\) is in pure form. i.e., If \\(Z_N\\) is an impure impedance, convert it to its pure components.\n\n\n\n\nnortons-theorem.png",
+    "crumbs": [
+      "Fund. Elec. II",
+      "10. Network Theorems (AC)"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t10-network-theorems-ac.html#thevinins-theorem-and-nortons-theorem",
+    "href": "fund-elec2/t10-network-theorems-ac.html#thevinins-theorem-and-nortons-theorem",
+    "title": "10. Network Theorems (AC)",
+    "section": "Thevinin’s Theorem and Norton’s Theorem",
+    "text": "Thevinin’s Theorem and Norton’s Theorem\nYou can interchange between Thevinin and Norton equivalent circuits by Ohm’s law.\n\n\n\n\nthevinin-norton-conv.png",
+    "crumbs": [
+      "Fund. Elec. II",
+      "10. Network Theorems (AC)"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t10-network-theorems-ac.html#maximum-power-transfer-theorem",
+    "href": "fund-elec2/t10-network-theorems-ac.html#maximum-power-transfer-theorem",
+    "title": "10. Network Theorems (AC)",
+    "section": "Maximum Power Transfer Theorem",
+    "text": "Maximum Power Transfer Theorem\nAt maximum power transfer, \\(Z_{Th}\\) is the conjugate of \\(Z_L\\)\nAt maximum power, the circuit is in resonance",
     "crumbs": [
       "Fund. Elec. II",
       "10. Network Theorems (AC)"
@@ -246,7 +300,7 @@
     "href": "fund-elec2/t02-basic-elements-and-phasors.html",
     "title": "2. Basic Elements and Phasors",
     "section": "",
-    "text": "Capacitors are added to decrease the current\nCapacitive Reactance , \\(X_C\\) - Unit: \\(\\Omega\\) - Formula: \\(X_C = \\dfrac{1}{\\omega C} = \\dfrac{1}{2\\pi fC}\\)\nPhase differences between \\(V\\) & \\(I\\) wrt \\(V\\): - \\(0^\\circ \\implies\\) Resistors - \\(-90^\\circ \\implies\\) Inductor - \\(+90^\\circ \\implies\\) Capacitor\nImpedance\n\n\nⓘ Note  Here, the angle of \\(X_C\\) is wrong. It’s actually \\(-90^\\circ\\).\n\nPhasor representation:\n\nTime domain representation:\n\n\n\nimage",
+    "text": "Capacitors are added to decrease the current\nCapacitive Reactance , \\(X_C\\) - Unit: \\(\\Omega\\) - Formula: \\(X_C = \\dfrac{1}{\\omega C} = \\dfrac{1}{2\\pi fC}\\)\nPhase differences between \\(V\\) & \\(I\\) wrt \\(V\\): - \\(0^\\circ \\implies\\) Resistors - \\(-90^\\circ \\implies\\) Inductor - \\(+90^\\circ \\implies\\) Capacitor\nImpedance\n\n\n\nImpedance diagram\n\n\n\nⓘ Note  Here, the angle of \\(X_C\\) is wrong. It’s actually \\(-90^\\circ\\).\n\nPhasor representation:\n\n\n\nPhasor diagram\n\n\nTime domain representation:\n\n\n\nimage",
     "crumbs": [
       "Fund. Elec. II",
       "2. Basic Elements and Phasors"
@@ -257,7 +311,7 @@
     "href": "fund-elec2/t02-basic-elements-and-phasors.html#capacitive-circuits",
     "title": "2. Basic Elements and Phasors",
     "section": "",
-    "text": "Capacitors are added to decrease the current\nCapacitive Reactance , \\(X_C\\) - Unit: \\(\\Omega\\) - Formula: \\(X_C = \\dfrac{1}{\\omega C} = \\dfrac{1}{2\\pi fC}\\)\nPhase differences between \\(V\\) & \\(I\\) wrt \\(V\\): - \\(0^\\circ \\implies\\) Resistors - \\(-90^\\circ \\implies\\) Inductor - \\(+90^\\circ \\implies\\) Capacitor\nImpedance\n\n\nⓘ Note  Here, the angle of \\(X_C\\) is wrong. It’s actually \\(-90^\\circ\\).\n\nPhasor representation:\n\nTime domain representation:\n\n\n\nimage",
+    "text": "Capacitors are added to decrease the current\nCapacitive Reactance , \\(X_C\\) - Unit: \\(\\Omega\\) - Formula: \\(X_C = \\dfrac{1}{\\omega C} = \\dfrac{1}{2\\pi fC}\\)\nPhase differences between \\(V\\) & \\(I\\) wrt \\(V\\): - \\(0^\\circ \\implies\\) Resistors - \\(-90^\\circ \\implies\\) Inductor - \\(+90^\\circ \\implies\\) Capacitor\nImpedance\n\n\n\nImpedance diagram\n\n\n\nⓘ Note  Here, the angle of \\(X_C\\) is wrong. It’s actually \\(-90^\\circ\\).\n\nPhasor representation:\n\n\n\nPhasor diagram\n\n\nTime domain representation:\n\n\n\nimage",
     "crumbs": [
       "Fund. Elec. II",
       "2. Basic Elements and Phasors"
@@ -312,7 +366,7 @@
     "href": "fund-elec2/doubts.html",
     "title": "Doubts",
     "section": "",
-    "text": "What does real power mean? How is it different from \\(Q,~P\\) and \\(S\\)?\nAns:  Real power stands for the power dissipated by the resistor.\nExplain: &gt;Impedance, like resistance or reactance, is not a phasor quantity representing a time-varying function with a particular phase shift. It is simply an operating tool that is extremely useful in determining the magnitude and angle of quantities in a sinusoidal ac network.\nAre output voltages the same as voltage drops?",
+    "text": "What does real power mean? How is it different from \\(Q,~P\\) and \\(S\\)?\nAns:  Real power stands for the power dissipated by the resistor.",
     "crumbs": [
       "Fund. Elec. II",
       "Doubts"
@@ -323,10 +377,197 @@
     "href": "fund-elec2/doubts.html#three-phase-systems",
     "title": "Doubts",
     "section": "three phase systems",
-    "text": "three phase systems\n\nIn a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?\nAns:  Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.\nCan resonance occur without resistance?\nAns:  Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits\nWhich is correct: \\(j5~\\Omega\\) or \\(5j~\\Omega\\)?\nAns:  \\(j5~\\Omega\\)\nHow to solve:\n\n\n\n\n\nq4-a-vs-f.png",
+    "text": "three phase systems\n\nIn a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?\nAns:  Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.\n\n\n\nCan resonance occur without resistance?\nAns:  Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits\n\n\n\nWhich is correct: \\(j5~\\Omega\\) or \\(5j~\\Omega\\)?\nAns:  \\(j5~\\Omega\\)\n\n\n\nHow to solve:\n\n\n\n\n\nq4-a-vs-f.png",
     "crumbs": [
       "Fund. Elec. II",
       "Doubts"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/doubts.html#methods-of-analysis",
+    "href": "fund-elec2/doubts.html#methods-of-analysis",
+    "title": "Doubts",
+    "section": "Methods of Analysis",
+    "text": "Methods of Analysis\n\nNodal\n\nWhen is the direction of the current pre-determined? What if the polarity of any component is given? like this capacitor\n\n\n\n\n\ncapacitor.png\n\n\n\nor when the polarity of a voltage source is given\nAns:\n\nWhen a current source with current direction is in one of the branches, then the direction of that branch is of the same direction as the current source\n\nwhat else?\n\nCan a number be \\(-6\\angle 0^\\circ\\)? Because this value in the calculator gives a math error",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Doubts"
+    ]
+  },
+  {
+    "objectID": "class-enroll/current-plan.html",
+    "href": "class-enroll/current-plan.html",
+    "title": "this has many conflicts",
+    "section": "",
+    "text": "Course Code\nCourse Name\nIndividual Credits\nOverall Credits\n\n\n\n\nCorequisites:\n\n\n8\n\n\nAETN 1102\nNetwork Fundamentals\n3\n\n\n\nAETN 1202\nNetwork Fundamentals Lab\n1\n\n\n\nAETN 1112\nDigital Electronics\n3\n\n\n\nAETN 1212\nDigital Electronics Lab\n1\n\n\n\nMATH2010\nCalculus II\n3\n\n\n\nPHYS1020\nGeneral Physics\n3\n\n\n\nPHYS1021\nGeneral Physics (Lab)\n1\n\n\n\nCOMM1020\nEnglish Communication II\n3\n\n\n\n\n\nthis has many conflicts\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nPHYS 1020 - Lecture - Class 2522 -Section 7\nSunday 10:00AM to 11:00AMTuesday 10:00AM to 11:00AMThursday 10:00AM to 11:00AM\n12.1.0812.1.0812.1.08\nEyad Omair\nopen (35-40)\n\n\nPHYS 1021 - Laboratory - Class 2530 -Section 1\nTuesday 8:00AM to 11:00AM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nAETN 1112 - Lecture - Class 1869 -Section 3\nSunday 1:00PM to 2:00PMTuesday 1:00PM to 2:00PMThursday 1:00PM to 2:00PM\n05.2.5505.2.5505.2.55\nGhufran Khalaf Ja’afreh\nopen (28-30)\n\n\nAETN 1212 - Laboratory - Class 1882 -Section 3\nTuesday 2:00PM to 4:00PM\n09.2.79\nEithar Mustafa\nopen (15-15)\n\n\nAETN 1202 - Laboratory - Class 1877 -Section 5\nMonday 10:00AM to 1:00PM\n09.2.07\nAlaa Elsaqa\nopen (19-20)\n\n\nAETN 1102 - Lecture - Class 1870 -Section 4\nSunday 12:00PM to 1:00PMTuesday 12:00PM to 1:00PMThursday 12:00PM to 1:00PM\n05.2.2505.2.2505.2.25\nGhufran Khalaf Ja’afreh\nopen (28-30)\n\n\nCOMM 1020 - LecTheatre - Class 2196 -Section 1Lecture - Class 2198 -Section 3\nWednesday 12:00PM to 1:00PMTuesday 12:00PM to 2:00PM\n01.2.0812.2.13\nAndrea Comeau\nopen (118-120)open (22-24)\n\n\nMATH 2010 - LecTheatre - Class 2512 -Section 9Lecture - Class 2514 -Section 11\nSunday 5:00PM to 6:30PMWednesday 2:00PM to 3:30PM\n01.1.0405.2.24\nStaff\nopen (45-90)open (30-30)",
+    "crumbs": [
+      "course list",
+      "this has many conflicts"
+    ]
+  },
+  {
+    "objectID": "class-enroll/abandoned-available-courses.html",
+    "href": "class-enroll/abandoned-available-courses.html",
+    "title": "My Notes",
+    "section": "",
+    "text": "Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good",
+    "crumbs": [
+      "course list",
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "class-enroll/abandoned-available-courses.html#comm1020",
+    "href": "class-enroll/abandoned-available-courses.html#comm1020",
+    "title": "My Notes",
+    "section": "COMM1020",
+    "text": "COMM1020\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2197 -Section 2\nWednesday12:00PM–1:00PM\n01.2.0810.2.01\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2198 -Section 3\nWednesday12:00PM–1:00PM\n01.2.0812.2.13\nAndrea Comeau\nopen (118-120)open (22-24)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2199 -Section 4\nWednesday12:00PM–1:00PM\n01.2.0810.2.05\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2200 -Section 5\nWednesday12:00PM–1:00PM\n01.2.0810.2.05\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2205 -Section 10\nSunday6:00PM–7:00PM\n01.1.0610.2.06\nRidha Ben Rejeb\nopen (111-120)open (28-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2202 -Section 7\nSunday6:00PM–7:00PM\n01.1.0612.2.10\nRidha Ben Rejeb\nopen (111-120)open (30-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2203 -Section 8\nSunday6:00PM–7:00PM\n01.1.0605.2.26\nRidha Ben Rejeb\nopen (111-120)open (26-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2204 -Section 9\nSunday6:00PM–7:00PM\n01.1.0612.1.03\nRidha Ben Rejeb\nopen (111-120)open (27-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2211 -Section 16\nMonday12:00PM–1:00PM\n01.1.0612.2.10\nIrum Naz\nopen (87-90)open (29-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2212 -Section 17\nMonday12:00PM–1:00PM\n01.1.0610.1.31\nIrum Naz\nopen (87-90)open (30-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2213 -Section 18\nMonday12:00PM–1:00PM\n01.1.0610.1.31\nIrum Naz\nopen (87-90)open (28-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2216 -Section 21\nTuesday2:00PM–3:00PM\n01.1.0605.1.66\nCristina Fabretto\nopen (117-120)open (30-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2217 -Section 22\nTuesday2:00PM–3:00PM\n01.1.0610.2.01\nCristina Fabretto\nopen (117-120)open (29-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2218 -Section 23\nTuesday2:00PM–3:00PM\n01.1.0605.1.38\nCristina Fabretto\nopen (117-120)open (28-30)\n\n\nLecTheatre - Class 2219 -Section 24Lecture - Class 2220 -Section 25\nMonday4:00PM–5:00PM\n05.2.4410.2.06\nShawn Ramsey\nopen (53-58)open (25-29)\n\n\nLecTheatre - Class 2219 -Section 24Lecture - Class 2221 -Section 26\nMonday4:00PM–5:00PM\n05.2.4410.2.06\nShawn Ramsey\nopen (53-58)open (28-29)\n\n\nLecTheatre - Class 2226 -Section 31Lecture - Class 2227 -Section 32\nTuesday4:00PM–5:00PM\n12.1.0812.1.03\nIrum Naz\nopen (60-60)open (30-30)\n\n\nLecTheatre - Class 2226 -Section 31Lecture - Class 2228 -Section 33\nTuesday4:00PM–5:00PM\n12.1.0805.2.25\nIrum Naz\nopen (60-60)open (30-30)",
+    "crumbs": [
+      "course list",
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "class-enroll/abandoned-available-courses.html#phys1020-general-physics",
+    "href": "class-enroll/abandoned-available-courses.html#phys1020-general-physics",
+    "title": "My Notes",
+    "section": "PHYS1020 General Physics",
+    "text": "PHYS1020 General Physics\nRecommendations: - Feras Alzubi - AETN 1102\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nPHYS 1020 - Lecture - Class 2516 -Section 1\nTuesday 8:00AM to 9:00AMThursday 8:00AM to 9:00AMSunday 8:00AM to 9:00AM\n12.2.1012.2.1012.2.10\nFeras Alzubi\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2517 -Section 2\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n12.2.1012.2.1012.2.10\nFeras Alzubi\nopen (22-40)\n\n\nPHYS 1020 - Lecture - Class 2519 -Section 4\nTuesday 2:00PM to 3:00PMThursday 2:00PM to 3:00PMSunday 2:00PM to 3:00PM\n05.2.4405.2.4405.2.44\nKerry Suek\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2520 -Section 5\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n05.2.5505.2.5505.2.55\nKerry Suek\nopen (35-40)\n\n\nPHYS 1020 - Lecture - Class 2521 -Section 6\nMonday 2:00PM to 3:30PMWednesday 2:00PM to 3:30PM\n12.2.2012.2.20\nFeras Alzubi\nopen (18-40)\n\n\nPHYS 1020 - Lecture - Class 2522 -Section 7\nTuesday 10:00AM to 11:00AMThursday 10:00AM to 11:00AMSunday 10:00AM to 11:00AM\n12.1.0812.1.0812.1.08\nEyad Omair\nopen (35-40)\n\n\nPHYS 1020 - Lecture - Class 2523 -Section 8\nTuesday 8:00AM to 9:00AMThursday 8:00AM to 9:00AMSunday 8:00AM to 9:00AM\n20.2.51A20.2.51A20.2.51A\nEyad Omair\nopen (39-40)\n\n\nPHYS 1020 - Lecture - Class 2524 -Section 9\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n20.2.51A20.2.51A20.2.51A\nEyad Omair\nopen (40-40)\n\n\nPHYS 1020 - Lecture - Class 2527 -Section 12\nMonday 11:00AM to 12:30PMWednesday 11:00AM to 12:30PM\n05.1.3005.1.30\nKerry Suek\nopen (27-40)\n\n\nPHYS 1020 - Lecture - Class 2528 -Section 13\nTuesday 4:00PM to 5:00PMThursday 4:00PM to 5:00PMSunday 4:00PM to 5:00PM\n05.1.4805.1.4805.1.48\nKerry Suek\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2529 -Section 14\nMonday 3:30PM to 5:00PMWednesday 3:30PM to 5:00PM\n20.2.51A20.2.51A\nKerry Suek\nopen (35-40)",
+    "crumbs": [
+      "course list",
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "class-enroll/abandoned-available-courses.html#phys1021-general-physics-lab",
+    "href": "class-enroll/abandoned-available-courses.html#phys1021-general-physics-lab",
+    "title": "My Notes",
+    "section": "PHYS1021 General Physics Lab",
+    "text": "PHYS1021 General Physics Lab\nAbsolutely avoid:\n\nLuka Tanasijin\n\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 2530 -Section 1\nTuesday8:00AM to 11:00AM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2533 -Section 4\nTuesday5:00PM to 8:00PM\n05.1.06\nLuka Tanasijin\nopen (13-18)\n\n\nLaboratory - Class 2534 -Section 5\nSunday5:00PM to 8:00PM\n05.1.06\nLuka Tanasijin\nopen (14-18)\n\n\nLaboratory - Class 2535 -Section 6\nThursday2:00PM to 5:00PM\n05.1.02\nFasna Olikkal\nopen (6-18)\n\n\nLaboratory - Class 2536 -Section 7\nWednesday2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\nopen (8-18)\n\n\nLaboratory - Class 2537 -Section 8\nMonday2:00PM to 5:00PM\n05.1.02\nLuka Tanasijin\nopen (6-18)\n\n\nLaboratory - Class 2538 -Section 9\nMonday10:00AM to 1:00PM\n05.1.02\nFasna Olikkal\nopen (2-18)\n\n\nLaboratory - Class 2539 -Section 10\nWednesday10:00AM to 1:00PM\n05.1.02\nLuka Tanasijin\nopen (8-18)\n\n\nLaboratory - Class 2540 -Section 11\nTuesday2:00PM to 5:00PM\n05.1.02\nLuka TanasijinLuka Tanasijin\nopen (15-18)\n\n\nLaboratory - Class 2541 -Section 12\nTuesday11:00AM to 2:00PM\n05.1.02\nStaff\nopen (16-18)\n\n\nLaboratory - Class 2543 -Section 14\nThursday11:00AM to 2:00PM\n05.1.06\nLuka TanasijinLuka TanasijinLuka TanasijinLuka Tanasijin\nopen (16-18)\n\n\nLaboratory - Class 2544 -Section 15\nTuesday2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2545 -Section 16\nSunday11:00AM to 2:00PM\n05.1.02\nFasna Olikkal\nopen (9-18)\n\n\nLaboratory - Class 2547 -Section 18\nSunday8:00AM to 11:00AM\n05.1.06\nStaff\nopen (15-18)\n\n\nLaboratory - Class 2548 -Section 19\nThursday8:00AM to 11:00AM\n05.1.02\nFasna Olikkal\nopen (5-18)\n\n\nLaboratory - Class 2551 -Section 22\nSunday2:00PM to 5:00PM\n05.1.02\nFasna OlikkalFasna OlikkalFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2556 -Section 27\nSunday2:00PM to 5:00PM\n05.1.06\nLuka TanasijinLuka TanasijinLuka Tanasijin\nopen (18-18)",
+    "crumbs": [
+      "course list",
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html",
+    "href": "calc1/u4-applications-of-the-derivative2.html",
+    "title": "Applications of the Derivative II",
+    "section": "",
+    "text": "Indeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
+    "href": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
+    "title": "Applications of the Derivative II",
+    "section": "",
+    "text": "Indeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
+    "href": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
+    "title": "Applications of the Derivative II",
+    "section": "Optimizing equations",
+    "text": "Optimizing equations\nIn real world situations, we may want to find the maximum or the minimum of a function. The process of finding the best situation is called optimization.\n\nOptimasation Problem Steps\n\nDraw a sketch of the shape\nWrite down the formulas we can use to construct the shape\n\n\nFor the variable being optimized\nFor the variable with a constraint\n\n\n\n\n\n\n\nCaution\n\n\n\nMake sure the main equation is a function of only one variable\n\n\n\nFind the maxima or the minima as per req\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nAlways: Answer the question asked with the critical number and the optimized value",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#related-rates",
+    "href": "calc1/u4-applications-of-the-derivative2.html#related-rates",
+    "title": "Applications of the Derivative II",
+    "section": "Related Rates",
+    "text": "Related Rates\nWe can take the derivative of an equation with respect to anything usingimplicit differentiation.\nThis is always differentiation wrt time\nAlthough an equation may not have time in it, we can find its derivative wrt time using the chain rule.\nfor \\(f(x)\\):\n\\[\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}, \\text{ (Chain Rule)}\\]\n\\[\\frac{dx}{dt} = \\frac{1}{ \\dfrac{d~[f(x)]}{dx} } \\cdot \\frac{d~[f(x)]}{dt}\\]\nJust as the two variables \\(f(x)\\) and \\(x\\) have a relationship, the two rates depend on each other and are called Related Rates.\nWhen we take the derivative with respect to an unrelated variable, it is important to use Leibnitz notation, $ to communicate what the rate is.\n\n\nLeibniz notation\n\nIn calculus, Leibniz’s notation, named in honor of the 17th-century German philosopher and mathematician Gottfried Wilhelm Leibniz, uses the symbols \\(dx\\) and \\(dy\\) to represent infinitely small (or infinitesimal) increments of \\(x\\) and \\(y\\), respectively, just as \\(\\Delta x\\) and \\(\\Delta y\\) represent finite increments of \\(x\\) and \\(y\\), respectively. source\n\n\nProcedure for solving related rate problems\n\nDraw the shape, its variables and its related rates\nFind the FWG to formulate and understand the question (it’s not necessary to write this down):\n\nFind:\nWhen:\nGiven:\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThe rates may be positive (increasing, growing, etc) or negative (decreasing shrinking, etc).\n\n\n\nSubstite the given values into the equation of the variable to be found\n\n\n\n\n\n\n\nCaution\n\n\n\nWhen you label your diagram, it may have width and length and height or radius, but that doesn’t mean all of them are variables\nRead your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.\nConstants can be substituted into the equation before taking the derivatve.\n\n\n\nWrite the conclusion",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#differentials",
+    "href": "calc1/u4-applications-of-the-derivative2.html#differentials",
+    "title": "Applications of the Derivative II",
+    "section": "Differentials",
+    "text": "Differentials\nThis is simply writing: \\(\\frac{dy}{dx} = f'(x)\\), in the form:\n\\[dy = f'(x)~dx\\]\nThis \\(dy\\) is the differential",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#shapes-perimeter-area-and-volume",
+    "href": "calc1/u4-applications-of-the-derivative2.html#shapes-perimeter-area-and-volume",
+    "title": "Applications of the Derivative II",
+    "section": "Shapes: Perimeter, Area and Volume",
+    "text": "Shapes: Perimeter, Area and Volume\nThe formulas for various shapes will be given in the exam",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#practice-1",
+    "href": "calc1/u1-the-derivative.html#practice-1",
+    "title": "Limits",
+    "section": "Practice",
+    "text": "Practice\n1.Calculate the average slope of the graphbelow between \\(x=2\\) and \\(x=4\\)\n\n\n\n2.For the two lines in the graph: a.Calculate the slope\n\n\n\nb.Find the equation of each line.\nThe actual slope of a curve is represented by aTangent Line.\nGraphically the Tangent Line:\na)istheslope of the curve atonepoint b) touches the curve at only that point\n\n\n\nAlgebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.\n\nThe Tangent Line\nWe need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:\n\n\n\nBut thiswould be dividing by zero!\nWe can shrinkthe distance between the twopoints until \\(\\Delta x=0\\) .\n\\[\\overline{\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}}\\]\n\n\nThe Delta Process - Definition of the Derivative.\nPreviously we used limits to find the slope of the tangent at a particular value of \\(x\\) Algebraically,it is more useful toknow the slope at any value of \\(x\\) . In this case, we leave \\(x\\) in theequation and solve. \\[\\mathrm{m}_{\\mathrm{tangent}}=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\]\nFor \\(f(x)=x^{2}\\)\n\n\n\nThis is a function that gives us the slope of the tangent line at any \\(x\\) \\[x=0\\]\n\\[x=1\\]\n\\[x=-1\\]\nDefinition: The derivative of a function expressed as a function is.\n\\[f'\\left(x\\right)=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\quad\\text{OR}\\quad f'\\left(x\\right)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\nIt isread“The derivative of \\(f\\) withrespect to \\(x^{\\prime\\prime}\\) or \\(“f\\) -prime of \\(x^{\\prime\\prime}\\)\n\n\nDerivative Notation\nSome common notations for the derivative of \\(y=f(x)\\) are:\ny’ \\quad D_x y \\quad f’(x) \\quad \\frac{dy}{dx}\nThe process of finding a derivative is called differentiation..\nRemember: At a point \\((x,y)\\) on a curve,\nThe derivative The slope o the = The slope of the tangent line curve\n\n\nExample: Find the function for the slope of the following functions using the definition of the\nderivative. a) \\(f(x)=5x^{2}-1\\) \\[\\begin{matrix}\\text{b)}&f(x)=2x^2+3x\\end{matrix}\\]\nExample: Find the derivative of \\(f(x)=-4(x-2)^{2}+4\\) using the definition\n\\[f'(x)=\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}\\]\n\\[\n\\begin{align*}\nf(x)=-4(x^2-4x+4) \\\\\n&= -4x^2+16x-16 \\\\\nf(x+h) =\n\\end{align*}\n\\]\n\n\n\nWhat is the slope at \\(x=1\\) ？\nx=2? x=3?\n\n\nPractice\nFind the derivative of the following functions by the delta-process\n\\[y=-4x+2\\]\n\n\\(y=6x-2x^{2}\\)\ny=x2+5x-2\n\nAs you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.\n\n\nBasic Derivative Rules\nAlgebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are\ngiven:\nFunction: \\(y=2x^{2}+3x\\) either \\(f(x)=2x^{2}+3x\\) Derivative: \\(\\frac{dy}{dx}=4x+3\\) \\(\\frac{d(2x^{2}+3x)}{dx}=4x+3\\) \\(f'(x)=4x+3\\) \\(\\quad y'=4x+3\\) \\(\\quad \\frac{d}{dx}(2x^{2}+3x)=4x+3\\)\nConstant Rule: For a function \\(f(x)=c\\) where c is a constant number \\(f'(x)=0\\)\nAlgebraically, \\[f'(x)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\n\n\n\nExample: Find the derivative of the following\n\\[\\text{b)}f(x)=e\\]\n\\[\\text{c)}y=\\sin(2\\pi)\\] a) \\(y=5\\)\n\n\nPower Rule\nFor a variable raised to a constant power n,\n\\[\\frac{d}{dx}\\Big(x^n\\Big)=nx^{n-1}\\]\nExample: Find the following derivatives: a) \\(y=x^3\\)\n\\[)\\:f(x)=x^{8}\\quad\\mathrm{c})\\:y=x\\quad\\mathrm{d})\\:f(x)=x^{2}\\]\n\n\nConstant Multiple Rule\nFor a constant \\(a.\\)\n\\[\\frac{d}{dx}\\Big(ax^n\\Big)=a\\Big(nx^{n-1}\\Big)\\]\nExample:Find the derivative of each of the following:\n\\[f(x)={\\frac{x^{4}}{8}}\\]\n\\[y=3x^{5}\\quad(b)\\quad y=-6x^{3}\\quad(c)\\quad y=\\frac{1}{3}x^{9}\\]\n\n\nSum & Difference Rule\nFor any number of terms,\n\\[\\frac{d}{dx}\\big(f(x)+g(x)\\big)=f'(x)+g'(x)\\]\nExample: Find the derivative of each of the following:.\n\\[\\mid y=3x^{5}+7x^{3}-3x+2\\quad(\\mathbf{b})\\quad y=-6x^{3}-5x\\]\nOften we need to rewrite a power to use the rule:.\n\nExample: Find the derivative of each of the following:.\n\n\\(y=\\sqrt{x}\\)\n\\(f(x)=\\frac{1}{x}\\)\n\\(y=x\\sqrt[3]{x}\\)\n\n\\[\n\\begin{align*}\n    y = x \\cdot x^{1/3} \\\\\n    f' = x\n\\end{align*}\n\\]\n$$\n\\[(\\text{e})\\:y=\\frac{x^2-3x}{x^2}\\]\n\\[\\mid y={\\frac{x}{\\sqrt{x}}}\\]\n\\[\n\\begin{align*}\n    y = x^{1-1/2} \\\\\n    y = x^1/2 \\\\\n    f' = \\frac{1}{2}x^{-1/2} \\\\\n\\end{align*}\n\\]\nExample: Find the derivative of each of the following\n\\[(\\mathbf{b})\\:y=x^4+3x^3+x^2-x+2\\]\n\\[y=x^{2}+7x\\]\n\n\\(y=2x-4x^{3}\\)\n\n\\[y={\\frac{2}{x^{2}}}\\]\nExample:Find the slope of the curve at theindicated point:\n\n\\(y=9x-x^{3}\\) at the point(2,10).\n\\(y=x^4-\\frac12x^2+2\\) at the point-2,16)\n\\(y=4\\sqrt[3]{x^2}\\) at the point where \\(x=8\\)\n\n\\[\\mid y={\\frac{\\sqrt{x}-x^{2}}{x}}\\:\\mathrm{at}\\:x=4\\:.\\]\n\n\nPractice\n\nUsing the definition of derivative find \\(f'(x)\\) of the following \\[f(x)=x^2-2x\\]\n\n2.Find the derivative of each of the following\n\\[\\mathbf{b})\\:f(x)=7x^{3}-3x^{2}+13\\]\n\\[\\mid f(x)=3x-\\frac{1}{3}x^{3}\\]\n\\[\\mid f(x)=5x^{2}-{\\frac{4}{\\sqrt{x}}}\\]\n() \\(f(x)=\\frac{\\pi}{2}x^{8}\\)\n3.What is the slope of the function \\(f(x)=3x^{3}+4x^{2}-6x+3\\) at thepoint (-2,7) ?",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#chain-rule",
+    "href": "calc1/u1-the-derivative.html#chain-rule",
+    "title": "Limits",
+    "section": "Chain Rule",
+    "text": "Chain Rule\nWhen we have a composite function,\n\\[\\frac{d}{dx}\\Big[f\\big(g(x)\\big)\\Big]=f'(g(x))g'(x)\\]\n\nExample: Find the derivative of the following functions:\n\\[y=\\left(x^2+4x+6\\right)^5\\]\n\n\\(f(x)=\\left(x^{2}-x+1\\right)^{3}\\)\n\\(f(x)=\\sqrt{5x+x^{2}}\\)\n\n\\[y=\\frac{1}{\\left(x^2-5\\right)^4}\\]\n\n\nPractice:\n1.Find the derivative of each of the following 司\\(r=\\frac{1}{\\left(t^2-2t-5\\right)^4}\\)\n\\[y=\\sqrt[5]{3x+2}\\]\n\nFin the sope of the tangent line to the curve \\(y=\\left(4+3x^2\\right)^{\\frac43}\\)\n\n3.For \\(y=\\left(4-x^2\\right)^{-2}\\) What is the slope of the graph of at the point \\(\\left(3,\\frac{1}{25}\\right)?\\)\n\nFind the derivative of the function \\(q(x)=\\left(4x^{2}-3+6x\\right)^{18}\\)\n\n5.Given \\(f\\Big(g\\big(x\\big)\\Big)=\\Big(x^{2}+1\\Big)^{3}+2\\Big(x^{2}+1\\Big)^{2}+5\\) ,what is \\(D_{x}f\\big(g\\big(x\\big)\\big)\\)?\n6.What is the slope of the curve representing the function \\(P(x)=\\sqrt[4]{\\left(x^{2}+7x\\right)^{3}}\\) at the point(14,71)?\n\n\nImplicit Differentiation\nThere will be times when we are not able to solve for \\(y\\) explicitly. For example. given the expression, \\[y^5+xy^2+3x^2=5\\:,\\]\nwe are unable to get an expression \\(y=f(x)\\)\nSuch a function where. \\(y\\) is defined implicitly as a function of \\(x\\) (i.e.) \\(y\\) as a function of itself,which is a function of \\(x\\) )is called an implicit function\nTo find \\(\\frac{dy}{dx}\\) when \\(y\\) is implicitly defined as function of \\(x\\) , we differentiate each term of the equation with respect to. \\(x\\) by applying the appropriate rule.\nNote: The derivative of \\(y\\) with respect to \\(x\\) is \\(\\frac{dy}{dx}\\) (or \\(y'\\)).\nExample: Find \\(\\frac{dy}{dx}\\) if \\(x+y=2\\)\nExam ple: Find \\(\\frac{dy}{dx}\\) if \\(y^{2}+2x^{2}=5\\)\nExample: Find \\(\\frac{dy}{dx}\\) if \\(3y^{4}+xy^{2}+2x^{3}-6=0\\)\nExample:Find the slope of a line tangent to the curve of \\(2y^{3}+xy+1=0\\) at thepoint (-3,1).\n\n\nMixed Derivatives\nSo far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples\nExample: Find the derivative of the following functions\n\n\\(f\\left(x\\right)=\\left(\\frac{x^3+2x^2}{4-x}\\right)^3\\)\n\\(f\\left(x\\right)=\\left(\\left(x-7x^{3}\\right)\\left(14+x^{2}\\right)\\right)^{11}\\)\n\n\\[\\text{c)}\\quad f\\left(x\\right)=\\frac{\\left(8x-4+9x^3\\right)\\left(3x^2+4x^5-\\frac{1}{x^3}\\right)}{\\left(x-9+x^5\\right)}\\]\nExample Fid the sope of y=(2x2) at \\(x=1\\)",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#higher-derivatives",
+    "href": "calc1/u1-the-derivative.html#higher-derivatives",
+    "title": "Limits",
+    "section": "Higher Derivatives",
+    "text": "Higher Derivatives\nSince the derivative of a function is also a function we may take the derivative of the derivative.\nThe derivative of a function is called the first derivative.\nThe derivative of the first derivative is the second derivative, and so on.\nThe second derivative, third derivative and so on are collectively known as higher derivatives.\nHigher Derivative Notation\n\n\n\n\n\n\n\n\n\nFirst\nSecond\nThird\nFourth\n\n\n\n\n\\(y'\\)\n\\(y''\\)\n\\(y'''\\)\n\\(y^{(4)}\\)\n\n\n\\(\\frac{dy}{dx}\\)\n\\(\\frac{d^2y}{dx^2}\\)\n\\(\\frac{d^3y}{dx^3}\\)\n\\(\\frac{d^4y}{dx^4}\\)\n\n\n\\(D_y\\)\n\\(D_x^2y\\)\n\\(D_x^3y\\)\n\\(D_x^4y\\)\n\n\n\\(f'(x)\\)\n\\(f''(x)\\)\n\\(f'''(x)\\)\n\\(f^{(4)}(x)\\)\n\n\n\nExample: Find the higher derivatives for \\(y=5x^{3}-2x\\)\nExample: Find the higher derivatives of \\(f(x)=x(x^{2}-1)^{2}\\) (Hint: Simplify \\(f\\) )\nExample: Evaluate the second derivatie of \\(y=\\frac{2}{1-x}\\) for \\(x=-2\\)\nExample: Find \\(y^{n}\\) for the implicit function defined by \\(2x^{2}+3y^{2}=6\\)\n\nPractice:\n\nFind \\(D_{x}y\\) given \\(y=\\frac{\\sqrt{2x^2+1}}{3x}\\)\n\n2.Given \\(xy^{3}+3y+x^{2}=9\\) ,find \\(y\\)\n3.Evaluate the second derivative of y = x(1-x),for \\(x=2\\)\n\nFind the derivativeof the funtion \\(K(p)=\\left(3\\:p^{2}+p\\sqrt{p^{3}+2\\:p}\\right)^{4}\\) (Do not simplify).\n\n\n\n5.Given \\(\\left(y^{2}+2\\right)^{3}=\\pi x^{4}y+3e^{2}y^{3}\\) ,what is \\(D_xy\\)\n\nWhat is the second derivativeof the functio \\(P\\bigl(x\\bigr)=x-\\frac{2}{x^3}\\) athe point417",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#variables-other-than-x",
+    "href": "calc1/u1-the-derivative.html#variables-other-than-x",
+    "title": "Limits",
+    "section": "Variables other than x",
+    "text": "Variables other than x\nWhile most of our work has focused on the functions of \\(x\\) ,the same rules of derivatives apply to any variables.",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#practice-8",
+    "href": "calc1/u1-the-derivative.html#practice-8",
+    "title": "Limits",
+    "section": "Practice:",
+    "text": "Practice:\n1.Find the derivative of \\(A\\) with respect to \\(t:\\) \\(A= 3t^{2}- 5t\\)\n2.Find the derivative of \\(z\\) with respect to \\(r:4r^{3}-3r^{2}z=5\\sqrt{z}\\)\n3.Find the derivative of \\(P\\) with respect to \\(V\\) : \\(P= \\left ( 4V- 5\\right ) \\left ( - 3V^{2}+ 2\\right ) ^{3}\\)",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
     ]
   },
   {
@@ -396,103 +637,179 @@
     ]
   },
   {
-    "objectID": "calc1/u1-the-derivative.html#practice-1",
-    "href": "calc1/u1-the-derivative.html#practice-1",
-    "title": "Limits",
-    "section": "Practice",
-    "text": "Practice\n1.Calculate the average slope of the graphbelow between \\(x=2\\) and \\(x=4\\)\n\n\n\n2.For the two lines in the graph: a.Calculate the slope\n\n\n\nb.Find the equation of each line.\nThe actual slope of a curve is represented by aTangent Line.\nGraphically the Tangent Line:\na)istheslope of the curve atonepoint b) touches the curve at only that point\n\n\n\nAlgebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.\n\nThe Tangent Line\nWe need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:\n\n\n\nBut thiswould be dividing by zero!\nWe can shrinkthe distance between the twopoints until \\(\\Delta x=0\\) .\n\\[\\overline{\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}}\\]\n\n\nThe Delta Process - Definition of the Derivative.\nPreviously we used limits to find the slope of the tangent at a particular value of \\(x\\) Algebraically,it is more useful toknow the slope at any value of \\(x\\) . In this case, we leave \\(x\\) in theequation and solve. \\[\\mathrm{m}_{\\mathrm{tangent}}=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\]\nFor \\(f(x)=x^{2}\\)\n\n\n\nThis is a function that gives us the slope of the tangent line at any \\(x\\) \\[x=0\\]\n\\[x=1\\]\n\\[x=-1\\]\nDefinition: The derivative of a function expressed as a function is.\n\\[f'\\left(x\\right)=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\quad\\text{OR}\\quad f'\\left(x\\right)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\nIt isread“The derivative of \\(f\\) withrespect to \\(x^{\\prime\\prime}\\) or \\(“f\\) -prime of \\(x^{\\prime\\prime}\\)\n\n\nDerivative Notation\nSome common notations for the derivative of \\(y=f(x)\\) are:\ny’ \\quad D_x y \\quad f’(x) \\quad \\frac{dy}{dx}\nThe process of finding a derivative is called differentiation..\nRemember: At a point \\((x,y)\\) on a curve,\nThe derivative The slope o the = The slope of the tangent line curve\n\n\nExample: Find the function for the slope of the following functions using the definition of the\nderivative. a) \\(f(x)=5x^{2}-1\\) \\[\\begin{matrix}\\text{b)}&f(x)=2x^2+3x\\end{matrix}\\]\nExample: Find the derivative of \\(f(x)=-4(x-2)^{2}+4\\) using the definition\n\\[f'(x)=\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}\\]\n\\[\n\\begin{align*}\nf(x)=-4(x^2-4x+4) \\\\\n&= -4x^2+16x-16 \\\\\nf(x+h) =\n\\end{align*}\n\\]\n\n\n\nWhat is the slope at \\(x=1\\) ？\nx=2? x=3?\n\n\nPractice\nFind the derivative of the following functions by the delta-process\n\\[y=-4x+2\\]\n\n\\(y=6x-2x^{2}\\)\ny=x2+5x-2\n\nAs you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.\n\n\nBasic Derivative Rules\nAlgebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are\ngiven:\nFunction: \\(y=2x^{2}+3x\\) either \\(f(x)=2x^{2}+3x\\) Derivative: \\(\\frac{dy}{dx}=4x+3\\) \\(\\frac{d(2x^{2}+3x)}{dx}=4x+3\\) \\(f'(x)=4x+3\\) \\(\\quad y'=4x+3\\) \\(\\quad \\frac{d}{dx}(2x^{2}+3x)=4x+3\\)\nConstant Rule: For a function \\(f(x)=c\\) where c is a constant number \\(f'(x)=0\\)\nAlgebraically, \\[f'(x)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\n\n\n\nExample: Find the derivative of the following\n\\[\\text{b)}f(x)=e\\]\n\\[\\text{c)}y=\\sin(2\\pi)\\] a) \\(y=5\\)\n\n\nPower Rule\nFor a variable raised to a constant power n,\n\\[\\frac{d}{dx}\\Big(x^n\\Big)=nx^{n-1}\\]\nExample: Find the following derivatives: a) \\(y=x^3\\)\n\\[)\\:f(x)=x^{8}\\quad\\mathrm{c})\\:y=x\\quad\\mathrm{d})\\:f(x)=x^{2}\\]\n\n\nConstant Multiple Rule\nFor a constant \\(a.\\)\n\\[\\frac{d}{dx}\\Big(ax^n\\Big)=a\\Big(nx^{n-1}\\Big)\\]\nExample:Find the derivative of each of the following:\n\\[f(x)={\\frac{x^{4}}{8}}\\]\n\\[y=3x^{5}\\quad(b)\\quad y=-6x^{3}\\quad(c)\\quad y=\\frac{1}{3}x^{9}\\]\n\n\nSum & Difference Rule\nFor any number of terms,\n\\[\\frac{d}{dx}\\big(f(x)+g(x)\\big)=f'(x)+g'(x)\\]\nExample: Find the derivative of each of the following:.\n\\[\\mid y=3x^{5}+7x^{3}-3x+2\\quad(\\mathbf{b})\\quad y=-6x^{3}-5x\\]\nOften we need to rewrite a power to use the rule:.\n\nExample: Find the derivative of each of the following:.\n\n\\(y=\\sqrt{x}\\)\n\\(f(x)=\\frac{1}{x}\\)\n\\(y=x\\sqrt[3]{x}\\)\n\n\\[\n\\begin{align*}\n    y = x \\cdot x^{1/3} \\\\\n    f' = x\n\\end{align*}\n\\]\n$$\n\\[(\\text{e})\\:y=\\frac{x^2-3x}{x^2}\\]\n\\[\\mid y={\\frac{x}{\\sqrt{x}}}\\]\n\\[\n\\begin{align*}\n    y = x^{1-1/2} \\\\\n    y = x^1/2 \\\\\n    f' = \\frac{1}{2}x^{-1/2} \\\\\n\\end{align*}\n\\]\nExample: Find the derivative of each of the following\n\\[(\\mathbf{b})\\:y=x^4+3x^3+x^2-x+2\\]\n\\[y=x^{2}+7x\\]\n\n\\(y=2x-4x^{3}\\)\n\n\\[y={\\frac{2}{x^{2}}}\\]\nExample:Find the slope of the curve at theindicated point:\n\n\\(y=9x-x^{3}\\) at the point(2,10).\n\\(y=x^4-\\frac12x^2+2\\) at the point-2,16)\n\\(y=4\\sqrt[3]{x^2}\\) at the point where \\(x=8\\)\n\n\\[\\mid y={\\frac{\\sqrt{x}-x^{2}}{x}}\\:\\mathrm{at}\\:x=4\\:.\\]\n\n\nPractice\n\nUsing the definition of derivative find \\(f'(x)\\) of the following \\[f(x)=x^2-2x\\]\n\n2.Find the derivative of each of the following\n\\[\\mathbf{b})\\:f(x)=7x^{3}-3x^{2}+13\\]\n\\[\\mid f(x)=3x-\\frac{1}{3}x^{3}\\]\n\\[\\mid f(x)=5x^{2}-{\\frac{4}{\\sqrt{x}}}\\]\n() \\(f(x)=\\frac{\\pi}{2}x^{8}\\)\n3.What is the slope of the function \\(f(x)=3x^{3}+4x^{2}-6x+3\\) at thepoint (-2,7) ?",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#chain-rule",
-    "href": "calc1/u1-the-derivative.html#chain-rule",
-    "title": "Limits",
-    "section": "Chain Rule",
-    "text": "Chain Rule\nWhen we have a composite function,\n\\[\\frac{d}{dx}\\Big[f\\big(g(x)\\big)\\Big]=f'(g(x))g'(x)\\]\n\nExample: Find the derivative of the following functions:\n\\[y=\\left(x^2+4x+6\\right)^5\\]\n\n\\(f(x)=\\left(x^{2}-x+1\\right)^{3}\\)\n\\(f(x)=\\sqrt{5x+x^{2}}\\)\n\n\\[y=\\frac{1}{\\left(x^2-5\\right)^4}\\]\n\n\nPractice:\n1.Find the derivative of each of the following 司\\(r=\\frac{1}{\\left(t^2-2t-5\\right)^4}\\)\n\\[y=\\sqrt[5]{3x+2}\\]\n\nFin the sope of the tangent line to the curve \\(y=\\left(4+3x^2\\right)^{\\frac43}\\)\n\n3.For \\(y=\\left(4-x^2\\right)^{-2}\\) What is the slope of the graph of at the point \\(\\left(3,\\frac{1}{25}\\right)?\\)\n\nFind the derivative of the function \\(q(x)=\\left(4x^{2}-3+6x\\right)^{18}\\)\n\n5.Given \\(f\\Big(g\\big(x\\big)\\Big)=\\Big(x^{2}+1\\Big)^{3}+2\\Big(x^{2}+1\\Big)^{2}+5\\) ,what is \\(D_{x}f\\big(g\\big(x\\big)\\big)\\)?\n6.What is the slope of the curve representing the function \\(P(x)=\\sqrt[4]{\\left(x^{2}+7x\\right)^{3}}\\) at the point(14,71)?\n\n\nImplicit Differentiation\nThere will be times when we are not able to solve for \\(y\\) explicitly. For example. given the expression, \\[y^5+xy^2+3x^2=5\\:,\\]\nwe are unable to get an expression \\(y=f(x)\\)\nSuch a function where. \\(y\\) is defined implicitly as a function of \\(x\\) (i.e.) \\(y\\) as a function of itself,which is a function of \\(x\\) )is called an implicit function\nTo find \\(\\frac{dy}{dx}\\) when \\(y\\) is implicitly defined as function of \\(x\\) , we differentiate each term of the equation with respect to. \\(x\\) by applying the appropriate rule.\nNote: The derivative of \\(y\\) with respect to \\(x\\) is \\(\\frac{dy}{dx}\\) (or \\(y'\\)).\nExample: Find \\(\\frac{dy}{dx}\\) if \\(x+y=2\\)\nExam ple: Find \\(\\frac{dy}{dx}\\) if \\(y^{2}+2x^{2}=5\\)\nExample: Find \\(\\frac{dy}{dx}\\) if \\(3y^{4}+xy^{2}+2x^{3}-6=0\\)\nExample:Find the slope of a line tangent to the curve of \\(2y^{3}+xy+1=0\\) at thepoint (-3,1).\n\n\nMixed Derivatives\nSo far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples\nExample: Find the derivative of the following functions\n\n\\(f\\left(x\\right)=\\left(\\frac{x^3+2x^2}{4-x}\\right)^3\\)\n\\(f\\left(x\\right)=\\left(\\left(x-7x^{3}\\right)\\left(14+x^{2}\\right)\\right)^{11}\\)\n\n\\[\\text{c)}\\quad f\\left(x\\right)=\\frac{\\left(8x-4+9x^3\\right)\\left(3x^2+4x^5-\\frac{1}{x^3}\\right)}{\\left(x-9+x^5\\right)}\\]\nExample Fid the sope of y=(2x2) at \\(x=1\\)",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#higher-derivatives",
-    "href": "calc1/u1-the-derivative.html#higher-derivatives",
-    "title": "Limits",
-    "section": "Higher Derivatives",
-    "text": "Higher Derivatives\nSince the derivative of a function is also a function we may take the derivative of the derivative.\nThe derivative of a function is called the first derivative.\nThe derivative of the first derivative is the second derivative, and so on.\nThe second derivative, third derivative and so on are collectively known as higher derivatives.\nHigher Derivative Notation\n\n\n\n\n\n\n\n\n\nFirst\nSecond\nThird\nFourth\n\n\n\n\n\\(y'\\)\n\\(y''\\)\n\\(y'''\\)\n\\(y^{(4)}\\)\n\n\n\\(\\frac{dy}{dx}\\)\n\\(\\frac{d^2y}{dx^2}\\)\n\\(\\frac{d^3y}{dx^3}\\)\n\\(\\frac{d^4y}{dx^4}\\)\n\n\n\\(D_y\\)\n\\(D_x^2y\\)\n\\(D_x^3y\\)\n\\(D_x^4y\\)\n\n\n\\(f'(x)\\)\n\\(f''(x)\\)\n\\(f'''(x)\\)\n\\(f^{(4)}(x)\\)\n\n\n\nExample: Find the higher derivatives for \\(y=5x^{3}-2x\\)\nExample: Find the higher derivatives of \\(f(x)=x(x^{2}-1)^{2}\\) (Hint: Simplify \\(f\\) )\nExample: Evaluate the second derivatie of \\(y=\\frac{2}{1-x}\\) for \\(x=-2\\)\nExample: Find \\(y^{n}\\) for the implicit function defined by \\(2x^{2}+3y^{2}=6\\)\n\nPractice:\n\nFind \\(D_{x}y\\) given \\(y=\\frac{\\sqrt{2x^2+1}}{3x}\\)\n\n2.Given \\(xy^{3}+3y+x^{2}=9\\) ,find \\(y\\)\n3.Evaluate the second derivative of y = x(1-x),for \\(x=2\\)\n\nFind the derivativeof the funtion \\(K(p)=\\left(3\\:p^{2}+p\\sqrt{p^{3}+2\\:p}\\right)^{4}\\) (Do not simplify).\n\n\n\n5.Given \\(\\left(y^{2}+2\\right)^{3}=\\pi x^{4}y+3e^{2}y^{3}\\) ,what is \\(D_xy\\)\n\nWhat is the second derivativeof the functio \\(P\\bigl(x\\bigr)=x-\\frac{2}{x^3}\\) athe point417",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#variables-other-than-x",
-    "href": "calc1/u1-the-derivative.html#variables-other-than-x",
-    "title": "Limits",
-    "section": "Variables other than x",
-    "text": "Variables other than x\nWhile most of our work has focused on the functions of \\(x\\) ,the same rules of derivatives apply to any variables.",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#practice-8",
-    "href": "calc1/u1-the-derivative.html#practice-8",
-    "title": "Limits",
-    "section": "Practice:",
-    "text": "Practice:\n1.Find the derivative of \\(A\\) with respect to \\(t:\\) \\(A= 3t^{2}- 5t\\)\n2.Find the derivative of \\(z\\) with respect to \\(r:4r^{3}-3r^{2}z=5\\sqrt{z}\\)\n3.Find the derivative of \\(P\\) with respect to \\(V\\) : \\(P= \\left ( 4V- 5\\right ) \\left ( - 3V^{2}+ 2\\right ) ^{3}\\)",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html",
-    "href": "calc1/u4-applications-of-the-derivative2.html",
-    "title": "Applications of the Derivative II",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html",
+    "title": "Antiderivatives: Introduction to Integrals",
     "section": "",
-    "text": "Indeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "text": "\\(\\int f'(x)\\) # incomplete",
     "crumbs": [
       "Calculus I",
-      "Applications of the Derivative II"
+      "Antiderivatives: Introduction to Integrals"
     ]
   },
   {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
-    "href": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
-    "title": "Applications of the Derivative II",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
+    "title": "Antiderivatives: Introduction to Integrals",
     "section": "",
-    "text": "Indeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "text": "\\(\\int f'(x)\\) # incomplete",
     "crumbs": [
       "Calculus I",
-      "Applications of the Derivative II"
+      "Antiderivatives: Introduction to Integrals"
     ]
   },
   {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
-    "href": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
-    "title": "Applications of the Derivative II",
-    "section": "Optimizing equations",
-    "text": "Optimizing equations\nIn real world situations, we may want to find the maximum or the minimum of a function. The process of finding the best situation is called optimization.\n\nOptimasation Problem Steps\n\nDraw a sketch of the shape\nWrite down the formulas we can use to construct the shape\n\n\nFor the variable being optimized\nFor the variable with a constraint\n\n\n\n\n\n\n\nCaution\n\n\n\nMake sure the main equation is a function of only one variable\n\n\n\nFind the maxima or the minima as per req\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nAlways: Answer the question asked with the critical number and the optimized value",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#integration-rules",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#integration-rules",
+    "title": "Antiderivatives: Introduction to Integrals",
+    "section": "Integration rules",
+    "text": "Integration rules\nDerivative rules like the chain rule, quotient rule, etc., doesn’t exist in integration.\n\nTheorem 1 (Power Rule) For \\(f(x) = x^n\\)\n\\[\\int x^n~dx = \\frac{x^{n+1}}{n+1}+C\\]\nException: \\(\\int \\frac{1}{x}~dx = \\ln |x|+C\\)\n\n\nTheorem 2 (Constant Multiple Rule) \\[\\int an^x~dx = a \\int x^n~dx\\]\n\n\nTheorem 3 (Sum and Difference Rule) \\[\\int [ u(x) + v(x) + w(x) ] = \\int u(x) + \\int v(x) + \\int w(x)\\]",
     "crumbs": [
       "Calculus I",
-      "Applications of the Derivative II"
+      "Antiderivatives: Introduction to Integrals"
     ]
   },
   {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#related-rates",
-    "href": "calc1/u4-applications-of-the-derivative2.html#related-rates",
-    "title": "Applications of the Derivative II",
-    "section": "Related Rates",
-    "text": "Related Rates\nWe can take the derivative of an equation with respect to anything usingimplicit differentiation.\nThis is always differentiation wrt time\nAlthough an equation may not have time in it, we can find its derivative wrt time using the chain rule.\nfor \\(f(x)\\):\n\\[\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}, \\text{ (Chain Rule)}\\]\n\\[\\frac{dx}{dt} = \\frac{1}{ \\dfrac{d~[f(x)]}{dx} } \\cdot \\frac{d~[f(x)]}{dt}\\]\nJust as the two variables \\(f(x)\\) and \\(x\\) have a relationship, the two rates depend on each other and are called Related Rates.\nWhen we take the derivative with respect to an unrelated variable, it is important to use Leibnitz notation, $ to communicate what the rate is.\n\n\nLeibniz notation\n\nIn calculus, Leibniz’s notation, named in honor of the 17th-century German philosopher and mathematician Gottfried Wilhelm Leibniz, uses the symbols \\(dx\\) and \\(dy\\) to represent infinitely small (or infinitesimal) increments of \\(x\\) and \\(y\\), respectively, just as \\(\\Delta x\\) and \\(\\Delta y\\) represent finite increments of \\(x\\) and \\(y\\), respectively. source\n\n\nProcedure for solving related rate problems\n\nDraw the shape, its variables and its related rates\nFind the FWG to formulate and understand the question (it’s not necessary to write this down):\n\nFind:\nWhen:\nGiven:\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThe rates may be positive (increasing, growing, etc) or negative (decreasing shrinking, etc).\n\n\n\nSubstite the given values into the equation of the variable to be found\n\n\n\n\n\n\n\nCaution\n\n\n\nWhen you label your diagram, it may have width and length and height or radius, but that doesn’t mean all of them are variables\nRead your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.\nConstants can be substituted into the equation before taking the derivatve.\n\n\n\nWrite the conclusion",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#the-definite-integral",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#the-definite-integral",
+    "title": "Antiderivatives: Introduction to Integrals",
+    "section": "The Definite Integral",
+    "text": "The Definite Integral\n\nTheorem 4 (Fundamental Theorem of Calculus) If a function \\(f(x)\\) is continuous on the closed interval \\([a,b]\\) and \\(F(x)\\) is an antiderivative of \\(f(x)\\) on the interval then:\n\\[\\int_{a}^{b} f(x) dx = F(x)\\Big|_{a}^{b} = F(b) - F(a)\\]\nis the Definite Integral, with \\(a\\) and \\(b\\) as lower and upper bounds\n\n\n\n\n\n\n\nNote\n\n\n\nAntiderivatives or Indefinite integrals used constants of integration, where we added C to the end of every integration.\nDefinite integrals don’t include C! They are numbers and can be positive or negative.",
     "crumbs": [
       "Calculus I",
-      "Applications of the Derivative II"
+      "Antiderivatives: Introduction to Integrals"
     ]
+  },
+  {
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#area-under-a-curve-and-the-definite-integral",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#area-under-a-curve-and-the-definite-integral",
+    "title": "Antiderivatives: Introduction to Integrals",
+    "section": "Area Under a Curve and The Definite Integral",
+    "text": "Area Under a Curve and The Definite Integral\nThe shaded area is bounded by two functions, \\(y=f(x)\\) (Upper fundtion) and y=0 (Lower function). It is also bounded by the vertical lines \\(x = a\\) and \\(x = b\\)\nThe area under a curve between two points is found by calculating the definite integral between the two points. The area under the curve means the area bounded by the curve, the axis, and the boundary points.\n\n\n\n\n\n\nCaution\n\n\n\n\nIntegrating functions below the x-axis gives negatives areas\nBut the area cannot be negative\n\nSolution (choose one of the following solutions):\n\nIntroduce (-) sign infront of the function if it is below the x-axis\nSwitch the upper and lower limits of th function below the x-axis\nSolve the integral as usual but when you get a negative answer that you know should be a positive answer (by the properties of the attribute that the function represents), you convert the negative answer to a positive",
+    "crumbs": [
+      "Calculus I",
+      "Antiderivatives: Introduction to Integrals"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html",
+    "href": "class-enroll/available-courses.html",
+    "title": "My Notes",
+    "section": "",
+    "text": "Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn2221-analog-digital-communication-lab",
+    "href": "class-enroll/available-courses.html#aetn2221-analog-digital-communication-lab",
+    "title": "My Notes",
+    "section": "AETN2221 Analog & Digital Communication (Lab)",
+    "text": "AETN2221 Analog & Digital Communication (Lab)\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1921 -Section 3\nThursday2:00PM to 4:00PM\n09.2.79\nStaff\nopen (5-14)\n\n\nLaboratory - Class 1919 -Section 1\nSunday2:00PM to 4:00PM\n09.2.79\nGhufran Khalaf Ja’afreh\nclosed (0-14)\n\n\nLaboratory - Class 1920 -Section 2\nMonday4:00PM to 6:00PM\n09.2.79\nGhufran Khalaf Ja’afreh\nclosed (0-14)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn-2121",
+    "href": "class-enroll/available-courses.html#aetn-2121",
+    "title": "My Notes",
+    "section": "AETN 2121",
+    "text": "AETN 2121\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecture - Class 1901 -Section 2\nTuesday8:00AM to 9:00AM\n05.2.2305.2.2305.2.23\nZeina RihawiZeina RihawiZeina Rihawi\nopen (6-25)\n\n\nLecture - Class 1900 -Section 1\nTuesday9:00AM to 10:00AM\n05.2.3505.2.3505.2.35\nZeina RihawiZeina RihawiZeina Rihawi\nclosed (0-25)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn-2201",
+    "href": "class-enroll/available-courses.html#aetn-2201",
+    "title": "My Notes",
+    "section": "AETN 2201",
+    "text": "AETN 2201\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1912 -Section 9\nSunday4:00PM to 6:00PM\n09.2.72\nYasen Abdullahi Harrye\nopen (1-15)\n\n\nLaboratory - Class 1906 -Section 3\nWednesday8:00AM to 10:00AM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1905 -Section 2\nMonday9:00AM to 11:00AM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)\n\n\nLaboratory - Class 1908 -Section 5\nSunday10:00AM to 12:00PM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1907 -Section 4\nMonday11:00AM to 1:00PM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn-1112-digital-electronics",
+    "href": "class-enroll/available-courses.html#aetn-1112-digital-electronics",
+    "title": "My Notes",
+    "section": "AETN 1112 Digital Electronics",
+    "text": "AETN 1112 Digital Electronics\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecture - Class 1868 -Section 2\nSundayTuesdayThursday12:00PM - 1:00PM \n05.2.3705.2.3705.2.37\nStaffStaffStaff\nopen (30-30)\n\n\nLecture - Class 1869 -Section 3\nSundayTuesdayThursday1:00PM - 2:00PM \n05.2.5505.2.5505.2.55\nGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afreh\nopen (28-30)\n\n\nLecture - Class 1870 -Section 4\nSundayTuesdayThursday12:00PM - 1:00PM \n05.2.2505.2.2505.2.25\nGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afreh\nopen (28-30)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn1212-digital-electronics-lab",
+    "href": "class-enroll/available-courses.html#aetn1212-digital-electronics-lab",
+    "title": "My Notes",
+    "section": "AETN1212 Digital Electronics Lab:",
+    "text": "AETN1212 Digital Electronics Lab:\n\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\nRating\n\n\n\n\nLaboratory - Class 1880 -Section 1\nWednesday4:00PM to 6:00PM \n09.2.79\nMariam Al-Ghanma\nopen (15-15)\n\n\n\nLaboratory - Class 1881 -Section 2\nWednesday2:00PM to 4:00PM \n09.2.79\nEithar Mustafa\nopen (15-15)\n\n\n\nLaboratory - Class 1882 -Section 3\nTuesday2:00PM to 4:00PM \n09.2.79\nEithar Mustafa\nopen (15-15)\n\n\n\nLaboratory - Class 1883 -Section 4\nMonday10:00AM to 12:00PM \n09.2.79\nMariam Al-Ghanma\nopen (15-15)\n\n\n\nLaboratory - Class 1884 -Section 5\nThursday6:00PM to 8:00PM \n08.1.03\nAlaa Elsaqa\nopen (15-15)\n\n\n\nLaboratory - Class 1885 -Section 6\nWednesday11:00AM to 1:00PM \n09.2.79\nAlaa Elsaqa\nopen (15-15)\n\n\n\nLaboratory - Class 1886 -Section 7\nSunday10:00AM to 12:00PM \n09.2.79\nAmira Mustapha\nopen (15-15)\n\n\n\nLaboratory - Class 1887 -Section 8\nTuesday8:00AM to 10:00AM \n09.2.79\nAmira Mustapha\nopen (15-15)\n\n\n\nLaboratory - Class 1888 -Section 9\nThursday12:00PM to 2:00PM \n09.2.79\nMariam Al-Ghanma\nopen (15-15)\n\n\n\nLaboratory - Class 1889 -Section 10\nSunday12:00PM to 2:00PM \n09.1.41\nAlaa Elsaqa\nopen (15-15)\n\n\n\nLaboratory - Class 1890 -Section 11\nWednesday8:00AM to 10:00AM \n09.2.69\nGhufran Khalaf Ja’afreh\nopen (15-15)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn-1102-network-fundamentals",
+    "href": "class-enroll/available-courses.html#aetn-1102-network-fundamentals",
+    "title": "My Notes",
+    "section": "AETN 1102 Network Fundamentals",
+    "text": "AETN 1102 Network Fundamentals\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecture - Class 1863 -Section 2\nSundayTuesdayThursday1:00PM - 2:00PM \n05.2.3605.2.3605.2.36\nPermjit SooraPermjit SooraPermjit Soora\nopen (25-30)\n\n\nLecture - Class 1866 -Section 5\nSundayTuesdayThursday3:00PM - 4:00PM \n05.2.2505.2.2505.2.25\nNicolae NechitaNicolae NechitaNicolae Nechita\nopen (28-30)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#aetn-1202-network-fundamentals-lab",
+    "href": "class-enroll/available-courses.html#aetn-1202-network-fundamentals-lab",
+    "title": "My Notes",
+    "section": "AETN 1202 Network Fundamentals Lab",
+    "text": "AETN 1202 Network Fundamentals Lab\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1873 -Section 1\nWednesday10:00AM - 1:00PM \n09.2.07\nMariam Al-Ghanma\nopen (18-20)\n\n\nLaboratory - Class 1874 -Section 2\nTuesday2:00PM - 5:00PM \n09.2.07\nMariam Al-Ghanma\nopen (20-20)\n\n\nLaboratory - Class 1877 -Section 5\nMonday10:00AM - 1:00PM \n09.2.07\nAlaa Elsaqa\nopen (19-20)\n\n\nLaboratory - Class 1878 -Section 6\nThursday2:00PM - 5:00PM \n09.2.07\nAlaa Elsaqa\nopen (18-20)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#math-2010-calculus-ii",
+    "href": "class-enroll/available-courses.html#math-2010-calculus-ii",
+    "title": "My Notes",
+    "section": "MATH 2010 Calculus II",
+    "text": "MATH 2010 Calculus II\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecTheatre - Class 2508 -Section 5Lecture - Class 2509 -Section 6\nSunday12:30PM to 2:00PM\n01.1.0405.2.60\nStaffStaff\nopen (38-90)open (24-30)\n\n\nLecTheatre - Class 2508 -Section 5Lecture - Class 2511 -Section 8\nSunday12:30PM to 2:00PM\n01.1.0405.1.51\nStaffStaff\nopen (38-90)open (14-30)\n\n\nLecTheatre - Class 2512 -Section 9Lecture - Class 2514 -Section 11\nSunday5:00PM to 6:30PM\n01.1.0405.2.24\nStaffStaff\nopen (45-90)open (30-30)\n\n\nLecTheatre - Class 2512 -Section 9Lecture - Class 2515 -Section 12\nSunday5:00PM to 6:30PM\n01.1.0405.1.56\nStaffStaff\nopen (45-90)open (15-30)",
+    "crumbs": [
+      "course list",
+      "AETN2221 Analog & Digital Communication (Lab)"
+    ]
+  },
+  {
+    "objectID": "fund-elec2-lab/doubts.html",
+    "href": "fund-elec2-lab/doubts.html",
+    "title": "My Notes",
+    "section": "",
+    "text": "What does “steady-state” mean?\n\n\nThus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply."
+  },
+  {
+    "objectID": "fund-elec2-lab/doubts.html#lab-8",
+    "href": "fund-elec2-lab/doubts.html#lab-8",
+    "title": "My Notes",
+    "section": "",
+    "text": "What does “steady-state” mean?\n\n\nThus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply."
+  },
+  {
+    "objectID": "fund-elec2-lab/doubts.html#lab-9",
+    "href": "fund-elec2-lab/doubts.html#lab-9",
+    "title": "My Notes",
+    "section": "Lab 9",
+    "text": "Lab 9\n\nWhat does a first-order filter mean?\n\n\nObjective:\nTo study the frequency response of a first-order low-pass filter, and high-pass filter and to determine the cut-off frequency in each case.\n\nAns:\nFirst order filters are RC filters\n\nWhat does gain (dB) mean?\n\ngain means the amount of output gained from the input waveform.\n\nIn the following image,\n\n\n\n\n\nlpf-v-vs-f-graph.png\n\n\n\nwhat does the following mean:\n\nCorner frequency\nDecade in \\(\\mathrm{ Slope = \\frac{ -20~dB }{ Decade } }\\)\n\nDecade is the number of samples for a specific frequency"
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html",
@@ -675,7 +992,7 @@
     "href": "fund-elec2/t09-methods-of-analysis.html#mesh-analysis",
     "title": "9. Methods of Analysis",
     "section": "Mesh Analysis",
-    "text": "Mesh Analysis\n\nGeneral Approach\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\nFor \\[\n\\begin{array}\na_1 I_1 + b_1 I_2 = c_1\na_1 I_1+ b_2 I_2 = c_2\n\\]\n\\[\n\\begin{align*}\nI_1 = \\frac{\n    \\begin{matrix}\n        c_1 & b_1\n        c_2 & b_2\n    \\end{matrix}\n    }{\n    \\begin{matrix}\n        a_1 & b_1\n        a_2 & b_2\n    \\end{matrix}\n    } \\\\\nI_2 = \\frac{\n    \\begin{matrix}\n        a_1 & c_1\n        a_2 & c_2\n    \\end{matrix}\n    }{\n    \\begin{matrix}\n        a_1 & b_1\n        a_2 & b_2\n    \\end{matrix}\n    }\n\\end{align*}\n\\]\n\nHere, as per KVL:\n\\[\\begin{align*}\n    E_1 - I_1 Z_1 - (I_1 - I_2) Z_2 = 0 \\\\\n    E_1 - I_1 Z_1 - I_1 Z_2 + I_2 Z_2 = 0 \\\\\n    E_1 - I_1 (Z_1 + Z_2) + I_2 Z_2 = 0 \\\\\n    \\boxed{- I_1 (Z_1 + Z_2) + I_2 Z_2 = -E_1} \\\\\n    -(I_2 - I_1) Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 Z_2 + I_1 Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 (Z_2 + Z_3) + I_1 Z_2 = E_2 \\\\\n\\end{align*}\\]\nNow you have your equations, assign theme\n\n\nFormat Approach\nFor loop 1:\n$ I_1 ( Z_x ) - I_2 ( Z_x ) = E_x $\nFor loop 2:\n$ - I_1 ( Z_x ) + I_2 ( Z_x ) = E_x $",
+    "text": "Mesh Analysis\n\nMath\nFor\n\\[\n\\begin{aligned}\na_1 I_1 + b_1 I_2 &= c_1 \\\\\na_2 I_1 + b_2 I_2 &= c_2\n\\end{aligned}\n\\]\nwe use Cramer’s Rule:\n\\[\n\\begin{aligned}\nI_1 &= \\frac{\n    \\begin{vmatrix}\n        c_1 & b_1 \\\\\n        c_2 & b_2\n    \\end{vmatrix}\n}{\n    \\begin{vmatrix}\n        a_1 & b_1 \\\\\n        a_2 & b_2\n    \\end{vmatrix}\n} \\\\\nI_2 &= \\frac{\n    \\begin{vmatrix}\n        a_1 & c_1 \\\\\n        a_2 & c_2\n    \\end{vmatrix}\n}{\n    \\begin{vmatrix}\n        a_1 & b_1 \\\\\n        a_2 & b_2\n    \\end{vmatrix}\n}\n\\end{aligned}\n\\]\n\n\nGeneral Approach\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\n\n\n\ncircuit-polarity\n\n\n\nHere, as per KVL:\n\\[\\begin{align*}\n    E_1 - I_1 Z_1 - (I_1 - I_2) Z_2 = 0 \\\\\n    E_1 - I_1 Z_1 - I_1 Z_2 + I_2 Z_2 = 0 \\\\\n    E_1 - I_1 (Z_1 + Z_2) + I_2 Z_2 = 0 \\\\\n    \\boxed{- I_1 (Z_1 + Z_2) + I_2 Z_2 = -E_1} \\\\\n    -(I_2 - I_1) Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 Z_2 + I_1 Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 (Z_2 + Z_3) + I_1 Z_2 = E_2 \\\\\n\\end{align*}\\]\nNow you have your equations, assign theme\n\n\nFormat Approach\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\n\n\n\ncircuit-polarity\n\n\n\nFor loop 1:\n\\(I_1 [~\\sum Z_x\\text{(in loop 1)}~] - I_2 [~\\sum Z_x\\text{(in loop 2)}~] = [~\\sum \\pm E_x \\text{(The polarity of voltages here are of the original polarity)}~]\\)\nFor loop 2:\n\\(- I_1 [~\\sum Z_x\\text{(in loop 1)}~] + I_2 [~\\sum Z_x\\text{(in loop 2)}~] = [~\\sum \\pm E_x \\text{(The polarity of voltages here are of the original polarity)}~]\\)",
     "crumbs": [
       "Fund. Elec. II",
       "9. Methods of Analysis"
@@ -686,10 +1003,131 @@
     "href": "fund-elec2/t09-methods-of-analysis.html#nodal-analysis",
     "title": "9. Methods of Analysis",
     "section": "Nodal Analysis",
-    "text": "Nodal Analysis\n\nFormat Approach\nAs per KCL:\n\nIn node 1:\n\n\\[\nV_1 \\cdot \\sum \\frac{1}{Z_x} \\text{(Impedances of V_1)} - V_2 \\cdot \\sum \\frac{1}{Z_x} \\text{(Impedances common to V_1 and V_2)} = \\pm \\sum \\frac{E_x}{Z_x} \\text{(Polarity depending on whether the current is input or output)}\n\\]",
+    "text": "Nodal Analysis\n\nFormat Approach\n\nIn node 1:\n\n\\[\nV_1 \\cdot \\sum \\frac{1}{Z_x} \\text{ (impedances of } V_1 \\text{)}\n- V_2 \\cdot \\sum \\frac{1}{Z_x} \\text{ (impedances common to } V_1 \\text{ and } V_2 \\text{)}\n= \\sum \\pm \\frac{E_x}{Z_x} \\text{ (polarity depends on direction of current)}\n\\]\n\nIn node 2:\n\n\\[\n- V_1 \\cdot \\sum \\frac{1}{Z_x} \\text{ ((impedances common to } V_2 \\text{ and } V_1 \\text{)}\n+ V_2 \\cdot \\sum \\frac{1}{Z_x} \\text{ (impedances of } V_2 \\text{)}\n= \\sum \\pm \\frac{E_x}{Z_x} \\text{ (polarity depends on direction of current)}\n\\]",
     "crumbs": [
       "Fund. Elec. II",
       "9. Methods of Analysis"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "",
+    "text": "\\(\\Phi = \\frac{\\mathcal{F}}{\\mathcal{R}}\\)\nWhere,\n\n\\(Phi\\) = electromotive force\n\\(\\mathcal{F}\\) = Magnetomotive force (MMF)\n\\(\\mathcal{R}\\) =",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#introduction",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#introduction",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "",
+    "text": "\\(\\Phi = \\frac{\\mathcal{F}}{\\mathcal{R}}\\)\nWhere,\n\n\\(Phi\\) = electromotive force\n\\(\\mathcal{F}\\) = Magnetomotive force (MMF)\n\\(\\mathcal{R}\\) =",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetic-field",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetic-field",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Magnetic Field",
+    "text": "Magnetic Field\nFlux density, \\(B\\)\n\n\\(B = \\frac{\\Phi}{A}\\)\n\nUnit:\n\n\\(B=\\mathrm{Wb/m^2 = T}\\) (teslas)\n\\(\\Phi = \\text{Wb}\\) (webers)\n\\(A = m^2\\)\n\n\\(\\mathcal{F} = NI\\)\nPermeability \\(\\mu\\)\n$_r =",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#reluctance",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#reluctance",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Reluctance",
+    "text": "Reluctance\nreluctance is the opposition to the magnetic flux\n\\(\\mathcal{R} = \\frac{l}{\\mu A}\\)",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#ohms-law-for-magnetic-circuits",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#ohms-law-for-magnetic-circuits",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Ohm’s Law for Magnetic Circuits",
+    "text": "Ohm’s Law for Magnetic Circuits\n\\(\\Phi = \\frac{\\mathcal{F}}{\\mathcal{R}}\\)",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetizing-force-h",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetizing-force-h",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Magnetizing Force \\((H)\\)",
+    "text": "Magnetizing Force \\((H)\\)\n\\(H = \\frac{\\mathcal{F}}{l} = \\frac{NI}{l}\\)\n\\(B = \\mu H\\)",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#hysteresis",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#hysteresis",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Hysteresis",
+    "text": "Hysteresis\nWhen you magnetize something and remove the magnetizing force, the material will resist losing its magnetization and will take longer time to lose it than the time it took to gain it",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#amperes-circuital-law",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#amperes-circuital-law",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Ampere’s Circuital Law",
+    "text": "Ampere’s Circuital Law\nThe algebric sum of the rise and drops of the mmf around a closed loop of a magnetic circuit is zero. This is similar to KVL.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#air-gaps",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#air-gaps",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Air Gaps",
+    "text": "Air Gaps\n\\(B_g = \\frac{Phi_g}{A_g}\\)",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#applications",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#applications",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Applications",
+    "text": "Applications",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#transformers",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#transformers",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Transformers",
+    "text": "Transformers",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
     ]
   }
 ]

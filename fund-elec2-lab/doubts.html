@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3. Series AC Circuits – My Notes</title>
+<title>doubts – My Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../fund-elec2/t04-parallel-ac-circuits.html" rel="next">
-<link href="../fund-elec2/t02-basic-elements-and-phasors.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -286,7 +284,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fund-elec2/index.html">Fund. Elec. II</a></li><li class="breadcrumb-item"><a href="../fund-elec2/t03-series-ac-circuits.html">3. Series AC Circuits</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      My Notes
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -399,7 +399,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link active">
+  <a href="../fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">3. Series AC Circuits</span></a>
   </div>
 </li>
@@ -492,214 +492,59 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#circuits" id="toc-circuits" class="nav-link active" data-scroll-target="#circuits">Circuits</a>
-  <ul class="collapse">
-  <li><a href="#resistors" id="toc-resistors" class="nav-link" data-scroll-target="#resistors">Resistors</a></li>
-  <li><a href="#inductors" id="toc-inductors" class="nav-link" data-scroll-target="#inductors">Inductors</a></li>
-  <li><a href="#capacitors" id="toc-capacitors" class="nav-link" data-scroll-target="#capacitors">Capacitors</a></li>
-  <li><a href="#impedence-diagram" id="toc-impedence-diagram" class="nav-link" data-scroll-target="#impedence-diagram">Impedence Diagram</a></li>
-  <li><a href="#series-ac-circuits-configurations" id="toc-series-ac-circuits-configurations" class="nav-link" data-scroll-target="#series-ac-circuits-configurations">Series ac Circuits (Configurations)</a></li>
-  <li><a href="#resonance" id="toc-resonance" class="nav-link" data-scroll-target="#resonance">Resonance</a></li>
-  <li><a href="#applying-the-general-approach-to-a-series-rlc-circuit" id="toc-applying-the-general-approach-to-a-series-rlc-circuit" class="nav-link" data-scroll-target="#applying-the-general-approach-to-a-series-rlc-circuit">Applying the general approach to a series RLC circuit</a></li>
-  </ul></li>
-  <li><a href="#frequency-response-for-series-ac-circuits" id="toc-frequency-response-for-series-ac-circuits" class="nav-link" data-scroll-target="#frequency-response-for-series-ac-circuits">Frequency Response for Series ac Circuits</a></li>
+  <li><a href="#lab-8" id="toc-lab-8" class="nav-link active" data-scroll-target="#lab-8">Lab 8</a></li>
+  <li><a href="#lab-9" id="toc-lab-9" class="nav-link" data-scroll-target="#lab-9">Lab 9</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fund-elec2/index.html">Fund. Elec. II</a></li><li class="breadcrumb-item"><a href="../fund-elec2/t03-series-ac-circuits.html">3. Series AC Circuits</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">3. Series AC Circuits</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="circuits" class="level2">
-<h2 class="anchored" data-anchor-id="circuits">Circuits</h2>
-<p>In a series circuit, in place of <span class="math inline">\(R\)</span>, we use <span class="math inline">\(Z\)</span>: - <span class="math inline">\(Z_T = Z_1 + Z_2 + Z_3 \dots\)</span></p>
-<section id="resistors" class="level3">
-<h3 class="anchored" data-anchor-id="resistors">Resistors</h3>
-<p>For a circuit with a resistor and ac source: - <span class="math inline">\(i = I \sin \omega t = I \angle 0^\circ, \text{ where } I = I_m\)</span> - <span class="math inline">\(Z = R \angle 0^\circ\)</span></p>
+<section id="lab-8" class="level2">
+<h2 class="anchored" data-anchor-id="lab-8">Lab 8</h2>
+<ol type="1">
+<li>What does “steady-state” mean?</li>
+</ol>
+<blockquote class="blockquote">
+<p>Thus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply.</p>
+</blockquote>
 </section>
-<section id="inductors" class="level3">
-<h3 class="anchored" data-anchor-id="inductors">Inductors</h3>
-<p>For a circuit with an inductor and an AC source: - <span class="math inline">\(i = I_m \sin (\omega t -90^\circ) = I\angle -90^\circ\)</span>, when <span class="math inline">\(v = V \angle 0^\circ\)</span> - <span class="math inline">\(v = V\angle 90^\circ\)</span>, when <span class="math inline">\(i = I \angle 0^\circ\)</span> - <span class="math inline">\(Z = X_L \angle 90^\circ\)</span></p>
-</section>
-<section id="capacitors" class="level3">
-<h3 class="anchored">Capacitors</h3>
-<p>For a circuit with a capacitor and an AC source:</p>
-<ul>
-<li><span class="math inline">\(i = I_m \sin (\omega t + 90^\circ) = I\angle 90^\circ\)</span>, when <span class="math inline">\(v = V \angle 0^\circ\)</span></li>
-<li><span class="math inline">\(v = V\angle -90^\circ\)</span>, when <span class="math inline">\(i = I \angle 0^\circ\)</span></li>
-<li><h2 id="z-x_c-angle--90circ" class="anchored" data-anchor-id="capacitors"><span class="math inline">\(Z = X_C \angle -90^\circ\)</span></h2>
-<hr>
-<h2 id="rlc-circuit" class="anchored">RLC circuit</h2></li>
-</ul>
-<p>In an <span class="math inline">\(RLC\)</span> circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.</p>
-</section>
-<section id="impedence-diagram" class="level3">
-<h3 class="anchored" data-anchor-id="impedence-diagram">Impedence Diagram</h3>
-<div class="quarto-figure quarto-figure-center">
+<section id="lab-9" class="level2">
+<h2 class="anchored" data-anchor-id="lab-9">Lab 9</h2>
+<ol type="1">
+<li>What does a first-order filter mean?</li>
+</ol>
+<blockquote class="blockquote">
+<p>Objective:</p>
+<p>To study the frequency response of a first-order low-pass filter, and high-pass filter and to determine the cut-off frequency in each case.</p>
+</blockquote>
+<p><strong>Ans:</strong></p>
+<p>First order filters are RC filters</p>
+<ol start="2" type="1">
+<li>What does gain (dB) mean?</li>
+</ol>
+<p>gain means the amount of output gained from the input waveform.</p>
+<ol start="3" type="1">
+<li>In the following image,</li>
+</ol>
+<div class="center">
+<div id="lpf-v-vs-f-graph.png" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="images/image-1.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
+<p><img src="doubts-img/lpf-v-vs-f-graph.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>lpf-v-vs-f-graph.png</figcaption>
 </figure>
 </div>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> <span class="math inline">\(Z_C \neq X_C\angle90^\circ\)</span> <br> <span class="math inline">\(Z_C = X_C\angle-90^\circ\)</span></p>
-</blockquote>
-<p>For any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Network</th>
-<th><span class="math inline">\(\theta_{Z_T}\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Inductive</td>
-<td><span class="math inline">\(+ve\)</span></td>
-</tr>
-<tr class="even">
-<td>Capacitive</td>
-<td><span class="math inline">\(-ve\)</span></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="series-ac-circuits-configurations" class="level3">
-<h3 class="anchored" data-anchor-id="series-ac-circuits-configurations">Series ac Circuits (Configurations)</h3>
-<p>Impedances behave like resistors in series. <span class="math display">\[Z_T = \sum Z_n\]</span></p>
-<p>Calculating in complex mode (recommended to use):</p>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> In all places, angles are required in equations except in avg power formula (<span class="math inline">\(P=VI\cos\theta\)</span>). <br> Each attribute has its own angle except avg power</p>
-</blockquote>
-<ul>
-<li><p>Polar notation <span class="math display">\[
-\begin{align*}
-  E &amp;= I \cdot Z_T \\
-  I &amp;= \frac{E}{Z_T} \\
-  V_{Z_x} &amp;= I_T \cdot Z_x \\
-  I_{Z_x} &amp;= I \\
-\end{align*}
-\]</span></p></li>
-<li><p>Rectangular notation</p></li>
-</ul>
-<p><span class="math display">\[
-\begin{align*}
-    Z &amp;= R+j(X_L-X_C) \\
-\end{align*}
-\]</span></p>
-<p>Calculating in non-complex mode (not recommended to use):</p>
-<p><span class="math display">\[
-\begin{align*}
-    Z &amp;= \sqrt{R^2+X} \\
-    X &amp;= X_L-X_C\\
-    \theta &amp;= \tan^{-1} \frac{X}{R} \\
-\end{align*}
-\]</span></p>
-<p>Calculations that are complex independant:</p>
-<p><span class="math inline">\(P=EI\cos\theta\)</span></p>
-<section id="voltage-divider-rule" class="level4">
-<h4 class="anchored" data-anchor-id="voltage-divider-rule">Voltage Divider Rule</h4>
-<p><span class="math inline">\(V_x = \dfrac{E}{Z_T}Z_x\)</span></p>
-<details>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> Basically, this is Ohm’s law. The only change is that <span class="math inline">\(I\)</span> has been expanded</p>
-</blockquote>
-<p><span class="math inline">\(V_x = I \cdot Z_x = \dfrac{E}{Z_T}Z_x\)</span></p>
-</details>
-</section>
-<section id="kirchoffs-voltage-law" class="level4">
-<h4 class="anchored" data-anchor-id="kirchoffs-voltage-law">Kirchoff’s Voltage Law</h4>
-<p>The sum of the input voltages and voltage drops in a closed loop is zero</p>
-</section>
-</section>
-<section id="resonance" class="level3">
-<h3 class="anchored" data-anchor-id="resonance">Resonance</h3>
-<p>Condition for resonance:</p>
-<p><span class="math display">\[X_L = X_C\]</span></p>
-<p>Frequency:</p>
-<p><span class="math display">\[f = \frac{1}{2\pi\sqrt{LC}}\]</span></p>
-<p>Derivation for <span class="math inline">\(f\)</span></p>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> This is very simple, use when you forget the formula for <span class="math inline">\(f\)</span>, all you need to remember is the condition for resonace.</p>
-</blockquote>
-<p><span class="math display">\[
-\begin{align*}
-    X_L &amp;= X_C \\
-    \omega L &amp;= \frac{1}{\omega C} \\
-    2\pi fL &amp;= \frac{1}{2\pi fC} \\
-    f^2 &amp;= \frac{1}{(2\pi)^2LC} \\
-    f&amp; = \frac{1}{2\pi\sqrt{LC}} \\
-\end{align*}
-\]</span></p>
-</section>
-<section id="applying-the-general-approach-to-a-series-rlc-circuit" class="level3">
-<h3 class="anchored" data-anchor-id="applying-the-general-approach-to-a-series-rlc-circuit">Applying the general approach to a series RLC circuit</h3>
-<ul>
-<li>Apply the phasor notation</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-2.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
 </div>
+<p>what does the following mean:</p>
 <ul>
-<li><p>Calculate the total impedance of the circuit</p>
-<ul>
-<li><span class="math inline">\(Z_T = Z_R + Z_L + Z_C\)</span></li>
-</ul></li>
-<li><p>Draw: Impedance diagram</p></li>
-<li><p>Determine the total current</p>
-<ul>
-<li><span class="math inline">\(I = \dfrac{E}{Z_T}\)</span></li>
-</ul></li>
-<li><p>Find the voltage across each element</p>
-<ul>
-<li><span class="math inline">\(V_R = IZ_R = (I\angle\theta)(R\angle 0^\circ)\)</span></li>
-<li><span class="math inline">\(V_L = IZ_L = (I\angle\theta)(X_L\angle 90^\circ)\)</span></li>
-<li><span class="math inline">\(V_C = IZ_C = (I\angle\theta)(X_C\angle -90^\circ)\)</span></li>
-</ul></li>
-<li><p>Apply Kirchoff’s voltage law <span class="math inline">\(\sum V = E-V_R-V_L-V_C = 0 \text{ or } E = V_R+V_L+V_C\)</span>, verified through phasor diagram</p></li>
-<li><p>Draw the phasor diagram</p></li>
-<li><p>Determine the power to the circuit</p>
-<ul>
-<li><span class="math inline">\(P=V_mI_m\cos\theta\)</span></li>
-</ul></li>
-<li><p>Calculate the power factor</p>
-<ul>
-<li><span class="math inline">\(F_p = \cos \theta_T = \dfrac{R}{Z_T}\)</span></li>
-</ul></li>
+<li><p>Corner frequency</p></li>
+<li><p>Decade in <span class="math inline">\(\mathrm{ Slope = \frac{ -20~dB }{ Decade } }\)</span></p></li>
 </ul>
-</section>
-</section>
-<section id="frequency-response-for-series-ac-circuits" class="level2">
-<h2 class="anchored" data-anchor-id="frequency-response-for-series-ac-circuits">Frequency Response for Series ac Circuits</h2>
-<p>In a series R-L-C circuit: - At very low frequencies, the total impedance will be determined primarily by the capacitor (C). - At very high frequencies, the total impedance will be determined primarily by the inductor (L).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-4.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<p>Decade is the number of samples for a specific frequency</p>
 
 
 </section>
@@ -1117,18 +962,6 @@ window.Quarto = {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../fund-elec2/t02-basic-elements-and-phasors.html" class="pagination-link" aria-label="2. Basic Elements and Phasors">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">2. Basic Elements and Phasors</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../fund-elec2/t04-parallel-ac-circuits.html" class="pagination-link" aria-label="4. Parallel AC Circuits">
-        <span class="nav-page-text">4. Parallel AC Circuits</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

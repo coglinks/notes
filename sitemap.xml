@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://coglinks.github.io/notes/general.html</loc>
+    <lastmod>2025-06-24T12:52:16.470Z</lastmod>
+  </url>
+  <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t10-network-theorems-ac.html</loc>
-    <lastmod>2025-06-18T15:01:54.701Z</lastmod>
+    <lastmod>2025-06-19T10:00:02.196Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t08-resonance-and-filters.html</loc>
@@ -18,7 +22,7 @@
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t02-basic-elements-and-phasors.html</loc>
-    <lastmod>2025-06-18T15:01:54.698Z</lastmod>
+    <lastmod>2025-06-23T15:52:52.496Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/revision.html</loc>
@@ -26,10 +30,22 @@
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/doubts.html</loc>
-    <lastmod>2025-06-18T15:01:54.696Z</lastmod>
+    <lastmod>2025-06-24T14:40:40.177Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/calc1/u3-transcendental.html</loc>
+    <loc>https://coglinks.github.io/notes/class-enroll/current-plan.html</loc>
+    <lastmod>2025-06-22T17:06:32.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/class-enroll/abandoned-available-courses.html</loc>
+    <lastmod>2025-06-24T19:25:52.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/calc1/u4-applications-of-the-derivative2.html</loc>
+    <lastmod>2025-06-24T12:30:12.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/calc1/u1-the-derivative.html</loc>
     <lastmod>2025-06-18T15:01:54.696Z</lastmod>
   </url>
   <url>
@@ -37,12 +53,20 @@
     <lastmod>2025-06-18T15:12:18.364Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/calc1/u1-the-derivative.html</loc>
+    <loc>https://coglinks.github.io/notes/calc1/u3-transcendental.html</loc>
     <lastmod>2025-06-18T15:01:54.696Z</lastmod>
   </url>
   <url>
-    <loc>https://coglinks.github.io/notes/calc1/u4-applications-of-the-derivative2.html</loc>
-    <lastmod>2025-06-18T15:01:54.696Z</lastmod>
+    <loc>https://coglinks.github.io/notes/calc1/u5-antiderivatives-introduction-to-integrals.html</loc>
+    <lastmod>2025-06-22T15:20:34.666Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/class-enroll/available-courses.html</loc>
+    <lastmod>2025-06-24T19:30:46.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2-lab/doubts.html</loc>
+    <lastmod>2025-06-22T15:20:34.811Z</lastmod>
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t01-sinusoidal-alternating-waveforms.html</loc>
@@ -62,6 +86,10 @@
   </url>
   <url>
     <loc>https://coglinks.github.io/notes/fund-elec2/t09-methods-of-analysis.html</loc>
-    <lastmod>2025-06-18T15:01:54.700Z</lastmod>
+    <lastmod>2025-06-24T14:57:53.247Z</lastmod>
+  </url>
+  <url>
+    <loc>https://coglinks.github.io/notes/fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html</loc>
+    <lastmod>2025-06-22T15:20:34.713Z</lastmod>
   </url>
 </urlset>

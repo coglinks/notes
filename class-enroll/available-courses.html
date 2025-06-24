@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3. Series AC Circuits – My Notes</title>
+<title>available-courses – My Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../fund-elec2/t04-parallel-ac-circuits.html" rel="next">
-<link href="../fund-elec2/t02-basic-elements-and-phasors.html" rel="prev">
+<link href="../class-enroll/current-plan.html" rel="next">
+<link href="../class-enroll/abandoned-available-courses.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -74,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -286,7 +257,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fund-elec2/index.html">Fund. Elec. II</a></li><li class="breadcrumb-item"><a href="../fund-elec2/t03-series-ac-circuits.html">3. Series AC Circuits</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../class-enroll/abandoned-available-courses.html">course list</a></li><li class="breadcrumb-item"><a href="../class-enroll/available-courses.html">AETN2221 Analog &amp; Digital Communication (Lab)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -399,7 +370,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link active">
+  <a href="../fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">3. Series AC Circuits</span></a>
   </div>
 </li>
@@ -470,7 +441,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../class-enroll/available-courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../class-enroll/available-courses.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">AETN2221 Analog &amp; Digital Communication (Lab)</span></a>
   </div>
 </li>
@@ -492,214 +463,461 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#circuits" id="toc-circuits" class="nav-link active" data-scroll-target="#circuits">Circuits</a>
-  <ul class="collapse">
-  <li><a href="#resistors" id="toc-resistors" class="nav-link" data-scroll-target="#resistors">Resistors</a></li>
-  <li><a href="#inductors" id="toc-inductors" class="nav-link" data-scroll-target="#inductors">Inductors</a></li>
-  <li><a href="#capacitors" id="toc-capacitors" class="nav-link" data-scroll-target="#capacitors">Capacitors</a></li>
-  <li><a href="#impedence-diagram" id="toc-impedence-diagram" class="nav-link" data-scroll-target="#impedence-diagram">Impedence Diagram</a></li>
-  <li><a href="#series-ac-circuits-configurations" id="toc-series-ac-circuits-configurations" class="nav-link" data-scroll-target="#series-ac-circuits-configurations">Series ac Circuits (Configurations)</a></li>
-  <li><a href="#resonance" id="toc-resonance" class="nav-link" data-scroll-target="#resonance">Resonance</a></li>
-  <li><a href="#applying-the-general-approach-to-a-series-rlc-circuit" id="toc-applying-the-general-approach-to-a-series-rlc-circuit" class="nav-link" data-scroll-target="#applying-the-general-approach-to-a-series-rlc-circuit">Applying the general approach to a series RLC circuit</a></li>
-  </ul></li>
-  <li><a href="#frequency-response-for-series-ac-circuits" id="toc-frequency-response-for-series-ac-circuits" class="nav-link" data-scroll-target="#frequency-response-for-series-ac-circuits">Frequency Response for Series ac Circuits</a></li>
+  <li><a href="#aetn2221-analog-digital-communication-lab" id="toc-aetn2221-analog-digital-communication-lab" class="nav-link active" data-scroll-target="#aetn2221-analog-digital-communication-lab">AETN2221 Analog &amp; Digital Communication (Lab)</a></li>
+  <li><a href="#aetn-2121" id="toc-aetn-2121" class="nav-link" data-scroll-target="#aetn-2121">AETN 2121</a></li>
+  <li><a href="#aetn-2201" id="toc-aetn-2201" class="nav-link" data-scroll-target="#aetn-2201">AETN 2201</a></li>
+  <li><a href="#aetn-1112-digital-electronics" id="toc-aetn-1112-digital-electronics" class="nav-link" data-scroll-target="#aetn-1112-digital-electronics">AETN 1112 Digital Electronics</a></li>
+  <li><a href="#aetn1212-digital-electronics-lab" id="toc-aetn1212-digital-electronics-lab" class="nav-link" data-scroll-target="#aetn1212-digital-electronics-lab">AETN1212 Digital Electronics Lab:</a></li>
+  <li><a href="#aetn-1102-network-fundamentals" id="toc-aetn-1102-network-fundamentals" class="nav-link" data-scroll-target="#aetn-1102-network-fundamentals">AETN 1102 Network Fundamentals</a></li>
+  <li><a href="#aetn-1202-network-fundamentals-lab" id="toc-aetn-1202-network-fundamentals-lab" class="nav-link" data-scroll-target="#aetn-1202-network-fundamentals-lab">AETN 1202 Network Fundamentals Lab</a></li>
+  <li><a href="#math-2010-calculus-ii" id="toc-math-2010-calculus-ii" class="nav-link" data-scroll-target="#math-2010-calculus-ii">MATH 2010 Calculus II</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../fund-elec2/index.html">Fund. Elec. II</a></li><li class="breadcrumb-item"><a href="../fund-elec2/t03-series-ac-circuits.html">3. Series AC Circuits</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">3. Series AC Circuits</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../class-enroll/abandoned-available-courses.html">course list</a></li><li class="breadcrumb-item"><a href="../class-enroll/available-courses.html">AETN2221 Analog &amp; Digital Communication (Lab)</a></li></ol></nav></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="circuits" class="level2">
-<h2 class="anchored" data-anchor-id="circuits">Circuits</h2>
-<p>In a series circuit, in place of <span class="math inline">\(R\)</span>, we use <span class="math inline">\(Z\)</span>: - <span class="math inline">\(Z_T = Z_1 + Z_2 + Z_3 \dots\)</span></p>
-<section id="resistors" class="level3">
-<h3 class="anchored" data-anchor-id="resistors">Resistors</h3>
-<p>For a circuit with a resistor and ac source: - <span class="math inline">\(i = I \sin \omega t = I \angle 0^\circ, \text{ where } I = I_m\)</span> - <span class="math inline">\(Z = R \angle 0^\circ\)</span></p>
-</section>
-<section id="inductors" class="level3">
-<h3 class="anchored" data-anchor-id="inductors">Inductors</h3>
-<p>For a circuit with an inductor and an AC source: - <span class="math inline">\(i = I_m \sin (\omega t -90^\circ) = I\angle -90^\circ\)</span>, when <span class="math inline">\(v = V \angle 0^\circ\)</span> - <span class="math inline">\(v = V\angle 90^\circ\)</span>, when <span class="math inline">\(i = I \angle 0^\circ\)</span> - <span class="math inline">\(Z = X_L \angle 90^\circ\)</span></p>
-</section>
-<section id="capacitors" class="level3">
-<h3 class="anchored">Capacitors</h3>
-<p>For a circuit with a capacitor and an AC source:</p>
-<ul>
-<li><span class="math inline">\(i = I_m \sin (\omega t + 90^\circ) = I\angle 90^\circ\)</span>, when <span class="math inline">\(v = V \angle 0^\circ\)</span></li>
-<li><span class="math inline">\(v = V\angle -90^\circ\)</span>, when <span class="math inline">\(i = I \angle 0^\circ\)</span></li>
-<li><h2 id="z-x_c-angle--90circ" class="anchored" data-anchor-id="capacitors"><span class="math inline">\(Z = X_C \angle -90^\circ\)</span></h2>
-<hr>
-<h2 id="rlc-circuit" class="anchored">RLC circuit</h2></li>
-</ul>
-<p>In an <span class="math inline">\(RLC\)</span> circuit, depending on the value of the resistance and reactances, the circuit is resistive, inductive or capacitive.</p>
-</section>
-<section id="impedence-diagram" class="level3">
-<h3 class="anchored" data-anchor-id="impedence-diagram">Impedence Diagram</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-1.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
 <blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> <span class="math inline">\(Z_C \neq X_C\angle90^\circ\)</span> <br> <span class="math inline">\(Z_C = X_C\angle-90^\circ\)</span></p>
+<p>Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good</p>
 </blockquote>
-<p>For any configuration, the angle associated with the total impedance is the angle by which the applied voltage leads the source current.</p>
+<section id="aetn2221-analog-digital-communication-lab" class="level2">
+<h2 class="anchored" data-anchor-id="aetn2221-analog-digital-communication-lab">AETN2221 Analog &amp; Digital Communication (Lab)</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Network</th>
-<th><span class="math inline">\(\theta_{Z_T}\)</span></th>
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Inductive</td>
-<td><span class="math inline">\(+ve\)</span></td>
+<td>Laboratory - Class 1921 -Section 3</td>
+<td>Thursday<br>2:00PM to 4:00PM</td>
+<td>09.2.79</td>
+<td>Staff</td>
+<td>open (5-14)</td>
 </tr>
 <tr class="even">
-<td>Capacitive</td>
-<td><span class="math inline">\(-ve\)</span></td>
+<td>Laboratory - Class 1919 -Section 1</td>
+<td>Sunday<br>2:00PM to 4:00PM</td>
+<td>09.2.79</td>
+<td>Ghufran Khalaf Ja’afreh</td>
+<td>closed (0-14)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1920 -Section 2</td>
+<td>Monday<br>4:00PM to 6:00PM</td>
+<td>09.2.79</td>
+<td>Ghufran Khalaf Ja’afreh</td>
+<td>closed (0-14)</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="series-ac-circuits-configurations" class="level3">
-<h3 class="anchored" data-anchor-id="series-ac-circuits-configurations">Series ac Circuits (Configurations)</h3>
-<p>Impedances behave like resistors in series. <span class="math display">\[Z_T = \sum Z_n\]</span></p>
-<p>Calculating in complex mode (recommended to use):</p>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> In all places, angles are required in equations except in avg power formula (<span class="math inline">\(P=VI\cos\theta\)</span>). <br> Each attribute has its own angle except avg power</p>
-</blockquote>
-<ul>
-<li><p>Polar notation <span class="math display">\[
-\begin{align*}
-  E &amp;= I \cdot Z_T \\
-  I &amp;= \frac{E}{Z_T} \\
-  V_{Z_x} &amp;= I_T \cdot Z_x \\
-  I_{Z_x} &amp;= I \\
-\end{align*}
-\]</span></p></li>
-<li><p>Rectangular notation</p></li>
-</ul>
-<p><span class="math display">\[
-\begin{align*}
-    Z &amp;= R+j(X_L-X_C) \\
-\end{align*}
-\]</span></p>
-<p>Calculating in non-complex mode (not recommended to use):</p>
-<p><span class="math display">\[
-\begin{align*}
-    Z &amp;= \sqrt{R^2+X} \\
-    X &amp;= X_L-X_C\\
-    \theta &amp;= \tan^{-1} \frac{X}{R} \\
-\end{align*}
-\]</span></p>
-<p>Calculations that are complex independant:</p>
-<p><span class="math inline">\(P=EI\cos\theta\)</span></p>
-<section id="voltage-divider-rule" class="level4">
-<h4 class="anchored" data-anchor-id="voltage-divider-rule">Voltage Divider Rule</h4>
-<p><span class="math inline">\(V_x = \dfrac{E}{Z_T}Z_x\)</span></p>
-<details>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> Basically, this is Ohm’s law. The only change is that <span class="math inline">\(I\)</span> has been expanded</p>
-</blockquote>
-<p><span class="math inline">\(V_x = I \cdot Z_x = \dfrac{E}{Z_T}Z_x\)</span></p>
-</details>
+<section id="aetn-2121" class="level2">
+<h2 class="anchored" data-anchor-id="aetn-2121">AETN 2121</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lecture - Class 1901 -Section 2</td>
+<td>Tuesday<br>8:00AM to 9:00AM<br></td>
+<td>05.2.23<br>05.2.23<br>05.2.23</td>
+<td>Zeina Rihawi<br>Zeina Rihawi<br>Zeina Rihawi</td>
+<td>open (6-25)</td>
+</tr>
+<tr class="even">
+<td>Lecture - Class 1900 -Section 1</td>
+<td>Tuesday<br>9:00AM to 10:00AM<br></td>
+<td>05.2.35<br>05.2.35<br>05.2.35</td>
+<td>Zeina Rihawi<br>Zeina Rihawi<br>Zeina Rihawi</td>
+<td>closed (0-25)</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="kirchoffs-voltage-law" class="level4">
-<h4 class="anchored" data-anchor-id="kirchoffs-voltage-law">Kirchoff’s Voltage Law</h4>
-<p>The sum of the input voltages and voltage drops in a closed loop is zero</p>
+<section id="aetn-2201" class="level2">
+<h2 class="anchored" data-anchor-id="aetn-2201">AETN 2201</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Laboratory - Class 1912 -Section 9</td>
+<td>Sunday<br>4:00PM to 6:00PM</td>
+<td>09.2.72</td>
+<td>Yasen Abdullahi Harrye</td>
+<td>open (1-15)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1906 -Section 3</td>
+<td>Wednesday<br>8:00AM to 10:00AM</td>
+<td>09.2.72</td>
+<td>Muhammad Sheikh</td>
+<td>closed (0-15)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1905 -Section 2</td>
+<td>Monday<br>9:00AM to 11:00AM</td>
+<td>09.2.72</td>
+<td>Yasen Abdullahi Harrye</td>
+<td>closed (0-15)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1908 -Section 5</td>
+<td>Sunday<br>10:00AM to 12:00PM</td>
+<td>09.2.72</td>
+<td>Muhammad Sheikh</td>
+<td>closed (0-15)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1907 -Section 4</td>
+<td>Monday<br>11:00AM to 1:00PM</td>
+<td>09.2.72</td>
+<td>Yasen Abdullahi Harrye</td>
+<td>closed (0-15)</td>
+</tr>
+</tbody>
+</table>
 </section>
+<section id="aetn-1112-digital-electronics" class="level2">
+<h2 class="anchored" data-anchor-id="aetn-1112-digital-electronics">AETN 1112 Digital Electronics</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 32%">
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lecture - Class 1868 -Section 2</td>
+<td>Sunday<br>Tuesday<br>Thursday<br>12:00PM - 1:00PM </td>
+<td>05.2.37<br>05.2.37<br>05.2.37</td>
+<td>Staff<br>Staff<br>Staff</td>
+<td>open (30-30)</td>
+</tr>
+<tr class="even">
+<td>Lecture - Class 1869 -Section 3</td>
+<td>Sunday<br>Tuesday<br>Thursday<br>1:00PM - 2:00PM </td>
+<td>05.2.55<br>05.2.55<br>05.2.55</td>
+<td>Ghufran Khalaf Ja’afreh<br>Ghufran Khalaf Ja’afreh<br>Ghufran Khalaf Ja’afreh</td>
+<td>open (28-30)</td>
+</tr>
+<tr class="odd">
+<td>Lecture - Class 1870 -Section 4</td>
+<td>Sunday<br>Tuesday<br>Thursday<br>12:00PM - 1:00PM </td>
+<td>05.2.25<br>05.2.25<br>05.2.25</td>
+<td>Ghufran Khalaf Ja’afreh<br>Ghufran Khalaf Ja’afreh<br>Ghufran Khalaf Ja’afreh</td>
+<td>open (28-30)</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="resonance" class="level3">
-<h3 class="anchored" data-anchor-id="resonance">Resonance</h3>
-<p>Condition for resonance:</p>
-<p><span class="math display">\[X_L = X_C\]</span></p>
-<p>Frequency:</p>
-<p><span class="math display">\[f = \frac{1}{2\pi\sqrt{LC}}\]</span></p>
-<p>Derivation for <span class="math inline">\(f\)</span></p>
-<blockquote class="blockquote">
-<p><strong>ⓘ Note</strong> <br> This is very simple, use when you forget the formula for <span class="math inline">\(f\)</span>, all you need to remember is the condition for resonace.</p>
-</blockquote>
-<p><span class="math display">\[
-\begin{align*}
-    X_L &amp;= X_C \\
-    \omega L &amp;= \frac{1}{\omega C} \\
-    2\pi fL &amp;= \frac{1}{2\pi fC} \\
-    f^2 &amp;= \frac{1}{(2\pi)^2LC} \\
-    f&amp; = \frac{1}{2\pi\sqrt{LC}} \\
-\end{align*}
-\]</span></p>
+<section id="aetn1212-digital-electronics-lab" class="level2">
+<h2 class="anchored" data-anchor-id="aetn1212-digital-electronics-lab">AETN1212 Digital Electronics Lab:</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 39%">
+<col style="width: 6%">
+<col style="width: 15%">
+<col style="width: 10%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Laboratory - Class 1880 -Section 1</td>
+<td>Wednesday<br>4:00PM to 6:00PM </td>
+<td>09.2.79</td>
+<td>Mariam Al-Ghanma</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1881 -Section 2</td>
+<td>Wednesday<br>2:00PM to 4:00PM </td>
+<td>09.2.79</td>
+<td>Eithar Mustafa</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1882 -Section 3</td>
+<td>Tuesday<br>2:00PM to 4:00PM </td>
+<td>09.2.79</td>
+<td>Eithar Mustafa</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1883 -Section 4</td>
+<td>Monday<br>10:00AM to 12:00PM </td>
+<td>09.2.79</td>
+<td>Mariam Al-Ghanma</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1884 -Section 5</td>
+<td>Thursday<br>6:00PM to 8:00PM </td>
+<td>08.1.03</td>
+<td>Alaa Elsaqa</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1885 -Section 6</td>
+<td>Wednesday<br>11:00AM to 1:00PM </td>
+<td>09.2.79</td>
+<td>Alaa Elsaqa</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1886 -Section 7</td>
+<td>Sunday<br>10:00AM to 12:00PM </td>
+<td>09.2.79</td>
+<td>Amira Mustapha</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1887 -Section 8</td>
+<td>Tuesday<br>8:00AM to 10:00AM </td>
+<td>09.2.79</td>
+<td>Amira Mustapha</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1888 -Section 9</td>
+<td>Thursday<br>12:00PM to 2:00PM </td>
+<td>09.2.79</td>
+<td>Mariam Al-Ghanma</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1889 -Section 10</td>
+<td>Sunday<br>12:00PM to 2:00PM </td>
+<td>09.1.41</td>
+<td>Alaa Elsaqa</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1890 -Section 11</td>
+<td>Wednesday<br>8:00AM to 10:00AM </td>
+<td>09.2.69</td>
+<td>Ghufran Khalaf Ja’afreh</td>
+<td>open (15-15)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="applying-the-general-approach-to-a-series-rlc-circuit" class="level3">
-<h3 class="anchored" data-anchor-id="applying-the-general-approach-to-a-series-rlc-circuit">Applying the general approach to a series RLC circuit</h3>
-<ul>
-<li>Apply the phasor notation</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-2.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
-<ul>
-<li><p>Calculate the total impedance of the circuit</p>
-<ul>
-<li><span class="math inline">\(Z_T = Z_R + Z_L + Z_C\)</span></li>
-</ul></li>
-<li><p>Draw: Impedance diagram</p></li>
-<li><p>Determine the total current</p>
-<ul>
-<li><span class="math inline">\(I = \dfrac{E}{Z_T}\)</span></li>
-</ul></li>
-<li><p>Find the voltage across each element</p>
-<ul>
-<li><span class="math inline">\(V_R = IZ_R = (I\angle\theta)(R\angle 0^\circ)\)</span></li>
-<li><span class="math inline">\(V_L = IZ_L = (I\angle\theta)(X_L\angle 90^\circ)\)</span></li>
-<li><span class="math inline">\(V_C = IZ_C = (I\angle\theta)(X_C\angle -90^\circ)\)</span></li>
-</ul></li>
-<li><p>Apply Kirchoff’s voltage law <span class="math inline">\(\sum V = E-V_R-V_L-V_C = 0 \text{ or } E = V_R+V_L+V_C\)</span>, verified through phasor diagram</p></li>
-<li><p>Draw the phasor diagram</p></li>
-<li><p>Determine the power to the circuit</p>
-<ul>
-<li><span class="math inline">\(P=V_mI_m\cos\theta\)</span></li>
-</ul></li>
-<li><p>Calculate the power factor</p>
-<ul>
-<li><span class="math inline">\(F_p = \cos \theta_T = \dfrac{R}{Z_T}\)</span></li>
-</ul></li>
-</ul>
+<section id="aetn-1102-network-fundamentals" class="level2">
+<h2 class="anchored" data-anchor-id="aetn-1102-network-fundamentals">AETN 1102 Network Fundamentals</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 34%">
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lecture - Class 1863 -Section 2</td>
+<td>Sunday<br>Tuesday<br>Thursday<br>1:00PM - 2:00PM </td>
+<td>05.2.36<br>05.2.36<br>05.2.36</td>
+<td>Permjit Soora<br>Permjit Soora<br>Permjit Soora</td>
+<td>open (25-30)</td>
+</tr>
+<tr class="even">
+<td>Lecture - Class 1866 -Section 5</td>
+<td>Sunday<br>Tuesday<br>Thursday<br>3:00PM - 4:00PM </td>
+<td>05.2.25<br>05.2.25<br>05.2.25</td>
+<td>Nicolae Nechita<br>Nicolae Nechita<br>Nicolae Nechita</td>
+<td>open (28-30)</td>
+</tr>
+</tbody>
+</table>
 </section>
+<section id="aetn-1202-network-fundamentals-lab" class="level2">
+<h2 class="anchored" data-anchor-id="aetn-1202-network-fundamentals-lab">AETN 1202 Network Fundamentals Lab</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 26%">
+<col style="width: 9%">
+<col style="width: 18%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Laboratory - Class 1873 -Section 1</td>
+<td>Wednesday<br>10:00AM - 1:00PM </td>
+<td>09.2.07</td>
+<td>Mariam Al-Ghanma</td>
+<td>open (18-20)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1874 -Section 2</td>
+<td>Tuesday<br>2:00PM - 5:00PM </td>
+<td>09.2.07</td>
+<td>Mariam Al-Ghanma</td>
+<td>open (20-20)</td>
+</tr>
+<tr class="odd">
+<td>Laboratory - Class 1877 -Section 5</td>
+<td>Monday<br>10:00AM - 1:00PM </td>
+<td>09.2.07</td>
+<td>Alaa Elsaqa</td>
+<td>open (19-20)</td>
+</tr>
+<tr class="even">
+<td>Laboratory - Class 1878 -Section 6</td>
+<td>Thursday<br>2:00PM - 5:00PM </td>
+<td>09.2.07</td>
+<td>Alaa Elsaqa</td>
+<td>open (18-20)</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="frequency-response-for-series-ac-circuits" class="level2">
-<h2 class="anchored" data-anchor-id="frequency-response-for-series-ac-circuits">Frequency Response for Series ac Circuits</h2>
-<p>In a series R-L-C circuit: - At very low frequencies, the total impedance will be determined primarily by the capacitor (C). - At very high frequencies, the total impedance will be determined primarily by the inductor (L).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/image-4.png" class="img-fluid figure-img"></p>
-<figcaption>image</figcaption>
-</figure>
-</div>
+<section id="math-2010-calculus-ii" class="level2">
+<h2 class="anchored" data-anchor-id="math-2010-calculus-ii">MATH 2010 Calculus II</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class ID</th>
+<th>Days and Times</th>
+<th>Room</th>
+<th>Instructor</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2509 -Section 6</td>
+<td>Sunday<br>12:30PM to 2:00PM</td>
+<td>01.1.04<br>05.2.60</td>
+<td>Staff<br>Staff</td>
+<td>open (38-90)<br>open (24-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2508 -Section 5<br>Lecture - Class 2511 -Section 8</td>
+<td>Sunday<br>12:30PM to 2:00PM</td>
+<td>01.1.04<br>05.1.51</td>
+<td>Staff<br>Staff</td>
+<td>open (38-90)<br>open (14-30)</td>
+</tr>
+<tr class="odd">
+<td>LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2514 -Section 11</td>
+<td>Sunday<br>5:00PM to 6:30PM</td>
+<td>01.1.04<br>05.2.24</td>
+<td>Staff<br>Staff</td>
+<td>open (45-90)<br>open (30-30)</td>
+</tr>
+<tr class="even">
+<td>LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2515 -Section 12</td>
+<td>Sunday<br>5:00PM to 6:30PM</td>
+<td>01.1.04<br>05.1.56</td>
+<td>Staff<br>Staff</td>
+<td>open (45-90)<br>open (15-30)</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
@@ -1119,13 +1337,13 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../fund-elec2/t02-basic-elements-and-phasors.html" class="pagination-link" aria-label="2. Basic Elements and Phasors">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">2. Basic Elements and Phasors</span>
+      <a href="../class-enroll/abandoned-available-courses.html" class="pagination-link" aria-label="COMM1020">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">COMM1020</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../fund-elec2/t04-parallel-ac-circuits.html" class="pagination-link" aria-label="4. Parallel AC Circuits">
-        <span class="nav-page-text">4. Parallel AC Circuits</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../class-enroll/current-plan.html" class="pagination-link" aria-label="this has many conflicts">
+        <span class="nav-page-text">this has many conflicts</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

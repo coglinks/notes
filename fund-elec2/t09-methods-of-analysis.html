@@ -356,6 +356,12 @@ window.Quarto = {
  <span class="menu-text">Applications of the Derivative II</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../calc1/u5-antiderivatives-introduction-to-integrals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Antiderivatives: Introduction to Integrals</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -439,6 +445,41 @@ window.Quarto = {
  <span class="menu-text">10. Network Theorems (AC)</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Magnetic Circuits and Transformers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">course list</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/abandoned-available-courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">COMM1020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/available-courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AETN2221 Analog &amp; Digital Communication (Lab)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/current-plan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">this has many conflicts</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -455,6 +496,7 @@ window.Quarto = {
   <li><a href="#source-conversions" id="toc-source-conversions" class="nav-link" data-scroll-target="#source-conversions">Source Conversions</a></li>
   <li><a href="#mesh-analysis" id="toc-mesh-analysis" class="nav-link" data-scroll-target="#mesh-analysis">Mesh Analysis</a>
   <ul class="collapse">
+  <li><a href="#math" id="toc-math" class="nav-link" data-scroll-target="#math">Math</a></li>
   <li><a href="#general-approach" id="toc-general-approach" class="nav-link" data-scroll-target="#general-approach">General Approach</a></li>
   <li><a href="#format-approach" id="toc-format-approach" class="nav-link" data-scroll-target="#format-approach">Format Approach</a></li>
   </ul></li>
@@ -498,42 +540,67 @@ window.Quarto = {
 </section>
 <section id="mesh-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="mesh-analysis">Mesh Analysis</h2>
+<section id="math" class="level3">
+<h3 class="anchored" data-anchor-id="math">Math</h3>
+<p>For</p>
+<p><span class="math display">\[
+\begin{aligned}
+a_1 I_1 + b_1 I_2 &amp;= c_1 \\
+a_2 I_1 + b_2 I_2 &amp;= c_2
+\end{aligned}
+\]</span></p>
+<p>we use Cramer’s Rule:</p>
+<p><span class="math display">\[
+\begin{aligned}
+I_1 &amp;= \frac{
+    \begin{vmatrix}
+        c_1 &amp; b_1 \\
+        c_2 &amp; b_2
+    \end{vmatrix}
+}{
+    \begin{vmatrix}
+        a_1 &amp; b_1 \\
+        a_2 &amp; b_2
+    \end{vmatrix}
+} \\
+I_2 &amp;= \frac{
+    \begin{vmatrix}
+        a_1 &amp; c_1 \\
+        a_2 &amp; c_2
+    \end{vmatrix}
+}{
+    \begin{vmatrix}
+        a_1 &amp; b_1 \\
+        a_2 &amp; b_2
+    \end{vmatrix}
+}
+\end{aligned}
+\]</span></p>
+</section>
 <section id="general-approach" class="level3">
 <h3 class="anchored" data-anchor-id="general-approach">General Approach</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is incomplete</p>
+</div>
+</div>
 <p>Depending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:</p>
-<p><img src="t09-methods-of-analysis-img/circuit-polarity.png" width="300" alt="circuit-polarity.png"></p>
-<p>For <span class="math display">\[
-\begin{array}
-a_1 I_1 + b_1 I_2 = c_1
-a_1 I_1+ b_2 I_2 = c_2
-\]</span></p>
-<p><span class="math display">\[
-\begin{align*}
-I_1 = \frac{
-    \begin{matrix}
-        c_1 &amp; b_1
-        c_2 &amp; b_2
-    \end{matrix}
-    }{
-    \begin{matrix}
-        a_1 &amp; b_1
-        a_2 &amp; b_2
-    \end{matrix}
-    } \\
-I_2 = \frac{
-    \begin{matrix}
-        a_1 &amp; c_1
-        a_2 &amp; c_2
-    \end{matrix}
-    }{
-    \begin{matrix}
-        a_1 &amp; b_1
-        a_2 &amp; b_2
-    \end{matrix}
-    }
-\end{align*}
-\]</span></p>
-<p><img src="t09-methods-of-analysis-img/circuit-polarity.png" width="300" alt="circuit-polarity.png"></p>
+<div class="centre">
+<div id="circuit-polarity" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="t09-methods-of-analysis-img/circuit-polarity.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>circuit-polarity</figcaption>
+</figure>
+</div>
+</div>
 <p>Here, as per KVL:</p>
 <p><span class="math display">\[\begin{align*}
     E_1 - I_1 Z_1 - (I_1 - I_2) Z_2 = 0 \\
@@ -548,22 +615,40 @@ I_2 = \frac{
 </section>
 <section id="format-approach" class="level3">
 <h3 class="anchored" data-anchor-id="format-approach">Format Approach</h3>
+<p>Depending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:</p>
+<div class="centre">
+<div id="circuit-polarity" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="t09-methods-of-analysis-img/circuit-polarity.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>circuit-polarity</figcaption>
+</figure>
+</div>
+</div>
 <p>For loop 1:</p>
-<p>$ I_1 ( Z_x ) - I_2 ( Z_x ) = E_x $</p>
+<p><span class="math inline">\(I_1 [~\sum Z_x\text{(in loop 1)}~] - I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]\)</span></p>
 <p>For loop 2:</p>
-<p>$ - I_1 ( Z_x ) + I_2 ( Z_x ) = E_x $</p>
+<p><span class="math inline">\(- I_1 [~\sum Z_x\text{(in loop 1)}~] + I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]\)</span></p>
 </section>
 </section>
 <section id="nodal-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="nodal-analysis">Nodal Analysis</h2>
 <section id="format-approach-1" class="level3">
 <h3 class="anchored" data-anchor-id="format-approach-1">Format Approach</h3>
-<p>As per KCL:</p>
 <ul>
 <li>In node 1:</li>
 </ul>
 <p><span class="math display">\[
-V_1 \cdot \sum \frac{1}{Z_x} \text{(Impedances of V_1)} - V_2 \cdot \sum \frac{1}{Z_x} \text{(Impedances common to V_1 and V_2)} = \pm \sum \frac{E_x}{Z_x} \text{(Polarity depending on whether the current is input or output)}
+V_1 \cdot \sum \frac{1}{Z_x} \text{ (impedances of } V_1 \text{)}
+- V_2 \cdot \sum \frac{1}{Z_x} \text{ (impedances common to } V_1 \text{ and } V_2 \text{)}
+= \sum \pm \frac{E_x}{Z_x} \text{ (polarity depends on direction of current)}
+\]</span></p>
+<ul>
+<li>In node 2:</li>
+</ul>
+<p><span class="math display">\[
+- V_1 \cdot \sum \frac{1}{Z_x} \text{ ((impedances common to } V_2 \text{ and } V_1 \text{)}
++ V_2 \cdot \sum \frac{1}{Z_x} \text{ (impedances of } V_2 \text{)}
+= \sum \pm \frac{E_x}{Z_x} \text{ (polarity depends on direction of current)}
 \]</span></p>
 
 

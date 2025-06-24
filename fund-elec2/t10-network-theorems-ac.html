@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" rel="next">
 <link href="../fund-elec2/t09-methods-of-analysis.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -355,6 +356,12 @@ window.Quarto = {
  <span class="menu-text">Applications of the Derivative II</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../calc1/u5-antiderivatives-introduction-to-integrals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Antiderivatives: Introduction to Integrals</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -438,6 +445,41 @@ window.Quarto = {
  <span class="menu-text">10. Network Theorems (AC)</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Magnetic Circuits and Transformers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">course list</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/abandoned-available-courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">COMM1020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/available-courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AETN2221 Analog &amp; Digital Communication (Lab)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/current-plan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">this has many conflicts</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -455,6 +497,13 @@ window.Quarto = {
   <li><a href="#end" id="toc-end" class="nav-link" data-scroll-target="#end">end</a>
   <ul class="collapse">
   <li><a href="#thevenins-theorem" id="toc-thevenins-theorem" class="nav-link" data-scroll-target="#thevenins-theorem">Thevenin’s Theorem</a></li>
+  </ul></li>
+  <li><a href="#begin-to-be-transferred-to-series-ac-circuit-notes" id="toc-begin-to-be-transferred-to-series-ac-circuit-notes" class="nav-link" data-scroll-target="#begin-to-be-transferred-to-series-ac-circuit-notes">begin: to be transferred to series ac circuit notes</a></li>
+  <li><a href="#end-1" id="toc-end-1" class="nav-link" data-scroll-target="#end-1">end</a>
+  <ul class="collapse">
+  <li><a href="#nortons-theorem" id="toc-nortons-theorem" class="nav-link" data-scroll-target="#nortons-theorem">Norton’s Theorem</a></li>
+  <li><a href="#thevinins-theorem-and-nortons-theorem" id="toc-thevinins-theorem-and-nortons-theorem" class="nav-link" data-scroll-target="#thevinins-theorem-and-nortons-theorem">Thevinin’s Theorem and Norton’s Theorem</a></li>
+  <li><a href="#maximum-power-transfer-theorem" id="toc-maximum-power-transfer-theorem" class="nav-link" data-scroll-target="#maximum-power-transfer-theorem">Maximum Power Transfer Theorem</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -484,6 +533,41 @@ window.Quarto = {
 
 <section id="superposition-theorem" class="level2">
 <h2 class="anchored" data-anchor-id="superposition-theorem">Superposition Theorem</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Superposition theorem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>For a circuit with multiple sources, the current in one branch is the sum of specific source currents</td>
+</tr>
+</tbody>
+</table>
+<p>The specific source current is found by:</p>
+<ul>
+<li>Keep only one source on and turn the rest off</li>
+<li>Find the current in the subject branch</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The current direction taken in a circuit is independant of the directions taken in the other circuits</p>
+<p>The current direction should be taken wrt the polarity of the voltage source</p>
+<p>If a <span class="math inline">\(\vec{I}\)</span> is negative, that means the actual current direction is opposite the direction taken in <span class="math inline">\(\vec{I}\)</span> with the same magnitude</p>
+</div>
+</div>
 <p>Same as DC, except AC voltage and impedance is used.</p>
 <p>Use of AC only changes the calculations and not the theory involved.</p>
 </section>
@@ -496,8 +580,146 @@ window.Quarto = {
 <h1>end</h1>
 <section id="thevenins-theorem" class="level2">
 <h2 class="anchored" data-anchor-id="thevenins-theorem">Thevenin’s Theorem</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Thevenin’s theorem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Any complex network can be replaced by a voltage source <span class="math inline">\((E_{Th})\)</span> in series with an impedance <span class="math inline">\((Z_{Th})\)</span></td>
+</tr>
+</tbody>
+</table>
 <p>Same as DC, except AC voltage and impedance is used.</p>
 <p>Use of AC only changes the calculations and not the theory involved.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Make sure the final equivalent circuit has it’s <span class="math inline">\(Z_N\)</span> is in pure form. i.e., If <span class="math inline">\(Z_N\)</span> is an impure impedance, convert it to its pure components.</p>
+<div class="center">
+<div id="thevinins-circuit.png" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="t10-network-theorems-ac-img/thevinins-circuit.png" class="img-fluid figure-img" width="800"></p>
+<figcaption>thevinins-circuit.png</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="begin-to-be-transferred-to-series-ac-circuit-notes" class="level1">
+<h1>begin: to be transferred to series ac circuit notes</h1>
+<p>An impure impedance can be converted to pure impedances. We do it by converting the polar representation to rectangular form which gives to components, the real (pure resistive) part and the imaginary (pure inductive) part.</p>
+</section>
+<section id="end-1" class="level1">
+<h1>end</h1>
+<section id="method" class="level4">
+<h4 class="anchored" data-anchor-id="method">Method:</h4>
+<ul>
+<li>Remove the load (it can be an impedance or a circuit) and mark the opened terminals as <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span></li>
+<li>Turn off all sources</li>
+<li>Find the <span class="math inline">\(Z_{Th}\)</span></li>
+<li>Turn on all sources</li>
+<li>Find the <span class="math inline">\(E_{Th}\)</span> which is between the open terminals, <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>
+<ul>
+<li>The $E_{Th} is found the same as the branches parallel to it</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Make sure to draw the Thevenin’s equivalent circuit with <a href="#%20begin:%20to%20be%20transferred%20to%20series%20ac%20circuit%20notes">pure components</a> in the exam. It has weightage.</p>
+</div>
+</div>
+</section>
+<section id="nortons-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="nortons-theorem">Norton’s Theorem</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Norton’s theorem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Any complex network can be replaced by a current source <span class="math inline">\((I_{N})\)</span> in series with an impedance <span class="math inline">\((Z_{N})\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Same as DC, except AC voltage and impedance is used.</p>
+<p>Use of AC only changes the calculations and not the theory involved.</p>
+<section id="method-1" class="level4">
+<h4 class="anchored" data-anchor-id="method-1">Method:</h4>
+<ul>
+<li>Remove the load (it can be an impedance or a circuit) and mark the opened terminals as <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span></li>
+<li>Turn off all sources</li>
+<li>Find the <span class="math inline">\(Z_N\)</span>, same as <span class="math inline">\(Z_{Th}\)</span></li>
+<li>Turn on all sources</li>
+<li>Short the terminals <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span></li>
+<li>Find the <span class="math inline">\(I_N\)</span> which is between the open terminals, <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Make sure the final equivalent circuit has it’s <span class="math inline">\(Z_N\)</span> is in pure form. i.e., If <span class="math inline">\(Z_N\)</span> is an impure impedance, convert it to its pure components.</p>
+<div class="center">
+<div id="nortons-theorem.png" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="t10-network-theorems-ac-img/nortons-theorem.png" class="img-fluid figure-img" width="800"></p>
+<figcaption>nortons-theorem.png</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="thevinins-theorem-and-nortons-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="thevinins-theorem-and-nortons-theorem">Thevinin’s Theorem and Norton’s Theorem</h2>
+<p>You can interchange between Thevinin and Norton equivalent circuits by Ohm’s law.</p>
+<div class="center">
+<div id="thevinin-norton-conv.png" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="t10-network-theorems-ac-img/thevinin-norton-conv.png" class="img-fluid figure-img" width="800"></p>
+<figcaption>thevinin-norton-conv.png</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="maximum-power-transfer-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="maximum-power-transfer-theorem">Maximum Power Transfer Theorem</h2>
+<p>At maximum power transfer, <span class="math inline">\(Z_{Th}\)</span> is the conjugate of <span class="math inline">\(Z_L\)</span></p>
+<p>At maximum power, the circuit is in resonance</p>
 
 
 </section>
@@ -923,6 +1145,9 @@ window.Quarto = {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" class="pagination-link" aria-label="Introduction to Magnetic Circuits and Transformers">
+        <span class="nav-page-text">Introduction to Magnetic Circuits and Transformers</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

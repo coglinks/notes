@@ -356,6 +356,12 @@ window.Quarto = {
  <span class="menu-text">Applications of the Derivative II</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../calc1/u5-antiderivatives-introduction-to-integrals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Antiderivatives: Introduction to Integrals</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -439,6 +445,41 @@ window.Quarto = {
  <span class="menu-text">10. Network Theorems (AC)</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Magnetic Circuits and Transformers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">course list</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/abandoned-available-courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">COMM1020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/available-courses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AETN2221 Analog &amp; Digital Communication (Lab)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class-enroll/current-plan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">this has many conflicts</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -452,6 +493,10 @@ window.Quarto = {
    
   <ul>
   <li><a href="#three-phase-systems" id="toc-three-phase-systems" class="nav-link active" data-scroll-target="#three-phase-systems">three phase systems</a></li>
+  <li><a href="#methods-of-analysis" id="toc-methods-of-analysis" class="nav-link" data-scroll-target="#methods-of-analysis">Methods of Analysis</a>
+  <ul class="collapse">
+  <li><a href="#nodal" id="toc-nodal" class="nav-link" data-scroll-target="#nodal">Nodal</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -481,19 +526,41 @@ window.Quarto = {
 <ol type="1">
 <li><p>What does real power mean? How is it different from <span class="math inline">\(Q,~P\)</span> and <span class="math inline">\(S\)</span>?</p>
 <p><strong>Ans:</strong> <br> Real power stands for the power dissipated by the resistor.</p></li>
-<li><p>Explain: &gt;Impedance, like resistance or reactance, is not a phasor quantity representing a time-varying function with a particular phase shift. It is simply an operating tool that is extremely useful in determining the magnitude and angle of quantities in a sinusoidal ac network.</p></li>
-<li><p>Are output voltages the same as voltage drops?</p></li>
+</ol>
+<hr>
+<ol start="2" type="1">
+<li>Explain:</li>
+</ol>
+<blockquote class="blockquote">
+<p>Impedance, like resistance or reactance, is not a phasor quantity representing a time-varying function with a particular phase shift. It is simply an operating tool that is extremely useful in determining the magnitude and angle of quantities in a sinusoidal ac network.</p>
+</blockquote>
+<hr>
+<ol start="3" type="1">
+<li>Are output voltages the same as voltage drops?</li>
+</ol>
+<hr>
+<ol start="4" type="1">
+<li>You call something with a resistance a resistor. What do u call something with an impedance?</li>
 </ol>
 <section id="three-phase-systems" class="level2">
 <h2 class="anchored" data-anchor-id="three-phase-systems">three phase systems</h2>
 <ol type="1">
 <li><p>In a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?</p>
 <p><strong>Ans:</strong> <br> Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.</p></li>
+</ol>
+<hr>
+<ol start="2" type="1">
 <li><p>Can resonance occur without resistance?</p>
 <p><strong>Ans:</strong> <br> Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits</p></li>
+</ol>
+<hr>
+<ol start="3" type="1">
 <li><p>Which is correct: <span class="math inline">\(j5~\Omega\)</span> or <span class="math inline">\(5j~\Omega\)</span>?</p>
 <p><strong>Ans:</strong> <br> <span class="math inline">\(j5~\Omega\)</span></p></li>
-<li><p>How to solve:</p></li>
+</ol>
+<hr>
+<ol start="4" type="1">
+<li>How to solve:</li>
 </ol>
 <div class="center">
 <div id="q4-a-vs-f.png" class="quarto-figure quarto-figure-center anchored">
@@ -503,8 +570,34 @@ window.Quarto = {
 </figure>
 </div>
 </div>
+</section>
+<section id="methods-of-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="methods-of-analysis">Methods of Analysis</h2>
+<section id="nodal" class="level3">
+<h3 class="anchored" data-anchor-id="nodal">Nodal</h3>
+<ol type="1">
+<li>When is the direction of the current pre-determined? What if the polarity of any component is given? like this capacitor</li>
+</ol>
+<div class="center">
+<div id="capacitor.png" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="doubts-img/capacitor.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>capacitor.png</figcaption>
+</figure>
+</div>
+</div>
+<p>or when the polarity of a voltage source is given</p>
+<p><strong>Ans:</strong></p>
+<blockquote class="blockquote">
+<p>When a current source with current direction is in one of the branches, then the direction of that branch is of the same direction as the current source</p>
+</blockquote>
+<p>what else?</p>
+<ol start="2" type="1">
+<li>Can a number be <span class="math inline">\(-6\angle 0^\circ\)</span>? Because this value in the calculator gives a math error</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
