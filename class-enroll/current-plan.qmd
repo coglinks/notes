@@ -12,13 +12,14 @@
 
 # this has many conflicts
 
-| Class ID                                               | Days and Times                                              | Room               | Instructor             | Status                    |
-|---------------------------------------------------------|------------------------------------------------------------|--------------------|------------------------|---------------------------|
-| PHYS 1020 - Lecture - Class 2522 -Section 7              | Sunday 10:00AM to 11:00AM<br>Tuesday 10:00AM to 11:00AM<br>Thursday 10:00AM to 11:00AM | 12.1.08<br>12.1.08<br>12.1.08 | Eyad Omair              | open (35-40)              |
-| PHYS 1021 - Laboratory - Class 2530 -Section 1           | Tuesday 8:00AM to 11:00AM                                    | 05.1.06            | Fasna Olikkal           | open (15-18)              |
-| AETN 1112 - Lecture - Class 1869 -Section 3               | Sunday 1:00PM to 2:00PM<br>Tuesday 1:00PM to 2:00PM<br>Thursday 1:00PM to 2:00PM | 05.2.55<br>05.2.55<br>05.2.55 | Ghufran Khalaf Ja'afreh | open (28-30)              |
-| AETN 1212 - Laboratory - Class 1882 -Section 3            | Tuesday 2:00PM to 4:00PM                                     | 09.2.79            | Eithar Mustafa          | open (15-15)              |
-| AETN 1202 - Laboratory - Class 1877 -Section 5            | Monday 10:00AM to 1:00PM                                     | 09.2.07            | Alaa Elsaqa             | open (19-20)              |
-| AETN 1102 - Lecture - Class 1870 -Section 4                | Sunday 12:00PM to 1:00PM<br>Tuesday 12:00PM to 1:00PM<br>Thursday 12:00PM to 1:00PM | 05.2.25<br>05.2.25<br>05.2.25 | Ghufran Khalaf Ja'afreh | open (28-30)              |
-| COMM 1020 - LecTheatre - Class 2196 -Section 1<br>Lecture - Class 2198 -Section 3 | Wednesday 12:00PM to 1:00PM<br>Tuesday 12:00PM to 2:00PM     | 01.2.08<br>12.2.13 | Andrea Comeau           | open (118-120)<br>open (22-24) |
-| MATH 2010 - LecTheatre - Class 2512 -Section 9<br>Lecture - Class 2514 -Section 11 | Sunday 5:00PM to 6:30PM<br>Wednesday 2:00PM to 3:30PM        | 01.1.04<br>05.2.24 | Staff                   | open (45-90)<br>open (30-30) |
+| Course Code | Class ID                  | Days and Times                     | Room      | Instructor              | Credits |
+|-------------|---------------------------|------------------------------------|-----------|-------------------------|---------|
+| MATH2010    | Lecture-2511 Section 8     | Wed 9:30AM–11:00AM                | 05.1.51   | Staff                   | 3       |
+| COMM1020    | LecTheatre-2196 Section 1  | Wed 12:00PM–1:00PM                | 01.2.08   | Andrea Comeau           | 3       |
+| COMM1020 | Lecture-2199 Section 4     | Tue 10:00AM–12:00PM               | 10.2.05   |                         |         |
+| AETN1102    | Lecture-1866 Section 5     | Sun/Tue/Thu 3:00PM–4:00PM         | 05.2.25   | Nicolae Nechita         | 3       |
+| AETN1112    | Lecture-1870 Section 4     | Sun/Tue/Thu 12:00PM–1:00PM        | 05.2.25   | Ghufran Khalaf Ja'afreh | 3       |
+| AETN1202    | Laboratory-1877 Section 5  | Mon 10:00AM–1:00PM                | 09.2.07   | Alaa Elsaqa             | 1       |
+| AETN1212    | Laboratory-1886 Section 7  | Sun 10:00AM–12:00PM               | 09.2.79   | Amira Mustapha          | 1       |
+| PHYS1021 | Laboratory - Class 2536 -Section 7 | Wednesday 2:00PM to 5:00PM | 05.1.06 | Fasna Olikkal | 1 |
+| PHYS 1020 | Lecture - Class 2516 -Section 1 | Tuesday Thursday Sunday 8:00AM to 9:00AM | 12.2.10 | Feras Alzubi | 3 |

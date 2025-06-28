@@ -50,10 +50,11 @@ $\frac{d}{dx} \ln (f(x)) = \frac{f'(x)}{f(x)} \quad \text{(Chain Rule)}$
 
 ## Derivative of General Exponential and Logarithmic Functions
 
-\begin{align*}
-  \frac{d}{dx} a^{f(x)} &= a^{f(x)} \cdot f'(x) \cdot \ln a\\
-  \frac{d}{dx} \log_b (f(x)) &= \frac{f'(x)}{f(x) \cdot \ln b } \\
-\end{align*}
+$$\frac{d}{dx} a^{f(x)} = a^{f(x)} \cdot f'(x) \cdot \ln a$$
+
+Here, $a$ can also be $\pi$
+
+$$\frac{d}{dx} \log_b (f(x)) = \frac{f'(x)}{f(x) \cdot \ln b }$$
 
 <details><summary>Derivation</summary>
 

@@ -4,16 +4,19 @@ I am gonna provide a list of available courses.
 
 I want a schedule for one college student where:
 
+### Mandatory
+
+- My schedule should be as **congested as possible** outside of the above constraints.
+- i can only pick one instructor and a section or 2 sections (lecture section and lab lecture section) for a course
+    - a course can have single section (lecture section only) or 2 sections (lecture section and lab lecture section)
+- I want good instructors no matter how much time i sacrifice for them
+
+### Optional
+
 - My classes are **mostly** on **Sunday, Tuesday, and Thursday** (preferred but not mandatory).
 - My **desired start time** is **8 AM**.
 - I have **no preference for an ending time**.
-- I want a **0.5-1 hour break** between **12 PM - 3 PM for Dhuhr**, but **only if needed** (if classes end before 3 PM, no break).
-- I want a **0.5-1 hour break** between **3 PM - 6 PM for Asr**, but **only if needed** (if classes end before 6 PM, no break).
-- If I have **classes until 8 PM**, I want a **0.5-1 hour break at 6 PM or 7 PM**, but **only if possible** (if classes end before 7 PM, no break).
-- My schedule should be as **congested as possible** outside of the above constraints.
 - if days off can be had at expense of more time in other days, then that is acceptable.
-- i can only pick one instructor and section for a course
-- I want good instructors no matter what
 
 ## Data to be provided maker rules
 
@@ -22,11 +25,11 @@ I want a schedule for one college student where:
 The data to be provided by me have been formatted according to a set of rules. They are given below:
 
 ---
+
 give me available course classes in markdown code block the format:
 
 ```markdown
 | Class ID | Days and Times | Room | Instructor | Status |
-|---|---|---|---|---|
 ```
 
 a subject is of format `XXXX ****`. Here X stands for any alphabet while * stands for any number
@@ -59,8 +62,6 @@ use the following data
 
 ```random text copied by select all in a website
 
-
-
 ```
 
 ---
@@ -85,6 +86,11 @@ Here is an example output with nonsense data. dont use this data
 ```
 
 Remember i want the course code for each listing
+
+Class ID should be like this `XXXX ****-<* or (*,*)>`. Example:
+
+- `COMM 1020-2`, where `2` stands for lecture section number for single section courses
+- `COMM 1020-(2,3)`, where `2` stands for lecture section and `3` stands for theatre section
 
 ---
 

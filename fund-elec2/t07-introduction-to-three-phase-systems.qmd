@@ -8,7 +8,7 @@ format:
       extensions: [mhchem, amssymb]
 ---
 
-## Some General Knowledge
+## Some General Knowledge (Not in Syllabus)
 
 | Process | Voltage | Phase |
 |---|---|---|
@@ -31,7 +31,8 @@ Cycle of electricity transfer from power plan to a house:
 | B blue | L3 |
 | N | |
 
-## Three-Phase Generator:
+## Three-Phase Generator (Quality check)
+
 - Has 3 coils each seperated by an angle of $120^\circ $
 - Hence has 3 sine waves
 - Made of magnet (mobile) and conductor (stationary)
@@ -59,7 +60,7 @@ Motor:
 |---|---|
 | No common point | Has common point |
 
-## Y-Connected Generator
+## Y-Connected Generator (Quality check)
 
 $E_L = V_\phi \sqrt{3}$
 
@@ -77,13 +78,13 @@ $I_L = I_\phi$
   <img src="t07-introduction-to-three-phase-systems-img/voltage-phase-sequence.png" width="300" alt="voltage-phase-sequence.png">
 </p>
 
-## Y-Connected Generator with a Y-Connected Load
+## Y-Connected Generator with a Y-Connected Load (Quality check)
 
 $E_L = V_\phi \sqrt{3}$
 
 $I_L = I_\phi$
 
-## Y-$\Delta$ System
+## Y-$\Delta$ System (In progress)
 
 $V_L = V_\phi$
 
@@ -98,6 +99,14 @@ $I_L = I_\phi \cdot \sqrt{3}$
     Q_\phi &= V_\phi I_\phi \sin \theta \\
 \end{align*}
 
-## Three-Wattmeter Method
+## Unbalanced Loads (In progress)
+
+In the case of Y and Delta systems with unbalanced loads, all the components of power should be calculated for each of phases. The total for each component of power is the sum of the phase values of that component for each phase branch.
+
+<div style="border:2px solid red; padding:10px; display:inline-block; color:red; border-radius:4px;">
+  •
+</div>
+
+## Three-Wattmeter Method (Quality check)
 
 $P_{T_Y} = P_1 + P_2 + P_3$

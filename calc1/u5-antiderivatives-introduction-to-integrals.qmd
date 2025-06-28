@@ -4,7 +4,7 @@ title: "Antiderivatives: Introduction to Integrals"
 
 ## Antiderivatives
 
-$\int f'(x)$ # incomplete
+$\int f'(x) dx = f(x)$
 
 ## Integration rules
 

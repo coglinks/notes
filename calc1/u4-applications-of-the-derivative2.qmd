@@ -2,6 +2,10 @@
 title: Applications of the Derivative II
 ---
 
+:::{.callout-warning}
+Always remember to write the unit where required
+:::
+
 ## Indeterminate Forms and $\text{L'H\^{o}pital's}$ Rule
 
 Indeterminate forms:
@@ -50,6 +54,10 @@ Make sure the main equation is a function of only one variable
 :::
 
 3. Find the maxima or the minima as per req
+
+::: {.callout-warning}
+Don't forget to find the second derivative to prove that the answer is a minimum or a maximum
+:::
 
 4. Conclusion
 
@@ -104,7 +112,21 @@ Read your question carefully and be sure to think about which dimensions are act
 Constants can be substituted into the equation before taking the derivatve.
 :::
 
+::: {.callout-caution}
+Don't forget to find the second derivative to prove that the answer is a minimum or a maximum
+:::
+
 4. Write the conclusion
+
+::: {.callout-caution}
+Be mindful of the units. ex:
+
+> At a rate of 2 km per hour is different from 2 km per $\text{hour}^2$. What is right depends on question. You can instead write:
+>
+> At a rate of 2 km every hour: for velocity
+<br>
+> Or at a rate of (2 km every $\text{hour}^2$ or 2 km/h every hour): for acceleration
+:::
 
 ## Differentials
 

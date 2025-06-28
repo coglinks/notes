@@ -60,5 +60,45 @@ $B_g = \frac{Phi_g}{A_g}$
 
 ## Applications
 
-## Transformers
+##  Transformers
 
+They increase (step up) or decrease (step down) the voltage
+
+The transfer has 2 parts:
+
+- Primary (for the input)
+- Secondary (for the output)
+
+It cnsists of a transfer core and 2 coils. It works like so:
+
+- Current flows through the primary coil
+- Current flow through the coil induces a changing magnetic field in the transformer core
+- The changing magnetic field flows through out the transformer core
+- The changing magnetic field in the transformer core induces a voltage and hence a current in the secondary coil
+
+### Mutual Inductance
+
+:::{.callout-warning}
+This section is incomplete
+:::
+
+$$e_s = N_s \frac{d\phi_m}{dt}$$
+
+- $N_s =$ Number of turn in the secondary coil
+- $\phi_m =$ Portion of $\phi_p$ that links with the secondary winding
+
+### Iron Core Transformer
+
+:::{.callout-warning}
+This section is incomplete
+:::
+
+Transformer ratio: $a = \dfrac{N_p}{N_s}$
+
+$$\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}$$
+
+Primary and secondary is reversed for the current since $I \propto \dfrac{1}{N}$
+
+## Rectifier
+
+They convert AC to DC
