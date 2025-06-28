@@ -399,7 +399,7 @@
     "href": "class-enroll/current-plan.html",
     "title": "this has many conflicts",
     "section": "",
-    "text": "Course Code\nCourse Name\nIndividual Credits\nOverall Credits\n\n\n\n\nCorequisites:\n\n\n8\n\n\nAETN 1102\nNetwork Fundamentals\n3\n\n\n\nAETN 1202\nNetwork Fundamentals Lab\n1\n\n\n\nAETN 1112\nDigital Electronics\n3\n\n\n\nAETN 1212\nDigital Electronics Lab\n1\n\n\n\nMATH2010\nCalculus II\n3\n\n\n\nPHYS1020\nGeneral Physics\n3\n\n\n\nPHYS1021\nGeneral Physics (Lab)\n1\n\n\n\nCOMM1020\nEnglish Communication II\n3\n\n\n\n\n\nthis has many conflicts\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nPHYS 1020 - Lecture - Class 2522 -Section 7\nSunday 10:00AM to 11:00AMTuesday 10:00AM to 11:00AMThursday 10:00AM to 11:00AM\n12.1.0812.1.0812.1.08\nEyad Omair\nopen (35-40)\n\n\nPHYS 1021 - Laboratory - Class 2530 -Section 1\nTuesday 8:00AM to 11:00AM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nAETN 1112 - Lecture - Class 1869 -Section 3\nSunday 1:00PM to 2:00PMTuesday 1:00PM to 2:00PMThursday 1:00PM to 2:00PM\n05.2.5505.2.5505.2.55\nGhufran Khalaf Ja’afreh\nopen (28-30)\n\n\nAETN 1212 - Laboratory - Class 1882 -Section 3\nTuesday 2:00PM to 4:00PM\n09.2.79\nEithar Mustafa\nopen (15-15)\n\n\nAETN 1202 - Laboratory - Class 1877 -Section 5\nMonday 10:00AM to 1:00PM\n09.2.07\nAlaa Elsaqa\nopen (19-20)\n\n\nAETN 1102 - Lecture - Class 1870 -Section 4\nSunday 12:00PM to 1:00PMTuesday 12:00PM to 1:00PMThursday 12:00PM to 1:00PM\n05.2.2505.2.2505.2.25\nGhufran Khalaf Ja’afreh\nopen (28-30)\n\n\nCOMM 1020 - LecTheatre - Class 2196 -Section 1Lecture - Class 2198 -Section 3\nWednesday 12:00PM to 1:00PMTuesday 12:00PM to 2:00PM\n01.2.0812.2.13\nAndrea Comeau\nopen (118-120)open (22-24)\n\n\nMATH 2010 - LecTheatre - Class 2512 -Section 9Lecture - Class 2514 -Section 11\nSunday 5:00PM to 6:30PMWednesday 2:00PM to 3:30PM\n01.1.0405.2.24\nStaff\nopen (45-90)open (30-30)",
+    "text": "Course Code\nCourse Name\nIndividual Credits\nOverall Credits\n\n\n\n\nCorequisites:\n\n\n8\n\n\nAETN 1102\nNetwork Fundamentals\n3\n\n\n\nAETN 1202\nNetwork Fundamentals Lab\n1\n\n\n\nAETN 1112\nDigital Electronics\n3\n\n\n\nAETN 1212\nDigital Electronics Lab\n1\n\n\n\nMATH2010\nCalculus II\n3\n\n\n\nPHYS1020\nGeneral Physics\n3\n\n\n\nPHYS1021\nGeneral Physics (Lab)\n1\n\n\n\nCOMM1020\nEnglish Communication II\n3\n\n\n\n\n\nthis has many conflicts\n\n\n\n\n\n\n\n\n\n\n\nCourse Code\nClass ID\nDays and Times\nRoom\nInstructor\nCredits\n\n\n\n\nMATH2010\nLecture-2511 Section 8\nWed 9:30AM–11:00AM\n05.1.51\nStaff\n3\n\n\nCOMM1020\nLecTheatre-2196 Section 1\nWed 12:00PM–1:00PM\n01.2.08\nAndrea Comeau\n3\n\n\nCOMM1020\nLecture-2199 Section 4\nTue 10:00AM–12:00PM\n10.2.05\n\n\n\n\nAETN1102\nLecture-1866 Section 5\nSun/Tue/Thu 3:00PM–4:00PM\n05.2.25\nNicolae Nechita\n3\n\n\nAETN1112\nLecture-1870 Section 4\nSun/Tue/Thu 12:00PM–1:00PM\n05.2.25\nGhufran Khalaf Ja’afreh\n3\n\n\nAETN1202\nLaboratory-1877 Section 5\nMon 10:00AM–1:00PM\n09.2.07\nAlaa Elsaqa\n1\n\n\nAETN1212\nLaboratory-1886 Section 7\nSun 10:00AM–12:00PM\n09.2.79\nAmira Mustapha\n1\n\n\nPHYS1021\nLaboratory - Class 2536 -Section 7\nWednesday 2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\n1\n\n\nPHYS 1020\nLecture - Class 2516 -Section 1\nTuesday Thursday Sunday 8:00AM to 9:00AM\n12.2.10\nFeras Alzubi\n3",
     "crumbs": [
       "course list",
       "this has many conflicts"
@@ -413,40 +413,18 @@
     "text": "Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good",
     "crumbs": [
       "course list",
-      "COMM1020"
+      "AETN 2201"
     ]
   },
   {
-    "objectID": "class-enroll/abandoned-available-courses.html#comm1020",
-    "href": "class-enroll/abandoned-available-courses.html#comm1020",
+    "objectID": "class-enroll/abandoned-available-courses.html#aetn-2201",
+    "href": "class-enroll/abandoned-available-courses.html#aetn-2201",
     "title": "My Notes",
-    "section": "COMM1020",
-    "text": "COMM1020\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2197 -Section 2\nWednesday12:00PM–1:00PM\n01.2.0810.2.01\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2198 -Section 3\nWednesday12:00PM–1:00PM\n01.2.0812.2.13\nAndrea Comeau\nopen (118-120)open (22-24)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2199 -Section 4\nWednesday12:00PM–1:00PM\n01.2.0810.2.05\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2200 -Section 5\nWednesday12:00PM–1:00PM\n01.2.0810.2.05\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2205 -Section 10\nSunday6:00PM–7:00PM\n01.1.0610.2.06\nRidha Ben Rejeb\nopen (111-120)open (28-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2202 -Section 7\nSunday6:00PM–7:00PM\n01.1.0612.2.10\nRidha Ben Rejeb\nopen (111-120)open (30-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2203 -Section 8\nSunday6:00PM–7:00PM\n01.1.0605.2.26\nRidha Ben Rejeb\nopen (111-120)open (26-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2204 -Section 9\nSunday6:00PM–7:00PM\n01.1.0612.1.03\nRidha Ben Rejeb\nopen (111-120)open (27-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2211 -Section 16\nMonday12:00PM–1:00PM\n01.1.0612.2.10\nIrum Naz\nopen (87-90)open (29-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2212 -Section 17\nMonday12:00PM–1:00PM\n01.1.0610.1.31\nIrum Naz\nopen (87-90)open (30-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2213 -Section 18\nMonday12:00PM–1:00PM\n01.1.0610.1.31\nIrum Naz\nopen (87-90)open (28-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2216 -Section 21\nTuesday2:00PM–3:00PM\n01.1.0605.1.66\nCristina Fabretto\nopen (117-120)open (30-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2217 -Section 22\nTuesday2:00PM–3:00PM\n01.1.0610.2.01\nCristina Fabretto\nopen (117-120)open (29-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2218 -Section 23\nTuesday2:00PM–3:00PM\n01.1.0605.1.38\nCristina Fabretto\nopen (117-120)open (28-30)\n\n\nLecTheatre - Class 2219 -Section 24Lecture - Class 2220 -Section 25\nMonday4:00PM–5:00PM\n05.2.4410.2.06\nShawn Ramsey\nopen (53-58)open (25-29)\n\n\nLecTheatre - Class 2219 -Section 24Lecture - Class 2221 -Section 26\nMonday4:00PM–5:00PM\n05.2.4410.2.06\nShawn Ramsey\nopen (53-58)open (28-29)\n\n\nLecTheatre - Class 2226 -Section 31Lecture - Class 2227 -Section 32\nTuesday4:00PM–5:00PM\n12.1.0812.1.03\nIrum Naz\nopen (60-60)open (30-30)\n\n\nLecTheatre - Class 2226 -Section 31Lecture - Class 2228 -Section 33\nTuesday4:00PM–5:00PM\n12.1.0805.2.25\nIrum Naz\nopen (60-60)open (30-30)",
+    "section": "AETN 2201",
+    "text": "AETN 2201\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1912 -Section 9\nSunday4:00PM to 6:00PM\n09.2.72\nYasen Abdullahi Harrye\nopen (1-15)\n\n\nLaboratory - Class 1906 -Section 3\nWednesday8:00AM to 10:00AM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1905 -Section 2\nMonday9:00AM to 11:00AM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)\n\n\nLaboratory - Class 1908 -Section 5\nSunday10:00AM to 12:00PM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1907 -Section 4\nMonday11:00AM to 1:00PM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)",
     "crumbs": [
       "course list",
-      "COMM1020"
-    ]
-  },
-  {
-    "objectID": "class-enroll/abandoned-available-courses.html#phys1020-general-physics",
-    "href": "class-enroll/abandoned-available-courses.html#phys1020-general-physics",
-    "title": "My Notes",
-    "section": "PHYS1020 General Physics",
-    "text": "PHYS1020 General Physics\nRecommendations: - Feras Alzubi - AETN 1102\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nPHYS 1020 - Lecture - Class 2516 -Section 1\nTuesday 8:00AM to 9:00AMThursday 8:00AM to 9:00AMSunday 8:00AM to 9:00AM\n12.2.1012.2.1012.2.10\nFeras Alzubi\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2517 -Section 2\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n12.2.1012.2.1012.2.10\nFeras Alzubi\nopen (22-40)\n\n\nPHYS 1020 - Lecture - Class 2519 -Section 4\nTuesday 2:00PM to 3:00PMThursday 2:00PM to 3:00PMSunday 2:00PM to 3:00PM\n05.2.4405.2.4405.2.44\nKerry Suek\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2520 -Section 5\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n05.2.5505.2.5505.2.55\nKerry Suek\nopen (35-40)\n\n\nPHYS 1020 - Lecture - Class 2521 -Section 6\nMonday 2:00PM to 3:30PMWednesday 2:00PM to 3:30PM\n12.2.2012.2.20\nFeras Alzubi\nopen (18-40)\n\n\nPHYS 1020 - Lecture - Class 2522 -Section 7\nTuesday 10:00AM to 11:00AMThursday 10:00AM to 11:00AMSunday 10:00AM to 11:00AM\n12.1.0812.1.0812.1.08\nEyad Omair\nopen (35-40)\n\n\nPHYS 1020 - Lecture - Class 2523 -Section 8\nTuesday 8:00AM to 9:00AMThursday 8:00AM to 9:00AMSunday 8:00AM to 9:00AM\n20.2.51A20.2.51A20.2.51A\nEyad Omair\nopen (39-40)\n\n\nPHYS 1020 - Lecture - Class 2524 -Section 9\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n20.2.51A20.2.51A20.2.51A\nEyad Omair\nopen (40-40)\n\n\nPHYS 1020 - Lecture - Class 2527 -Section 12\nMonday 11:00AM to 12:30PMWednesday 11:00AM to 12:30PM\n05.1.3005.1.30\nKerry Suek\nopen (27-40)\n\n\nPHYS 1020 - Lecture - Class 2528 -Section 13\nTuesday 4:00PM to 5:00PMThursday 4:00PM to 5:00PMSunday 4:00PM to 5:00PM\n05.1.4805.1.4805.1.48\nKerry Suek\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2529 -Section 14\nMonday 3:30PM to 5:00PMWednesday 3:30PM to 5:00PM\n20.2.51A20.2.51A\nKerry Suek\nopen (35-40)",
-    "crumbs": [
-      "course list",
-      "COMM1020"
-    ]
-  },
-  {
-    "objectID": "class-enroll/abandoned-available-courses.html#phys1021-general-physics-lab",
-    "href": "class-enroll/abandoned-available-courses.html#phys1021-general-physics-lab",
-    "title": "My Notes",
-    "section": "PHYS1021 General Physics Lab",
-    "text": "PHYS1021 General Physics Lab\nAbsolutely avoid:\n\nLuka Tanasijin\n\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 2530 -Section 1\nTuesday8:00AM to 11:00AM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2533 -Section 4\nTuesday5:00PM to 8:00PM\n05.1.06\nLuka Tanasijin\nopen (13-18)\n\n\nLaboratory - Class 2534 -Section 5\nSunday5:00PM to 8:00PM\n05.1.06\nLuka Tanasijin\nopen (14-18)\n\n\nLaboratory - Class 2535 -Section 6\nThursday2:00PM to 5:00PM\n05.1.02\nFasna Olikkal\nopen (6-18)\n\n\nLaboratory - Class 2536 -Section 7\nWednesday2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\nopen (8-18)\n\n\nLaboratory - Class 2537 -Section 8\nMonday2:00PM to 5:00PM\n05.1.02\nLuka Tanasijin\nopen (6-18)\n\n\nLaboratory - Class 2538 -Section 9\nMonday10:00AM to 1:00PM\n05.1.02\nFasna Olikkal\nopen (2-18)\n\n\nLaboratory - Class 2539 -Section 10\nWednesday10:00AM to 1:00PM\n05.1.02\nLuka Tanasijin\nopen (8-18)\n\n\nLaboratory - Class 2540 -Section 11\nTuesday2:00PM to 5:00PM\n05.1.02\nLuka TanasijinLuka Tanasijin\nopen (15-18)\n\n\nLaboratory - Class 2541 -Section 12\nTuesday11:00AM to 2:00PM\n05.1.02\nStaff\nopen (16-18)\n\n\nLaboratory - Class 2543 -Section 14\nThursday11:00AM to 2:00PM\n05.1.06\nLuka TanasijinLuka TanasijinLuka TanasijinLuka Tanasijin\nopen (16-18)\n\n\nLaboratory - Class 2544 -Section 15\nTuesday2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2545 -Section 16\nSunday11:00AM to 2:00PM\n05.1.02\nFasna Olikkal\nopen (9-18)\n\n\nLaboratory - Class 2547 -Section 18\nSunday8:00AM to 11:00AM\n05.1.06\nStaff\nopen (15-18)\n\n\nLaboratory - Class 2548 -Section 19\nThursday8:00AM to 11:00AM\n05.1.02\nFasna Olikkal\nopen (5-18)\n\n\nLaboratory - Class 2551 -Section 22\nSunday2:00PM to 5:00PM\n05.1.02\nFasna OlikkalFasna OlikkalFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2556 -Section 27\nSunday2:00PM to 5:00PM\n05.1.06\nLuka TanasijinLuka TanasijinLuka Tanasijin\nopen (18-18)",
-    "crumbs": [
-      "course list",
-      "COMM1020"
+      "AETN 2201"
     ]
   },
   {
@@ -454,7 +432,7 @@
     "href": "calc1/u4-applications-of-the-derivative2.html",
     "title": "Applications of the Derivative II",
     "section": "",
-    "text": "Indeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "text": "Warning\n\n\n\nAlways remember to write the unit where required",
     "crumbs": [
       "Calculus I",
       "Applications of the Derivative II"
@@ -464,8 +442,8 @@
     "objectID": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
     "href": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
     "title": "Applications of the Derivative II",
-    "section": "",
-    "text": "Indeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "section": "Indeterminate Forms and \\(\\text{L'H\\^{o}pital's}\\) Rule",
+    "text": "Indeterminate Forms and \\(\\text{L'H\\^{o}pital's}\\) Rule\nIndeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
     "crumbs": [
       "Calculus I",
       "Applications of the Derivative II"
@@ -476,7 +454,7 @@
     "href": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
     "title": "Applications of the Derivative II",
     "section": "Optimizing equations",
-    "text": "Optimizing equations\nIn real world situations, we may want to find the maximum or the minimum of a function. The process of finding the best situation is called optimization.\n\nOptimasation Problem Steps\n\nDraw a sketch of the shape\nWrite down the formulas we can use to construct the shape\n\n\nFor the variable being optimized\nFor the variable with a constraint\n\n\n\n\n\n\n\nCaution\n\n\n\nMake sure the main equation is a function of only one variable\n\n\n\nFind the maxima or the minima as per req\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nAlways: Answer the question asked with the critical number and the optimized value",
+    "text": "Optimizing equations\nIn real world situations, we may want to find the maximum or the minimum of a function. The process of finding the best situation is called optimization.\n\nOptimasation Problem Steps\n\nDraw a sketch of the shape\nWrite down the formulas we can use to construct the shape\n\n\nFor the variable being optimized\nFor the variable with a constraint\n\n\n\n\n\n\n\nCaution\n\n\n\nMake sure the main equation is a function of only one variable\n\n\n\nFind the maxima or the minima as per req\n\n\n\n\n\n\n\nWarning\n\n\n\nDon’t forget to find the second derivative to prove that the answer is a minimum or a maximum\n\n\n\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nAlways: Answer the question asked with the critical number and the optimized value",
     "crumbs": [
       "Calculus I",
       "Applications of the Derivative II"
@@ -487,7 +465,7 @@
     "href": "calc1/u4-applications-of-the-derivative2.html#related-rates",
     "title": "Applications of the Derivative II",
     "section": "Related Rates",
-    "text": "Related Rates\nWe can take the derivative of an equation with respect to anything usingimplicit differentiation.\nThis is always differentiation wrt time\nAlthough an equation may not have time in it, we can find its derivative wrt time using the chain rule.\nfor \\(f(x)\\):\n\\[\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}, \\text{ (Chain Rule)}\\]\n\\[\\frac{dx}{dt} = \\frac{1}{ \\dfrac{d~[f(x)]}{dx} } \\cdot \\frac{d~[f(x)]}{dt}\\]\nJust as the two variables \\(f(x)\\) and \\(x\\) have a relationship, the two rates depend on each other and are called Related Rates.\nWhen we take the derivative with respect to an unrelated variable, it is important to use Leibnitz notation, $ to communicate what the rate is.\n\n\nLeibniz notation\n\nIn calculus, Leibniz’s notation, named in honor of the 17th-century German philosopher and mathematician Gottfried Wilhelm Leibniz, uses the symbols \\(dx\\) and \\(dy\\) to represent infinitely small (or infinitesimal) increments of \\(x\\) and \\(y\\), respectively, just as \\(\\Delta x\\) and \\(\\Delta y\\) represent finite increments of \\(x\\) and \\(y\\), respectively. source\n\n\nProcedure for solving related rate problems\n\nDraw the shape, its variables and its related rates\nFind the FWG to formulate and understand the question (it’s not necessary to write this down):\n\nFind:\nWhen:\nGiven:\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThe rates may be positive (increasing, growing, etc) or negative (decreasing shrinking, etc).\n\n\n\nSubstite the given values into the equation of the variable to be found\n\n\n\n\n\n\n\nCaution\n\n\n\nWhen you label your diagram, it may have width and length and height or radius, but that doesn’t mean all of them are variables\nRead your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.\nConstants can be substituted into the equation before taking the derivatve.\n\n\n\nWrite the conclusion",
+    "text": "Related Rates\nWe can take the derivative of an equation with respect to anything usingimplicit differentiation.\nThis is always differentiation wrt time\nAlthough an equation may not have time in it, we can find its derivative wrt time using the chain rule.\nfor \\(f(x)\\):\n\\[\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}, \\text{ (Chain Rule)}\\]\n\\[\\frac{dx}{dt} = \\frac{1}{ \\dfrac{d~[f(x)]}{dx} } \\cdot \\frac{d~[f(x)]}{dt}\\]\nJust as the two variables \\(f(x)\\) and \\(x\\) have a relationship, the two rates depend on each other and are called Related Rates.\nWhen we take the derivative with respect to an unrelated variable, it is important to use Leibnitz notation, $ to communicate what the rate is.\n\n\nLeibniz notation\n\nIn calculus, Leibniz’s notation, named in honor of the 17th-century German philosopher and mathematician Gottfried Wilhelm Leibniz, uses the symbols \\(dx\\) and \\(dy\\) to represent infinitely small (or infinitesimal) increments of \\(x\\) and \\(y\\), respectively, just as \\(\\Delta x\\) and \\(\\Delta y\\) represent finite increments of \\(x\\) and \\(y\\), respectively. source\n\n\nProcedure for solving related rate problems\n\nDraw the shape, its variables and its related rates\nFind the FWG to formulate and understand the question (it’s not necessary to write this down):\n\nFind:\nWhen:\nGiven:\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThe rates may be positive (increasing, growing, etc) or negative (decreasing shrinking, etc).\n\n\n\nSubstite the given values into the equation of the variable to be found\n\n\n\n\n\n\n\nCaution\n\n\n\nWhen you label your diagram, it may have width and length and height or radius, but that doesn’t mean all of them are variables\nRead your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.\nConstants can be substituted into the equation before taking the derivatve.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nDon’t forget to find the second derivative to prove that the answer is a minimum or a maximum\n\n\n\nWrite the conclusion\n\n\n\n\n\n\n\nCaution\n\n\n\nBe mindful of the units. ex:\n\nAt a rate of 2 km per hour is different from 2 km per \\(\\text{hour}^2\\). What is right depends on question. You can instead write:\nAt a rate of 2 km every hour: for velocity  Or at a rate of (2 km every \\(\\text{hour}^2\\) or 2 km/h every hour): for acceleration",
     "crumbs": [
       "Calculus I",
       "Applications of the Derivative II"
@@ -619,7 +597,7 @@
     "href": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
     "title": "Transcendental Functions and Their Derivatives",
     "section": "Derivative of General Exponential and Logarithmic Functions",
-    "text": "Derivative of General Exponential and Logarithmic Functions\n\\[\\begin{align*}\n  \\frac{d}{dx} a^{f(x)} &= a^{f(x)} \\cdot f'(x) \\cdot \\ln a\\\\\n  \\frac{d}{dx} \\log_b (f(x)) &= \\frac{f'(x)}{f(x) \\cdot \\ln b } \\\\\n\\end{align*}\\]\n\n\nDerivation\n\nFind the derivative of \\(y = a^{f(x)}\\), given\n\\[\\begin{array}\n        f(x) &= g(x)\\\\\n        \\ln(f(x) &= \\ln(g(x))\n    \\end{array}\\]\nTake \\(\\ln\\) on both sides\n\\[\\begin{align*}\n    \\ln y &= \\ln a^{f(x)} \\\\\n    \\frac{y'}{y} &= f'(x) \\cdot a^{f(x)} \\\\\n    y' = y \\cdot f'(x) \\cdot a^{f(x)} \\\\\n    y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)} \\\\\n\\end{align*}\\]\n\\(\\boxed{y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)}}\\)\n\\[\\begin{align*}\n    \\log_n m &= \\frac{\\log m}{\\log n} \\\\\n    \\therefore y &= \\frac{\\ln [f(x)}{\\ln b} \\\\\n    y' &= \\frac{f'(x)}{f(x)} \\cdot \\frac{1}{\\ln b}\n    y' &= \\frac{f'(x)}{f(x) \\cdot \\ln b}\n\\end{align*}\\]",
+    "text": "Derivative of General Exponential and Logarithmic Functions\n\\[\\frac{d}{dx} a^{f(x)} = a^{f(x)} \\cdot f'(x) \\cdot \\ln a\\]\nHere, \\(a\\) can also be \\(\\pi\\)\n\\[\\frac{d}{dx} \\log_b (f(x)) = \\frac{f'(x)}{f(x) \\cdot \\ln b }\\]\n\n\nDerivation\n\nFind the derivative of \\(y = a^{f(x)}\\), given\n\\[\\begin{array}\n        f(x) &= g(x)\\\\\n        \\ln(f(x) &= \\ln(g(x))\n    \\end{array}\\]\nTake \\(\\ln\\) on both sides\n\\[\\begin{align*}\n    \\ln y &= \\ln a^{f(x)} \\\\\n    \\frac{y'}{y} &= f'(x) \\cdot a^{f(x)} \\\\\n    y' = y \\cdot f'(x) \\cdot a^{f(x)} \\\\\n    y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)} \\\\\n\\end{align*}\\]\n\\(\\boxed{y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)}}\\)\n\\[\\begin{align*}\n    \\log_n m &= \\frac{\\log m}{\\log n} \\\\\n    \\therefore y &= \\frac{\\ln [f(x)}{\\ln b} \\\\\n    y' &= \\frac{f'(x)}{f(x)} \\cdot \\frac{1}{\\ln b}\n    y' &= \\frac{f'(x)}{f(x) \\cdot \\ln b}\n\\end{align*}\\]",
     "crumbs": [
       "Calculus I",
       "Transcendental Functions and Their Derivatives"
@@ -641,7 +619,7 @@
     "href": "calc1/u5-antiderivatives-introduction-to-integrals.html",
     "title": "Antiderivatives: Introduction to Integrals",
     "section": "",
-    "text": "\\(\\int f'(x)\\) # incomplete",
+    "text": "\\(\\int f'(x) dx = f(x)\\)",
     "crumbs": [
       "Calculus I",
       "Antiderivatives: Introduction to Integrals"
@@ -652,7 +630,7 @@
     "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
     "title": "Antiderivatives: Introduction to Integrals",
     "section": "",
-    "text": "\\(\\int f'(x)\\) # incomplete",
+    "text": "\\(\\int f'(x) dx = f(x)\\)",
     "crumbs": [
       "Calculus I",
       "Antiderivatives: Introduction to Integrals"
@@ -699,7 +677,40 @@
     "text": "Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#comm1020",
+    "href": "class-enroll/available-courses.html#comm1020",
+    "title": "My Notes",
+    "section": "COMM1020",
+    "text": "COMM1020\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2197 -Section 2\nWednesday12:00PM–1:00PM\n01.2.0810.2.01\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2198 -Section 3\nWednesday12:00PM–1:00PM\n01.2.0812.2.13\nAndrea Comeau\nopen (118-120)open (22-24)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2199 -Section 4\nWednesday12:00PM–1:00PM\n01.2.0810.2.05\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2196 -Section 1Lecture - Class 2200 -Section 5\nWednesday12:00PM–1:00PM\n01.2.0810.2.05\nAndrea Comeau\nopen (118-120)open (30-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2205 -Section 10\nSunday6:00PM–7:00PM\n01.1.0610.2.06\nRidha Ben Rejeb\nopen (111-120)open (28-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2202 -Section 7\nSunday6:00PM–7:00PM\n01.1.0612.2.10\nRidha Ben Rejeb\nopen (111-120)open (30-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2203 -Section 8\nSunday6:00PM–7:00PM\n01.1.0605.2.26\nRidha Ben Rejeb\nopen (111-120)open (26-30)\n\n\nLecTheatre - Class 2201 -Section 6Lecture - Class 2204 -Section 9\nSunday6:00PM–7:00PM\n01.1.0612.1.03\nRidha Ben Rejeb\nopen (111-120)open (27-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2211 -Section 16\nMonday12:00PM–1:00PM\n01.1.0612.2.10\nIrum Naz\nopen (87-90)open (29-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2212 -Section 17\nMonday12:00PM–1:00PM\n01.1.0610.1.31\nIrum Naz\nopen (87-90)open (30-30)\n\n\nLecTheatre - Class 2210 -Section 15Lecture - Class 2213 -Section 18\nMonday12:00PM–1:00PM\n01.1.0610.1.31\nIrum Naz\nopen (87-90)open (28-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2216 -Section 21\nTuesday2:00PM–3:00PM\n01.1.0605.1.66\nCristina Fabretto\nopen (117-120)open (30-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2217 -Section 22\nTuesday2:00PM–3:00PM\n01.1.0610.2.01\nCristina Fabretto\nopen (117-120)open (29-30)\n\n\nLecTheatre - Class 2214 -Section 19Lecture - Class 2218 -Section 23\nTuesday2:00PM–3:00PM\n01.1.0605.1.38\nCristina Fabretto\nopen (117-120)open (28-30)\n\n\nLecTheatre - Class 2219 -Section 24Lecture - Class 2220 -Section 25\nMonday4:00PM–5:00PM\n05.2.4410.2.06\nShawn Ramsey\nopen (53-58)open (25-29)\n\n\nLecTheatre - Class 2219 -Section 24Lecture - Class 2221 -Section 26\nMonday4:00PM–5:00PM\n05.2.4410.2.06\nShawn Ramsey\nopen (53-58)open (28-29)\n\n\nLecTheatre - Class 2226 -Section 31Lecture - Class 2227 -Section 32\nTuesday4:00PM–5:00PM\n12.1.0812.1.03\nIrum Naz\nopen (60-60)open (30-30)\n\n\nLecTheatre - Class 2226 -Section 31Lecture - Class 2228 -Section 33\nTuesday4:00PM–5:00PM\n12.1.0805.2.25\nIrum Naz\nopen (60-60)open (30-30)",
+    "crumbs": [
+      "course list",
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#phys1020-general-physics",
+    "href": "class-enroll/available-courses.html#phys1020-general-physics",
+    "title": "My Notes",
+    "section": "PHYS1020 General Physics",
+    "text": "PHYS1020 General Physics\nRecommendations: - Feras Alzubi - AETN 1102\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nPHYS 1020 - Lecture - Class 2516 -Section 1\nTuesday 8:00AM to 9:00AMThursday 8:00AM to 9:00AMSunday 8:00AM to 9:00AM\n12.2.1012.2.1012.2.10\nFeras Alzubi\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2517 -Section 2\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n12.2.1012.2.1012.2.10\nFeras Alzubi\nopen (22-40)\n\n\nPHYS 1020 - Lecture - Class 2519 -Section 4\nTuesday 2:00PM to 3:00PMThursday 2:00PM to 3:00PMSunday 2:00PM to 3:00PM\n05.2.4405.2.4405.2.44\nKerry Suek\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2520 -Section 5\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n05.2.5505.2.5505.2.55\nKerry Suek\nopen (35-40)\n\n\nPHYS 1020 - Lecture - Class 2521 -Section 6\nMonday 2:00PM to 3:30PMWednesday 2:00PM to 3:30PM\n12.2.2012.2.20\nFeras Alzubi\nopen (18-40)\n\n\nPHYS 1020 - Lecture - Class 2522 -Section 7\nTuesday 10:00AM to 11:00AMThursday 10:00AM to 11:00AMSunday 10:00AM to 11:00AM\n12.1.0812.1.0812.1.08\nEyad Omair\nopen (35-40)\n\n\nPHYS 1020 - Lecture - Class 2523 -Section 8\nTuesday 8:00AM to 9:00AMThursday 8:00AM to 9:00AMSunday 8:00AM to 9:00AM\n20.2.51A20.2.51A20.2.51A\nEyad Omair\nopen (39-40)\n\n\nPHYS 1020 - Lecture - Class 2524 -Section 9\nTuesday 11:00AM to 12:00PMThursday 11:00AM to 12:00PMSunday 11:00AM to 12:00PM\n20.2.51A20.2.51A20.2.51A\nEyad Omair\nopen (40-40)\n\n\nPHYS 1020 - Lecture - Class 2527 -Section 12\nMonday 11:00AM to 12:30PMWednesday 11:00AM to 12:30PM\n05.1.3005.1.30\nKerry Suek\nopen (27-40)\n\n\nPHYS 1020 - Lecture - Class 2528 -Section 13\nTuesday 4:00PM to 5:00PMThursday 4:00PM to 5:00PMSunday 4:00PM to 5:00PM\n05.1.4805.1.4805.1.48\nKerry Suek\nopen (26-40)\n\n\nPHYS 1020 - Lecture - Class 2529 -Section 14\nMonday 3:30PM to 5:00PMWednesday 3:30PM to 5:00PM\n20.2.51A20.2.51A\nKerry Suek\nopen (35-40)",
+    "crumbs": [
+      "course list",
+      "COMM1020"
+    ]
+  },
+  {
+    "objectID": "class-enroll/available-courses.html#phys1021-general-physics-lab",
+    "href": "class-enroll/available-courses.html#phys1021-general-physics-lab",
+    "title": "My Notes",
+    "section": "PHYS1021 General Physics Lab",
+    "text": "PHYS1021 General Physics Lab\nAbsolutely avoid:\n\nLuka Tanasijin\n\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 2530 -Section 1\nTuesday8:00AM to 11:00AM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2533 -Section 4\nTuesday5:00PM to 8:00PM\n05.1.06\nLuka Tanasijin\nopen (13-18)\n\n\nLaboratory - Class 2534 -Section 5\nSunday5:00PM to 8:00PM\n05.1.06\nLuka Tanasijin\nopen (14-18)\n\n\nLaboratory - Class 2535 -Section 6\nThursday2:00PM to 5:00PM\n05.1.02\nFasna Olikkal\nopen (6-18)\n\n\nLaboratory - Class 2536 -Section 7\nWednesday2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\nopen (8-18)\n\n\nLaboratory - Class 2537 -Section 8\nMonday2:00PM to 5:00PM\n05.1.02\nLuka Tanasijin\nopen (6-18)\n\n\nLaboratory - Class 2538 -Section 9\nMonday10:00AM to 1:00PM\n05.1.02\nFasna Olikkal\nopen (2-18)\n\n\nLaboratory - Class 2539 -Section 10\nWednesday10:00AM to 1:00PM\n05.1.02\nLuka Tanasijin\nopen (8-18)\n\n\nLaboratory - Class 2540 -Section 11\nTuesday2:00PM to 5:00PM\n05.1.02\nLuka TanasijinLuka Tanasijin\nopen (15-18)\n\n\nLaboratory - Class 2541 -Section 12\nTuesday11:00AM to 2:00PM\n05.1.02\nStaff\nopen (16-18)\n\n\nLaboratory - Class 2543 -Section 14\nThursday11:00AM to 2:00PM\n05.1.06\nLuka TanasijinLuka TanasijinLuka TanasijinLuka Tanasijin\nopen (16-18)\n\n\nLaboratory - Class 2544 -Section 15\nTuesday2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2545 -Section 16\nSunday11:00AM to 2:00PM\n05.1.02\nFasna Olikkal\nopen (9-18)\n\n\nLaboratory - Class 2547 -Section 18\nSunday8:00AM to 11:00AM\n05.1.06\nStaff\nopen (15-18)\n\n\nLaboratory - Class 2548 -Section 19\nThursday8:00AM to 11:00AM\n05.1.02\nFasna Olikkal\nopen (5-18)\n\n\nLaboratory - Class 2551 -Section 22\nSunday2:00PM to 5:00PM\n05.1.02\nFasna OlikkalFasna OlikkalFasna Olikkal\nopen (15-18)\n\n\nLaboratory - Class 2556 -Section 27\nSunday2:00PM to 5:00PM\n05.1.06\nLuka TanasijinLuka TanasijinLuka Tanasijin\nopen (18-18)",
+    "crumbs": [
+      "course list",
+      "COMM1020"
     ]
   },
   {
@@ -710,7 +721,7 @@
     "text": "AETN2221 Analog & Digital Communication (Lab)\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1921 -Section 3\nThursday2:00PM to 4:00PM\n09.2.79\nStaff\nopen (5-14)\n\n\nLaboratory - Class 1919 -Section 1\nSunday2:00PM to 4:00PM\n09.2.79\nGhufran Khalaf Ja’afreh\nclosed (0-14)\n\n\nLaboratory - Class 1920 -Section 2\nMonday4:00PM to 6:00PM\n09.2.79\nGhufran Khalaf Ja’afreh\nclosed (0-14)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -721,18 +732,7 @@
     "text": "AETN 2121\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecture - Class 1901 -Section 2\nTuesday8:00AM to 9:00AM\n05.2.2305.2.2305.2.23\nZeina RihawiZeina RihawiZeina Rihawi\nopen (6-25)\n\n\nLecture - Class 1900 -Section 1\nTuesday9:00AM to 10:00AM\n05.2.3505.2.3505.2.35\nZeina RihawiZeina RihawiZeina Rihawi\nclosed (0-25)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
-    ]
-  },
-  {
-    "objectID": "class-enroll/available-courses.html#aetn-2201",
-    "href": "class-enroll/available-courses.html#aetn-2201",
-    "title": "My Notes",
-    "section": "AETN 2201",
-    "text": "AETN 2201\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1912 -Section 9\nSunday4:00PM to 6:00PM\n09.2.72\nYasen Abdullahi Harrye\nopen (1-15)\n\n\nLaboratory - Class 1906 -Section 3\nWednesday8:00AM to 10:00AM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1905 -Section 2\nMonday9:00AM to 11:00AM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)\n\n\nLaboratory - Class 1908 -Section 5\nSunday10:00AM to 12:00PM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1907 -Section 4\nMonday11:00AM to 1:00PM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)",
-    "crumbs": [
-      "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -743,7 +743,7 @@
     "text": "AETN 1112 Digital Electronics\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecture - Class 1868 -Section 2\nSundayTuesdayThursday12:00PM - 1:00PM \n05.2.3705.2.3705.2.37\nStaffStaffStaff\nopen (30-30)\n\n\nLecture - Class 1869 -Section 3\nSundayTuesdayThursday1:00PM - 2:00PM \n05.2.5505.2.5505.2.55\nGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afreh\nopen (28-30)\n\n\nLecture - Class 1870 -Section 4\nSundayTuesdayThursday12:00PM - 1:00PM \n05.2.2505.2.2505.2.25\nGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afrehGhufran Khalaf Ja’afreh\nopen (28-30)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -754,7 +754,7 @@
     "text": "AETN1212 Digital Electronics Lab:\n\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\nRating\n\n\n\n\nLaboratory - Class 1880 -Section 1\nWednesday4:00PM to 6:00PM \n09.2.79\nMariam Al-Ghanma\nopen (15-15)\n\n\n\nLaboratory - Class 1881 -Section 2\nWednesday2:00PM to 4:00PM \n09.2.79\nEithar Mustafa\nopen (15-15)\n\n\n\nLaboratory - Class 1882 -Section 3\nTuesday2:00PM to 4:00PM \n09.2.79\nEithar Mustafa\nopen (15-15)\n\n\n\nLaboratory - Class 1883 -Section 4\nMonday10:00AM to 12:00PM \n09.2.79\nMariam Al-Ghanma\nopen (15-15)\n\n\n\nLaboratory - Class 1884 -Section 5\nThursday6:00PM to 8:00PM \n08.1.03\nAlaa Elsaqa\nopen (15-15)\n\n\n\nLaboratory - Class 1885 -Section 6\nWednesday11:00AM to 1:00PM \n09.2.79\nAlaa Elsaqa\nopen (15-15)\n\n\n\nLaboratory - Class 1886 -Section 7\nSunday10:00AM to 12:00PM \n09.2.79\nAmira Mustapha\nopen (15-15)\n\n\n\nLaboratory - Class 1887 -Section 8\nTuesday8:00AM to 10:00AM \n09.2.79\nAmira Mustapha\nopen (15-15)\n\n\n\nLaboratory - Class 1888 -Section 9\nThursday12:00PM to 2:00PM \n09.2.79\nMariam Al-Ghanma\nopen (15-15)\n\n\n\nLaboratory - Class 1889 -Section 10\nSunday12:00PM to 2:00PM \n09.1.41\nAlaa Elsaqa\nopen (15-15)\n\n\n\nLaboratory - Class 1890 -Section 11\nWednesday8:00AM to 10:00AM \n09.2.69\nGhufran Khalaf Ja’afreh\nopen (15-15)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -765,7 +765,7 @@
     "text": "AETN 1102 Network Fundamentals\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecture - Class 1863 -Section 2\nSundayTuesdayThursday1:00PM - 2:00PM \n05.2.3605.2.3605.2.36\nPermjit SooraPermjit SooraPermjit Soora\nopen (25-30)\n\n\nLecture - Class 1866 -Section 5\nSundayTuesdayThursday3:00PM - 4:00PM \n05.2.2505.2.2505.2.25\nNicolae NechitaNicolae NechitaNicolae Nechita\nopen (28-30)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -776,7 +776,7 @@
     "text": "AETN 1202 Network Fundamentals Lab\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1873 -Section 1\nWednesday10:00AM - 1:00PM \n09.2.07\nMariam Al-Ghanma\nopen (18-20)\n\n\nLaboratory - Class 1874 -Section 2\nTuesday2:00PM - 5:00PM \n09.2.07\nMariam Al-Ghanma\nopen (20-20)\n\n\nLaboratory - Class 1877 -Section 5\nMonday10:00AM - 1:00PM \n09.2.07\nAlaa Elsaqa\nopen (19-20)\n\n\nLaboratory - Class 1878 -Section 6\nThursday2:00PM - 5:00PM \n09.2.07\nAlaa Elsaqa\nopen (18-20)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -787,7 +787,7 @@
     "text": "MATH 2010 Calculus II\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLecTheatre - Class 2508 -Section 5Lecture - Class 2509 -Section 6\nSunday12:30PM to 2:00PM\n01.1.0405.2.60\nStaffStaff\nopen (38-90)open (24-30)\n\n\nLecTheatre - Class 2508 -Section 5Lecture - Class 2511 -Section 8\nSunday12:30PM to 2:00PM\n01.1.0405.1.51\nStaffStaff\nopen (38-90)open (14-30)\n\n\nLecTheatre - Class 2512 -Section 9Lecture - Class 2514 -Section 11\nSunday5:00PM to 6:30PM\n01.1.0405.2.24\nStaffStaff\nopen (45-90)open (30-30)\n\n\nLecTheatre - Class 2512 -Section 9Lecture - Class 2515 -Section 12\nSunday5:00PM to 6:30PM\n01.1.0405.1.56\nStaffStaff\nopen (45-90)open (15-30)",
     "crumbs": [
       "course list",
-      "AETN2221 Analog & Digital Communication (Lab)"
+      "COMM1020"
     ]
   },
   {
@@ -911,8 +911,8 @@
     ]
   },
   {
-    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#some-general-knowledge",
-    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#some-general-knowledge",
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#some-general-knowledge-not-in-syllabus",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#some-general-knowledge-not-in-syllabus",
     "title": "7. Introduction To Three Phase Systems",
     "section": "",
     "text": "Process\nVoltage\nPhase\n\n\n\n\nGeneration\n11-15 kV\n3 phase\n\n\nTransmission\n100-400 kV\n3 phase\n\n\nDistribution\n11 kV\n3 phase\n\n\nConsumption\n415 V or 240 V\n3 phase or single phase\n\n\n\nCycle of electricity transfer from power plan to a house:\n\nPower Plant\nStep-up transformer\nHigh-voltage Transmission line\nStep-down transformer (substation)\n\n\n\n\nWire Colour\nNotation\n\n\n\n\nR red\nL1\n\n\nY yellow\nL2\n\n\nB blue\nL3\n\n\nN",
@@ -922,55 +922,66 @@
     ]
   },
   {
-    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-phase-generator",
-    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-phase-generator",
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-phase-generator-quality-check",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-phase-generator-quality-check",
     "title": "7. Introduction To Three Phase Systems",
-    "section": "Three-Phase Generator:",
-    "text": "Three-Phase Generator:\n\nHas 3 coils each seperated by an angle of $120^$\nHence has 3 sine waves\nMade of magnet (mobile) and conductor (stationary)\nThe 3 line wires are of colors: Red, Yellow, Blue\n\nVoltage differences between wires: - \\(415~V\\) between line and line - \\(240~V\\) between line and neutral\n\\[\\begin{align*}\n    e_{AN} &= E_{m(AN)} \\sin \\omega t \\\\\n    e_{BN} &= E_{m(VN)} \\sin (\\omega t - 120^\\circ) \\\\\n    e_{CN} &= E_{m(CN)} \\sin (\\omega t + 120^\\circ) \\\\\n\\end{align*}\\]\n\n\\(AN\\) stands for: from A (line) to the neutral\nLine voltage \\((V_{ph} \\text{ or } V_\\phi)\\): \\(\\Delta V\\) b/w line-line\nPhase voltage \\((V_L)\\): \\(\\Delta V\\) b/w line-neutral\n\nPhase sequence change can change the direction of turns of a motor\nMotor:\n\n\n\nDelta connection\nY (Wye) connection\n\n\n\n\nNo common point\nHas common point",
+    "section": "Three-Phase Generator (Quality check)",
+    "text": "Three-Phase Generator (Quality check)\n\nHas 3 coils each seperated by an angle of $120^$\nHence has 3 sine waves\nMade of magnet (mobile) and conductor (stationary)\nThe 3 line wires are of colors: Red, Yellow, Blue\n\nVoltage differences between wires: - \\(415~V\\) between line and line - \\(240~V\\) between line and neutral\n\\[\\begin{align*}\n    e_{AN} &= E_{m(AN)} \\sin \\omega t \\\\\n    e_{BN} &= E_{m(VN)} \\sin (\\omega t - 120^\\circ) \\\\\n    e_{CN} &= E_{m(CN)} \\sin (\\omega t + 120^\\circ) \\\\\n\\end{align*}\\]\n\n\\(AN\\) stands for: from A (line) to the neutral\nLine voltage \\((V_{ph} \\text{ or } V_\\phi)\\): \\(\\Delta V\\) b/w line-line\nPhase voltage \\((V_L)\\): \\(\\Delta V\\) b/w line-neutral\n\nPhase sequence change can change the direction of turns of a motor\nMotor:\n\n\n\nDelta connection\nY (Wye) connection\n\n\n\n\nNo common point\nHas common point",
     "crumbs": [
       "Fund. Elec. II",
       "7. Introduction To Three Phase Systems"
     ]
   },
   {
-    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator",
-    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator",
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-quality-check",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-quality-check",
     "title": "7. Introduction To Three Phase Systems",
-    "section": "Y-Connected Generator",
-    "text": "Y-Connected Generator\n\\(E_L = V_\\phi \\sqrt{3}\\)\n\\(I_L = I_\\phi\\)\n\nSum of line voltages is \\(0~\\text{V}\\).\nPhase rotation, or phase sequence, is the order in which the voltage waveforms of a polyphase AC source reach their respective peaks.\nThe phase sequence can be determined by the order in which the phasors pass through a fixed point on the phasor diagram if the phasors are rotated in a counterclockwise direction.\nThe phase sequence for the line voltages is the same as for phase voltages.\nThe phase sequence is quite important in the three-phase distribution of power.\nIn a three-phase motor, for example, if two phase voltages are interchanged, the sequence will change, and the direction of rotation of the motor will be reversed.\nIf the load is balanced, the neutral connection can be removed without affecting the circuit in any manner; that is, if \\(Z_1 = Z_2 = Z_3\\) then \\(I_N\\) will be zero.",
+    "section": "Y-Connected Generator (Quality check)",
+    "text": "Y-Connected Generator (Quality check)\n\\(E_L = V_\\phi \\sqrt{3}\\)\n\\(I_L = I_\\phi\\)\n\nSum of line voltages is \\(0~\\text{V}\\).\nPhase rotation, or phase sequence, is the order in which the voltage waveforms of a polyphase AC source reach their respective peaks.\nThe phase sequence can be determined by the order in which the phasors pass through a fixed point on the phasor diagram if the phasors are rotated in a counterclockwise direction.\nThe phase sequence for the line voltages is the same as for phase voltages.\nThe phase sequence is quite important in the three-phase distribution of power.\nIn a three-phase motor, for example, if two phase voltages are interchanged, the sequence will change, and the direction of rotation of the motor will be reversed.\nIf the load is balanced, the neutral connection can be removed without affecting the circuit in any manner; that is, if \\(Z_1 = Z_2 = Z_3\\) then \\(I_N\\) will be zero.",
     "crumbs": [
       "Fund. Elec. II",
       "7. Introduction To Three Phase Systems"
     ]
   },
   {
-    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-with-a-y-connected-load",
-    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-with-a-y-connected-load",
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-with-a-y-connected-load-quality-check",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-connected-generator-with-a-y-connected-load-quality-check",
     "title": "7. Introduction To Three Phase Systems",
-    "section": "Y-Connected Generator with a Y-Connected Load",
-    "text": "Y-Connected Generator with a Y-Connected Load\n\\(E_L = V_\\phi \\sqrt{3}\\)\n\\(I_L = I_\\phi\\)",
+    "section": "Y-Connected Generator with a Y-Connected Load (Quality check)",
+    "text": "Y-Connected Generator with a Y-Connected Load (Quality check)\n\\(E_L = V_\\phi \\sqrt{3}\\)\n\\(I_L = I_\\phi\\)",
     "crumbs": [
       "Fund. Elec. II",
       "7. Introduction To Three Phase Systems"
     ]
   },
   {
-    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-delta-system",
-    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-delta-system",
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-delta-system-in-progress",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#y-delta-system-in-progress",
     "title": "7. Introduction To Three Phase Systems",
-    "section": "Y-\\(\\Delta\\) System",
-    "text": "Y-\\(\\Delta\\) System\n\\(V_L = V_\\phi\\)\n\\(I_L = I_\\phi \\cdot \\sqrt{3}\\)\n\nHere the magnitudes of the line and phase currents will be equal\n\n\\[\\begin{align*}\n    P_\\phi &= V_\\phi I_\\phi \\cos \\theta \\\\\n    P_T &= 3 P_\\phi \\\\\n    P_T &= \\sqrt 3 V_\\phi I_\\phi \\cos \\theta \\\\\n    Q_\\phi &= V_\\phi I_\\phi \\sin \\theta \\\\\n\\end{align*}\\]",
+    "section": "Y-\\(\\Delta\\) System (In progress)",
+    "text": "Y-\\(\\Delta\\) System (In progress)\n\\(V_L = V_\\phi\\)\n\\(I_L = I_\\phi \\cdot \\sqrt{3}\\)\n\nHere the magnitudes of the line and phase currents will be equal\n\n\\[\\begin{align*}\n    P_\\phi &= V_\\phi I_\\phi \\cos \\theta \\\\\n    P_T &= 3 P_\\phi \\\\\n    P_T &= \\sqrt 3 V_\\phi I_\\phi \\cos \\theta \\\\\n    Q_\\phi &= V_\\phi I_\\phi \\sin \\theta \\\\\n\\end{align*}\\]",
     "crumbs": [
       "Fund. Elec. II",
       "7. Introduction To Three Phase Systems"
     ]
   },
   {
-    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-wattmeter-method",
-    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-wattmeter-method",
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#unbalanced-loads-in-progress",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#unbalanced-loads-in-progress",
     "title": "7. Introduction To Three Phase Systems",
-    "section": "Three-Wattmeter Method",
-    "text": "Three-Wattmeter Method\n\\(P_{T_Y} = P_1 + P_2 + P_3\\)",
+    "section": "Unbalanced Loads (In progress)",
+    "text": "Unbalanced Loads (In progress)\nIn the case of Y and Delta systems with unbalanced loads, all the components of power should be calculated for each of phases. The total for each component of power is the sum of the phase values of that component for each phase branch.\n\n•",
+    "crumbs": [
+      "Fund. Elec. II",
+      "7. Introduction To Three Phase Systems"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-wattmeter-method-quality-check",
+    "href": "fund-elec2/t07-introduction-to-three-phase-systems.html#three-wattmeter-method-quality-check",
+    "title": "7. Introduction To Three Phase Systems",
+    "section": "Three-Wattmeter Method (Quality check)",
+    "text": "Three-Wattmeter Method (Quality check)\n\\(P_{T_Y} = P_1 + P_2 + P_3\\)",
     "crumbs": [
       "Fund. Elec. II",
       "7. Introduction To Three Phase Systems"
@@ -1124,7 +1135,18 @@
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#transformers",
     "title": "Introduction to Magnetic Circuits and Transformers",
     "section": "Transformers",
-    "text": "Transformers",
+    "text": "Transformers\nThey increase (step up) or decrease (step down) the voltage\nThe transfer has 2 parts:\n\nPrimary (for the input)\nSecondary (for the output)\n\nIt cnsists of a transfer core and 2 coils. It works like so:\n\nCurrent flows through the primary coil\nCurrent flow through the coil induces a changing magnetic field in the transformer core\nThe changing magnetic field flows through out the transformer core\nThe changing magnetic field in the transformer core induces a voltage and hence a current in the secondary coil\n\n\nMutual Inductance\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\n\\[e_s = N_s \\frac{d\\phi_m}{dt}\\]\n\n\\(N_s =\\) Number of turn in the secondary coil\n\\(\\phi_m =\\) Portion of \\(\\phi_p\\) that links with the secondary winding\n\n\n\nIron Core Transformer\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\nTransformer ratio: \\(a = \\dfrac{N_p}{N_s}\\)\n\\[\\frac{V_p}{V_s} = \\frac{N_p}{N_s} = \\frac{I_s}{I_p}\\]\nPrimary and secondary is reversed for the current since \\(I \\propto \\dfrac{1}{N}\\)",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Introduction to Magnetic Circuits and Transformers"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#rectifier",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#rectifier",
+    "title": "Introduction to Magnetic Circuits and Transformers",
+    "section": "Rectifier",
+    "text": "Rectifier\nThey convert AC to DC",
     "crumbs": [
       "Fund. Elec. II",
       "Introduction to Magnetic Circuits and Transformers"

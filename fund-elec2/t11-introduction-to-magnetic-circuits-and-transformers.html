@@ -465,13 +465,13 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../class-enroll/abandoned-available-courses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">COMM1020</span></a>
+ <span class="menu-text">AETN 2201</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../class-enroll/available-courses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AETN2221 Analog &amp; Digital Communication (Lab)</span></a>
+ <span class="menu-text">COMM1020</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -501,7 +501,12 @@ window.Quarto = {
   <li><a href="#amperes-circuital-law" id="toc-amperes-circuital-law" class="nav-link" data-scroll-target="#amperes-circuital-law">Ampere’s Circuital Law</a></li>
   <li><a href="#air-gaps" id="toc-air-gaps" class="nav-link" data-scroll-target="#air-gaps">Air Gaps</a></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
-  <li><a href="#transformers" id="toc-transformers" class="nav-link" data-scroll-target="#transformers">Transformers</a></li>
+  <li><a href="#transformers" id="toc-transformers" class="nav-link" data-scroll-target="#transformers">Transformers</a>
+  <ul class="collapse">
+  <li><a href="#mutual-inductance" id="toc-mutual-inductance" class="nav-link" data-scroll-target="#mutual-inductance">Mutual Inductance</a></li>
+  <li><a href="#iron-core-transformer" id="toc-iron-core-transformer" class="nav-link" data-scroll-target="#iron-core-transformer">Iron Core Transformer</a></li>
+  </ul></li>
+  <li><a href="#rectifier" id="toc-rectifier" class="nav-link" data-scroll-target="#rectifier">Rectifier</a></li>
   </ul>
 </nav>
     </div>
@@ -585,6 +590,63 @@ window.Quarto = {
 </section>
 <section id="transformers" class="level2">
 <h2 class="anchored" data-anchor-id="transformers">Transformers</h2>
+<p>They increase (step up) or decrease (step down) the voltage</p>
+<p>The transfer has 2 parts:</p>
+<ul>
+<li>Primary (for the input)</li>
+<li>Secondary (for the output)</li>
+</ul>
+<p>It cnsists of a transfer core and 2 coils. It works like so:</p>
+<ul>
+<li>Current flows through the primary coil</li>
+<li>Current flow through the coil induces a changing magnetic field in the transformer core</li>
+<li>The changing magnetic field flows through out the transformer core</li>
+<li>The changing magnetic field in the transformer core induces a voltage and hence a current in the secondary coil</li>
+</ul>
+<section id="mutual-inductance" class="level3">
+<h3 class="anchored" data-anchor-id="mutual-inductance">Mutual Inductance</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is incomplete</p>
+</div>
+</div>
+<p><span class="math display">\[e_s = N_s \frac{d\phi_m}{dt}\]</span></p>
+<ul>
+<li><span class="math inline">\(N_s =\)</span> Number of turn in the secondary coil</li>
+<li><span class="math inline">\(\phi_m =\)</span> Portion of <span class="math inline">\(\phi_p\)</span> that links with the secondary winding</li>
+</ul>
+</section>
+<section id="iron-core-transformer" class="level3">
+<h3 class="anchored" data-anchor-id="iron-core-transformer">Iron Core Transformer</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This section is incomplete</p>
+</div>
+</div>
+<p>Transformer ratio: <span class="math inline">\(a = \dfrac{N_p}{N_s}\)</span></p>
+<p><span class="math display">\[\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}\]</span></p>
+<p>Primary and secondary is reversed for the current since <span class="math inline">\(I \propto \dfrac{1}{N}\)</span></p>
+</section>
+</section>
+<section id="rectifier" class="level2">
+<h2 class="anchored" data-anchor-id="rectifier">Rectifier</h2>
+<p>They convert AC to DC</p>
 
 
 </section>
@@ -1009,8 +1071,8 @@ window.Quarto = {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../class-enroll/abandoned-available-courses.html" class="pagination-link" aria-label="COMM1020">
-        <span class="nav-page-text">COMM1020</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../class-enroll/abandoned-available-courses.html" class="pagination-link" aria-label="AETN 2201">
+        <span class="nav-page-text">AETN 2201</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
