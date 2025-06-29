@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to Magnetic Circuits and Transformers'
+title: '11. Introduction to Magnetic Circuits and Transformers'
 ---
 
 ## Introduction
@@ -99,6 +99,6 @@ $$\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}$$
 
 Primary and secondary is reversed for the current since $I \propto \dfrac{1}{N}$
 
-## Rectifier
+## Rectifier (Complete)
 
 They convert AC to DC
