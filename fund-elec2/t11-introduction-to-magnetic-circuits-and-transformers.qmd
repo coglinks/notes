@@ -4,11 +4,21 @@ title: '11. Introduction to Magnetic Circuits and Transformers'
 
 ## Introduction
 
-$\Phi = \frac{\mathcal{F}}{\mathcal{R}}$
+- Analyses of electric circuits and magnetic circuits have similarities. ex: The magnetic flux of magnetic circuits and current of electric circuits. As shown in @fig-transformer-flux-path, it has a direction and a closed path.
+
+![Application of magnetic effects: transformer](t11-introduction-to-magnetic-circuits-and-transformers-img/transformer-flux-path.png){#fig-transformer-flux-path width=300 align=center alt="transformer-flux-path.png"}
+
+The magnitude of the established flux is a direct function of the applied magnetomotive force resulting in a duality with electric circuits where the resulting current is a function of the magnitude of the applied voltage
+
+The flux established is also inversely related to the structural opposition of the magnetic path in the same way the current in a network is inversely related to the resistance of the network.
+
+The flux lines strive to be as short as possible and take the path with the highest permeability
+
+$\Phi \frac{\mathcal{F}}{\mathcal{R}}$
 
 Where,
 
-- $Phi$ = electromotive force
+- $\Phi$ = electromotive force
 - $\mathcal{F}$ = Magnetomotive force (MMF)
 - $\mathcal{R}$ = 
 

@@ -8,6 +8,8 @@ execute:
 
 format:
   html:
+    math:
+      method: mathjax
     toc: true
     respect-user-color-scheme: true
     page-navigation: true
