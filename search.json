@@ -362,312 +362,25 @@
     ]
   },
   {
-    "objectID": "fund-elec2/doubts.html",
-    "href": "fund-elec2/doubts.html",
-    "title": "Doubts",
-    "section": "",
-    "text": "What does real power mean? How is it different from \\(Q,~P\\) and \\(S\\)?\nAns:  Real power stands for the power dissipated by the resistor.",
-    "crumbs": [
-      "Fund. Elec. II",
-      "Doubts"
-    ]
-  },
-  {
-    "objectID": "fund-elec2/doubts.html#three-phase-systems",
-    "href": "fund-elec2/doubts.html#three-phase-systems",
-    "title": "Doubts",
-    "section": "three phase systems",
-    "text": "three phase systems\n\nIn a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?\nAns:  Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.\n\n\n\nCan resonance occur without resistance?\nAns:  Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits\n\n\n\nWhich is correct: \\(j5~\\Omega\\) or \\(5j~\\Omega\\)?\nAns:  \\(j5~\\Omega\\)\n\n\n\nHow to solve:\n\n\n\n\n\nq4-a-vs-f.png",
-    "crumbs": [
-      "Fund. Elec. II",
-      "Doubts"
-    ]
-  },
-  {
-    "objectID": "fund-elec2/doubts.html#methods-of-analysis",
-    "href": "fund-elec2/doubts.html#methods-of-analysis",
-    "title": "Doubts",
-    "section": "Methods of Analysis",
-    "text": "Methods of Analysis\n\nNodal\n\nWhen is the direction of the current pre-determined? What if the polarity of any component is given? like this capacitor\n\n\n\n\n\ncapacitor.png\n\n\n\nor when the polarity of a voltage source is given\nAns:\n\nWhen a current source with current direction is in one of the branches, then the direction of that branch is of the same direction as the current source\n\nwhat else?\n\nCan a number be \\(-6\\angle 0^\\circ\\)? Because this value in the calculator gives a math error",
-    "crumbs": [
-      "Fund. Elec. II",
-      "Doubts"
-    ]
-  },
-  {
-    "objectID": "class-enroll/current-plan.html",
-    "href": "class-enroll/current-plan.html",
-    "title": "this has many conflicts",
-    "section": "",
-    "text": "Course Code\nCourse Name\nIndividual Credits\nOverall Credits\n\n\n\n\nCorequisites:\n\n\n8\n\n\nAETN 1102\nNetwork Fundamentals\n3\n\n\n\nAETN 1202\nNetwork Fundamentals Lab\n1\n\n\n\nAETN 1112\nDigital Electronics\n3\n\n\n\nAETN 1212\nDigital Electronics Lab\n1\n\n\n\nMATH2010\nCalculus II\n3\n\n\n\nPHYS1020\nGeneral Physics\n3\n\n\n\nPHYS1021\nGeneral Physics (Lab)\n1\n\n\n\nCOMM1020\nEnglish Communication II\n3\n\n\n\n\n\nthis has many conflicts\n\n\n\n\n\n\n\n\n\n\n\nCourse Code\nClass ID\nDays and Times\nRoom\nInstructor\nCredits\n\n\n\n\nMATH2010\nLecture-2511 Section 8\nWed 9:30AM–11:00AM\n05.1.51\nStaff\n3\n\n\nCOMM1020\nLecTheatre-2196 Section 1\nWed 12:00PM–1:00PM\n01.2.08\nAndrea Comeau\n3\n\n\nCOMM1020\nLecture-2199 Section 4\nTue 10:00AM–12:00PM\n10.2.05\n\n\n\n\nAETN1102\nLecture-1866 Section 5\nSun/Tue/Thu 3:00PM–4:00PM\n05.2.25\nNicolae Nechita\n3\n\n\nAETN1112\nLecture-1870 Section 4\nSun/Tue/Thu 12:00PM–1:00PM\n05.2.25\nGhufran Khalaf Ja’afreh\n3\n\n\nAETN1202\nLaboratory-1877 Section 5\nMon 10:00AM–1:00PM\n09.2.07\nAlaa Elsaqa\n1\n\n\nAETN1212\nLaboratory-1886 Section 7\nSun 10:00AM–12:00PM\n09.2.79\nAmira Mustapha\n1\n\n\nPHYS1021\nLaboratory - Class 2536 -Section 7\nWednesday 2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\n1\n\n\nPHYS 1020\nLecture - Class 2516 -Section 1\nTuesday Thursday Sunday 8:00AM to 9:00AM\n12.2.10\nFeras Alzubi\n3",
-    "crumbs": [
-      "course list",
-      "this has many conflicts"
-    ]
-  },
-  {
-    "objectID": "class-enroll/abandoned-available-courses.html",
-    "href": "class-enroll/abandoned-available-courses.html",
+    "objectID": "fund-elec2-lab/doubts.html",
+    "href": "fund-elec2-lab/doubts.html",
     "title": "My Notes",
     "section": "",
-    "text": "Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good",
-    "crumbs": [
-      "course list",
-      "AETN 2201"
-    ]
+    "text": "What does “steady-state” mean?\n\n\nThus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply."
   },
   {
-    "objectID": "class-enroll/abandoned-available-courses.html#aetn-2201",
-    "href": "class-enroll/abandoned-available-courses.html#aetn-2201",
+    "objectID": "fund-elec2-lab/doubts.html#lab-8",
+    "href": "fund-elec2-lab/doubts.html#lab-8",
     "title": "My Notes",
-    "section": "AETN 2201",
-    "text": "AETN 2201\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1912 -Section 9\nSunday4:00PM to 6:00PM\n09.2.72\nYasen Abdullahi Harrye\nopen (1-15)\n\n\nLaboratory - Class 1906 -Section 3\nWednesday8:00AM to 10:00AM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1905 -Section 2\nMonday9:00AM to 11:00AM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)\n\n\nLaboratory - Class 1908 -Section 5\nSunday10:00AM to 12:00PM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1907 -Section 4\nMonday11:00AM to 1:00PM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)",
-    "crumbs": [
-      "course list",
-      "AETN 2201"
-    ]
-  },
-  {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html",
-    "href": "calc1/u4-applications-of-the-derivative2.html",
-    "title": "Applications of the Derivative II",
     "section": "",
-    "text": "Warning\n\n\n\nAlways remember to write the unit where required",
-    "crumbs": [
-      "Calculus I",
-      "Applications of the Derivative II"
-    ]
+    "text": "What does “steady-state” mean?\n\n\nThus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply."
   },
   {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
-    "href": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
-    "title": "Applications of the Derivative II",
-    "section": "Indeterminate Forms and \\(\\text{L'H\\^{o}pital's}\\) Rule",
-    "text": "Indeterminate Forms and \\(\\text{L'H\\^{o}pital's}\\) Rule\nIndeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
-    "crumbs": [
-      "Calculus I",
-      "Applications of the Derivative II"
-    ]
-  },
-  {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
-    "href": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
-    "title": "Applications of the Derivative II",
-    "section": "Optimizing equations",
-    "text": "Optimizing equations\nIn real world situations, we may want to find the maximum or the minimum of a function. The process of finding the best situation is called optimization.\n\nOptimasation Problem Steps\n\nDraw a sketch of the shape\nWrite down the formulas we can use to construct the shape\n\n\nFor the variable being optimized\nFor the variable with a constraint\n\n\n\n\n\n\n\nCaution\n\n\n\nMake sure the main equation is a function of only one variable\n\n\n\nFind the maxima or the minima as per req\n\n\n\n\n\n\n\nWarning\n\n\n\nDon’t forget to find the second derivative to prove that the answer is a minimum or a maximum\n\n\n\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nAlways: Answer the question asked with the critical number and the optimized value",
-    "crumbs": [
-      "Calculus I",
-      "Applications of the Derivative II"
-    ]
-  },
-  {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#related-rates",
-    "href": "calc1/u4-applications-of-the-derivative2.html#related-rates",
-    "title": "Applications of the Derivative II",
-    "section": "Related Rates",
-    "text": "Related Rates\nWe can take the derivative of an equation with respect to anything usingimplicit differentiation.\nThis is always differentiation wrt time\nAlthough an equation may not have time in it, we can find its derivative wrt time using the chain rule.\nfor \\(f(x)\\):\n\\[\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}, \\text{ (Chain Rule)}\\]\n\\[\\frac{dx}{dt} = \\frac{1}{ \\dfrac{d~[f(x)]}{dx} } \\cdot \\frac{d~[f(x)]}{dt}\\]\nJust as the two variables \\(f(x)\\) and \\(x\\) have a relationship, the two rates depend on each other and are called Related Rates.\nWhen we take the derivative with respect to an unrelated variable, it is important to use Leibnitz notation, $ to communicate what the rate is.\n\n\nLeibniz notation\n\nIn calculus, Leibniz’s notation, named in honor of the 17th-century German philosopher and mathematician Gottfried Wilhelm Leibniz, uses the symbols \\(dx\\) and \\(dy\\) to represent infinitely small (or infinitesimal) increments of \\(x\\) and \\(y\\), respectively, just as \\(\\Delta x\\) and \\(\\Delta y\\) represent finite increments of \\(x\\) and \\(y\\), respectively. source\n\n\nProcedure for solving related rate problems\n\nDraw the shape, its variables and its related rates\nFind the FWG to formulate and understand the question (it’s not necessary to write this down):\n\nFind:\nWhen:\nGiven:\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThe rates may be positive (increasing, growing, etc) or negative (decreasing shrinking, etc).\n\n\n\nSubstite the given values into the equation of the variable to be found\n\n\n\n\n\n\n\nCaution\n\n\n\nWhen you label your diagram, it may have width and length and height or radius, but that doesn’t mean all of them are variables\nRead your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.\nConstants can be substituted into the equation before taking the derivatve.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nDon’t forget to find the second derivative to prove that the answer is a minimum or a maximum\n\n\n\nWrite the conclusion\n\n\n\n\n\n\n\nCaution\n\n\n\nBe mindful of the units. ex:\n\nAt a rate of 2 km per hour is different from 2 km per \\(\\text{hour}^2\\). What is right depends on question. You can instead write:\nAt a rate of 2 km every hour: for velocity  Or at a rate of (2 km every \\(\\text{hour}^2\\) or 2 km/h every hour): for acceleration",
-    "crumbs": [
-      "Calculus I",
-      "Applications of the Derivative II"
-    ]
-  },
-  {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#differentials",
-    "href": "calc1/u4-applications-of-the-derivative2.html#differentials",
-    "title": "Applications of the Derivative II",
-    "section": "Differentials",
-    "text": "Differentials\nThis is simply writing: \\(\\frac{dy}{dx} = f'(x)\\), in the form:\n\\[dy = f'(x)~dx\\]\nThis \\(dy\\) is the differential",
-    "crumbs": [
-      "Calculus I",
-      "Applications of the Derivative II"
-    ]
-  },
-  {
-    "objectID": "calc1/u4-applications-of-the-derivative2.html#shapes-perimeter-area-and-volume",
-    "href": "calc1/u4-applications-of-the-derivative2.html#shapes-perimeter-area-and-volume",
-    "title": "Applications of the Derivative II",
-    "section": "Shapes: Perimeter, Area and Volume",
-    "text": "Shapes: Perimeter, Area and Volume\nThe formulas for various shapes will be given in the exam",
-    "crumbs": [
-      "Calculus I",
-      "Applications of the Derivative II"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#practice-1",
-    "href": "calc1/u1-the-derivative.html#practice-1",
-    "title": "Limits",
-    "section": "Practice",
-    "text": "Practice\n1.Calculate the average slope of the graphbelow between \\(x=2\\) and \\(x=4\\)\n\n\n\n2.For the two lines in the graph: a.Calculate the slope\n\n\n\nb.Find the equation of each line.\nThe actual slope of a curve is represented by aTangent Line.\nGraphically the Tangent Line:\na)istheslope of the curve atonepoint b) touches the curve at only that point\n\n\n\nAlgebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.\n\nThe Tangent Line\nWe need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:\n\n\n\nBut thiswould be dividing by zero!\nWe can shrinkthe distance between the twopoints until \\(\\Delta x=0\\) .\n\\[\\overline{\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}}\\]\n\n\nThe Delta Process - Definition of the Derivative.\nPreviously we used limits to find the slope of the tangent at a particular value of \\(x\\) Algebraically,it is more useful toknow the slope at any value of \\(x\\) . In this case, we leave \\(x\\) in theequation and solve. \\[\\mathrm{m}_{\\mathrm{tangent}}=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\]\nFor \\(f(x)=x^{2}\\)\n\n\n\nThis is a function that gives us the slope of the tangent line at any \\(x\\) \\[x=0\\]\n\\[x=1\\]\n\\[x=-1\\]\nDefinition: The derivative of a function expressed as a function is.\n\\[f'\\left(x\\right)=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\quad\\text{OR}\\quad f'\\left(x\\right)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\nIt isread“The derivative of \\(f\\) withrespect to \\(x^{\\prime\\prime}\\) or \\(“f\\) -prime of \\(x^{\\prime\\prime}\\)\n\n\nDerivative Notation\nSome common notations for the derivative of \\(y=f(x)\\) are:\ny’ \\quad D_x y \\quad f’(x) \\quad \\frac{dy}{dx}\nThe process of finding a derivative is called differentiation..\nRemember: At a point \\((x,y)\\) on a curve,\nThe derivative The slope o the = The slope of the tangent line curve\n\n\nExample: Find the function for the slope of the following functions using the definition of the\nderivative. a) \\(f(x)=5x^{2}-1\\) \\[\\begin{matrix}\\text{b)}&f(x)=2x^2+3x\\end{matrix}\\]\nExample: Find the derivative of \\(f(x)=-4(x-2)^{2}+4\\) using the definition\n\\[f'(x)=\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}\\]\n\\[\n\\begin{align*}\nf(x)=-4(x^2-4x+4) \\\\\n&= -4x^2+16x-16 \\\\\nf(x+h) =\n\\end{align*}\n\\]\n\n\n\nWhat is the slope at \\(x=1\\) ？\nx=2? x=3?\n\n\nPractice\nFind the derivative of the following functions by the delta-process\n\\[y=-4x+2\\]\n\n\\(y=6x-2x^{2}\\)\ny=x2+5x-2\n\nAs you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.\n\n\nBasic Derivative Rules\nAlgebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are\ngiven:\nFunction: \\(y=2x^{2}+3x\\) either \\(f(x)=2x^{2}+3x\\) Derivative: \\(\\frac{dy}{dx}=4x+3\\) \\(\\frac{d(2x^{2}+3x)}{dx}=4x+3\\) \\(f'(x)=4x+3\\) \\(\\quad y'=4x+3\\) \\(\\quad \\frac{d}{dx}(2x^{2}+3x)=4x+3\\)\nConstant Rule: For a function \\(f(x)=c\\) where c is a constant number \\(f'(x)=0\\)\nAlgebraically, \\[f'(x)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\n\n\n\nExample: Find the derivative of the following\n\\[\\text{b)}f(x)=e\\]\n\\[\\text{c)}y=\\sin(2\\pi)\\] a) \\(y=5\\)\n\n\nPower Rule\nFor a variable raised to a constant power n,\n\\[\\frac{d}{dx}\\Big(x^n\\Big)=nx^{n-1}\\]\nExample: Find the following derivatives: a) \\(y=x^3\\)\n\\[)\\:f(x)=x^{8}\\quad\\mathrm{c})\\:y=x\\quad\\mathrm{d})\\:f(x)=x^{2}\\]\n\n\nConstant Multiple Rule\nFor a constant \\(a.\\)\n\\[\\frac{d}{dx}\\Big(ax^n\\Big)=a\\Big(nx^{n-1}\\Big)\\]\nExample:Find the derivative of each of the following:\n\\[f(x)={\\frac{x^{4}}{8}}\\]\n\\[y=3x^{5}\\quad(b)\\quad y=-6x^{3}\\quad(c)\\quad y=\\frac{1}{3}x^{9}\\]\n\n\nSum & Difference Rule\nFor any number of terms,\n\\[\\frac{d}{dx}\\big(f(x)+g(x)\\big)=f'(x)+g'(x)\\]\nExample: Find the derivative of each of the following:.\n\\[\\mid y=3x^{5}+7x^{3}-3x+2\\quad(\\mathbf{b})\\quad y=-6x^{3}-5x\\]\nOften we need to rewrite a power to use the rule:.\n\nExample: Find the derivative of each of the following:.\n\n\\(y=\\sqrt{x}\\)\n\\(f(x)=\\frac{1}{x}\\)\n\\(y=x\\sqrt[3]{x}\\)\n\n\\[\n\\begin{align*}\n    y = x \\cdot x^{1/3} \\\\\n    f' = x\n\\end{align*}\n\\]\n$$\n\\[(\\text{e})\\:y=\\frac{x^2-3x}{x^2}\\]\n\\[\\mid y={\\frac{x}{\\sqrt{x}}}\\]\n\\[\n\\begin{align*}\n    y = x^{1-1/2} \\\\\n    y = x^1/2 \\\\\n    f' = \\frac{1}{2}x^{-1/2} \\\\\n\\end{align*}\n\\]\nExample: Find the derivative of each of the following\n\\[(\\mathbf{b})\\:y=x^4+3x^3+x^2-x+2\\]\n\\[y=x^{2}+7x\\]\n\n\\(y=2x-4x^{3}\\)\n\n\\[y={\\frac{2}{x^{2}}}\\]\nExample:Find the slope of the curve at theindicated point:\n\n\\(y=9x-x^{3}\\) at the point(2,10).\n\\(y=x^4-\\frac12x^2+2\\) at the point-2,16)\n\\(y=4\\sqrt[3]{x^2}\\) at the point where \\(x=8\\)\n\n\\[\\mid y={\\frac{\\sqrt{x}-x^{2}}{x}}\\:\\mathrm{at}\\:x=4\\:.\\]\n\n\nPractice\n\nUsing the definition of derivative find \\(f'(x)\\) of the following \\[f(x)=x^2-2x\\]\n\n2.Find the derivative of each of the following\n\\[\\mathbf{b})\\:f(x)=7x^{3}-3x^{2}+13\\]\n\\[\\mid f(x)=3x-\\frac{1}{3}x^{3}\\]\n\\[\\mid f(x)=5x^{2}-{\\frac{4}{\\sqrt{x}}}\\]\n() \\(f(x)=\\frac{\\pi}{2}x^{8}\\)\n3.What is the slope of the function \\(f(x)=3x^{3}+4x^{2}-6x+3\\) at thepoint (-2,7) ?",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#chain-rule",
-    "href": "calc1/u1-the-derivative.html#chain-rule",
-    "title": "Limits",
-    "section": "Chain Rule",
-    "text": "Chain Rule\nWhen we have a composite function,\n\\[\\frac{d}{dx}\\Big[f\\big(g(x)\\big)\\Big]=f'(g(x))g'(x)\\]\n\nExample: Find the derivative of the following functions:\n\\[y=\\left(x^2+4x+6\\right)^5\\]\n\n\\(f(x)=\\left(x^{2}-x+1\\right)^{3}\\)\n\\(f(x)=\\sqrt{5x+x^{2}}\\)\n\n\\[y=\\frac{1}{\\left(x^2-5\\right)^4}\\]\n\n\nPractice:\n1.Find the derivative of each of the following 司\\(r=\\frac{1}{\\left(t^2-2t-5\\right)^4}\\)\n\\[y=\\sqrt[5]{3x+2}\\]\n\nFin the sope of the tangent line to the curve \\(y=\\left(4+3x^2\\right)^{\\frac43}\\)\n\n3.For \\(y=\\left(4-x^2\\right)^{-2}\\) What is the slope of the graph of at the point \\(\\left(3,\\frac{1}{25}\\right)?\\)\n\nFind the derivative of the function \\(q(x)=\\left(4x^{2}-3+6x\\right)^{18}\\)\n\n5.Given \\(f\\Big(g\\big(x\\big)\\Big)=\\Big(x^{2}+1\\Big)^{3}+2\\Big(x^{2}+1\\Big)^{2}+5\\) ,what is \\(D_{x}f\\big(g\\big(x\\big)\\big)\\)?\n6.What is the slope of the curve representing the function \\(P(x)=\\sqrt[4]{\\left(x^{2}+7x\\right)^{3}}\\) at the point(14,71)?\n\n\nImplicit Differentiation\nThere will be times when we are not able to solve for \\(y\\) explicitly. For example. given the expression, \\[y^5+xy^2+3x^2=5\\:,\\]\nwe are unable to get an expression \\(y=f(x)\\)\nSuch a function where. \\(y\\) is defined implicitly as a function of \\(x\\) (i.e.) \\(y\\) as a function of itself,which is a function of \\(x\\) )is called an implicit function\nTo find \\(\\frac{dy}{dx}\\) when \\(y\\) is implicitly defined as function of \\(x\\) , we differentiate each term of the equation with respect to. \\(x\\) by applying the appropriate rule.\nNote: The derivative of \\(y\\) with respect to \\(x\\) is \\(\\frac{dy}{dx}\\) (or \\(y'\\)).\nExample: Find \\(\\frac{dy}{dx}\\) if \\(x+y=2\\)\nExam ple: Find \\(\\frac{dy}{dx}\\) if \\(y^{2}+2x^{2}=5\\)\nExample: Find \\(\\frac{dy}{dx}\\) if \\(3y^{4}+xy^{2}+2x^{3}-6=0\\)\nExample:Find the slope of a line tangent to the curve of \\(2y^{3}+xy+1=0\\) at thepoint (-3,1).\n\n\nMixed Derivatives\nSo far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples\nExample: Find the derivative of the following functions\n\n\\(f\\left(x\\right)=\\left(\\frac{x^3+2x^2}{4-x}\\right)^3\\)\n\\(f\\left(x\\right)=\\left(\\left(x-7x^{3}\\right)\\left(14+x^{2}\\right)\\right)^{11}\\)\n\n\\[\\text{c)}\\quad f\\left(x\\right)=\\frac{\\left(8x-4+9x^3\\right)\\left(3x^2+4x^5-\\frac{1}{x^3}\\right)}{\\left(x-9+x^5\\right)}\\]\nExample Fid the sope of y=(2x2) at \\(x=1\\)",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#higher-derivatives",
-    "href": "calc1/u1-the-derivative.html#higher-derivatives",
-    "title": "Limits",
-    "section": "Higher Derivatives",
-    "text": "Higher Derivatives\nSince the derivative of a function is also a function we may take the derivative of the derivative.\nThe derivative of a function is called the first derivative.\nThe derivative of the first derivative is the second derivative, and so on.\nThe second derivative, third derivative and so on are collectively known as higher derivatives.\nHigher Derivative Notation\n\n\n\n\n\n\n\n\n\nFirst\nSecond\nThird\nFourth\n\n\n\n\n\\(y'\\)\n\\(y''\\)\n\\(y'''\\)\n\\(y^{(4)}\\)\n\n\n\\(\\frac{dy}{dx}\\)\n\\(\\frac{d^2y}{dx^2}\\)\n\\(\\frac{d^3y}{dx^3}\\)\n\\(\\frac{d^4y}{dx^4}\\)\n\n\n\\(D_y\\)\n\\(D_x^2y\\)\n\\(D_x^3y\\)\n\\(D_x^4y\\)\n\n\n\\(f'(x)\\)\n\\(f''(x)\\)\n\\(f'''(x)\\)\n\\(f^{(4)}(x)\\)\n\n\n\nExample: Find the higher derivatives for \\(y=5x^{3}-2x\\)\nExample: Find the higher derivatives of \\(f(x)=x(x^{2}-1)^{2}\\) (Hint: Simplify \\(f\\) )\nExample: Evaluate the second derivatie of \\(y=\\frac{2}{1-x}\\) for \\(x=-2\\)\nExample: Find \\(y^{n}\\) for the implicit function defined by \\(2x^{2}+3y^{2}=6\\)\n\nPractice:\n\nFind \\(D_{x}y\\) given \\(y=\\frac{\\sqrt{2x^2+1}}{3x}\\)\n\n2.Given \\(xy^{3}+3y+x^{2}=9\\) ,find \\(y\\)\n3.Evaluate the second derivative of y = x(1-x),for \\(x=2\\)\n\nFind the derivativeof the funtion \\(K(p)=\\left(3\\:p^{2}+p\\sqrt{p^{3}+2\\:p}\\right)^{4}\\) (Do not simplify).\n\n\n\n5.Given \\(\\left(y^{2}+2\\right)^{3}=\\pi x^{4}y+3e^{2}y^{3}\\) ,what is \\(D_xy\\)\n\nWhat is the second derivativeof the functio \\(P\\bigl(x\\bigr)=x-\\frac{2}{x^3}\\) athe point417",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#variables-other-than-x",
-    "href": "calc1/u1-the-derivative.html#variables-other-than-x",
-    "title": "Limits",
-    "section": "Variables other than x",
-    "text": "Variables other than x\nWhile most of our work has focused on the functions of \\(x\\) ,the same rules of derivatives apply to any variables.",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u1-the-derivative.html#practice-8",
-    "href": "calc1/u1-the-derivative.html#practice-8",
-    "title": "Limits",
-    "section": "Practice:",
-    "text": "Practice:\n1.Find the derivative of \\(A\\) with respect to \\(t:\\) \\(A= 3t^{2}- 5t\\)\n2.Find the derivative of \\(z\\) with respect to \\(r:4r^{3}-3r^{2}z=5\\sqrt{z}\\)\n3.Find the derivative of \\(P\\) with respect to \\(V\\) : \\(P= \\left ( 4V- 5\\right ) \\left ( - 3V^{2}+ 2\\right ) ^{3}\\)",
-    "crumbs": [
-      "Calculus I",
-      "Limits"
-    ]
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html",
-    "href": "calc1/u3-transcendental.html",
-    "title": "Transcendental Functions and Their Derivatives",
-    "section": "",
-    "text": "The c-Functions have a negative in their derivative\n\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin x & &\\cos x \\\\\n    \\cos x & - &\\sin x \\\\\n    \\tan x & &\\sec x \\cdot \\sec x \\\\\n    \\sec x & &\\tan x \\cdot \\sec x \\\\\n    \\cot x & - &\\csc x \\cdot \\csc x \\\\\n    \\csc x & - &\\cot x \\cdot \\csc x \\\\\n    e^x & &e^x \\\\\n    \\ln x & &\\dfrac{1}{x} \\\\\n\\end{array}\\]\nIf a function takes the place of \\(x\\), we simply apply chain rule which add \\(f'(x)\\).\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin [f(x)] & &f'(x) \\cdot \\cos [f(x)] \\\\\n    \\cos [f(x)] & - &f'(x) \\cdot \\sin [f(x)] \\\\\n    \\tan [f(x)] & &f'(x) \\cdot \\sec [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\sec [f(x)] & &f'(x) \\cdot \\tan [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\cot [f(x)] & - &f'(x) \\cdot \\csc [f(x)] \\cdot \\csc [f(x)] \\\\\n    \\csc [f(x)] & - &f'(x) \\cdot \\cot [f(x)] \\cdot \\csc [f(x)] \\\\\n    e^{f(x)} & &f'(x) \\cdot e^{f(x)} \\\\\n    \\ln [f(x)] & &\\dfrac{f'(x)}{f(x)} \\\\\n\\end{array}\\]",
-    "crumbs": [
-      "Calculus I",
-      "Transcendental Functions and Their Derivatives"
-    ]
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html#the-derivative-of-trigonometric-functions",
-    "href": "calc1/u3-transcendental.html#the-derivative-of-trigonometric-functions",
-    "title": "Transcendental Functions and Their Derivatives",
-    "section": "",
-    "text": "The c-Functions have a negative in their derivative\n\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin x & &\\cos x \\\\\n    \\cos x & - &\\sin x \\\\\n    \\tan x & &\\sec x \\cdot \\sec x \\\\\n    \\sec x & &\\tan x \\cdot \\sec x \\\\\n    \\cot x & - &\\csc x \\cdot \\csc x \\\\\n    \\csc x & - &\\cot x \\cdot \\csc x \\\\\n    e^x & &e^x \\\\\n    \\ln x & &\\dfrac{1}{x} \\\\\n\\end{array}\\]\nIf a function takes the place of \\(x\\), we simply apply chain rule which add \\(f'(x)\\).\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin [f(x)] & &f'(x) \\cdot \\cos [f(x)] \\\\\n    \\cos [f(x)] & - &f'(x) \\cdot \\sin [f(x)] \\\\\n    \\tan [f(x)] & &f'(x) \\cdot \\sec [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\sec [f(x)] & &f'(x) \\cdot \\tan [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\cot [f(x)] & - &f'(x) \\cdot \\csc [f(x)] \\cdot \\csc [f(x)] \\\\\n    \\csc [f(x)] & - &f'(x) \\cdot \\cot [f(x)] \\cdot \\csc [f(x)] \\\\\n    e^{f(x)} & &f'(x) \\cdot e^{f(x)} \\\\\n    \\ln [f(x)] & &\\dfrac{f'(x)}{f(x)} \\\\\n\\end{array}\\]",
-    "crumbs": [
-      "Calculus I",
-      "Transcendental Functions and Their Derivatives"
-    ]
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html#derivative-of-the-natural-exponent",
-    "href": "calc1/u3-transcendental.html#derivative-of-the-natural-exponent",
-    "title": "Transcendental Functions and Their Derivatives",
-    "section": "Derivative of the Natural Exponent",
-    "text": "Derivative of the Natural Exponent\n\\(\\frac{d}{dx} e^x = e^x\\)\n\nNot derived. Observation.\n\n\\(\\frac{d}{dx} e^{f(x)} = f'(x) \\cdot e^{f(x)} \\quad \\text{(Chain Rule)}\\)",
-    "crumbs": [
-      "Calculus I",
-      "Transcendental Functions and Their Derivatives"
-    ]
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html#derivative-of-the-natural-logarithm",
-    "href": "calc1/u3-transcendental.html#derivative-of-the-natural-logarithm",
-    "title": "Transcendental Functions and Their Derivatives",
-    "section": "Derivative of the Natural Logarithm",
-    "text": "Derivative of the Natural Logarithm\n\\(\\frac{d}{dx} \\ln x = \\frac{1}{f(x)}\\)\n\\(\\frac{d}{dx} \\ln (f(x)) = \\frac{f'(x)}{f(x)} \\quad \\text{(Chain Rule)}\\)",
-    "crumbs": [
-      "Calculus I",
-      "Transcendental Functions and Their Derivatives"
-    ]
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
-    "href": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
-    "title": "Transcendental Functions and Their Derivatives",
-    "section": "Derivative of General Exponential and Logarithmic Functions",
-    "text": "Derivative of General Exponential and Logarithmic Functions\n\\[\\frac{d}{dx} a^{f(x)} = a^{f(x)} \\cdot f'(x) \\cdot \\ln a\\]\nHere, \\(a\\) can also be \\(\\pi\\)\n\\[\\frac{d}{dx} \\log_b (f(x)) = \\frac{f'(x)}{f(x) \\cdot \\ln b }\\]\n\n\nDerivation\n\nFind the derivative of \\(y = a^{f(x)}\\), given\n\\[\\begin{array}\n        f(x) &= g(x)\\\\\n        \\ln(f(x) &= \\ln(g(x))\n    \\end{array}\\]\nTake \\(\\ln\\) on both sides\n\\[\\begin{align*}\n    \\ln y &= \\ln a^{f(x)} \\\\\n    \\frac{y'}{y} &= f'(x) \\cdot a^{f(x)} \\\\\n    y' = y \\cdot f'(x) \\cdot a^{f(x)} \\\\\n    y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)} \\\\\n\\end{align*}\\]\n\\(\\boxed{y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)}}\\)\n\\[\\begin{align*}\n    \\log_n m &= \\frac{\\log m}{\\log n} \\\\\n    \\therefore y &= \\frac{\\ln [f(x)}{\\ln b} \\\\\n    y' &= \\frac{f'(x)}{f(x)} \\cdot \\frac{1}{\\ln b}\n    y' &= \\frac{f'(x)}{f(x) \\cdot \\ln b}\n\\end{align*}\\]",
-    "crumbs": [
-      "Calculus I",
-      "Transcendental Functions and Their Derivatives"
-    ]
-  },
-  {
-    "objectID": "calc1/u3-transcendental.html#logarithmic-differentiation",
-    "href": "calc1/u3-transcendental.html#logarithmic-differentiation",
-    "title": "Transcendental Functions and Their Derivatives",
-    "section": "Logarithmic Differentiation",
-    "text": "Logarithmic Differentiation\nFind derivative of \\(y = x^x\\)\nTaking \\(\\ln\\) on both side:\n\\[\\begin{align*}\n    \\ln y &= \\ln x^x \\\\\n    \\ln y &= x \\ln x \\\\\n\\end{align*}\\]\nFind the derivative on both sides:\n\\[\\begin{align*}\n    \\frac{y'}{y} = 1+\\ln x \\\\\n    y' = y( 1+\\ln x ) \\\\\n    y' = x^x( 1+\\ln x )\n\\end{align*}\\]\nWhat we are doing here, we will apply the same process when solving similar questions to make it easier to find their derivative.",
-    "crumbs": [
-      "Calculus I",
-      "Transcendental Functions and Their Derivatives"
-    ]
-  },
-  {
-    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html",
-    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html",
-    "title": "Antiderivatives: Introduction to Integrals",
-    "section": "",
-    "text": "\\(\\int f'(x) dx = f(x)\\)",
-    "crumbs": [
-      "Calculus I",
-      "Antiderivatives: Introduction to Integrals"
-    ]
-  },
-  {
-    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
-    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
-    "title": "Antiderivatives: Introduction to Integrals",
-    "section": "",
-    "text": "\\(\\int f'(x) dx = f(x)\\)",
-    "crumbs": [
-      "Calculus I",
-      "Antiderivatives: Introduction to Integrals"
-    ]
-  },
-  {
-    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#integration-rules",
-    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#integration-rules",
-    "title": "Antiderivatives: Introduction to Integrals",
-    "section": "Integration rules",
-    "text": "Integration rules\nDerivative rules like the chain rule, quotient rule, etc., doesn’t exist in integration.\n\nTheorem 1 (Power Rule) For \\(f(x) = x^n\\)\n\\[\\int x^n~dx = \\frac{x^{n+1}}{n+1}+C\\]\nException: \\(\\int \\frac{1}{x}~dx = \\ln |x|+C\\)\n\n\nTheorem 2 (Constant Multiple Rule) \\[\\int an^x~dx = a \\int x^n~dx\\]\n\n\nTheorem 3 (Sum and Difference Rule) \\[\\int [ u(x) + v(x) + w(x) ] = \\int u(x) + \\int v(x) + \\int w(x)\\]",
-    "crumbs": [
-      "Calculus I",
-      "Antiderivatives: Introduction to Integrals"
-    ]
-  },
-  {
-    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#the-definite-integral",
-    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#the-definite-integral",
-    "title": "Antiderivatives: Introduction to Integrals",
-    "section": "The Definite Integral",
-    "text": "The Definite Integral\n\nTheorem 4 (Fundamental Theorem of Calculus) If a function \\(f(x)\\) is continuous on the closed interval \\([a,b]\\) and \\(F(x)\\) is an antiderivative of \\(f(x)\\) on the interval then:\n\\[\\int_{a}^{b} f(x) dx = F(x)\\Big|_{a}^{b} = F(b) - F(a)\\]\nis the Definite Integral, with \\(a\\) and \\(b\\) as lower and upper bounds\n\n\n\n\n\n\n\nNote\n\n\n\nAntiderivatives or Indefinite integrals used constants of integration, where we added C to the end of every integration.\nDefinite integrals don’t include C! They are numbers and can be positive or negative.",
-    "crumbs": [
-      "Calculus I",
-      "Antiderivatives: Introduction to Integrals"
-    ]
-  },
-  {
-    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#area-under-a-curve-and-the-definite-integral",
-    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#area-under-a-curve-and-the-definite-integral",
-    "title": "Antiderivatives: Introduction to Integrals",
-    "section": "Area Under a Curve and The Definite Integral",
-    "text": "Area Under a Curve and The Definite Integral\nThe shaded area is bounded by two functions, \\(y=f(x)\\) (Upper fundtion) and y=0 (Lower function). It is also bounded by the vertical lines \\(x = a\\) and \\(x = b\\)\nThe area under a curve between two points is found by calculating the definite integral between the two points. The area under the curve means the area bounded by the curve, the axis, and the boundary points.\n\n\n\n\n\n\nCaution\n\n\n\n\nIntegrating functions below the x-axis gives negatives areas\nBut the area cannot be negative\n\nSolution (choose one of the following solutions):\n\nIntroduce (-) sign infront of the function if it is below the x-axis\nSwitch the upper and lower limits of th function below the x-axis\nSolve the integral as usual but when you get a negative answer that you know should be a positive answer (by the properties of the attribute that the function represents), you convert the negative answer to a positive",
-    "crumbs": [
-      "Calculus I",
-      "Antiderivatives: Introduction to Integrals"
-    ]
+    "objectID": "fund-elec2-lab/doubts.html#lab-9",
+    "href": "fund-elec2-lab/doubts.html#lab-9",
+    "title": "My Notes",
+    "section": "Lab 9",
+    "text": "Lab 9\n\nWhat does a first-order filter mean?\n\n\nObjective:\nTo study the frequency response of a first-order low-pass filter, and high-pass filter and to determine the cut-off frequency in each case.\n\nAns:\nFirst order filters are RC filters\n\nWhat does gain (dB) mean?\n\ngain means the amount of output gained from the input waveform.\n\nIn the following image,\n\n\n\n\n\nlpf-v-vs-f-graph.png\n\n\n\nwhat does the following mean:\n\nCorner frequency\nDecade in \\(\\mathrm{ Slope = \\frac{ -20~dB }{ Decade } }\\)\n\nDecade is the number of samples for a specific frequency"
   },
   {
     "objectID": "class-enroll/available-courses.html",
@@ -791,25 +504,323 @@
     ]
   },
   {
-    "objectID": "fund-elec2-lab/doubts.html",
-    "href": "fund-elec2-lab/doubts.html",
-    "title": "My Notes",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html",
+    "title": "Antiderivatives: Introduction to Integrals",
     "section": "",
-    "text": "What does “steady-state” mean?\n\n\nThus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply."
+    "text": "\\(\\int f'(x) dx = f(x)\\)",
+    "crumbs": [
+      "Calculus I",
+      "Antiderivatives: Introduction to Integrals"
+    ]
   },
   {
-    "objectID": "fund-elec2-lab/doubts.html#lab-8",
-    "href": "fund-elec2-lab/doubts.html#lab-8",
-    "title": "My Notes",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#antiderivatives",
+    "title": "Antiderivatives: Introduction to Integrals",
     "section": "",
-    "text": "What does “steady-state” mean?\n\n\nThus far we have analyzed the behavior of a series RLC circuit whose source voltage is a fixed frequency steady-state sinusoidal supply."
+    "text": "\\(\\int f'(x) dx = f(x)\\)",
+    "crumbs": [
+      "Calculus I",
+      "Antiderivatives: Introduction to Integrals"
+    ]
   },
   {
-    "objectID": "fund-elec2-lab/doubts.html#lab-9",
-    "href": "fund-elec2-lab/doubts.html#lab-9",
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#integration-rules",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#integration-rules",
+    "title": "Antiderivatives: Introduction to Integrals",
+    "section": "Integration rules",
+    "text": "Integration rules\nDerivative rules like the chain rule, quotient rule, etc., doesn’t exist in integration.\n\nTheorem 1 (Power Rule) For \\(f(x) = x^n\\)\n\\[\\int x^n~dx = \\frac{x^{n+1}}{n+1}+C\\]\nException: \\(\\int \\frac{1}{x}~dx = \\ln |x|+C\\)\n\n\nTheorem 2 (Constant Multiple Rule) \\[\\int an^x~dx = a \\int x^n~dx\\]\n\n\nTheorem 3 (Sum and Difference Rule) \\[\\int [ u(x) + v(x) + w(x) ] = \\int u(x) + \\int v(x) + \\int w(x)\\]",
+    "crumbs": [
+      "Calculus I",
+      "Antiderivatives: Introduction to Integrals"
+    ]
+  },
+  {
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#the-definite-integral",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#the-definite-integral",
+    "title": "Antiderivatives: Introduction to Integrals",
+    "section": "The Definite Integral",
+    "text": "The Definite Integral\n\nTheorem 4 (Fundamental Theorem of Calculus) If a function \\(f(x)\\) is continuous on the closed interval \\([a,b]\\) and \\(F(x)\\) is an antiderivative of \\(f(x)\\) on the interval then:\n\\[\\int_{a}^{b} f(x) dx = F(x)\\Big|_{a}^{b} = F(b) - F(a)\\]\nis the Definite Integral, with \\(a\\) and \\(b\\) as lower and upper bounds\n\n\n\n\n\n\n\nNote\n\n\n\nAntiderivatives or Indefinite integrals used constants of integration, where we added C to the end of every integration.\nDefinite integrals don’t include C! They are numbers and can be positive or negative.",
+    "crumbs": [
+      "Calculus I",
+      "Antiderivatives: Introduction to Integrals"
+    ]
+  },
+  {
+    "objectID": "calc1/u5-antiderivatives-introduction-to-integrals.html#area-under-a-curve-and-the-definite-integral",
+    "href": "calc1/u5-antiderivatives-introduction-to-integrals.html#area-under-a-curve-and-the-definite-integral",
+    "title": "Antiderivatives: Introduction to Integrals",
+    "section": "Area Under a Curve and The Definite Integral",
+    "text": "Area Under a Curve and The Definite Integral\nThe shaded area is bounded by two functions, \\(y=f(x)\\) (Upper fundtion) and y=0 (Lower function). It is also bounded by the vertical lines \\(x = a\\) and \\(x = b\\)\nThe area under a curve between two points is found by calculating the definite integral between the two points. The area under the curve means the area bounded by the curve, the axis, and the boundary points.\n\n\n\n\n\n\nCaution\n\n\n\n\nIntegrating functions below the x-axis gives negatives areas\nBut the area cannot be negative\n\nSolution (choose one of the following solutions):\n\nIntroduce (-) sign infront of the function if it is below the x-axis\nSwitch the upper and lower limits of th function below the x-axis\nSolve the integral as usual but when you get a negative answer that you know should be a positive answer (by the properties of the attribute that the function represents), you convert the negative answer to a positive",
+    "crumbs": [
+      "Calculus I",
+      "Antiderivatives: Introduction to Integrals"
+    ]
+  },
+  {
+    "objectID": "calc1/u3-transcendental.html",
+    "href": "calc1/u3-transcendental.html",
+    "title": "Transcendental Functions and Their Derivatives",
+    "section": "",
+    "text": "The c-Functions have a negative in their derivative\n\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin x & &\\cos x \\\\\n    \\cos x & - &\\sin x \\\\\n    \\tan x & &\\sec x \\cdot \\sec x \\\\\n    \\sec x & &\\tan x \\cdot \\sec x \\\\\n    \\cot x & - &\\csc x \\cdot \\csc x \\\\\n    \\csc x & - &\\cot x \\cdot \\csc x \\\\\n    e^x & &e^x \\\\\n    \\ln x & &\\dfrac{1}{x} \\\\\n\\end{array}\\]\nIf a function takes the place of \\(x\\), we simply apply chain rule which add \\(f'(x)\\).\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin [f(x)] & &f'(x) \\cdot \\cos [f(x)] \\\\\n    \\cos [f(x)] & - &f'(x) \\cdot \\sin [f(x)] \\\\\n    \\tan [f(x)] & &f'(x) \\cdot \\sec [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\sec [f(x)] & &f'(x) \\cdot \\tan [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\cot [f(x)] & - &f'(x) \\cdot \\csc [f(x)] \\cdot \\csc [f(x)] \\\\\n    \\csc [f(x)] & - &f'(x) \\cdot \\cot [f(x)] \\cdot \\csc [f(x)] \\\\\n    e^{f(x)} & &f'(x) \\cdot e^{f(x)} \\\\\n    \\ln [f(x)] & &\\dfrac{f'(x)}{f(x)} \\\\\n\\end{array}\\]",
+    "crumbs": [
+      "Calculus I",
+      "Transcendental Functions and Their Derivatives"
+    ]
+  },
+  {
+    "objectID": "calc1/u3-transcendental.html#the-derivative-of-trigonometric-functions",
+    "href": "calc1/u3-transcendental.html#the-derivative-of-trigonometric-functions",
+    "title": "Transcendental Functions and Their Derivatives",
+    "section": "",
+    "text": "The c-Functions have a negative in their derivative\n\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin x & &\\cos x \\\\\n    \\cos x & - &\\sin x \\\\\n    \\tan x & &\\sec x \\cdot \\sec x \\\\\n    \\sec x & &\\tan x \\cdot \\sec x \\\\\n    \\cot x & - &\\csc x \\cdot \\csc x \\\\\n    \\csc x & - &\\cot x \\cdot \\csc x \\\\\n    e^x & &e^x \\\\\n    \\ln x & &\\dfrac{1}{x} \\\\\n\\end{array}\\]\nIf a function takes the place of \\(x\\), we simply apply chain rule which add \\(f'(x)\\).\n\\[\\begin{array}{c|c@{}c}\n    y & & y' \\\\\n    \\hline\n    \\sin [f(x)] & &f'(x) \\cdot \\cos [f(x)] \\\\\n    \\cos [f(x)] & - &f'(x) \\cdot \\sin [f(x)] \\\\\n    \\tan [f(x)] & &f'(x) \\cdot \\sec [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\sec [f(x)] & &f'(x) \\cdot \\tan [f(x)] \\cdot \\sec [f(x)] \\\\\n    \\cot [f(x)] & - &f'(x) \\cdot \\csc [f(x)] \\cdot \\csc [f(x)] \\\\\n    \\csc [f(x)] & - &f'(x) \\cdot \\cot [f(x)] \\cdot \\csc [f(x)] \\\\\n    e^{f(x)} & &f'(x) \\cdot e^{f(x)} \\\\\n    \\ln [f(x)] & &\\dfrac{f'(x)}{f(x)} \\\\\n\\end{array}\\]",
+    "crumbs": [
+      "Calculus I",
+      "Transcendental Functions and Their Derivatives"
+    ]
+  },
+  {
+    "objectID": "calc1/u3-transcendental.html#derivative-of-the-natural-exponent",
+    "href": "calc1/u3-transcendental.html#derivative-of-the-natural-exponent",
+    "title": "Transcendental Functions and Their Derivatives",
+    "section": "Derivative of the Natural Exponent",
+    "text": "Derivative of the Natural Exponent\n\\(\\frac{d}{dx} e^x = e^x\\)\n\nNot derived. Observation.\n\n\\(\\frac{d}{dx} e^{f(x)} = f'(x) \\cdot e^{f(x)} \\quad \\text{(Chain Rule)}\\)",
+    "crumbs": [
+      "Calculus I",
+      "Transcendental Functions and Their Derivatives"
+    ]
+  },
+  {
+    "objectID": "calc1/u3-transcendental.html#derivative-of-the-natural-logarithm",
+    "href": "calc1/u3-transcendental.html#derivative-of-the-natural-logarithm",
+    "title": "Transcendental Functions and Their Derivatives",
+    "section": "Derivative of the Natural Logarithm",
+    "text": "Derivative of the Natural Logarithm\n\\(\\frac{d}{dx} \\ln x = \\frac{1}{f(x)}\\)\n\\(\\frac{d}{dx} \\ln (f(x)) = \\frac{f'(x)}{f(x)} \\quad \\text{(Chain Rule)}\\)",
+    "crumbs": [
+      "Calculus I",
+      "Transcendental Functions and Their Derivatives"
+    ]
+  },
+  {
+    "objectID": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
+    "href": "calc1/u3-transcendental.html#derivative-of-general-exponential-and-logarithmic-functions",
+    "title": "Transcendental Functions and Their Derivatives",
+    "section": "Derivative of General Exponential and Logarithmic Functions",
+    "text": "Derivative of General Exponential and Logarithmic Functions\n\\[\\frac{d}{dx} a^{f(x)} = a^{f(x)} \\cdot f'(x) \\cdot \\ln a\\]\nHere, \\(a\\) can also be \\(\\pi\\)\n\\[\\frac{d}{dx} \\log_b (f(x)) = \\frac{f'(x)}{f(x) \\cdot \\ln b }\\]\n\n\nDerivation\n\nFind the derivative of \\(y = a^{f(x)}\\), given\n\\[\\begin{array}\n        f(x) &= g(x)\\\\\n        \\ln(f(x) &= \\ln(g(x))\n    \\end{array}\\]\nTake \\(\\ln\\) on both sides\n\\[\\begin{align*}\n    \\ln y &= \\ln a^{f(x)} \\\\\n    \\frac{y'}{y} &= f'(x) \\cdot a^{f(x)} \\\\\n    y' = y \\cdot f'(x) \\cdot a^{f(x)} \\\\\n    y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)} \\\\\n\\end{align*}\\]\n\\(\\boxed{y' = a^{f(x)} \\cdot f'(x) \\cdot a^{f(x)}}\\)\n\\[\\begin{align*}\n    \\log_n m &= \\frac{\\log m}{\\log n} \\\\\n    \\therefore y &= \\frac{\\ln [f(x)}{\\ln b} \\\\\n    y' &= \\frac{f'(x)}{f(x)} \\cdot \\frac{1}{\\ln b}\n    y' &= \\frac{f'(x)}{f(x) \\cdot \\ln b}\n\\end{align*}\\]",
+    "crumbs": [
+      "Calculus I",
+      "Transcendental Functions and Their Derivatives"
+    ]
+  },
+  {
+    "objectID": "calc1/u3-transcendental.html#logarithmic-differentiation",
+    "href": "calc1/u3-transcendental.html#logarithmic-differentiation",
+    "title": "Transcendental Functions and Their Derivatives",
+    "section": "Logarithmic Differentiation",
+    "text": "Logarithmic Differentiation\nFind derivative of \\(y = x^x\\)\nTaking \\(\\ln\\) on both side:\n\\[\\begin{align*}\n    \\ln y &= \\ln x^x \\\\\n    \\ln y &= x \\ln x \\\\\n\\end{align*}\\]\nFind the derivative on both sides:\n\\[\\begin{align*}\n    \\frac{y'}{y} = 1+\\ln x \\\\\n    y' = y( 1+\\ln x ) \\\\\n    y' = x^x( 1+\\ln x )\n\\end{align*}\\]\nWhat we are doing here, we will apply the same process when solving similar questions to make it easier to find their derivative.",
+    "crumbs": [
+      "Calculus I",
+      "Transcendental Functions and Their Derivatives"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#practice-1",
+    "href": "calc1/u1-the-derivative.html#practice-1",
+    "title": "Limits",
+    "section": "Practice",
+    "text": "Practice\n1.Calculate the average slope of the graphbelow between \\(x=2\\) and \\(x=4\\)\n\n\n\n2.For the two lines in the graph: a.Calculate the slope\n\n\n\nb.Find the equation of each line.\nThe actual slope of a curve is represented by aTangent Line.\nGraphically the Tangent Line:\na)istheslope of the curve atonepoint b) touches the curve at only that point\n\n\n\nAlgebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.\n\nThe Tangent Line\nWe need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:\n\n\n\nBut thiswould be dividing by zero!\nWe can shrinkthe distance between the twopoints until \\(\\Delta x=0\\) .\n\\[\\overline{\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}}\\]\n\n\nThe Delta Process - Definition of the Derivative.\nPreviously we used limits to find the slope of the tangent at a particular value of \\(x\\) Algebraically,it is more useful toknow the slope at any value of \\(x\\) . In this case, we leave \\(x\\) in theequation and solve. \\[\\mathrm{m}_{\\mathrm{tangent}}=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\]\nFor \\(f(x)=x^{2}\\)\n\n\n\nThis is a function that gives us the slope of the tangent line at any \\(x\\) \\[x=0\\]\n\\[x=1\\]\n\\[x=-1\\]\nDefinition: The derivative of a function expressed as a function is.\n\\[f'\\left(x\\right)=\\lim_{\\Delta x\\to0}\\frac{f\\left(x+\\Delta x\\right)-f\\left(x\\right)}{\\Delta x}\\quad\\text{OR}\\quad f'\\left(x\\right)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\nIt isread“The derivative of \\(f\\) withrespect to \\(x^{\\prime\\prime}\\) or \\(“f\\) -prime of \\(x^{\\prime\\prime}\\)\n\n\nDerivative Notation\nSome common notations for the derivative of \\(y=f(x)\\) are:\ny’ \\quad D_x y \\quad f’(x) \\quad \\frac{dy}{dx}\nThe process of finding a derivative is called differentiation..\nRemember: At a point \\((x,y)\\) on a curve,\nThe derivative The slope o the = The slope of the tangent line curve\n\n\nExample: Find the function for the slope of the following functions using the definition of the\nderivative. a) \\(f(x)=5x^{2}-1\\) \\[\\begin{matrix}\\text{b)}&f(x)=2x^2+3x\\end{matrix}\\]\nExample: Find the derivative of \\(f(x)=-4(x-2)^{2}+4\\) using the definition\n\\[f'(x)=\\lim_{\\Delta x\\to0}\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}\\]\n\\[\n\\begin{align*}\nf(x)=-4(x^2-4x+4) \\\\\n&= -4x^2+16x-16 \\\\\nf(x+h) =\n\\end{align*}\n\\]\n\n\n\nWhat is the slope at \\(x=1\\) ？\nx=2? x=3?\n\n\nPractice\nFind the derivative of the following functions by the delta-process\n\\[y=-4x+2\\]\n\n\\(y=6x-2x^{2}\\)\ny=x2+5x-2\n\nAs you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.\n\n\nBasic Derivative Rules\nAlgebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are\ngiven:\nFunction: \\(y=2x^{2}+3x\\) either \\(f(x)=2x^{2}+3x\\) Derivative: \\(\\frac{dy}{dx}=4x+3\\) \\(\\frac{d(2x^{2}+3x)}{dx}=4x+3\\) \\(f'(x)=4x+3\\) \\(\\quad y'=4x+3\\) \\(\\quad \\frac{d}{dx}(2x^{2}+3x)=4x+3\\)\nConstant Rule: For a function \\(f(x)=c\\) where c is a constant number \\(f'(x)=0\\)\nAlgebraically, \\[f'(x)=\\lim_{h\\to0}\\frac{f\\left(x+h\\right)-f\\left(x\\right)}{h}\\]\n\n\n\nExample: Find the derivative of the following\n\\[\\text{b)}f(x)=e\\]\n\\[\\text{c)}y=\\sin(2\\pi)\\] a) \\(y=5\\)\n\n\nPower Rule\nFor a variable raised to a constant power n,\n\\[\\frac{d}{dx}\\Big(x^n\\Big)=nx^{n-1}\\]\nExample: Find the following derivatives: a) \\(y=x^3\\)\n\\[)\\:f(x)=x^{8}\\quad\\mathrm{c})\\:y=x\\quad\\mathrm{d})\\:f(x)=x^{2}\\]\n\n\nConstant Multiple Rule\nFor a constant \\(a.\\)\n\\[\\frac{d}{dx}\\Big(ax^n\\Big)=a\\Big(nx^{n-1}\\Big)\\]\nExample:Find the derivative of each of the following:\n\\[f(x)={\\frac{x^{4}}{8}}\\]\n\\[y=3x^{5}\\quad(b)\\quad y=-6x^{3}\\quad(c)\\quad y=\\frac{1}{3}x^{9}\\]\n\n\nSum & Difference Rule\nFor any number of terms,\n\\[\\frac{d}{dx}\\big(f(x)+g(x)\\big)=f'(x)+g'(x)\\]\nExample: Find the derivative of each of the following:.\n\\[\\mid y=3x^{5}+7x^{3}-3x+2\\quad(\\mathbf{b})\\quad y=-6x^{3}-5x\\]\nOften we need to rewrite a power to use the rule:.\n\nExample: Find the derivative of each of the following:.\n\n\\(y=\\sqrt{x}\\)\n\\(f(x)=\\frac{1}{x}\\)\n\\(y=x\\sqrt[3]{x}\\)\n\n\\[\n\\begin{align*}\n    y = x \\cdot x^{1/3} \\\\\n    f' = x\n\\end{align*}\n\\]\n$$\n\\[(\\text{e})\\:y=\\frac{x^2-3x}{x^2}\\]\n\\[\\mid y={\\frac{x}{\\sqrt{x}}}\\]\n\\[\n\\begin{align*}\n    y = x^{1-1/2} \\\\\n    y = x^1/2 \\\\\n    f' = \\frac{1}{2}x^{-1/2} \\\\\n\\end{align*}\n\\]\nExample: Find the derivative of each of the following\n\\[(\\mathbf{b})\\:y=x^4+3x^3+x^2-x+2\\]\n\\[y=x^{2}+7x\\]\n\n\\(y=2x-4x^{3}\\)\n\n\\[y={\\frac{2}{x^{2}}}\\]\nExample:Find the slope of the curve at theindicated point:\n\n\\(y=9x-x^{3}\\) at the point(2,10).\n\\(y=x^4-\\frac12x^2+2\\) at the point-2,16)\n\\(y=4\\sqrt[3]{x^2}\\) at the point where \\(x=8\\)\n\n\\[\\mid y={\\frac{\\sqrt{x}-x^{2}}{x}}\\:\\mathrm{at}\\:x=4\\:.\\]\n\n\nPractice\n\nUsing the definition of derivative find \\(f'(x)\\) of the following \\[f(x)=x^2-2x\\]\n\n2.Find the derivative of each of the following\n\\[\\mathbf{b})\\:f(x)=7x^{3}-3x^{2}+13\\]\n\\[\\mid f(x)=3x-\\frac{1}{3}x^{3}\\]\n\\[\\mid f(x)=5x^{2}-{\\frac{4}{\\sqrt{x}}}\\]\n() \\(f(x)=\\frac{\\pi}{2}x^{8}\\)\n3.What is the slope of the function \\(f(x)=3x^{3}+4x^{2}-6x+3\\) at thepoint (-2,7) ?",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#chain-rule",
+    "href": "calc1/u1-the-derivative.html#chain-rule",
+    "title": "Limits",
+    "section": "Chain Rule",
+    "text": "Chain Rule\nWhen we have a composite function,\n\\[\\frac{d}{dx}\\Big[f\\big(g(x)\\big)\\Big]=f'(g(x))g'(x)\\]\n\nExample: Find the derivative of the following functions:\n\\[y=\\left(x^2+4x+6\\right)^5\\]\n\n\\(f(x)=\\left(x^{2}-x+1\\right)^{3}\\)\n\\(f(x)=\\sqrt{5x+x^{2}}\\)\n\n\\[y=\\frac{1}{\\left(x^2-5\\right)^4}\\]\n\n\nPractice:\n1.Find the derivative of each of the following 司\\(r=\\frac{1}{\\left(t^2-2t-5\\right)^4}\\)\n\\[y=\\sqrt[5]{3x+2}\\]\n\nFin the sope of the tangent line to the curve \\(y=\\left(4+3x^2\\right)^{\\frac43}\\)\n\n3.For \\(y=\\left(4-x^2\\right)^{-2}\\) What is the slope of the graph of at the point \\(\\left(3,\\frac{1}{25}\\right)?\\)\n\nFind the derivative of the function \\(q(x)=\\left(4x^{2}-3+6x\\right)^{18}\\)\n\n5.Given \\(f\\Big(g\\big(x\\big)\\Big)=\\Big(x^{2}+1\\Big)^{3}+2\\Big(x^{2}+1\\Big)^{2}+5\\) ,what is \\(D_{x}f\\big(g\\big(x\\big)\\big)\\)?\n6.What is the slope of the curve representing the function \\(P(x)=\\sqrt[4]{\\left(x^{2}+7x\\right)^{3}}\\) at the point(14,71)?\n\n\nImplicit Differentiation\nThere will be times when we are not able to solve for \\(y\\) explicitly. For example. given the expression, \\[y^5+xy^2+3x^2=5\\:,\\]\nwe are unable to get an expression \\(y=f(x)\\)\nSuch a function where. \\(y\\) is defined implicitly as a function of \\(x\\) (i.e.) \\(y\\) as a function of itself,which is a function of \\(x\\) )is called an implicit function\nTo find \\(\\frac{dy}{dx}\\) when \\(y\\) is implicitly defined as function of \\(x\\) , we differentiate each term of the equation with respect to. \\(x\\) by applying the appropriate rule.\nNote: The derivative of \\(y\\) with respect to \\(x\\) is \\(\\frac{dy}{dx}\\) (or \\(y'\\)).\nExample: Find \\(\\frac{dy}{dx}\\) if \\(x+y=2\\)\nExam ple: Find \\(\\frac{dy}{dx}\\) if \\(y^{2}+2x^{2}=5\\)\nExample: Find \\(\\frac{dy}{dx}\\) if \\(3y^{4}+xy^{2}+2x^{3}-6=0\\)\nExample:Find the slope of a line tangent to the curve of \\(2y^{3}+xy+1=0\\) at thepoint (-3,1).\n\n\nMixed Derivatives\nSo far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples\nExample: Find the derivative of the following functions\n\n\\(f\\left(x\\right)=\\left(\\frac{x^3+2x^2}{4-x}\\right)^3\\)\n\\(f\\left(x\\right)=\\left(\\left(x-7x^{3}\\right)\\left(14+x^{2}\\right)\\right)^{11}\\)\n\n\\[\\text{c)}\\quad f\\left(x\\right)=\\frac{\\left(8x-4+9x^3\\right)\\left(3x^2+4x^5-\\frac{1}{x^3}\\right)}{\\left(x-9+x^5\\right)}\\]\nExample Fid the sope of y=(2x2) at \\(x=1\\)",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#higher-derivatives",
+    "href": "calc1/u1-the-derivative.html#higher-derivatives",
+    "title": "Limits",
+    "section": "Higher Derivatives",
+    "text": "Higher Derivatives\nSince the derivative of a function is also a function we may take the derivative of the derivative.\nThe derivative of a function is called the first derivative.\nThe derivative of the first derivative is the second derivative, and so on.\nThe second derivative, third derivative and so on are collectively known as higher derivatives.\nHigher Derivative Notation\n\n\n\n\n\n\n\n\n\nFirst\nSecond\nThird\nFourth\n\n\n\n\n\\(y'\\)\n\\(y''\\)\n\\(y'''\\)\n\\(y^{(4)}\\)\n\n\n\\(\\frac{dy}{dx}\\)\n\\(\\frac{d^2y}{dx^2}\\)\n\\(\\frac{d^3y}{dx^3}\\)\n\\(\\frac{d^4y}{dx^4}\\)\n\n\n\\(D_y\\)\n\\(D_x^2y\\)\n\\(D_x^3y\\)\n\\(D_x^4y\\)\n\n\n\\(f'(x)\\)\n\\(f''(x)\\)\n\\(f'''(x)\\)\n\\(f^{(4)}(x)\\)\n\n\n\nExample: Find the higher derivatives for \\(y=5x^{3}-2x\\)\nExample: Find the higher derivatives of \\(f(x)=x(x^{2}-1)^{2}\\) (Hint: Simplify \\(f\\) )\nExample: Evaluate the second derivatie of \\(y=\\frac{2}{1-x}\\) for \\(x=-2\\)\nExample: Find \\(y^{n}\\) for the implicit function defined by \\(2x^{2}+3y^{2}=6\\)\n\nPractice:\n\nFind \\(D_{x}y\\) given \\(y=\\frac{\\sqrt{2x^2+1}}{3x}\\)\n\n2.Given \\(xy^{3}+3y+x^{2}=9\\) ,find \\(y\\)\n3.Evaluate the second derivative of y = x(1-x),for \\(x=2\\)\n\nFind the derivativeof the funtion \\(K(p)=\\left(3\\:p^{2}+p\\sqrt{p^{3}+2\\:p}\\right)^{4}\\) (Do not simplify).\n\n\n\n5.Given \\(\\left(y^{2}+2\\right)^{3}=\\pi x^{4}y+3e^{2}y^{3}\\) ,what is \\(D_xy\\)\n\nWhat is the second derivativeof the functio \\(P\\bigl(x\\bigr)=x-\\frac{2}{x^3}\\) athe point417",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#variables-other-than-x",
+    "href": "calc1/u1-the-derivative.html#variables-other-than-x",
+    "title": "Limits",
+    "section": "Variables other than x",
+    "text": "Variables other than x\nWhile most of our work has focused on the functions of \\(x\\) ,the same rules of derivatives apply to any variables.",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u1-the-derivative.html#practice-8",
+    "href": "calc1/u1-the-derivative.html#practice-8",
+    "title": "Limits",
+    "section": "Practice:",
+    "text": "Practice:\n1.Find the derivative of \\(A\\) with respect to \\(t:\\) \\(A= 3t^{2}- 5t\\)\n2.Find the derivative of \\(z\\) with respect to \\(r:4r^{3}-3r^{2}z=5\\sqrt{z}\\)\n3.Find the derivative of \\(P\\) with respect to \\(V\\) : \\(P= \\left ( 4V- 5\\right ) \\left ( - 3V^{2}+ 2\\right ) ^{3}\\)",
+    "crumbs": [
+      "Calculus I",
+      "Limits"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html",
+    "href": "calc1/u4-applications-of-the-derivative2.html",
+    "title": "Applications of the Derivative II",
+    "section": "",
+    "text": "Warning\n\n\n\nAlways remember to write the unit where required",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
+    "href": "calc1/u4-applications-of-the-derivative2.html#indeterminate-forms-and-textlhopitals-rule",
+    "title": "Applications of the Derivative II",
+    "section": "Indeterminate Forms and \\(\\text{L'H\\^{o}pital's}\\) Rule",
+    "text": "Indeterminate Forms and \\(\\text{L'H\\^{o}pital's}\\) Rule\nIndeterminate forms:\n\n\\(\\frac{0}{0}\\)\n\\(\\frac{\\pm \\infty}{\\pm \\infty}\\)\n\nTo find the limits of functions that give an indeterminate form, we can use \\(\\text{L'H\\^{o}pital's}\\) rule:\n\n\\(\\text{L'H\\^{o}pital's}\\) Rule\nSuppose \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{0}{0}\n\\] or \\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{\\pm \\infty}{\\pm \\infty}\n\\]\nWhere ( a ) can be any real number, infinity or negative infinity. In these cases we have,\n\\[\n\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}\n\\]\nNote: Sometimes you need to apply L’Hôpital’s Rule more than once.",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
+    "href": "calc1/u4-applications-of-the-derivative2.html#optimizing-equations",
+    "title": "Applications of the Derivative II",
+    "section": "Optimizing equations",
+    "text": "Optimizing equations\nIn real world situations, we may want to find the maximum or the minimum of a function. The process of finding the best situation is called optimization.\n\nOptimasation Problem Steps\n\nDraw a sketch of the shape\nWrite down the formulas we can use to construct the shape\n\n\nFor the variable being optimized\nFor the variable with a constraint\n\n\n\n\n\n\n\nCaution\n\n\n\nMake sure the main equation is a function of only one variable\n\n\n\nFind the maxima or the minima as per req\n\n\n\n\n\n\n\nWarning\n\n\n\nDon’t forget to find the second derivative to prove that the answer is a minimum or a maximum\n\n\n\nConclusion\n\n\n\n\n\n\n\nNote\n\n\n\nAlways: Answer the question asked with the critical number and the optimized value",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#related-rates",
+    "href": "calc1/u4-applications-of-the-derivative2.html#related-rates",
+    "title": "Applications of the Derivative II",
+    "section": "Related Rates",
+    "text": "Related Rates\nWe can take the derivative of an equation with respect to anything usingimplicit differentiation.\nThis is always differentiation wrt time\nAlthough an equation may not have time in it, we can find its derivative wrt time using the chain rule.\nfor \\(f(x)\\):\n\\[\\frac{d~[f(x)]}{dt} = \\frac{df(x)}{dx} \\cdot \\frac{dx}{dt}, \\text{ (Chain Rule)}\\]\n\\[\\frac{dx}{dt} = \\frac{1}{ \\dfrac{d~[f(x)]}{dx} } \\cdot \\frac{d~[f(x)]}{dt}\\]\nJust as the two variables \\(f(x)\\) and \\(x\\) have a relationship, the two rates depend on each other and are called Related Rates.\nWhen we take the derivative with respect to an unrelated variable, it is important to use Leibnitz notation, $ to communicate what the rate is.\n\n\nLeibniz notation\n\nIn calculus, Leibniz’s notation, named in honor of the 17th-century German philosopher and mathematician Gottfried Wilhelm Leibniz, uses the symbols \\(dx\\) and \\(dy\\) to represent infinitely small (or infinitesimal) increments of \\(x\\) and \\(y\\), respectively, just as \\(\\Delta x\\) and \\(\\Delta y\\) represent finite increments of \\(x\\) and \\(y\\), respectively. source\n\n\nProcedure for solving related rate problems\n\nDraw the shape, its variables and its related rates\nFind the FWG to formulate and understand the question (it’s not necessary to write this down):\n\nFind:\nWhen:\nGiven:\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThe rates may be positive (increasing, growing, etc) or negative (decreasing shrinking, etc).\n\n\n\nSubstite the given values into the equation of the variable to be found\n\n\n\n\n\n\n\nCaution\n\n\n\nWhen you label your diagram, it may have width and length and height or radius, but that doesn’t mean all of them are variables\nRead your question carefully and be sure to think about which dimensions are actually changing and which ones are constant.\nConstants can be substituted into the equation before taking the derivatve.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nDon’t forget to find the second derivative to prove that the answer is a minimum or a maximum\n\n\n\nWrite the conclusion\n\n\n\n\n\n\n\nCaution\n\n\n\nBe mindful of the units. ex:\n\nAt a rate of 2 km per hour is different from 2 km per \\(\\text{hour}^2\\). What is right depends on question. You can instead write:\nAt a rate of 2 km every hour: for velocity  Or at a rate of (2 km every \\(\\text{hour}^2\\) or 2 km/h every hour): for acceleration",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#differentials",
+    "href": "calc1/u4-applications-of-the-derivative2.html#differentials",
+    "title": "Applications of the Derivative II",
+    "section": "Differentials",
+    "text": "Differentials\nThis is simply writing: \\(\\frac{dy}{dx} = f'(x)\\), in the form:\n\\[dy = f'(x)~dx\\]\nThis \\(dy\\) is the differential",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "calc1/u4-applications-of-the-derivative2.html#shapes-perimeter-area-and-volume",
+    "href": "calc1/u4-applications-of-the-derivative2.html#shapes-perimeter-area-and-volume",
+    "title": "Applications of the Derivative II",
+    "section": "Shapes: Perimeter, Area and Volume",
+    "text": "Shapes: Perimeter, Area and Volume\nThe formulas for various shapes will be given in the exam",
+    "crumbs": [
+      "Calculus I",
+      "Applications of the Derivative II"
+    ]
+  },
+  {
+    "objectID": "class-enroll/abandoned-available-courses.html",
+    "href": "class-enroll/abandoned-available-courses.html",
     "title": "My Notes",
-    "section": "Lab 9",
-    "text": "Lab 9\n\nWhat does a first-order filter mean?\n\n\nObjective:\nTo study the frequency response of a first-order low-pass filter, and high-pass filter and to determine the cut-off frequency in each case.\n\nAns:\nFirst order filters are RC filters\n\nWhat does gain (dB) mean?\n\ngain means the amount of output gained from the input waveform.\n\nIn the following image,\n\n\n\n\n\nlpf-v-vs-f-graph.png\n\n\n\nwhat does the following mean:\n\nCorner frequency\nDecade in \\(\\mathrm{ Slope = \\frac{ -20~dB }{ Decade } }\\)\n\nDecade is the number of samples for a specific frequency"
+    "section": "",
+    "text": "Note: Please avoid “Staff” instructor sections if possible. Their instructors have not been decided yet and idk if they are good",
+    "crumbs": [
+      "course list",
+      "AETN 2201"
+    ]
+  },
+  {
+    "objectID": "class-enroll/abandoned-available-courses.html#aetn-2201",
+    "href": "class-enroll/abandoned-available-courses.html#aetn-2201",
+    "title": "My Notes",
+    "section": "AETN 2201",
+    "text": "AETN 2201\n\n\n\n\n\n\n\n\n\n\nClass ID\nDays and Times\nRoom\nInstructor\nStatus\n\n\n\n\nLaboratory - Class 1912 -Section 9\nSunday4:00PM to 6:00PM\n09.2.72\nYasen Abdullahi Harrye\nopen (1-15)\n\n\nLaboratory - Class 1906 -Section 3\nWednesday8:00AM to 10:00AM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1905 -Section 2\nMonday9:00AM to 11:00AM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)\n\n\nLaboratory - Class 1908 -Section 5\nSunday10:00AM to 12:00PM\n09.2.72\nMuhammad Sheikh\nclosed (0-15)\n\n\nLaboratory - Class 1907 -Section 4\nMonday11:00AM to 1:00PM\n09.2.72\nYasen Abdullahi Harrye\nclosed (0-15)",
+    "crumbs": [
+      "course list",
+      "AETN 2201"
+    ]
+  },
+  {
+    "objectID": "class-enroll/current-plan.html",
+    "href": "class-enroll/current-plan.html",
+    "title": "this has many conflicts",
+    "section": "",
+    "text": "Course Code\nCourse Name\nIndividual Credits\nOverall Credits\n\n\n\n\nCorequisites:\n\n\n8\n\n\nAETN 1102\nNetwork Fundamentals\n3\n\n\n\nAETN 1202\nNetwork Fundamentals Lab\n1\n\n\n\nAETN 1112\nDigital Electronics\n3\n\n\n\nAETN 1212\nDigital Electronics Lab\n1\n\n\n\nMATH2010\nCalculus II\n3\n\n\n\nPHYS1020\nGeneral Physics\n3\n\n\n\nPHYS1021\nGeneral Physics (Lab)\n1\n\n\n\nCOMM1020\nEnglish Communication II\n3\n\n\n\n\n\nthis has many conflicts\n\n\n\n\n\n\n\n\n\n\n\nCourse Code\nClass ID\nDays and Times\nRoom\nInstructor\nCredits\n\n\n\n\nMATH2010\nLecture-2511 Section 8\nWed 9:30AM–11:00AM\n05.1.51\nStaff\n3\n\n\nCOMM1020\nLecTheatre-2196 Section 1\nWed 12:00PM–1:00PM\n01.2.08\nAndrea Comeau\n3\n\n\nCOMM1020\nLecture-2199 Section 4\nTue 10:00AM–12:00PM\n10.2.05\n\n\n\n\nAETN1102\nLecture-1866 Section 5\nSun/Tue/Thu 3:00PM–4:00PM\n05.2.25\nNicolae Nechita\n3\n\n\nAETN1112\nLecture-1870 Section 4\nSun/Tue/Thu 12:00PM–1:00PM\n05.2.25\nGhufran Khalaf Ja’afreh\n3\n\n\nAETN1202\nLaboratory-1877 Section 5\nMon 10:00AM–1:00PM\n09.2.07\nAlaa Elsaqa\n1\n\n\nAETN1212\nLaboratory-1886 Section 7\nSun 10:00AM–12:00PM\n09.2.79\nAmira Mustapha\n1\n\n\nPHYS1021\nLaboratory - Class 2536 -Section 7\nWednesday 2:00PM to 5:00PM\n05.1.06\nFasna Olikkal\n1\n\n\nPHYS 1020\nLecture - Class 2516 -Section 1\nTuesday Thursday Sunday 8:00AM to 9:00AM\n12.2.10\nFeras Alzubi\n3",
+    "crumbs": [
+      "course list",
+      "this has many conflicts"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/doubts.html",
+    "href": "fund-elec2/doubts.html",
+    "title": "Doubts",
+    "section": "",
+    "text": "What does real power mean? How is it different from \\(Q,~P\\) and \\(S\\)?\nAns:  Real power stands for the power dissipated by the resistor.",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Doubts"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/doubts.html#three-phase-systems",
+    "href": "fund-elec2/doubts.html#three-phase-systems",
+    "title": "Doubts",
+    "section": "three phase systems",
+    "text": "three phase systems\n\nIn a Delta system: when we have different line voltages, which one should be used for each branch of the delta system?\nAns:  Have a look at the circuit connections. From which wire to which wire are the 2 points of a branch connected? Look for a line voltage that matches such a configuration.\n\n\n\nCan resonance occur without resistance?\nAns:  Theoretically, yes. But practically, no. Resonance circuits are fundamentally studied as RLC circuits\n\n\n\nWhich is correct: \\(j5~\\Omega\\) or \\(5j~\\Omega\\)?\nAns:  \\(j5~\\Omega\\)\n\n\n\nHow to solve:\n\n\n\n\n\nq4-a-vs-f.png",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Doubts"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/doubts.html#methods-of-analysis",
+    "href": "fund-elec2/doubts.html#methods-of-analysis",
+    "title": "Doubts",
+    "section": "Methods of Analysis",
+    "text": "Methods of Analysis\n\nNodal\n\nWhen is the direction of the current pre-determined? What if the polarity of any component is given? like this capacitor\n\n\n\n\n\ncapacitor.png\n\n\n\nor when the polarity of a voltage source is given\nAns:\n\nWhen a current source with current direction is in one of the branches, then the direction of that branch is of the same direction as the current source\n\nwhat else?\n\nCan a number be \\(-6\\angle 0^\\circ\\)? Because this value in the calculator gives a math error",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Doubts"
+    ]
+  },
+  {
+    "objectID": "fund-elec2/memorize-formula-constants.html",
+    "href": "fund-elec2/memorize-formula-constants.html",
+    "title": "My Notes",
+    "section": "",
+    "text": "Prefix\nSymbol\nFactor\nPrefix\nSymbol\nFactor\n\n\n\n\nexa\nE\n\\(10^{18}\\)\natto\na\n\\(10^{---18}\\)\n\n\npeta\nP\n\\(10^{15}\\)\nfemto\nf\n\\(10^{---15}\\)\n\n\ntetra\nT\n\\(10^{12}\\)\npico\np\n\\(10^{---12}\\)\n\n\ngiga\nG\n\\(10^{9}\\)\nnano\nn\n\\(10^{---9}\\)\n\n\nmega\nM\n\\(10^{6}\\)\nmicro\nμ\n\\(10^{---6}\\)\n\n\nkilo\nk\n\\(10^{3}\\)\nmilli\nm\n\\(10^{---3}\\)\n\n\nhecta\nh\n\\(10^{2}\\)\ncenti\nc\n\\(10^{---2}\\)\n\n\ndeca\nda\n\\(10^{1}\\)\ndeci\nd\n\\(10^{---1}\\)",
+    "crumbs": [
+      "Fund. Elec. II",
+      "Memorize Formula Constants"
+    ]
   },
   {
     "objectID": "fund-elec2/t01-sinusoidal-alternating-waveforms.html",
@@ -1003,7 +1014,7 @@
     "href": "fund-elec2/t09-methods-of-analysis.html#mesh-analysis",
     "title": "9. Methods of Analysis",
     "section": "Mesh Analysis",
-    "text": "Mesh Analysis\n\nMath\nFor\n\\[\n\\begin{aligned}\na_1 I_1 + b_1 I_2 &= c_1 \\\\\na_2 I_1 + b_2 I_2 &= c_2\n\\end{aligned}\n\\]\nwe use Cramer’s Rule:\n\\[\n\\begin{aligned}\nI_1 &= \\frac{\n    \\begin{vmatrix}\n        c_1 & b_1 \\\\\n        c_2 & b_2\n    \\end{vmatrix}\n}{\n    \\begin{vmatrix}\n        a_1 & b_1 \\\\\n        a_2 & b_2\n    \\end{vmatrix}\n} \\\\\nI_2 &= \\frac{\n    \\begin{vmatrix}\n        a_1 & c_1 \\\\\n        a_2 & c_2\n    \\end{vmatrix}\n}{\n    \\begin{vmatrix}\n        a_1 & b_1 \\\\\n        a_2 & b_2\n    \\end{vmatrix}\n}\n\\end{aligned}\n\\]\n\n\nGeneral Approach\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\n\n\n\ncircuit-polarity\n\n\n\nHere, as per KVL:\n\\[\\begin{align*}\n    E_1 - I_1 Z_1 - (I_1 - I_2) Z_2 = 0 \\\\\n    E_1 - I_1 Z_1 - I_1 Z_2 + I_2 Z_2 = 0 \\\\\n    E_1 - I_1 (Z_1 + Z_2) + I_2 Z_2 = 0 \\\\\n    \\boxed{- I_1 (Z_1 + Z_2) + I_2 Z_2 = -E_1} \\\\\n    -(I_2 - I_1) Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 Z_2 + I_1 Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 (Z_2 + Z_3) + I_1 Z_2 = E_2 \\\\\n\\end{align*}\\]\nNow you have your equations, assign theme\n\n\nFormat Approach\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\n\n\n\ncircuit-polarity\n\n\n\nFor loop 1:\n\\(I_1 [~\\sum Z_x\\text{(in loop 1)}~] - I_2 [~\\sum Z_x\\text{(in loop 2)}~] = [~\\sum \\pm E_x \\text{(The polarity of voltages here are of the original polarity)}~]\\)\nFor loop 2:\n\\(- I_1 [~\\sum Z_x\\text{(in loop 1)}~] + I_2 [~\\sum Z_x\\text{(in loop 2)}~] = [~\\sum \\pm E_x \\text{(The polarity of voltages here are of the original polarity)}~]\\)",
+    "text": "Mesh Analysis\n\nMath\nFor\n\\[\n\\begin{aligned}\na_1 I_1 + b_1 I_2 &= c_1 \\\\\na_2 I_1 + b_2 I_2 &= c_2\n\\end{aligned}\n\\]\nwe use Cramer’s Rule:\n\\[\n\\begin{aligned}\nI_1 &= \\frac{\n    \\begin{vmatrix}\n        c_1 & b_1 \\\\\n        c_2 & b_2\n    \\end{vmatrix}\n}{\n    \\begin{vmatrix}\n        a_1 & b_1 \\\\\n        a_2 & b_2\n    \\end{vmatrix}\n} \\\\\nI_2 &= \\frac{\n    \\begin{vmatrix}\n        a_1 & c_1 \\\\\n        a_2 & c_2\n    \\end{vmatrix}\n}{\n    \\begin{vmatrix}\n        a_1 & b_1 \\\\\n        a_2 & b_2\n    \\end{vmatrix}\n}\n\\end{aligned}\n\\]\n\n\nGeneral Approach\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\n\n\n\ncircuit-polarity\n\n\n\nHere, as per KVL:\n\\[\\begin{align*}\n    E_1 - I_1 Z_1 - (I_1 - I_2) Z_2 = 0 \\\\\n    E_1 - I_1 Z_1 - I_1 Z_2 + I_2 Z_2 = 0 \\\\\n    E_1 - I_1 (Z_1 + Z_2) + I_2 Z_2 = 0 \\\\\n    \\boxed{- I_1 (Z_1 + Z_2) + I_2 Z_2 = -E_1} \\\\\n    -(I_2 - I_1) Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 Z_2 + I_1 Z_2 - I_2 Z_3 - E_2 = 0 \\\\\n    -I_2 (Z_2 + Z_3) + I_1 Z_2 = E_2 \\\\\n\\end{align*}\\]\nNow you have your equations, assign theme\n\n\nFormat Approach\nDepending on the direction of current (Current flows from higher to lower potential), polarities are assigned to elements as follows:\n\n\n\n\ncircuit-polarity\n\n\n\nFor loop 1:\n\\[\nI_1 [~\\sum Z_x\\text{(impedances loop 1)}~]\n- I_2 [~\\sum Z_x\\text{(impedances common to loop 1 and 2)}~]\n= [~\\sum \\pm E_x \\text{(The polarity of voltages here depend)}~]\n\\]\nFor loop 2:\n\\[\n- I_1 [~\\sum Z_x\\text{(common to loop 1 and 2)}~]\n+ I_2 [~\\sum Z_x\\text{(in loop 2)}~]\n= [~\\sum \\pm E_x \\text{(The polarity of voltages here are of the original polarity)}~]\n\\]",
     "crumbs": [
       "Fund. Elec. II",
       "9. Methods of Analysis"
@@ -1023,133 +1034,133 @@
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "",
-    "text": "\\(\\Phi = \\frac{\\mathcal{F}}{\\mathcal{R}}\\)\nWhere,\n\n\\(Phi\\) = electromotive force\n\\(\\mathcal{F}\\) = Magnetomotive force (MMF)\n\\(\\mathcal{R}\\) =",
+    "text": "Analyses of electric circuits and magnetic circuits have similarities. ex: The magnetic flux of magnetic circuits and current of electric circuits. As shown in Figure 1, it has a direction and a closed path.\n\n\n\n\n\n\n\nFigure 1: Application of magnetic effects: transformer\n\n\n\nThe magnitude of the established flux is a direct function of the applied magnetomotive force resulting in a duality with electric circuits where the resulting current is a function of the magnitude of the applied voltage\nThe flux established is also inversely related to the structural opposition of the magnetic path in the same way the current in a network is inversely related to the resistance of the network.\nThe flux lines strive to be as short as possible and take the path with the highest permeability\n\\(\\Phi = \\dfrac{\\mathscr{F}}{\\mathscr{R}}\\)\nWhere,\n\n\\(\\Phi\\) = electromotive force\n\\(\\mathscr{F}\\) = Magnetomotive force (MMF)\n\\(\\mathscr{R}\\) = Magnetic Reluctance",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#introduction",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#introduction",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "",
-    "text": "\\(\\Phi = \\frac{\\mathcal{F}}{\\mathcal{R}}\\)\nWhere,\n\n\\(Phi\\) = electromotive force\n\\(\\mathcal{F}\\) = Magnetomotive force (MMF)\n\\(\\mathcal{R}\\) =",
+    "text": "Analyses of electric circuits and magnetic circuits have similarities. ex: The magnetic flux of magnetic circuits and current of electric circuits. As shown in Figure 1, it has a direction and a closed path.\n\n\n\n\n\n\n\nFigure 1: Application of magnetic effects: transformer\n\n\n\nThe magnitude of the established flux is a direct function of the applied magnetomotive force resulting in a duality with electric circuits where the resulting current is a function of the magnitude of the applied voltage\nThe flux established is also inversely related to the structural opposition of the magnetic path in the same way the current in a network is inversely related to the resistance of the network.\nThe flux lines strive to be as short as possible and take the path with the highest permeability\n\\(\\Phi = \\dfrac{\\mathscr{F}}{\\mathscr{R}}\\)\nWhere,\n\n\\(\\Phi\\) = electromotive force\n\\(\\mathscr{F}\\) = Magnetomotive force (MMF)\n\\(\\mathscr{R}\\) = Magnetic Reluctance",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetic-field",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetic-field",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Magnetic Field",
-    "text": "Magnetic Field\nFlux density, \\(B\\)\n\n\\(B = \\frac{\\Phi}{A}\\)\n\nUnit:\n\n\\(B=\\mathrm{Wb/m^2 = T}\\) (teslas)\n\\(\\Phi = \\text{Wb}\\) (webers)\n\\(A = m^2\\)\n\n\\(\\mathcal{F} = NI\\)\nPermeability \\(\\mu\\)\n$_r =",
+    "text": "Magnetic Field\nThe direction of flux lines is determined by the right hand rule, as shown in Figure 2\n\n\n\n\n\n\nFigure 2: Right hand rule\n\n\n\nFlux density, \\(B\\)\n\n\\(B = \\dfrac{\\Phi}{A}\\)\n\nUnit:\n\n\\(B= 1~\\mathrm{Wb/m^2 =1~T}\\) (teslas)\n\\(\\Phi = \\text{Wb}\\) (webers)\n\\(A = m^2\\)\n\nThe “pressure” on the system to a magnetic flux is determined by the applied magnetomotive force, which is directly related to the number of turns and current of the magnetizing coil.\n\\(\\mathscr{F} = NI\\), where unit: Ampere-turns \\(\\text{(At)}\\)\nPermeability \\(\\mu\\)\n\\(\\mu_r = \\dfrac{\\mu}{\\mu_o}\\), where \\(\\mu_o = 4\\pi \\cdot 10^{-7}~\\mathrm{\\dfrac{Wb}{A \\cdot m}}\\)",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#reluctance",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#reluctance",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Reluctance",
-    "text": "Reluctance\nreluctance is the opposition to the magnetic flux\n\\(\\mathcal{R} = \\frac{l}{\\mu A}\\)",
+    "text": "Reluctance\nreluctance is the opposition to the magnetic flux\n\\(\\mathscr{R} = \\dfrac{l}{\\mu A}\\)\nSimilar to the formula of resistance",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#ohms-law-for-magnetic-circuits",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#ohms-law-for-magnetic-circuits",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Ohm’s Law for Magnetic Circuits",
-    "text": "Ohm’s Law for Magnetic Circuits\n\\(\\Phi = \\frac{\\mathcal{F}}{\\mathcal{R}}\\)",
+    "text": "Ohm’s Law for Magnetic Circuits\nWe have equation: \\(\\mathrm{ Effect = \\dfrac{Cause}{Opposition}}\\)\nHence, we get,\n\\(\\Phi = \\dfrac{\\mathscr{F}}{\\mathscr{R}}\\)\nUnderstand that the flux, \\(\\Phi\\), is not a “flow” variable such as current in an electric circuit. Magnetic flux is established in the core through the alteration of the atomic structure of the core due to external pressure and is not a measure of the flow of some charged particles through the core.",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetizing-force-h",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#magnetizing-force-h",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Magnetizing Force \\((H)\\)",
-    "text": "Magnetizing Force \\((H)\\)\n\\(H = \\frac{\\mathcal{F}}{l} = \\frac{NI}{l}\\)\n\\(B = \\mu H\\)",
+    "text": "Magnetizing Force \\((H)\\)\nThe magnetomotive force per unit length is called the magnetizing force\n\\(H = \\dfrac{\\mathscr{F}}{l} = \\dfrac{NI}{l}\\)\nThe magnetizing force is independent of the type of core material\n\\(B = \\mu H\\)",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#hysteresis",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#hysteresis",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Hysteresis",
-    "text": "Hysteresis\nWhen you magnetize something and remove the magnetizing force, the material will resist losing its magnetization and will take longer time to lose it than the time it took to gain it",
+    "text": "Hysteresis\nWhen you magnetize something and remove the magnetizing force, the material will resist losing its magnetization and will take longer time to lose it than the time it took to gain it\n\n\n\n\n\n\nFigure 3: Hysteresis curve\n\n\n\nIn Figure 3, the entire curve represented by bcdefb is called the hysteresis curve, from the Greek hysterein, meaning “to lag behind.” The flux density B lagged behind the magnetizing force H during the entire plotting of the curve.\nThe flux density \\(B_R\\), which remains when the magnetizing force is zero, is called the residual flux density. It is this residual flux density that makes it possible to create permanent magnets.\nThree hysteresis loops for the same material for maximum values of H less than the saturation value are shown in Figure 4. In addition, the saturation curve is repeated for comparison purposes.\nIn an effort to assign a particular value of B to each value of H, we compromise by connecting the tips of the hysteresis loops. The resulting curve, shown by the heavy, solid line in Figure 4 and for various materials in Figure 5, is called the normal magnetization curve.\n\n\n\n\n\n\nFigure 4: Defining the normal magnetization curve\n\n\n\n\n\n\n\n\n\nFigure 5: Normal magnetization curve for three ferromagnetic materials.\n\n\n\n\n\nWhat is saturation (ChatGPT explanation)\n\nWhat is saturation (ChatGPT explanation)\n💡 TL;DR:\nSaturation is the point where increasing the magnetizing field \\(H\\) no longer increases the magnetic flux density \\(B\\) much — the material is already “fully magnetized.”\n\n🧲 What Does That Mean?\nIn ferromagnetic materials (like iron), the atoms behave like little magnets. When you apply a magnetic field \\(H\\), more and more of those atomic magnets align with it — this increases the total magnetic flux density \\(B\\).\n\nAt first: a small increase in \\(H\\) causes a large increase in \\(B\\).\nLater: as more atoms are already aligned, it takes more \\(H\\) to align the rest.\nEventually: almost all magnetic domains are aligned → no more room for improvement → you’re at saturation.\n\nAt this point:\n\n\\(B\\) still increases slightly with \\(H\\), but very, very slowly.\nThis small increase is due to the vacuum permeability (not from alignment anymore).\n\n\n📈 On a Graph:\nIf you plot \\(B\\) vs. \\(H\\):\n\nAt first, the curve rises steeply.\nThen it starts to level off.\nThat flat region at the top is the saturation region.\n\n\n🔁 Back to Hysteresis Loops:\n\nSmall loops = low max \\(H\\), material not saturated.\nBigger loops = higher max \\(H\\), approaching saturation.\nOnce you reach saturation, going further with \\(H\\) doesn’t change \\(B\\) much — hysteresis loop tops out.\n\n\n\n\nNormal Magnetisation curve (ChatGPT explanation)\n\nNormal Magnetisation curve (ChatGPT explanation)\n💡 TL;DR (Answer First)\nThe normal magnetization curve is a smooth curve made by connecting the “tips” (endpoints) of smaller hysteresis loops at increasing max \\(H\\) values. It’s a way to define a unique value of magnetic flux density \\(B\\) for each magnetizing force \\(H\\), by averaging out the behavior shown in hysteresis loops.\n\n📘 What’s Going On?\n\nHysteresis Loops:\n\nWhen you apply a magnetic field \\(H\\) to a material and then reduce it, the magnetic flux density \\(B\\) doesn’t follow the same path back — it lags behind. That’s hysteresis.\nIf you increase \\(H\\) only a little, you get a small loop. Increase it more, you get a bigger loop, approaching saturation.\n\nMany Loops for One Material:\n\nIn Fig. 12.6, they show 3 different hysteresis loops, each with a different maximum \\(H\\) — none reaching full saturation.\nEach loop shows what \\(B\\) does when you ramp \\(H\\) up and down within that max limit.\n\nThe Problem:\n\nSince \\(B\\) depends on the history of \\(H\\), for one value of \\(H\\) you might have many possible values of \\(B\\) (depending on which loop you’re on).\nSo you can’t easily assign a single value of \\(B\\) for each \\(H\\).\n\nThe Solution: The Normal Magnetization Curve:\n\nTo “compromise”, they connect the tips of these loops — the furthest points each loop reaches in the positive \\(H\\) direction.\nThe resulting smooth curve (heavy solid line in Fig. 12.6) traces the progressive magnetization of the material as if you increased \\(H\\) slowly and didn’t let it decrease.\nIt’s like an envelope that wraps the tops of all the loops.\n\n\n\n📊 Why It Matters\nThis normal magnetization curve is useful because:\n\nIt gives a single-valued relationship between \\(B\\) and \\(H\\) (ignoring hysteresis).\nIt’s helpful for modeling or approximating magnetic materials without simulating full hysteresis.\nIt’s often used in magnetic circuit analysis and material characterization.\n\n\n🧠 Visualization Tip\nThink of drawing several mountain-shaped curves (the loops) on a graph, each taller than the last. Then draw a line connecting just the peaks. That’s your normal magnetization curve.",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#amperes-circuital-law",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#amperes-circuital-law",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Ampere’s Circuital Law",
-    "text": "Ampere’s Circuital Law\nThe algebric sum of the rise and drops of the mmf around a closed loop of a magnetic circuit is zero. This is similar to KVL.",
+    "text": "Ampere’s Circuital Law\nWhen we apply the “cause” analogy to KVL, we obtain Ampere’s circuital law\n\nDefinition 1 (Ampere’s Circuital Law) The algebric sum of the rises and drops of the mmf around a closed loop of a magnetic circuit is zero.\nMathematically, \\[\\sum_\\circlearrowright \\mathscr{F} = 0 \\tag{1}\\]\n\nRemember:\n\\[\\mathscr{F} = NI = \\Phi \\mathscr{R} = Hl \\tag{2}\\]",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#air-gaps",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#air-gaps",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Air Gaps",
-    "text": "Air Gaps\n\\(B_g = \\frac{Phi_g}{A_g}\\)",
+    "text": "Air Gaps\n\\(B_g = \\dfrac{Phi_g}{A_g}\\)\nHere:\n\n\\(_g\\) stands for gap\n\\(\\Phi_g = \\Phi_\\text{core}\\)\n\\(A_g = A_\\text{core}\\)\n\nThe spreading of the flux lines outside the common area of the core for the air gap in Figure 6 is known as fringing. For our purposes, we shall ignore this effect and assume the flux distribution to be as in Figure 7.\n\n\n\n\n\n\n\n\n\nFigure 6: Air gap with fringing\n\n\n\n\n\n\n\n\n\n\n\nFigure 7: Air gap: ideal",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#applications",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#applications",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Applications",
-    "text": "Applications",
+    "text": "Applications\n\n\n\n\n\n\nNote\n\n\n\nI’m unsure about whether this stuff is in the syllabus. I only included this to make sure I understood. Section 9.1 has a dropdown that explains a part of the original text that wasn’t covered in detail. I copy pasted the original as is too. You might only only need the dropdown\n\n\n\nSpeakers and Microphones (Edits pending)\nElectromagnetic effects are the moving force in the design of speakers such as the one shown in Figure 8. The shape of the pulsating waveform of the input current is determined by the sound to be reproduced by the speaker at a high audio level. As the current peaks and returns to the valleys of the sound pattern, the strength of the electromagnet varies in exactly the same manner. This causes the cone of the speaker to vibrate at a frequency directly proportional to the pulsating input. The higher the pitch of the sound pattern, the higher is the oscillating frequency between the peaks and valleys and the higher is the frequency of vibration of the cone.\n\n\nhow can the cone vibrate? how is the cone affected by the magnetic field?\n\nGreat question — you’re thinking exactly like an engineer should.\n\n✅ Answer:\nThe cone vibrates because the input current creates a changing magnetic field in a coil (electromagnet), which interacts with a permanent magnet to push and pull the coil — and the coil is attached to the cone.\nThis mechanical motion makes the cone vibrate, pushing air, and producing sound.\n\n🧲 How it works, step by step:\n\nCoil + Cone (Voice Coil)\n\n\nThe speaker has a lightweight coil of wire called the voice coil.\nThe coil is attached to the speaker cone.\n\n\nPermanent Magnet\n\n\nThere’s a permanent magnet fixed in place, usually shaped like a ring, creating a constant magnetic field.\n\n\nCurrent = Magnetic Force\n\n\nWhen an audio current flows through the coil, the coil becomes an electromagnet.\nThe Lorentz force acts on the coil:\n\\[\n\\vec{F} = I \\cdot \\vec{L} \\times \\vec{B}\n\\]\nwhere \\(I\\) is the current, \\(\\vec{L}\\) is the wire direction, and \\(\\vec{B}\\) is the magnetic field from the permanent magnet.\n\n\nAlternating Current = Push & Pull\n\n\nSince the audio signal is AC (goes + and –), the direction of current changes constantly.\nThis means the force on the coil pushes and pulls repeatedly.\nThe coil moves back and forth inside the magnetic gap.\n\n\nThe Cone Moves\n\n\nBecause the coil is glued to the cone, the cone moves with it.\nAs the coil vibrates, the cone vibrates, moving air → you hear sound.\n\n\n📊 Why does pitch affect frequency?\n\nHigh pitch = fast vibration = high-frequency AC signal\nThis causes faster oscillation of the current → faster movement of the coil → faster vibration of the cone → higher sound frequency\n\n\n🧠 Analogy\nImagine holding a small drum by its edge and tapping it repeatedly. If you tap slow → low sound. Tap fast → high sound. In a speaker, the magnetic field does the tapping!\n\nLet me know if you’d like a diagram or animation!\n\n\n\n\n\n\n\nFigure 8: Speaker\n\n\n\n\n\nOther sibling sections (In Progress)\n\nHall Effect Sensors (In Progress)",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
     "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#transformers",
     "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#transformers",
-    "title": "Introduction to Magnetic Circuits and Transformers",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
     "section": "Transformers",
-    "text": "Transformers\nThey increase (step up) or decrease (step down) the voltage\nThe transfer has 2 parts:\n\nPrimary (for the input)\nSecondary (for the output)\n\nIt cnsists of a transfer core and 2 coils. It works like so:\n\nCurrent flows through the primary coil\nCurrent flow through the coil induces a changing magnetic field in the transformer core\nThe changing magnetic field flows through out the transformer core\nThe changing magnetic field in the transformer core induces a voltage and hence a current in the secondary coil\n\n\nMutual Inductance\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\n\\[e_s = N_s \\frac{d\\phi_m}{dt}\\]\n\n\\(N_s =\\) Number of turn in the secondary coil\n\\(\\phi_m =\\) Portion of \\(\\phi_p\\) that links with the secondary winding\n\n\n\nIron Core Transformer\n\n\n\n\n\n\nWarning\n\n\n\nThis section is incomplete\n\n\nTransformer ratio: \\(a = \\dfrac{N_p}{N_s}\\)\n\\[\\frac{V_p}{V_s} = \\frac{N_p}{N_s} = \\frac{I_s}{I_p}\\]\nPrimary and secondary is reversed for the current since \\(I \\propto \\dfrac{1}{N}\\)",
+    "text": "Transformers\nTransformers are electrical devices consisting of two or more coils of wire used to transfer electrical energy by means of a changing magnetic field.\nThey increase (step up) or decrease (step down) the voltage\n\nMutual Inductance (In Progress)\nA transformer is constructed of two coils placed so that the changing flux developed by one links the other, as shown in Fig. 23.1. This results in an induced voltage across each coil.\nTransformer convention the coil to which the source is applied is called the primary, and the coil to which the load is applied is called the secondary.\n\\[e_s = N_s \\dfrac{d\\Phi_m}{dt}\\]\n\n\\(e_s =\\) voltage induced across the secondary\n\\(N_s =\\) Number of turn in the secondary coil\n\\(\\Phi_m =\\) Portion of \\(\\Phi_p\\) that links with the secondary winding\n\nIf all of the flux linking the primary links the secondary, then \\(\\Phi_m = \\Phi_p\\)\n\\[e_s = N_s \\dfrac{d\\Phi_m}{dt}\\]\ncoefficient of coupling \\((k)\\) between two coils:\n\\[k = \\frac{\\Phi_m}{\\Phi_p}\\]\nSince the maximum level of \\(\\Phi_m\\) is \\(\\Phi_p\\), the coefficient of coupling between two coils can never be greater than 1.\n\n\nIron Core Transformer\nThe transformer has 2 parts:\n\nPrimary (for the input)\nSecondary (for the output)\n\nIt consists of a transfer core and 2 coils. It works like so:\n\nCurrent flows through the primary coil\nCurrent flow through the coil induces a changing magnetic field in the transformer core\nThe changing magnetic field flows through out the transformer core\nThe changing magnetic field in the transformer core induces a voltage and hence a current in the secondary coil\n\nTransformer ratio: \\(a = \\dfrac{N_p}{N_s}\\)\n\\[\\dfrac{V_p}{V_s} = \\dfrac{N_p}{N_s} = \\dfrac{I_s}{I_p}\\]\n\\[V \\propto N \\propto \\dfrac{1}{I}\\]\nPrimary and secondary is reversed for the current since \\(I \\propto \\dfrac{1}{N}\\)\n\n\\(a &lt; 1  \\implies\\) Step-up transformer\n\\(a &gt; 1 \\implies\\) Step-down transformer",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   },
   {
-    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#rectifier",
-    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#rectifier",
-    "title": "Introduction to Magnetic Circuits and Transformers",
-    "section": "Rectifier",
-    "text": "Rectifier\nThey convert AC to DC",
+    "objectID": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#rectifier-complete",
+    "href": "fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html#rectifier-complete",
+    "title": "11. Introduction to Magnetic Circuits and Transformers",
+    "section": "Rectifier (Complete)",
+    "text": "Rectifier (Complete)\nThey convert AC to DC",
     "crumbs": [
       "Fund. Elec. II",
-      "Introduction to Magnetic Circuits and Transformers"
+      "11. Introduction to Magnetic Circuits and Transformers"
     ]
   }
 ]
