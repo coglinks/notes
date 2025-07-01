@@ -93,11 +93,19 @@ Depending on the direction of current (Current flows from higher to lower potent
 
 For loop 1:
 
-$I_1 [~\sum Z_x\text{(in loop 1)}~] - I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]$
+$$
+I_1 [~\sum Z_x\text{(impedances loop 1)}~]
+- I_2 [~\sum Z_x\text{(impedances common to loop 1 and 2)}~]
+= [~\sum \pm E_x \text{(The polarity of voltages here depend)}~]
+$$
 
 For loop 2:
 
-$- I_1 [~\sum Z_x\text{(in loop 1)}~] + I_2 [~\sum Z_x\text{(in loop 2)}~] = [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]$
+$$
+- I_1 [~\sum Z_x\text{(common to loop 1 and 2)}~]
++ I_2 [~\sum Z_x\text{(in loop 2)}~]
+= [~\sum \pm E_x \text{(The polarity of voltages here are of the original polarity)}~]
+$$
 
 ## Nodal Analysis
 
