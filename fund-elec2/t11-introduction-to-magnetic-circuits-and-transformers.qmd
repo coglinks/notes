@@ -14,45 +14,64 @@ The flux established is also inversely related to the structural opposition of t
 
 The flux lines strive to be as short as possible and take the path with the highest permeability
 
-$\Phi \frac{\mathcal{F}}{\mathcal{R}}$
+$\Phi = \dfrac{\mathscr{F}}{\mathscr{R}}$
 
 Where,
 
 - $\Phi$ = electromotive force
-- $\mathcal{F}$ = Magnetomotive force (MMF)
-- $\mathcal{R}$ = 
+- $\mathscr{F}$ = Magnetomotive force (MMF)
+- $\mathscr{R}$ = Magnetic Reluctance
 
 ## Magnetic Field
 
+The direction of flux lines is determined by the right hand rule, as 
+shown in @fig-right-hand-rule
+
+![Right hand rule](t11-introduction-to-magnetic-circuits-and-transformers-img/right-hand-rule.png){#fig-right-hand-rule align=center alt="right-hand-rule.png" width=300}
+
 Flux density, $B$
 
-- $B = \frac{\Phi}{A}$
+- $B = \dfrac{\Phi}{A}$
 
 Unit:
 
-- $B=\mathrm{Wb/m^2 = T}$ (teslas)
+- $B= 1~\mathrm{Wb/m^2 =1~T}$ (teslas)
 - $\Phi = \text{Wb}$ (webers)
 - $A = m^2$
 
-$\mathcal{F} = NI$
+The “pressure” on the system to a magnetic flux is determined by the applied **magnetomotive force**, which is directly related to the number of turns and current of the magnetizing coil.
+
+$\mathscr{F} = NI$, where unit: Ampere-turns $\text{(At)}$
 
 Permeability $\mu$
 
-$\mu_r = \frac{\mu_r}
+$\mu_r = \dfrac{\mu}{\mu_o}$, where $\mu_o = 4\pi \cdot 10^{-7}~\mathrm{\dfrac{Wb}{A \cdot m}}$
 
 ## Reluctance
 
 reluctance is the opposition to the magnetic flux
 
-$\mathcal{R} = \frac{l}{\mu A}$
+$\mathscr{R} = \dfrac{l}{\mu A}$
+
+Similar to the formula of resistance
 
 ## Ohm's Law for Magnetic Circuits
 
-$\Phi = \frac{\mathcal{F}}{\mathcal{R}}$
+We have equation: $\mathrm{ Effect = \dfrac{Cause}{Opposition}}$
+
+Hence, we get,
+
+$\Phi = \dfrac{\mathscr{F}}{\mathscr{R}}$
+
+Understand that the flux, $\Phi$, is not a “flow” variable such as current in an electric circuit.  Magnetic flux is established in the core through the alteration of the atomic structure of the core due to external pressure and is not a measure of the flow of some charged particles through the core.
 
 ## Magnetizing Force $(H)$
 
-$H = \frac{\mathcal{F}}{l} = \frac{NI}{l}$
+The magnetomotive force per unit length is called the magnetizing force
+
+$H = \dfrac{\mathscr{F}}{l} = \dfrac{NI}{l}$
+
+The magnetizing force is independent of the type of core material
 
 $B = \mu H$
 
@@ -60,54 +79,304 @@ $B = \mu H$
 
 When you magnetize something and remove the magnetizing force, the material will resist losing its magnetization and will take longer time to lose it than the time it took to gain it
 
+
+![Hysteresis curve](t11-introduction-to-magnetic-circuits-and-transformers-img/hysteresis-curve.png){#fig-hysteresis-curve align=center width=300 alt=hysteresis-curve.png}
+
+In @fig-hysteresis-curve, the entire curve represented by bcdefb is called the hysteresis curve, from the Greek hysterein, meaning “to lag behind.” The flux density B lagged behind the magnetizing force H during the entire plotting of the curve.
+
+The flux density $B_R$, which remains when the magnetizing force is zero, is called the residual flux density. It is this residual flux density that makes it possible to create permanent magnets.
+
+Three hysteresis loops for the same material for maximum values of H less than the saturation value are shown in @fig-normal-magnetization-curve.  In addition, the saturation curve is repeated for comparison purposes.
+
+In an effort to assign a particular value of B to each value of H, we compromise by connecting the tips of the hysteresis loops. The resulting curve, shown by the heavy, solid line in @fig-normal-magnetization-curve and for various materials in @fig-normal-magnetization-curve-3-materials, is called the normal magnetization curve.
+
+![Defining the normal magnetization curve](t11-introduction-to-magnetic-circuits-and-transformers-img/normal-magnetization-curve.png){#fig-normal-magnetization-curve align=center width=300 alt=normal-magnetization-curve.png}
+
+![Normal magnetization curve for three ferromagnetic materials.](t11-introduction-to-magnetic-circuits-and-transformers-img/normal-magnetization-curve-3-materials.png){#fig-normal-magnetization-curve-3-materials align=center width=300 alt=normal-magnetization-curve-3-materials.png}
+
+<details><summary>What is saturation (ChatGPT explanation)</summary>
+
+ What is saturation (ChatGPT explanation)
+
+ 💡 TL;DR:
+
+**Saturation** is the point where increasing the magnetizing field $H$ **no longer increases** the magnetic flux density $B$ much — the material is already “fully magnetized.”
+
+---
+
+ 🧲 What Does That Mean?
+
+In ferromagnetic materials (like iron), the atoms behave like little magnets. When you apply a magnetic field $H$, more and more of those atomic magnets **align** with it — this increases the total magnetic flux density $B$.
+
+* At first: a small increase in $H$ causes a **large** increase in $B$.
+* Later: as more atoms are already aligned, it takes more $H$ to align the rest.
+* Eventually: **almost all magnetic domains are aligned** → **no more room for improvement** → you're at **saturation**.
+
+At this point:
+
+* $B$ still increases slightly with $H$, but very, very slowly.
+* This small increase is due to the **vacuum permeability** (not from alignment anymore).
+
+---
+
+ 📈 On a Graph:
+
+If you plot $B$ vs. $H$:
+
+* At first, the curve rises steeply.
+* Then it **starts to level off**.
+* That flat region at the top is the **saturation region**.
+
+---
+
+ 🔁 Back to Hysteresis Loops:
+
+* Small loops = low max $H$, material not saturated.
+* Bigger loops = higher max $H$, approaching saturation.
+* Once you reach saturation, going further with $H$ doesn’t change $B$ much — **hysteresis loop tops out**.
+
+</details>
+
+<details><summary> Normal Magnetisation curve (ChatGPT explanation) </summary>
+
+ Normal Magnetisation curve (ChatGPT explanation)
+
+ 💡 TL;DR (Answer First)
+
+The **normal magnetization curve** is a smooth curve made by connecting the "tips" (endpoints) of smaller hysteresis loops at increasing max $H$ values. It's a way to define a unique value of magnetic flux density $B$ for each magnetizing force $H$, by **averaging out** the behavior shown in hysteresis loops.
+
+---
+
+ 📘 What’s Going On?
+
+1. **Hysteresis Loops**:
+
+   * When you apply a magnetic field $H$ to a material and then reduce it, the magnetic flux density $B$ doesn’t follow the same path back — it lags behind. That’s hysteresis.
+   * If you increase $H$ only a little, you get a **small loop**. Increase it more, you get a **bigger loop**, approaching saturation.
+
+2. **Many Loops for One Material**:
+
+   * In Fig. 12.6, they show **3 different hysteresis loops**, each with a different **maximum** $H$ — none reaching full saturation.
+   * Each loop shows what $B$ does when you ramp $H$ up and down *within that max limit*.
+
+3. **The Problem**:
+
+   * Since $B$ depends on the *history* of $H$, for one value of $H$ you might have *many possible values of $B$* (depending on which loop you’re on).
+   * So you can't easily assign a *single* value of $B$ for each $H$.
+
+4. **The Solution: The Normal Magnetization Curve**:
+
+   * To "compromise", they **connect the tips** of these loops — the furthest points each loop reaches in the positive $H$ direction.
+   * The resulting **smooth curve** (heavy solid line in Fig. 12.6) traces the *progressive magnetization* of the material as if you increased $H$ slowly and didn’t let it decrease.
+   * It’s like an *envelope* that wraps the tops of all the loops.
+
+---
+
+ 📊 Why It Matters
+
+This **normal magnetization curve** is useful because:
+
+* It gives a **single-valued relationship** between $B$ and $H$ (ignoring hysteresis).
+* It’s helpful for modeling or approximating magnetic materials *without* simulating full hysteresis.
+* It's often used in **magnetic circuit analysis** and **material characterization**.
+
+---
+
+ 🧠 Visualization Tip
+
+Think of drawing several mountain-shaped curves (the loops) on a graph, each taller than the last. Then draw a line **connecting just the peaks**. That’s your **normal magnetization curve**.
+
+</details>
+
 ## Ampere's Circuital Law
 
-The algebric sum of the rise and drops of the mmf around a closed loop of a magnetic circuit is zero. This is similar to KVL.
+When we apply the "cause" analogy to KVL, we obtain Ampere's circuital law
+
+:::{#def-ampere-s-circuital-law}
+#  Ampere's Circuital Law
+
+The algebric sum of the rises and drops of the mmf around a closed loop of a magnetic circuit is zero.
+
+Mathematically,
+$$\sum_\circlearrowright \mathscr{F} = 0$$ {#eq-ampere-s-circuital-law}
+
+:::
+
+Remember:
+
+$$\mathscr{F} = NI = \Phi \mathscr{R} = Hl$$ {#eq-variations-of-mmf}
 
 ## Air Gaps
 
-$B_g = \frac{Phi_g}{A_g}$
+$B_g = \dfrac{Phi_g}{A_g}$
+
+Here:
+
+- $_g$ stands for gap
+- $\Phi_g = \Phi_\text{core}$
+- $A_g = A_\text{core}$
+
+The spreading of the flux lines outside the common area of the core for the air gap in @fig-air-gap-with-fringing is known as fringing. For our purposes, we shall ignore this effect and assume the flux distribution to be as in @fig-air-gap-ideal.
+
+:::{layout-ncol=2}
+
+![Air gap with fringing](t11-introduction-to-magnetic-circuits-and-transformers-img/air-gap-with-fringing.png){#fig-air-gap-with-fringing align=center width=300 alt="air-gap-with-fringing.png"}
+
+![Air gap: ideal](t11-introduction-to-magnetic-circuits-and-transformers-img/air-gap-ideal.png){#fig-air-gap-ideal align=center width=100 alt="air-gap-ideal.png"}
+
+:::
 
 ## Applications
 
+::: { .callout-note }
+
+I'm unsure about whether this stuff is in the syllabus. I only included this to make sure I understood. @sec-speakers-and-microphones has a dropdown that explains a part of the original text that wasn't covered in detail. I copy pasted the original as is too. You might only only need the dropdown
+
+:::
+
+### Speakers and Microphones (Edits pending) {#sec-speakers-and-microphones}
+
+Electromagnetic effects are the moving force in the design of speakers 
+such as the one shown in @fig-speaker. The shape of the pulsating 
+waveform of the input current is determined by the sound to be 
+reproduced by the speaker at a high audio level. As the current peaks 
+and returns to the valleys of the sound pattern, the strength of the 
+electromagnet varies in exactly the same manner. This causes the cone 
+of the speaker to vibrate at a frequency directly proportional to the 
+pulsating input. The higher the pitch of the sound pattern, the higher is 
+the oscillating frequency between the peaks and valleys and the higher 
+is the frequency of vibration of the cone.
+
+<details><summary>
+how can the cone vibrate? how is the cone affected by the magnetic field?
+</summary>
+Great question — you’re thinking exactly like an engineer should.
+
+---
+
+✅ **Answer:**
+
+The cone vibrates because the **input current creates a changing magnetic field** in a coil (electromagnet), which **interacts with a permanent magnet** to push and pull the coil — and the coil is attached to the cone.
+
+This mechanical motion **makes the cone vibrate**, pushing air, and producing sound.
+
+---
+
+🧲 **How it works, step by step:**
+
+1. **Coil + Cone (Voice Coil)**
+
+* The speaker has a lightweight coil of wire called the **voice coil**.
+* The coil is attached to the **speaker cone**.
+
+2. **Permanent Magnet**
+
+* There's a **permanent magnet** fixed in place, usually shaped like a ring, creating a constant magnetic field.
+
+3. **Current = Magnetic Force**
+
+* When an **audio current** flows through the coil, the coil becomes an **electromagnet**.
+* The **Lorentz force** acts on the coil:
+
+  $$
+  \vec{F} = I \cdot \vec{L} \times \vec{B}
+  $$
+
+  where $I$ is the current, $\vec{L}$ is the wire direction, and $\vec{B}$ is the magnetic field from the permanent magnet.
+
+4. **Alternating Current = Push & Pull**
+
+* Since the audio signal is **AC** (goes + and –), the direction of current changes constantly.
+* This means the force on the coil **pushes and pulls repeatedly**.
+* The coil moves **back and forth** inside the magnetic gap.
+
+5. **The Cone Moves**
+
+* Because the coil is **glued to the cone**, the cone moves with it.
+* As the coil vibrates, the **cone vibrates**, moving air → **you hear sound**.
+
+---
+
+📊 Why does pitch affect frequency?
+
+* High pitch = **fast vibration** = **high-frequency AC signal**
+* This causes **faster oscillation** of the current → faster movement of the coil → faster vibration of the cone → **higher sound frequency**
+
+---
+
+🧠 Analogy
+
+Imagine holding a small drum by its edge and tapping it repeatedly. If you tap slow → low sound. Tap fast → high sound. In a speaker, the magnetic field does the tapping!
+
+---
+
+Let me know if you'd like a diagram or animation!
+
+</details>
+
+![Speaker](t11-introduction-to-magnetic-circuits-and-transformers-img/speaker.png){#fig-speaker align=center width=300 alt=speaker.png}
+
+### Other sibling sections (In Progress)
+
+###### Hall Effect Sensors (In Progress)
+
 ##  Transformers
+
+Transformers are electrical devices consisting of two or more coils of wire used to transfer electrical energy by means of a changing magnetic field.
 
 They increase (step up) or decrease (step down) the voltage
 
-The transfer has 2 parts:
+### Mutual Inductance (In Progress)
+
+A transformer is constructed of two coils placed so that the changing flux developed by one 
+links the other, as shown in Fig. 23.1. This results in an induced voltage across each coil.
+
+Transformer convention the coil to which the source is applied is called the primary, and the coil 
+to which the load is applied is called the secondary.
+
+$$e_s = N_s \dfrac{d\Phi_m}{dt}$$
+
+- $e_s =$ voltage induced across the secondary
+- $N_s =$ Number of turn in the secondary coil
+- $\Phi_m =$ Portion of $\Phi_p$ that links with the secondary winding
+
+If all of the flux linking the primary links the secondary, then $\Phi_m = \Phi_p$
+
+$$e_s = N_s \dfrac{d\Phi_m}{dt}$$
+
+coefficient of coupling $(k)$ between two coils:
+
+$$k = \frac{\Phi_m}{\Phi_p}$$
+
+Since the maximum level of $\Phi_m$ is $\Phi_p$, 
+the coefficient of coupling between two 
+coils can never be greater than 1.
+
+### Iron Core Transformer
+
+The transformer has 2 parts:
 
 - Primary (for the input)
 - Secondary (for the output)
 
-It cnsists of a transfer core and 2 coils. It works like so:
+It consists of a transfer core and 2 coils. It works like so:
 
 - Current flows through the primary coil
 - Current flow through the coil induces a changing magnetic field in the transformer core
 - The changing magnetic field flows through out the transformer core
 - The changing magnetic field in the transformer core induces a voltage and hence a current in the secondary coil
 
-### Mutual Inductance
-
-:::{.callout-warning}
-This section is incomplete
-:::
-
-$$e_s = N_s \frac{d\phi_m}{dt}$$
-
-- $N_s =$ Number of turn in the secondary coil
-- $\phi_m =$ Portion of $\phi_p$ that links with the secondary winding
-
-### Iron Core Transformer
-
-:::{.callout-warning}
-This section is incomplete
-:::
 
 Transformer ratio: $a = \dfrac{N_p}{N_s}$
 
-$$\frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}$$
+$$\dfrac{V_p}{V_s} = \dfrac{N_p}{N_s} = \dfrac{I_s}{I_p}$$
+
+$$V \propto N \propto \dfrac{1}{I}$$
 
 Primary and secondary is reversed for the current since $I \propto \dfrac{1}{N}$
+
+- $a < 1  \implies$ Step-up transformer
+- $a > 1 \implies$ Step-down transformer
 
 ## Rectifier (Complete)
 
