@@ -11,6 +11,7 @@ execute:
 
 format:
   html:
+    css: styles.css
     toc: true
     respect-user-color-scheme: true
     page-navigation: true
@@ -18,7 +19,14 @@ format:
       light: flatly
       dark: darkly
     mainfont: "IosevkaTerm Nerd Font Mono"
-    fontsize: 20px
+#   pdf:
+#    latex-engine: xelatex
+#    documentclass: article
+#    classoption: a4paper
+#    keep-tex: true
+#    includes:
+#      in-header: header.tex
+#      fontsize: 20px
 
 website:
   title: "Sem Planning"
