@@ -354,6 +354,8 @@ coils can never be greater than 1.
 
 ### Iron Core Transformer
 
+$$E_s = \frac{2\pi}{\sqrt{2}} \cdot N_s f \Phi_m$$
+
 The transformer has 2 parts:
 
 - Primary (for the input)
