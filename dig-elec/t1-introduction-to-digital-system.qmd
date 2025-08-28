@@ -1,0 +1,43 @@
+---
+title: "t1 Introduction to Digital System"
+---
+
+| Analog | Digital |
+|-|-|
+| Infinite number of values | Specific number of values |
+| Continuous curve when analog values are plotted against time | Discontinuous values when analog values are plotted against time |
+| Starts from zero to a specific value | 
+| Intermediate values are guessed | A change in values occurs when a specified exact attribute change occurs |
+| | Varies in descrete steps |
+
+You convert analog to digital via sampling and then quantization:
+
+- Take samples
+- convert samples to specific level
+- convert levels to zeroes and ones
+
+## Binary Digital Signal
+
+Only possible values are 0 and 1
+
+## Logic Gates
+
+- Contains resistors, capacitors, transistors, etc
+- They are devices
+
+### Families of Logic Gates
+
+- TTL
+- CMOS
+
+## Physical Construction - DIP Packages
+
+There is a circle on one side of the IC. With the circle on top, number the pins counter-clockwise. Generaly $7 = \mathrm{GND}$ and $14 = \mathrm{VCC}$
+
+
+
+### TTL:
+
+- Logic 0: $0 - 0.8$
+- Logic 1: $2 - 5$
+- Invalid Region: $0.8 - 2$
