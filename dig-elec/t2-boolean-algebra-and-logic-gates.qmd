@@ -1,0 +1,58 @@
+---
+title: "T2 Boolean Algebra and Logic Gates"
+---
+
+## Boolean Constructs and Variables
+
+Only 2 values, 1 and 0, are allowed
+
+## Truth Table
+
+- It describes a relationship b/w the input and output of a logical circuit
+- The number of entries corresponds to the number of inputs
+
+## Timing Diagram
+
+
+![Timing Diagram](t2-boolean-algebra-and-logic-gates-img/timing-diagram.png){#fig-timing-diagram align=center width=300 alt="timing-diagram.png"}
+
+No of types of inputs^No^ ^of^ ^inputs^
+
+![What 0 and 1 mean](t2-boolean-algebra-and-logic-gates-img/binary-value-meaning.png){#fig-binary-value-meaning align=center width=300 alt="binary-value-meaning.png"}
+
+### Convert Binary to decimal
+
+For a binary number $abcd$, the position starts from the right to the left. Counting begins from 0. So the position of $d$ is 0 and of $a$ is 3. To convert it to a decimal, we multiply each digit by $2^\text{position number}$, as in:
+
+- $d \times 2^0$
+- $c \times 2^1$
+- $b \times 2^2$
+- $a \times 2^3$
+
+## Logic Gates
+
+### AND Gate
+
+The output is 1 only if all the inputs are 1. Otherwise, it's a zero
+
+Expression: $\mathrm{X = A \cdot B}$
+
+### NOT gate (Invertor)
+
+Gives opposite output of input
+
+Expression: $\mathrm{X = NOT(A) \text{ or }\overline{A}}$
+
+### OR Gate
+
+Shortcut: The output is a zero only if the inputs are a 0. Otherwise it's a one
+
+Expression: $\mathrm{X = A+B}$
+
+### NOR Gate
+
+Contraction of Not OR.
+
+Output is 0 if any of the inputs are 1
+
+Expression: $\mathrm{X = \overline{A+B}}$
