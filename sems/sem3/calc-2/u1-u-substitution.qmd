@@ -308,53 +308,81 @@ $$)\:\int\frac{1}{x\ln(x^{2})}dx$$
 
 ## 1.4 Trigonometric Functions
 
-We know the derivatives of the basic trigonometric functions:
-
-$\frac{d}{dx}\sin x=$
-
-$\frac{d}{dx}\csc x=$
-
-$\frac{d}{dx}\cos x=$
-
-$\frac{d}{dx}\sec x=$
-
-$\frac{d}{dx}\tan x=$
-
-$\frac{d}{dx}\cot x=$
+We know the [derivatives of the basic trigonometric functions](../../sem2/calc1/u3-transcendental.qmd## The Derivative of Trigonometric Functions)
 
 Working backwards from these will lead us to integrals of the most basic trigonometric functions.
 
 ### BASIC TRIGONOMETRIC INTEGRALS
 
-$\\int \\sin x \, dx =$    $\\int \\csc x \\cot x \, dx =$
-
-$\\int \\cos x \, dx =$   $\\int \\sec x \\tan x \, dx =$
-
-$\\int \\sec^2 x \, dx =$   $\\int \\csc^2 x \, dx =$
+$$
+\begin{array}{c|c@{}c}
+    f(x) & & F(x) \\
+    \hline
+    \cos x && \sin x + c \\
+    \sin x & - & \cos x + c \\
+    \sec x \cdot \sec x && \tan x + c \\
+    \tan x \cdot \sec x \\
+    \csc x \cdot \csc x \\
+    \cot x \cdot \csc x \\
+    e^x  \\
+    \ln x & &\dfrac{1}{x} \\
+\end{array}
+$$
 
 ------------------------------------------------------------------
 
-E1Find the indefinite integralof each of the following.
+E1 Find the indefinite integralof each of the following.
 
-$$\int4\sin(x)\:dx$$
+a) $\int 4 \sin x dx$
 
-b) 3cos(0)dθ0
+$= -4 \cos x + c$
 
+e) $\int\sec(2x)\tan(2x)dx$
+
+$$\begin{align*}
+  \text{Let } u = 2x \implies du = 2 dx \\
+  \therefore \frac{1}{2} \int \sec u \tan u~du \\
+  = \frac{1}{2} \sec u + c \\
+  = \boxed{\frac{1}{2} \sec 2x +c} \\
+\end{align*}$$
+
+<details>
+
+<!-- <summary> exercises <\summary> -->
+
+b) $3 \cos\theta d\theta$
+
+$= 3 \sin \theta + c$
 $$\begin{matrix}\text{c)}\int\frac{4}{5}\sec(x)\tan(x)+x^2\:dx\end{matrix}$$
 
 $$\mathsf{d})\:\int{\frac{\sec^{2}(x)}{3}}+{\frac{1}{\cos^{2}(x)}}dx$$
 
-$$\text{e)}\int\sec(2x)\tan(2x)\:dx$$
 
 $$\begin{matrix}\text{f)}\int-\cos\bigl(\theta\bigr)\sin(\theta)\:d\theta\end{matrix}$$
 
 $$\text{g)}\int4\sec^2\begin{pmatrix}x\end{pmatrix}\tan(x)\:dx$$
+
+<\details>
 
 ------------------------------------------------------------------
 
 There are other trigonometric functions whose integrals are not so obvious.
 
 $$\int\tan(x)dx=$$
+
+$$\begin{align*}
+\int \tan x \, dx 
+&= \int \frac{\sin x}{\cos x} \, dx \\[6pt]
+&= \int \frac{1}{\cos x} \sin x \, dx \\[6pt]
+\text{Let } t = \cos x \;\;\Rightarrow\;\; &dt = -\sin x \, dx \;\;\Rightarrow\;\; \sin x \, dx = -dt \\[6pt]
+&= \int \frac{1}{t} (-dt) \\[6pt]
+&= - \int \frac{1}{t} \, dt \\[6pt]
+&= -\ln |t| + C \\[6pt]
+&= -\ln |\cos x| + C \\[6pt]
+&= \ln \left|\frac{1}{\cos x}\right| + C \\[6pt]
+&= \ln |\sec x| + C.
+\end{align*}$$
+
 
 OTHER TRIGONOMETRIC INTEGRALS
 
@@ -382,7 +410,14 @@ $$\text{b)}\int\left(-3\cot\left(x\right)-x^3\right)dx$$
 
 c)  3x² sec(x²)dx
 
-d)  9x csc(3x2) dx
+d)  $9x csc(3x^2) dx$
+
+$$
+\begin{align*}
+  \text{Let } u = 3x^2 \implies du = 6x dx \\
+  \implies \frac{9}{6} \csc \\
+\end{align*}
+$$
 
 ------------------------------------------------------------------
 
@@ -397,14 +432,45 @@ Try rewriting with identities:
 $$\int\frac{\cos(\theta)}{\sin^2(\theta)}d\theta $$
 
 Try U-Substitution:
-$$\int\frac{\cos(\theta)}{\sin^2(\theta)}d\theta $$
+
+$$\begin{align*}
+  \int\frac{\cos(\theta)}{\sin^2(\theta)}d\theta \\
+  u = \sin\theta \implies du = \cos\theta dx \\
+  \implies \int \frac{du}{u^2} \\
+  = \int u^{-2} du \\
+  = \frac{u^{-1}}{-1} + c \\
+  = -\frac{1}{u} + c \\
+  = -\frac{1}{\sin\theta} + c \\
+  = -\csc\theta + c \\
+\end{align*}$$
 
 ------------------------------------------------------------------
 
 E4 Use identities,then find the integral
 
-$$\int\cos^{-2}\left(x\right)\sin\left(x\right)dx$$
+$$\int\cos^{-2}(x)\sin(x)dx$$
 
 $$\text{c)}\int\frac{\cos(5x)}{\sin(5x)}dx$$
 
+$$
+\begin{align*}
+  u = 5x \implies du = 5 dx \\
+  \frac{1}{5} \int \cot u du \\
+  \frac{1}{5} \ln | \sin u | + c\\
+\end{align*}
+$$
+
 E5 Use u substitution to find the particular solution of $g(x)=\int\cos^{2}(x)\sin(x)dx$ ,given that $g(\pi)=\frac{4}{3}$
+
+$$
+\begin{align*}
+  u = \cos x &\implies du = - \sin x dx \\
+  \implies G(x) &= - \int u^2 du \\
+  G(x) &= - \frac{u^3}{3} + c \\
+  G(x) &= - \frac{\cos^3 x}{3} + c \\
+  \frac{4}{3} &= - \frac{\cos^3 \pi}{3} + c \\
+  c &= \frac{4}{3} + \frac{\cos^3 \pi}{3} \\
+  c &= 1 \\
+  G(x) &= - \frac{\cos^3 x}{3} + 1 \\
+\end{align*}
+$$
