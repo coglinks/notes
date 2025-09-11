@@ -6,6 +6,7 @@ title: 'Transcendental Functions and Their Derivatives'
 
 > The c-Functions have a negative in their derivative
 
+$$
 \begin{array}{c|c@{}c}
     y & & y' \\
     \hline
@@ -18,10 +19,11 @@ title: 'Transcendental Functions and Their Derivatives'
     e^x & &e^x \\
     \ln x & &\dfrac{1}{x} \\
 \end{array}
+$$
 
 If a function takes the place of $x$, we simply apply chain rule which add $f'(x)$.
 
-\begin{array}{c|c@{}c}
+$$\begin{array}{c|c@{}c}
     y & & y' \\
     \hline
     \sin [f(x)] & &f'(x) \cdot \cos [f(x)] \\
@@ -32,7 +34,7 @@ If a function takes the place of $x$, we simply apply chain rule which add $f'(x
     \csc [f(x)] & - &f'(x) \cdot \cot [f(x)] \cdot \csc [f(x)] \\
     e^{f(x)} & &f'(x) \cdot e^{f(x)} \\
     \ln [f(x)] & &\dfrac{f'(x)}{f(x)} \\
-\end{array}
+\end{array}$$
 
 ## Derivative of the Natural Exponent
 
