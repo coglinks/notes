@@ -33,6 +33,8 @@ For a binary number $abcd$, the position starts from the right to the left. Coun
 
 ## Logic Gates
 
+The output of a gate is called a node
+
 ##### NOT gate (Invertor)
 
 Gives opposite output of input

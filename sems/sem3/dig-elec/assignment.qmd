@@ -1,0 +1,16 @@
+
+##### 1-5.
+
+###### (a)
+
+##### 1-12.
+
+| Analog | Digital |
+|-|-|
+| 
+
+(a) Width of a piece of lumber
+(b) The amount of time before the oven buzzer goes off
+(c) The time of day displayed on aquartz watch
+(d) Elevation neasured by counting steps on a staircase
+(e) Elevation measured by a point on aramp
