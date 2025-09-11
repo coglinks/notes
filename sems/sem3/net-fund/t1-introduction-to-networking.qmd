@@ -1,0 +1,4 @@
+
+
+Intranet allows an organization's users to access it's network
+Extranet allows specific users outside the organization to access parts of the organization's network
