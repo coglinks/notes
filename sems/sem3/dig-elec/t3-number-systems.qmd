@@ -1,0 +1,21 @@
+### Conversion from Decimal to Other Systems
+
+This is mostly useful for binary, not so much for other systems
+
+You can use the same conversion table for both hexadecimal and octal. Just change the number of entries referenced
+
+Conversion from hex to octal or vice versa, requires indirect conversion with decimal numbers in the middle
+
+#### Decimal to Hexadecimal
+
+Convert $( 726 )_{10}$ to hexadecimal
+
+$$\begin{align*}
+726/256 = 2.83... \\
+2.83... - 2 = .83... \\
+.83 \times 16\\
+\end{align*}$$
+
+### BCD
+
+You can create the table for this using the usual binary truth table
