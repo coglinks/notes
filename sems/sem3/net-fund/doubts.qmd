@@ -1,0 +1,13 @@
+
+1. Should I say all show commands and features instead? Which is more accurate?
+
+![](doubts-img/priv.png){#fig-priv align=center width=300 alt="priv.png"}
+
+2. Can an IPv4 address be a part of an IPv6 address or are both treated as unique addresses? ex: `192.168.1.1` vs `192.168.1.1.0.0`
+
+3. vty vs svi
+
+4. AUX?
+
+>  Line Configuration Mode: 
+> Used to configure console, SSH, Telnet or AUX access
