@@ -1,0 +1,17 @@
+---
+title: "t4 combinational logic circuit analysis and simplification"
+---
+
+## De Morgan's Theorem
+
+##### Simply put:
+
+In a boolean expression:
+
+1. Break the bar
+2. Change the gate, i.e., AND $\leftrightharpoons$ OR
+
+In a gate drawing:
+
+1. Change the gate
+2. Add a bubble where is none, remove a bubble where there is one
