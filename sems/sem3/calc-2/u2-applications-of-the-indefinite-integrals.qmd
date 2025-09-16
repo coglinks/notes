@@ -1,0 +1,13 @@
+E1
+
+\begin{align*}
+  f(x) = \int f'(x) dx =\int (x^3 - x +1) dx \\
+  = \frac{x^4}{4} - \frac{x^2}{2} + x + c \\
+  = f(x) \\
+\end{align*}
+
+E2
+
+$$\begin{align}
+  f(x) = \int \frav[
+$$\end{align*}
