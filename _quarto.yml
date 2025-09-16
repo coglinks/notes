@@ -2,8 +2,11 @@ project:
   type: website
   output-dir: _site
   render:
-    - "*.qmd"
+    - "t*.qmd"
+    - "u*.qmd"
     - "!sem1/"
+    - "sem2/"
+    - "sem3/"
 
 execute:
   freeze: auto
@@ -32,9 +35,17 @@ website:
             href: https://github.com/coglinks/notes/issues
     style: "docked"
     contents:
+      - section: "Digital Electronics"
+        contents: sems/sem3/dig-elec/*
+      - section: "Network Fundamentals"
+        contents: sems/sem3/net-fund/*
+      - section: "Calculus II"
+        contents: sems/sem3/calc-2/*
+      - section: "Analog Electronics"
+        contents: sems/sem3/ana-elec/*
       - section: "Calculus I"
-        contents: calc1/*
+        contents: sems/sem2/calc1/*
       - section: "Fund. Elec. II"
-        contents: fund-elec2/*
+        contents: sems/sem2/fund-elec2/*
       - section: "course list"
-        contents: class-enroll/*
+        contents: sems/sem2/class-enroll/*
