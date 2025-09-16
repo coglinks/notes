@@ -1,3 +1,14 @@
+---
+title: "Doubts"
+---
+## T1 Introduction To Digital System
 
+1. Are combination of logic gates a single logic gate
 
-Are combination of logic gates a single logic gate
+**Ans** Yes
+
+## T2 Boolean Algebra and Logic Gates
+
+1. What is the purpose of a buffer gate?
+
+**Ans**
