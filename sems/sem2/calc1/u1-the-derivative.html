@@ -1,0 +1,2061 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>u1-the-derivative – My Notes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../sems/sem2/calc1/u3-transcendental.html" rel="next">
+<link href="../../../sems/sem2/calc1/index.qmd" rel="prev">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c6f2fae58656e02496e054d29cfd7040.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-a3234e19a4b9bbb5f012d6ae390b226c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-c6f2fae58656e02496e054d29cfd7040.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sems/sem2/calc1/index.qmd">Calculus I</a></li><li class="breadcrumb-item"><a href="../../../sems/sem2/calc1/u1-the-derivative.html">Limits</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../../">My Notes</a> 
+        <div class="sidebar-tools-main">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/coglinks/notes">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/coglinks/notes/issues">
+            Report an Issue
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../sems/sem3/dig-elec/index.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digital Electronics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/dig-elec/t1-introduction-to-digital-system.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">T1 Introduction to Digital System</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/dig-elec/t2-boolean-algebra-and-logic-gates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">T2 Boolean Algebra and Logic Gates</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/dig-elec/t3-number-systems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conversion from Decimal to Other Systems</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/dig-elec/t4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">t4 combinational logic circuit analysis and simplification</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Network Fundamentals</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/net-fund/t1-introduction-to-networking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">T1 Introduction to Networking</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/net-fund/t2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">IOS Navigation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/net-fund/t3-protocols-and-reference-models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">T3 Protocols and Reference Models</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../sems/sem3/calc-2/index.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Calculus II</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/calc-2/u0-math2010-review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">U0 Math2010 Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/calc-2/u1-u-substitution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PROCEDURE FOR U-SUBSTITUTION</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/calc-2/u2-applications-of-the-indefinite-integrals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">U2 Applications of the Indefinite Integrals</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Analog Electronics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/ana-elec/t2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">T2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem3/ana-elec/t3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Questions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../sems/sem2/calc1/index.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Calculus I</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/calc1/u1-the-derivative.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Limits</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/calc1/u3-transcendental.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Transcendental Functions and Their Derivatives</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/calc1/u4-applications-of-the-derivative2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Applications of the Derivative II</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/calc1/u5-antiderivatives-introduction-to-integrals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Antiderivatives: Introduction to Integrals</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../sems/sem2/fund-elec2/index.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fund. Elec. II</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t01-sinusoidal-alternating-waveforms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1. Sinusoidal Alternating Waveforms</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t02-basic-elements-and-phasors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2. Basic Elements and Phasors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t03-series-ac-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3. Series AC Circuits</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t04-parallel-ac-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4. Parallel AC Circuits</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t05-series-parallel-ac-circuits.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5. Series Parallel AC Circuits</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t06-power(ac).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6. Power (AC)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t07-introduction-to-three-phase-systems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7. Introduction To Three Phase Systems</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t08-resonance-and-filters.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8. Resonance and Filters</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t09-methods-of-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9. Methods of Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t10-network-theorems-ac.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10. Network Theorems (AC)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../sems/sem2/fund-elec2/t11-introduction-to-magnetic-circuits-and-transformers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11. Introduction to Magnetic Circuits and Transformers</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">course list</span></span>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#limits" id="toc-limits" class="nav-link active" data-scroll-target="#limits">Limits</a></li>
+  <li><a href="#graphical-limits" id="toc-graphical-limits" class="nav-link" data-scroll-target="#graphical-limits">Graphical Limits</a></li>
+  <li><a href="#continuity" id="toc-continuity" class="nav-link" data-scroll-target="#continuity">Continuity</a>
+  <ul class="collapse">
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example:</a></li>
+  <li><a href="#algebraic-limits" id="toc-algebraic-limits" class="nav-link" data-scroll-target="#algebraic-limits">Algebraic Limits</a></li>
+  <li><a href="#factor-and-cancel" id="toc-factor-and-cancel" class="nav-link" data-scroll-target="#factor-and-cancel">Factor and cancel</a></li>
+  <li><a href="#combining-fractions" id="toc-combining-fractions" class="nav-link" data-scroll-target="#combining-fractions">Combining fractions</a></li>
+  <li><a href="#rationalization-conjugate" id="toc-rationalization-conjugate" class="nav-link" data-scroll-target="#rationalization-conjugate">Rationalization (Conjugate)</a></li>
+  <li><a href="#limits-using-tables" id="toc-limits-using-tables" class="nav-link" data-scroll-target="#limits-using-tables">Limits using tables</a></li>
+  <li><a href="#practice-evaluate-the-following-limits." id="toc-practice-evaluate-the-following-limits." class="nav-link" data-scroll-target="#practice-evaluate-the-following-limits.">Practice: Evaluate the following limits.</a></li>
+  <li><a href="#limit-as-x-goes-to-infinity-xtoinfty" id="toc-limit-as-x-goes-to-infinity-xtoinfty" class="nav-link" data-scroll-target="#limit-as-x-goes-to-infinity-xtoinfty">Limit as x goes to infinity <span class="math inline">\(x\to\infty\)</span></a></li>
+  <li><a href="#exampleevaluate" id="toc-exampleevaluate" class="nav-link" data-scroll-target="#exampleevaluate">Example:Evaluate:</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary:</a></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">Practice:</a></li>
+  <li><a href="#ans" id="toc-ans" class="nav-link" data-scroll-target="#ans">ANS:</a></li>
+  </ul></li>
+  <li><a href="#the-derivativee" id="toc-the-derivativee" class="nav-link" data-scroll-target="#the-derivativee">The Derivativee</a>
+  <ul class="collapse">
+  <li><a href="#example-find-the-average-slope-slope-of-the-secant-linebetween-x1-and-x2-forthe" id="toc-example-find-the-average-slope-slope-of-the-secant-linebetween-x1-and-x2-forthe" class="nav-link" data-scroll-target="#example-find-the-average-slope-slope-of-the-secant-linebetween-x1-and-x2-forthe">Example: Find the average slope (slope of the secant line)between <span class="math inline">\(x=1\)</span> and <span class="math inline">\(x=2\)</span> forthe</a></li>
+  <li><a href="#example-for-the-curve-yx3-frac12x1-find-the-average-slope-betwen-x1-and-x2" id="toc-example-for-the-curve-yx3-frac12x1-find-the-average-slope-betwen-x1-and-x2" class="nav-link" data-scroll-target="#example-for-the-curve-yx3-frac12x1-find-the-average-slope-betwen-x1-and-x2">Example: For the curve <span class="math inline">\(y=x^3-\frac12x+1\)</span> ,find the average slope betwen <span class="math inline">\(x=1\)</span> and <span class="math inline">\(x=2\)</span></a></li>
+  <li><a href="#practice-1" id="toc-practice-1" class="nav-link" data-scroll-target="#practice-1">Practice</a>
+  <ul class="collapse">
+  <li><a href="#the-tangent-line" id="toc-the-tangent-line" class="nav-link" data-scroll-target="#the-tangent-line">The Tangent Line</a></li>
+  <li><a href="#the-delta-process---definition-of-the-derivative." id="toc-the-delta-process---definition-of-the-derivative." class="nav-link" data-scroll-target="#the-delta-process---definition-of-the-derivative.">The Delta Process - Definition of the Derivative.</a></li>
+  <li><a href="#derivative-notation" id="toc-derivative-notation" class="nav-link" data-scroll-target="#derivative-notation">Derivative Notation</a></li>
+  <li><a href="#example-find-the-function-for-the-slope-of-the-following-functions-using-the-definition-of-the" id="toc-example-find-the-function-for-the-slope-of-the-following-functions-using-the-definition-of-the" class="nav-link" data-scroll-target="#example-find-the-function-for-the-slope-of-the-following-functions-using-the-definition-of-the">Example: Find the function for the slope of the following functions using the definition of the</a></li>
+  <li><a href="#practice-2" id="toc-practice-2" class="nav-link" data-scroll-target="#practice-2">Practice</a></li>
+  <li><a href="#basic-derivative-rules" id="toc-basic-derivative-rules" class="nav-link" data-scroll-target="#basic-derivative-rules">Basic Derivative Rules</a></li>
+  <li><a href="#power-rule" id="toc-power-rule" class="nav-link" data-scroll-target="#power-rule">Power Rule</a></li>
+  <li><a href="#constant-multiple-rule" id="toc-constant-multiple-rule" class="nav-link" data-scroll-target="#constant-multiple-rule">Constant Multiple Rule</a></li>
+  <li><a href="#sum-difference-rule" id="toc-sum-difference-rule" class="nav-link" data-scroll-target="#sum-difference-rule">Sum &amp; Difference Rule</a></li>
+  <li><a href="#practice-3" id="toc-practice-3" class="nav-link" data-scroll-target="#practice-3">Practice</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#product-rule_-fxgx" id="toc-product-rule_-fxgx" class="nav-link" data-scroll-target="#product-rule_-fxgx">Product Rule_ <span class="math inline">\(f(x)g(x)\)</span></a>
+  <ul class="collapse">
+  <li><a href="#practice-4" id="toc-practice-4" class="nav-link" data-scroll-target="#practice-4">Practice:</a></li>
+  </ul></li>
+  <li><a href="#quotient-rule-fracfxgx" id="toc-quotient-rule-fracfxgx" class="nav-link" data-scroll-target="#quotient-rule-fracfxgx">Quotient Rule <span class="math inline">\(\frac{f(x)}{g(x)}\)</span></a>
+  <ul class="collapse">
+  <li><a href="#we-take-the-derivative-one-part-at-a-time" id="toc-we-take-the-derivative-one-part-at-a-time" class="nav-link" data-scroll-target="#we-take-the-derivative-one-part-at-a-time">we take the derivative one part at a time</a></li>
+  <li><a href="#quotient-rule" id="toc-quotient-rule" class="nav-link" data-scroll-target="#quotient-rule">Quotient Rule</a></li>
+  <li><a href="#practice-5" id="toc-practice-5" class="nav-link" data-scroll-target="#practice-5">Practice:</a></li>
+  <li><a href="#chain-rule" id="toc-chain-rule" class="nav-link" data-scroll-target="#chain-rule">Chain Rule</a>
+  <ul class="collapse">
+  <li><a href="#example-find-the-derivative-of-the-following-functions" id="toc-example-find-the-derivative-of-the-following-functions" class="nav-link" data-scroll-target="#example-find-the-derivative-of-the-following-functions">Example: Find the derivative of the following functions:</a></li>
+  <li><a href="#practice-6" id="toc-practice-6" class="nav-link" data-scroll-target="#practice-6">Practice:</a></li>
+  <li><a href="#implicit-differentiation" id="toc-implicit-differentiation" class="nav-link" data-scroll-target="#implicit-differentiation">Implicit Differentiation</a></li>
+  <li><a href="#mixed-derivatives" id="toc-mixed-derivatives" class="nav-link" data-scroll-target="#mixed-derivatives">Mixed Derivatives</a></li>
+  </ul></li>
+  <li><a href="#higher-derivatives" id="toc-higher-derivatives" class="nav-link" data-scroll-target="#higher-derivatives">Higher Derivatives</a>
+  <ul class="collapse">
+  <li><a href="#practice-7" id="toc-practice-7" class="nav-link" data-scroll-target="#practice-7">Practice:</a></li>
+  <li><a href="#given-lefty22right3pi-x4y3e2y3-what-is-d_xy" id="toc-given-lefty22right3pi-x4y3e2y3-what-is-d_xy" class="nav-link" data-scroll-target="#given-lefty22right3pi-x4y3e2y3-what-is-d_xy">5.Given <span class="math inline">\(\left(y^{2}+2\right)^{3}=\pi x^{4}y+3e^{2}y^{3}\)</span> ,what is <span class="math inline">\(D_xy\)</span></a></li>
+  </ul></li>
+  <li><a href="#variables-other-than-x" id="toc-variables-other-than-x" class="nav-link" data-scroll-target="#variables-other-than-x">Variables other than x</a></li>
+  <li><a href="#practice-8" id="toc-practice-8" class="nav-link" data-scroll-target="#practice-8">Practice:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../sems/sem2/calc1/index.qmd">Calculus I</a></li><li class="breadcrumb-item"><a href="../../../sems/sem2/calc1/u1-the-derivative.html">Limits</a></li></ol></nav></header>
+
+
+
+
+
+<section id="limits" class="level1">
+<h1>Limits</h1>
+</section>
+<section id="graphical-limits" class="level1">
+<h1>Graphical Limits</h1>
+<p>A limit is the value a function, <span class="math inline">\(f(x)\)</span> , approaches as <span class="math inline">\(x\)</span> approaches a value.</p>
+<p align="center">
+<img alt="image" src="./images/fVlSVhN1GGLu0aBk9a4PCclIN86GLxa2I.png">
+</p>
+<p>For this graph we can approach <span class="math inline">\(x=3\)</span> from the left or right, and see that <span class="math inline">\(f(x)\)</span> approaches 2 .</p>
+<p>Limit as <span class="math inline">\(x\to3^+\)</span> of <span class="math inline">\(f(x)\)</span> is 2 [Right-hand limit]</p>
+<p>Limit as <span class="math inline">\(x\to3^-\)</span> of <span class="math inline">\(f(x)\)</span> is 2 [Left-hand limit]</p>
+<p><span class="math display">\[f\left(x\right)=-\frac{1}{3}\left(x-3\right)^{2}+2\]</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x\to3^-\)</span></th>
+<th><span class="math inline">\(f(x)\)</span></th>
+<th><span class="math inline">\(x\to3^+\)</span></th>
+<th><span class="math inline">\(f(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2.9</td>
+<td>1.997</td>
+<td>3.1</td>
+<td>1.997</td>
+</tr>
+<tr class="even">
+<td>2.99</td>
+<td>1.99997</td>
+<td>3.01</td>
+<td>1.99997</td>
+</tr>
+<tr class="odd">
+<td>2.999</td>
+<td>1.9999997</td>
+<td>3.001</td>
+<td>1.99999997</td>
+</tr>
+<tr class="even">
+<td>2.9999</td>
+<td>1.999999997</td>
+<td>3.0001</td>
+<td>1.9999999997</td>
+</tr>
+</tbody>
+</table>
+<p>From the tables, we can see to approach a number means to get “infinitesimally close”</p>
+<p>To approach a value also means to get close but NEVER equal the number.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Definition: Limit of a Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>We denote the limit as <span class="math inline">\(\lim_{x\to a}f(x)=L\)</span> ， <span class="math inline">\(x\neq a\)</span> and say “the limit of <span class="math inline">\(f(x)\)</span> as <span class="math inline">\(x\)</span> approaches <span class="math inline">\(a\)</span> is <span class="math inline">\(L^{\prime\prime}\)</span></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Condition for Existence of The Limit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\lim_{x \to a} f(x) = L \iff [\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L]\)</span> <br> That is: If the left and right hand limits exist and are equal, then the limit exists.</td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary>
+Exercise
+</summary>
+<p>Determine left and right-hand limits as indicated for the following graphs. Determine if the limits exist.</p>
+<p align="center">
+<img alt="image" src="./images/fV7S1LinXu2H2ONHx4L3y00le3AsbkeQR.png">
+</p>
+</details>
+</section>
+<section id="continuity" class="level1">
+<h1>Continuity</h1>
+<p>Most graphs we will study in this course are smooth simple functions:</p>
+<p align="center">
+<img alt="image" src="./images/fnBguTvk07G0FSIUyftzUUQpvz6DfLp7x.png">
+</p>
+<p>Think: you can draw the graph from <span class="math inline">\(-\infty\)</span> to 00 without lifting your pencil</p>
+<p>These functions are called <strong>continuous</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Continuity of a Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A function <span class="math inline">\(f(x)\)</span> is continuous at <span class="math inline">\(x = a\)</span> if: <br> &nbsp;&nbsp;&nbsp; 1. <span class="math inline">\(f(a)\)</span> exists <br> &nbsp;&nbsp;&nbsp; 2. <span class="math inline">\(\lim_{x \to a} f(x)\)</span> exists <br> &nbsp;&nbsp;&nbsp; 3. <span class="math inline">\(\lim_{x \to a} f(x) = f(a)\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Graphically continuity means that over a given interval there are no holes,breaks or “sharp peaks”in the graph over that interval.</p>
+<p>If a function is not continuous we say it is <strong>discontinuous</strong>.</p>
+<p>The following graphs are discontinuous:</p>
+<p align="center">
+<img alt="image" src="./images/fizQmRkMnh34mgwBQad3BXZD91sLr2mZ0.png">
+</p>
+<p>They are respectively caused by:</p>
+<p><span class="math display">\[
+\begin{align*}
+    y &amp;= \frac{1}{x^2}\\
+    f(x) &amp;=
+        \begin{cases}
+            (x+1)^2+4,&amp;x\leq-1\\2x+4,&amp;x&gt;-1
+        \end{cases}\\
+    y &amp;= \frac{x(x-3)}{2(x-3)} \\
+\end{align*}
+\]</span></p>
+<blockquote class="blockquote">
+<p>[!NOTE] A removable discontinuity will not show on your graphing device!</p>
+</blockquote>
+<details>
+<summary>
+Exercise
+</summary>
+<p>Sketch thefollowing graphs,state any types of discontinuity and anyvalues not in the domain.</p>
+<p align="center">
+<img alt="image" src="./images/fnOm1PyZNGRGewP5fGtvwwiRqkODhG4RU.png">
+</p>
+<section id="example" class="level3">
+<h3 class="anchored" data-anchor-id="example">Example:</h3>
+<p>Determine left and right hand limits as indicated for the following graphs. Determine if the limits exist.</p>
+<p align="center">
+<img alt="image" src="./images/f0x7rXOGnDKZmng9Hwhx1bgrayZl7wxhK.png">
+</p>
+<p align="center">
+<img alt="image" src="./images/fPmF4mRKA76RDp3oHyOG31GoT10wZ9mnS.png">
+</p>
+<p><span class="math display">\[\begin{gathered}
+    \operatorname*{lim}_{x\to0^{-}}f\left(x\right)= \operatorname*{lim}_{x\to-1^{-}}f\left(x\right)= \\
+    \operatorname*{lim}_{x\to0^{+}}f\left(x\right)= \lim_{x\to-1^{+}}f\left(x\right)= \\
+    \operatorname*{lim}_{x\to0}f\left(x\right)= \operatorname*{lim}_{x\to-1}f\left(x\right)=
+    \end{gathered}\]</span></p>
+<p align="center">
+<img alt="image" src="./images/fUdGPAkUxMDpzLu5OQ1mapAoQfl3HnDSd.png">
+</p>
+<p align="center">
+<img alt="image" src="./images/f6ShgsHMEQGpXAmQlsexrBsK91QEAmUgZ.png">
+</p>
+<p align="center">
+<img alt="image" src="./images/fNcGdBNrIXZ2GdRENsyle2Q0dxELXYoGc.png">
+</p>
+</section></details>
+</section>
+<section id="algebraic-limits" class="level3">
+<h3 class="anchored" data-anchor-id="algebraic-limits">Algebraic Limits</h3>
+<p>From the graphs section, we see that finding limits for certain functions is very easy.</p>
+<details>
+<summary>
+Examples
+</summary>
+<p>The graphs below are all continuous.</p>
+<p align="center">
+<img alt="image" src="./images/fCPyDFpieQInBZg9qakvOpqayBtlgsb6q.png">
+</p>
+<p><span class="math inline">\(\lim (x-1)^2-1=\)</span></p>
+<p align="center">
+<img alt="image" src="./images/fc06k8ZPoRODZeCXP4MC6PwKZXwBNg5zD.png">
+</p>
+<p><span class="math inline">\(\lim_{x\to-1}x^3-x=\)</span></p>
+<p align="center">
+<img alt="image" src="./images/fCDevZqo4Ca11Q4OdcUqwDXYGQe9bdIGB.png">
+</p>
+</details>
+<p>For all values of a, <span class="math inline">\(\lim_{x\to a}f(x)=f(a)\)</span></p>
+<p>For graphs that are discontinuous or have restricted domains, as long as we choose the points that belong to the domain they are continuous but otherwise discontinuous.</p>
+<details>
+<summary>
+Examples
+</summary>
+<p align="center">
+<img alt="image" src="./images/f7aCFT2CxlWdQ7b54NamOX4Yyd4pqRVha.png">
+</p>
+<p align="center">
+<img alt="image" src="./images/fg9OqdfbTbpY0GFSmmEGRkAY5vxyoq2BG.png">
+</p>
+<p><span class="math display">\[\lim_{x\to1}\frac{1}{x+1}=\]</span></p>
+<p align="center">
+<img alt="image" src="./images/fkTLOYierby9X0aOvOzh7X15stfwtH0g0.png">
+</p>
+<p align="center">
+<img alt="image" src="./images/fEsVsxTmeh7QBLcRvwkOCTd2w6bv8FsDV.png">
+</p>
+</details>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Direct Substitution Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>For the limit <span class="math inline">\(\lim_{x\to a}f(x)\)</span>: <br> If <span class="math inline">\(a\)</span> is in the domain of <span class="math inline">\(f(x)\)</span>, then we can plug <span class="math inline">\(a\)</span> into it. so <span class="math inline">\(\lim_{x\to a}f(x)=f(a)\)</span></td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary>
+Exercises
+</summary>
+<p>Determine the following limits using Direct Substitution if possible</p>
+<ol type="a">
+<li><p><span class="math inline">\(\lim_{x\to4}\left(x^2-7\right)\)</span> <span class="math display">\[\text{b)}\lim_{x\to2}\bigl(2x^2-3x+2\bigr)\]</span></p>
+<ol start="3" type="A">
+<li><span class="math inline">\(\lim_{x\to0}\Big(e^x-x^2\Big)\)</span></li>
+</ol>
+<p><span class="math display">\[\text{d)}\lim_{x\to5}\sqrt{x^2-9}\]</span></p>
+<p>### Example 2:</p>
+<p>Determine the following limits using Direct Substitution if possible</p>
+<ol type="a">
+<li><span class="math inline">\(\lim_{x\to0}\frac{x(x-2)}{(x-2)}\)</span> <span class="math display">\[\text{b)}\lim_{x\to2}\frac{x^2-4}{x+2}\quad\text{c)}\lim_{x\to2}\frac{x^2-4}{x-2}\]</span></li>
+</ol>
+<p><span class="math display">\[\text{d)}\lim\limits_{x\to-1}\frac{1}{x}\quad\text{e)}\lim\limits_{x\to8}\sqrt{x-4}\quad\text{f)}\lim\limits_{x\to10}\frac{1}{\sqrt{x-9}}\]</span></p></li>
+</ol>
+</details>
+<p>When a is NOT in the domain for the limit <span class="math inline">\(\lim_{x\to a}f(x)\)</span> : We can try some ALGEBRA.</p>
+<p>Some common methods of algebraic simplification include.</p>
+<ol type="1">
+<li>Factor and cancel</li>
+<li>Combining fractions</li>
+<li>Rationalization</li>
+</ol>
+<p>Limits by algebraic simplification: Common methods</p>
+</section>
+<section id="factor-and-cancel" class="level3">
+<h3 class="anchored" data-anchor-id="factor-and-cancel">Factor and cancel</h3>
+<p><span class="math display">\[\begin{aligned}\lim_{x\to-4}\frac{x^2+3x-4}{x+4}\end{aligned}\]</span></p>
+<section id="splitting-the-midterm" class="level4">
+<h4 class="anchored" data-anchor-id="splitting-the-midterm">Splitting the midterm</h4>
+<p>For <span class="math inline">\(ax^2+bx+c\)</span></p>
+<p>We take factors of <span class="math inline">\(ac\)</span> such that their: - Sum = <span class="math inline">\(b\)</span> - Product = <span class="math inline">\(ac\)</span></p>
+<p>Steps:</p>
+<blockquote class="blockquote">
+<p>ⓘ <strong>Note</strong> <br> The factors here refer to the constants in <span class="math inline">\((x+a)(x+b)\)</span>, not the zeroes (<span class="math inline">\(x=-a,~-b\)</span>) themselves.</p>
+</blockquote>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Cases</th>
+<th>Sign of factors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(b\)</span> &amp; <span class="math inline">\(ac \to +ve\)</span></td>
+<td>Both factors <span class="math inline">\(+ve\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(b\to+ve\)</span>, <span class="math inline">\(ac\to-ve\)</span></td>
+<td>Bigger factor <span class="math inline">\(+ve\)</span>, smaller factor <span class="math inline">\(-ve\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(b\)</span> &amp; <span class="math inline">\(ac \to -ve\)</span></td>
+<td>Smaller factor <span class="math inline">\(+ve\)</span>, bigger factor <span class="math inline">\(-ve\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(b\to-ve\)</span>, <span class="math inline">\(ac\to+ve\)</span></td>
+<td>Both factors <span class="math inline">\(-ve\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="combining-fractions" class="level3">
+<h3 class="anchored" data-anchor-id="combining-fractions">Combining fractions</h3>
+<p><span class="math display">\[\lim\limits_{x\to2}\Bigg(\frac{1}{4x-8}-\frac{1}{x^{2}-4}\Bigg)\]</span></p>
+</section>
+<section id="rationalization-conjugate" class="level3">
+<h3 class="anchored" data-anchor-id="rationalization-conjugate">Rationalization (Conjugate)</h3>
+<p><span class="math display">\[\lim_{x\to0}\frac{\sqrt{1+x}-1}{x}\]</span></p>
+</section>
+<section id="limits-using-tables" class="level3">
+<h3 class="anchored" data-anchor-id="limits-using-tables">Limits using tables</h3>
+<p>If we cannot fix the discontinuity algebraically, to see if the limit exists we can: 1.lookat the graph (if available)</p>
+<p>2.make table of values</p>
+<p>Remember:</p>
+<p>·If the left and righthand limits exist and are equal,then thelimit exists. If the left and right hand limits do not exist or are not equal, then the limit. does not exist.</p>
+<p align="center">
+<img alt="image" src="./images/fCybgPNPYUl1yMBgqtDdkGWscAe6BmT2y.png">
+</p>
+<p>The <span class="math inline">\(\lim_{x\to0}\frac1{x^2}\)</span> can not e factored, owever raphiclly we can assess that, <span class="math display">\[\lim_{x\to0^-}\frac{1}{x^2}=\]</span></p>
+<p><span class="math display">\[\lim_{x\to0}\frac{1}{x^{2}}=\]</span></p>
+<p><span class="math display">\[\lim_{x\to0^+}\frac{1}{x^2}=\]</span></p>
+<p>So</p>
+<p>For <span class="math inline">\(\lim_{x\to0}\frac1x\)</span> wecnsa from thegraph tht:?</p>
+<p><span class="math display">\[\lim_{x\to0^-}\frac1x=\]</span></p>
+<p><span class="math display">\[\lim_{x\to0^+}\frac1x=\]</span></p>
+<p><span class="math display">\[\text{o}\lim_{x\to0}\frac{1}{x}=\]</span></p>
+<p>Example: Evaate te t <span class="math inline">\(\lim_{x\to3}\frac{\sqrt{x-2}}{x-3}\)</span></p>
+<p>Since we can not directly substitute,there is no obvious algebraic method to use and we do not have the graph we will use tables to find the limit..</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>x</th>
+<th>y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3.1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>3.01</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3.001</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>3.0001</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>x</th>
+<th>y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2.9</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2.99</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2.999</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2.9999</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Conclusion: <span class="math display">\[\lim_{x\to3}f\begin{pmatrix}x\end{pmatrix}=\]</span></p>
+<p><span class="math display">\[\lim\limits_{x\to3^+}f\begin{pmatrix}x\end{pmatrix}=\]</span></p>
+<p><span class="math display">\[\lim\limits_{x\to3^-}f\begin{pmatrix}x\end{pmatrix}=\]</span></p>
+<p>Practice Evaluate:</p>
+<p><span class="math display">\[..\quad\lim_{x\to4}\frac{x^{2}-4x}{x^{2}-3x-4}\]</span></p>
+<p><span class="math display">\[2.\quad\operatorname*{lim}_{x\to3}{\frac{x^{2}+x-12}{x+6}}\]</span></p>
+<p><span class="math display">\[.\quad\operatorname*{lim}_{x\to4^{+}}{\frac{\sqrt{x}-2}{4-x}}\]</span></p>
+<p><span class="math display">\[\lim_{x\to0}\Bigg(\frac{1}{x}-\frac{5}{x^{2}+5x}\Bigg)\]</span></p>
+<ol start="5" type="1">
+<li>Find the following limits by simplifying algebraically if possible <span class="math display">\[\lim_{x\to-1}\frac{x^2-1}{x+1}\]</span></li>
+</ol>
+<p><span class="math display">\[\lim_{h\to0}\frac{\left(3+h\right)^2-9}{h}\]</span></p>
+<p><span class="math display">\[\lim_{x\to2}\frac{2x^2-3x-2}{x-2}\]</span></p>
+<p><span class="math display">\[\lim_{x\to3}\frac{x^2-2x-3}{x-3}\]</span></p>
+<p><span class="math display">\[\lim_{x\to1}\frac{x^2-1}{x-1}\]</span></p>
+<p><span class="math display">\[\lim_{x\to1}\frac{x^2+x-2}{x^2+2x-3}\]</span></p>
+<p>6.Assess the limits <span class="math display">\[\lim_{x\to-1}\frac{x-1}{x+1}=\]</span></p>
+<p><span class="math display">\[\begin{array}{rl}{\lim_{x\to3}\frac{-x}{\left(x-3\right)^{2}}=}\end{array}\]</span></p>
+<p>7.Using the table below, determine the left-and right-hand limits of the piecewise function, as <span class="math inline">\(x\to0\)</span></p>
+<p><span class="math display">\[f\left(x\right)=\begin{cases}x+1,&amp;x&lt;0\\x-1,&amp;x&gt;0\end{cases}\]</span></p>
+<p><span class="math inline">\(\lim_{x\to0^-}f(x)=\)</span></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x \to 0^{-}\)</span></th>
+<th><span class="math inline">\(f(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>-1</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>-0.1</td>
+<td>0.9</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x \to 0^{+}\)</span></th>
+<th><span class="math inline">\(f(x)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>0.1</td>
+<td>-0.9</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(\operatorname*{lim}_{x\to0^{+}}f(x)=\)</span></p>
+<p align="center">
+<img alt="image" src="./images/fA8OP159G1owmT8PF9Mprx5UXmabysMkN.png">
+</p>
+<p>Consider the case where we want <span class="math inline">\(x\to0\)</span> and <span class="math inline">\(x\)</span> only appears in the denominator of a rational expression.In such a casewe would basically have some number divided by a “really small” positive/negative number.This will give a“really big positive/negative result. Since ‘really big’ occurs often in limit calculations we give it</p>
+<p>the special symbol 00 , called infinity. Don’t forget to check the left and right hand limit.</p>
+<p>Example valuate (a) <span class="math inline">\(\lim_{x\to0}\frac{1}{x}\)</span> (b) <span class="math inline">\(\lim_{x\to0}\frac{1}{x^2}\)</span></p>
+<p align="center">
+<img alt="image" src="./images/ffK0kpdkiVHt671V0FLqSunNkNXcmiXAK.png">
+</p>
+<p><span class="math inline">\(-0.1\quad -10\quad 100\)</span> <span class="math inline">\(-0.01\quad -100\quad 10000\)</span> <span class="math inline">\(-0.001\quad -1000\quad 1000000\)</span> <span class="math inline">\(-0.0001\quad -10000\quad 100000000\)</span> <span class="math inline">\(0.0001\quad +10000\quad 1000000000\)</span> <span class="math inline">\(0.001\quad +1000\quad 1000000\)</span> <span class="math inline">\(0.01\quad +100\quad 10000\)</span> <span class="math inline">\(0.1\quad +10\quad 100\)</span></p>
+<p>Example: Sketch the graphs to assess the following limits</p>
+<ol type="a">
+<li><span class="math inline">\(\lim_{x\to0}\frac7{3x^4}\)</span> 6 <span class="math inline">\(\lim_{x\to0}\frac{5x}{2x^3}\)</span> <span class="math inline">\(\lim_{x\to0}\frac{8}{2x^3}\)</span> d <span class="math inline">\(\lim_{x\to0}\frac{-5}{x^6}\)</span></li>
+</ol>
+<p>When <span class="math inline">\(n\)</span> is even, <span class="math inline">\(\lim\limits_{x \to 0} \frac{1}{x^n} =\)</span> and <span class="math inline">\(\lim\limits_{x \to 0} \frac{-1}{x^n} =\)</span></p>
+<p>When <span class="math inline">\(n\)</span> is odd, <span class="math inline">\(\lim\limits_{x \to 0} \frac{1}{x^n} =\)</span> and <span class="math inline">\(\lim\limits_{x \to 0} \frac{-1}{x^n} =\)</span></p>
+</section>
+<section id="practice-evaluate-the-following-limits." class="level3">
+<h3 class="anchored" data-anchor-id="practice-evaluate-the-following-limits.">Practice: Evaluate the following limits.</h3>
+<p>司<span class="math inline">\(\lim_{x\to0}\frac5{x^7}\)</span> <span class="math inline">\(\lim_{x\to0}\frac2{x^8}\)</span> <span class="math inline">\(\lim_{x\to0}\frac{5x}{x^9}\)</span> <span class="math inline">\(\lim_{x\to0}\frac{-2}{x^{11}}\)</span> <span class="math inline">\(\lim_{x\to0}\frac{-2}{x^{10}}\)</span></p>
+</section>
+<section id="limit-as-x-goes-to-infinity-xtoinfty" class="level3">
+<h3 class="anchored" data-anchor-id="limit-as-x-goes-to-infinity-xtoinfty">Limit as x goes to infinity <span class="math inline">\(x\to\infty\)</span></h3>
+<p>Consider the special case where <span class="math inline">\(x\to\pm\infty\)</span> and, as above, <span class="math inline">\(x\)</span> appears only in the denominator of a rational expression. In such a case we would basically have some number divided by a “really big” positive/negative number. This will of course give a “really small” positive/negative result that, for large enough <span class="math inline">\(x\)</span> will approach zero.</p>
+</section>
+<section id="exampleevaluate" class="level3">
+<h3 class="anchored" data-anchor-id="exampleevaluate">Example:Evaluate:</h3>
+<ol type="a">
+<li><span class="math inline">\(\lim_{x \to \infty}\frac1x\)</span></li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>x</th>
+<th><span class="math inline">\(1/x\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>10</td>
+<td>0.1</td>
+</tr>
+<tr class="even">
+<td>100</td>
+<td>0.01</td>
+</tr>
+<tr class="odd">
+<td>1000</td>
+<td>0.001</td>
+</tr>
+<tr class="even">
+<td>10000</td>
+<td>0.00001</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="a">
+<li><span class="math inline">\(\lim_{x \to \infty}\frac1{x^2}\)</span></li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>x</th>
+<th><span class="math inline">\(1/x^2\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>10</td>
+<td>0.01</td>
+</tr>
+<tr class="even">
+<td>100</td>
+<td>0.00001</td>
+</tr>
+<tr class="odd">
+<td>1000</td>
+<td>0.0000001</td>
+</tr>
+<tr class="even">
+<td>10000</td>
+<td>0.0000000001</td>
+</tr>
+</tbody>
+</table>
+<p>In the above table of values you can see that the bigger we make x, the smaller we make the fraction; the result approaches zero.</p>
+<p><span class="math inline">\(\lim_{x \to 0^+} \frac{1}{x^n} = 0\)</span></p>
+<p>To evaluate limits as <span class="math inline">\(x\to\infty\)</span> algebraically where there are <span class="math inline">\(x\)</span> termsinboth the numerator and denominator, the common practice is to:</p>
+<ol type="1">
+<li>Divide both the numerator and denominator by the highest power of <span class="math inline">\(x\)</span> that appears in the denominator 2. Simplify 3. Using <span class="math inline">\(\lim_{x\to\infty}\frac1{x^n}=0\)</span> ,take the limit of each term as <span class="math inline">\(x\to\infty\)</span></li>
+</ol>
+<p>Complete the examples below using this method. Once completed we should see a pattern that will help us answer these questions quickly</p>
+<p>Example 7: <span class="math display">\[\lim_{x\to\infty}\frac{x^2+1}{2x^2+3}\]</span></p>
+<ol start="2" type="a">
+<li><span class="math display">\[\lim_{x\to\infty}\frac{3x^8+2x^3-3x}{6x^7+9x}\]</span></li>
+</ol>
+<p><span class="math display">\[\lim_{x\to\infty}\frac{x^2-4}{x-2}\]</span></p>
+<p><span class="math display">\[\lim_{x\to\infty}\frac{5x^3+x}{x^5-4x^4}\]</span></p>
+<p><span class="math display">\[\lim_{x\to\infty}\frac{x^3-4}{x+3}\]</span></p>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary:</h3>
+<p>If the highest degree in the numerator is larger than the highest degree of the denominator, the limit will be infinity. If the highest degree in the denominator is larger than the highest degree of the numerator, the limit will be 0.</p>
+<p>If the highest degree in the numerator and denominator equal, you can use the coefficients to determine the limit.</p>
+</section>
+<section id="practice" class="level3">
+<h3 class="anchored" data-anchor-id="practice">Practice:</h3>
+<p>1.Find the following limits. <span class="math display">\[\lim_{x\to0}\frac{x^2+x}{x}\]</span></p>
+<ol start="2" type="a">
+<li><p><span class="math inline">\(\operatorname*{lim}_{x\to3}(3x-2)\)</span></p></li>
+<li><p><span class="math inline">\(\lim_{x\to4}\sqrt{x^2-7}\)</span></p></li>
+</ol>
+<p><span class="math display">\[\lim_{x\to2}\frac{4x^2-8x}{x-2}\]</span></p>
+<p><span class="math display">\[\mathbf{f})\quad\operatorname*{lim}_{x\to4}{\frac{\left|x-4\right|}{x-4}}\]</span></p>
+<p><span class="math display">\[\lim_{x\to3}\frac{x^2-2x-3}{3-x}\]</span></p>
+<p><span class="math display">\[{\textsf{h)}}\quad\operatorname*{lim}_{x\to\infty}{\frac{x-1}{7x+4}}\]</span></p>
+<p><span class="math display">\[\lim_{x\to\infty}\frac{3x^2+4.5}{x^2-1.5}\]</span></p>
+<p><span class="math display">\[\text{i)}\quad\lim_{x\to0}\frac{\sqrt{x+1}-1}{x}\]</span></p>
+<p><span class="math display">\[\text{j)}\quad\lim_{x\to1}\frac{x^3-1}{x-1}\]</span></p>
+<p><span class="math display">\[\mathrm{k)}\quad\lim_{t\to\infty}\frac{\sqrt{t^2-16}}{t+1}\]</span></p>
+<p><span class="math display">\[1)\quad\lim_{x\to-3}\frac{x^2+x-6}{x+3}\]</span></p>
+<p><span class="math display">\[\text{m)}\lim_{x\to\infty}\frac{1-2x^2}{\left(4x+3\right)^2}\]</span></p>
+</section>
+<section id="ans" class="level3">
+<h3 class="anchored" data-anchor-id="ans">ANS:</h3>
+<p><span class="math display">\[\begin{aligned}&amp;\text{VS:}\\&amp;\left(1\right)1\quad\left(2\right)7\quad\left(3\right)x\geq4,soonly\lim_{x\to4+}\sqrt{x^{2}-7}=3\quad\left(4\right)8\quad\left(5\right)-4\\&amp;&amp;&amp;LHL=-1\\&amp;\left(7\right)3\quad\left(8\right)+\quad\left(9\right)\frac{1}{2},rationalizenumerator\quad\left(10\right)3\quad ofxis1,whichbecomes\quad\left(12\right)-5\\&amp;&amp;&amp;2undertheradical\end{aligned}\]</span></p>
+<ol start="13" type="1">
+<li></li>
+</ol>
+<p>2.Find the points of discontinuity of the function(i.e.,find domain values that must be omitted),</p>
+<p><span class="math display">\[f(x)=\frac{x^2+2x+17}{x^2-1}\]</span></p>
+<p>3.Find the following limits:</p>
+<p><span class="math display">\[\begin{array}{ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc}\end{array}\]</span></p>
+<ol start="5" type="a">
+<li><span class="math inline">\(\lim_{x\to7}\bigl(x-3\bigr)\)</span> d) <span class="math inline">\(\lim_{x\to0}\frac{3x^3-x}{7x}\)</span> <span class="math display">\[\lim_{x\to2}\frac{2x^2-3x-2}{x-2}\]</span></li>
+</ol>
+<p>h lim(x² -7) g <span class="math inline">\(\lim_{x\to2}\frac{1}{x-2}\)</span> <span class="math display">\[\lim_{x\to2}\frac{x^2-4}{x-2}\]</span></p>
+<ol start="4" type="1">
+<li><p>Show that the following limit does not exist as <span class="math inline">\(x\to2\)</span> <span class="math display">\[f(x)=\begin{cases}4x^2-16x+18,x&lt;2\\2\bigl(x+1\bigr),\quad x&gt;2\end{cases}\]</span></p></li>
+<li><p>Use the graph of <span class="math inline">\(f(x)\)</span> to find the limits.</p></li>
+</ol>
+<p align="center">
+<img alt="image" src="./images/fMXpzlx7nHiQnGDqF7EuuWp3GcPVrSgaL.png">
+</p>
+<ol start="2" type="a">
+<li><p>limf(x)=</p></li>
+<li><p><span class="math inline">\(\lim_{x\to-\infty}f(x)=\)</span></p></li>
+</ol>
+<p>c） lim f(x)=</p>
+<p><span class="math display">\[)\quad\operatorname*{lim}_{x\to-2}f\left(x\right)=\quad\mathrm{e})\quad\operatorname*{lim}_{x\to8}f\left(x\right)=\quad\mathrm{f})\quad\operatorname*{lim}_{x\to13}f\left(x\right)=\]</span></p>
+</section>
+
+<section id="the-derivativee" class="level1">
+<h1>The Derivativee</h1>
+<p>Slope of a Straight Line.</p>
+<p>We know that the slope of a line is calculated between two points on the line</p>
+<p>We can find the slope graphically using rise over run (always go left to right)</p>
+<p align="center">
+<img alt="image" src="./images/fyDyk5F0wvQQx4eyWZKXDwwP4LNNdAe9Z.png">
+</p>
+<p>Or we calculate it using two points:</p>
+<p><span class="math display">\[Slope=\frac{\Delta y}{\Delta x}=\frac{y_2-y_1}{x_2-x_1}\]</span></p>
+<p>The slope between two points on a curved graph is called the Secant Line.</p>
+<p>We can find the slope of this line:.</p>
+<p align="center">
+<img alt="image" src="./images/fkKgSSHpRabbD5hFdx6lvVYSzkyElGSGP.png">
+</p>
+<p>And, we can find the equation of the Secant line: Point-Slope Form <span class="math display">\[y-y_1=\dot{m(x-x_1)}\]</span></p>
+<p>Slope-Intercept Form</p>
+<p><span class="math display">\[y=mx+b\]</span></p>
+<p>The secant is also called the Average Slope of the curve between the two xvalues.</p>
+<p><span class="math display">\[AverageSlope=\frac{\Delta y}{\Delta x}\]</span></p>
+<section id="example-find-the-average-slope-slope-of-the-secant-linebetween-x1-and-x2-forthe" class="level3">
+<h3 class="anchored" data-anchor-id="example-find-the-average-slope-slope-of-the-secant-linebetween-x1-and-x2-forthe">Example: Find the average slope (slope of the secant line)between <span class="math inline">\(x=1\)</span> and <span class="math inline">\(x=2\)</span> forthe</h3>
+<p>function <span class="math inline">\(f(x)=x^{2}-6x+8\)</span></p>
+<p align="center">
+<img alt="image" src="./images/fPRSRaAuQlnQTlZhu2N740bnt7lIdVVuY.png">
+</p>
+<p>Find the equation of thesecant line:</p>
+</section>
+<section id="example-for-the-curve-yx3-frac12x1-find-the-average-slope-betwen-x1-and-x2" class="level3">
+<h3 class="anchored" data-anchor-id="example-for-the-curve-yx3-frac12x1-find-the-average-slope-betwen-x1-and-x2">Example: For the curve <span class="math inline">\(y=x^3-\frac12x+1\)</span> ,find the average slope betwen <span class="math inline">\(x=1\)</span> and <span class="math inline">\(x=2\)</span></h3>
+<p>Find the equation of this secant line</p>
+</section>
+<section id="practice-1" class="level2">
+<h2 class="anchored" data-anchor-id="practice-1">Practice</h2>
+<p>1.Calculate the average slope of the graphbelow between <span class="math inline">\(x=2\)</span> and <span class="math inline">\(x=4\)</span></p>
+<p align="center">
+<img alt="image" src="./images/fmqXuHcoW30SDHu1xG3vNmHKPOEUP62n4.png">
+</p>
+<p>2.For the two lines in the graph: a.Calculate the slope</p>
+<p align="center">
+<img alt="image" src="./images/fMHchH82yfCErfK0SFmUmBK5aN7HcAN7t.png">
+</p>
+<p>b.Find the equation of each line.</p>
+<p>The actual slope of a curve is represented by aTangent Line.</p>
+<p>Graphically the Tangent Line:</p>
+<p>a)istheslope of the curve atonepoint b) touches the curve at only that point</p>
+<p align="center">
+<img alt="image" src="./images/fIMk3zHGo1amfgMP66X8IVG1udxYpfDGZ.png">
+</p>
+<p>Algebraically the Tangent Line is much more dificult to define and will be the focus of thisunit.</p>
+<section id="the-tangent-line" class="level3">
+<h3 class="anchored" data-anchor-id="the-tangent-line">The Tangent Line</h3>
+<p>We need 2 points to calculate slope.Since the tangent line only touches at 1 point, we can use the secant line to approximate the tangent line:</p>
+<p align="center">
+<img alt="image" src="./images/frsUGMzEG4nI1e2FtxHvzZMLEoS8lqBOD.png">
+</p>
+<p>But thiswould be dividing by zero!</p>
+<p>We can shrinkthe distance between the twopoints until <span class="math inline">\(\Delta x=0\)</span> .</p>
+<p><span class="math display">\[\overline{\lim_{\Delta x\to0}\frac{f(x+\Delta x)-f(x)}{\Delta x}}\]</span></p>
+</section>
+<section id="the-delta-process---definition-of-the-derivative." class="level3">
+<h3 class="anchored" data-anchor-id="the-delta-process---definition-of-the-derivative.">The Delta Process - Definition of the Derivative.</h3>
+<p>Previously we used limits to find the slope of the tangent at a particular value of <span class="math inline">\(x\)</span> Algebraically,it is more useful toknow the slope at any value of <span class="math inline">\(x\)</span> . In this case, we leave <span class="math inline">\(x\)</span> in theequation and solve. <span class="math display">\[\mathrm{m}_{\mathrm{tangent}}=\lim_{\Delta x\to0}\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}\]</span></p>
+<p>For <span class="math inline">\(f(x)=x^{2}\)</span></p>
+<p align="center">
+<img alt="image" src="./images/fN2XgMepBcspKT8R5sISMPS3BRPva3vZR.png">
+</p>
+<p>This is a function that gives us the slope of the tangent line at any <span class="math inline">\(x\)</span> <span class="math display">\[x=0\]</span></p>
+<p><span class="math display">\[x=1\]</span></p>
+<p><span class="math display">\[x=-1\]</span></p>
+<p>Definition: The derivative of a function expressed as a function is.</p>
+<p><span class="math display">\[f'\left(x\right)=\lim_{\Delta x\to0}\frac{f\left(x+\Delta x\right)-f\left(x\right)}{\Delta x}\quad\text{OR}\quad f'\left(x\right)=\lim_{h\to0}\frac{f\left(x+h\right)-f\left(x\right)}{h}\]</span></p>
+<p>It isread“The derivative of <span class="math inline">\(f\)</span> withrespect to <span class="math inline">\(x^{\prime\prime}\)</span> or <span class="math inline">\(“f\)</span> -prime of <span class="math inline">\(x^{\prime\prime}\)</span></p>
+</section>
+<section id="derivative-notation" class="level3">
+<h3 class="anchored" data-anchor-id="derivative-notation">Derivative Notation</h3>
+<p>Some common notations for the derivative of <span class="math inline">\(y=f(x)\)</span> are:</p>
+<p>y’ \quad D_x y \quad f’(x) \quad \frac{dy}{dx}</p>
+<p>The process of finding a derivative is called differentiation..</p>
+<p>Remember: At a point <span class="math inline">\((x,y)\)</span> on a curve,</p>
+<p>The derivative The slope o the = The slope of the tangent line curve</p>
+</section>
+<section id="example-find-the-function-for-the-slope-of-the-following-functions-using-the-definition-of-the" class="level3">
+<h3 class="anchored" data-anchor-id="example-find-the-function-for-the-slope-of-the-following-functions-using-the-definition-of-the">Example: Find the function for the slope of the following functions using the definition of the</h3>
+<p>derivative. a) <span class="math inline">\(f(x)=5x^{2}-1\)</span> <span class="math display">\[\begin{matrix}\text{b)}&amp;f(x)=2x^2+3x\end{matrix}\]</span></p>
+<p>Example: Find the derivative of <span class="math inline">\(f(x)=-4(x-2)^{2}+4\)</span> using the definition</p>
+<p><span class="math display">\[f'(x)=\lim_{\Delta x\to0}\frac{f(x+\Delta x)-f(x)}{\Delta x}\]</span></p>
+<p><span class="math display">\[
+\begin{align*}
+f(x)=-4(x^2-4x+4) \\
+&amp;= -4x^2+16x-16 \\
+f(x+h) =
+\end{align*}
+\]</span></p>
+<p align="center">
+<img alt="image" src="./images/fWOaqgY0CDGG1KIHk8es2YV9ya3tehHhO.png">
+</p>
+<p>What is the slope at <span class="math inline">\(x=1\)</span> ？</p>
+<p>x=2? x=3?</p>
+</section>
+<section id="practice-2" class="level3">
+<h3 class="anchored" data-anchor-id="practice-2">Practice</h3>
+<p>Find the derivative of the following functions by the delta-process</p>
+<p><span class="math display">\[y=-4x+2\]</span></p>
+<ol start="2" type="a">
+<li><p><span class="math inline">\(y=6x-2x^{2}\)</span></p></li>
+<li><p>y=x2+5x-2</p></li>
+</ol>
+<p>As you can see from above, using the delta-process can be very tedious and timeconsuming.Starting with the delta-process and some general typefunctions we can develop some simple rules that willhelp usto solve forthe derivative quickly and easily.</p>
+</section>
+<section id="basic-derivative-rules" class="level3">
+<h3 class="anchored" data-anchor-id="basic-derivative-rules">Basic Derivative Rules</h3>
+<p>Algebraically and graphically we can find patterns to the derivative that make the process easier. There are also many notations for derivatives, depending on the function you are</p>
+<p>given:</p>
+<p>Function: <span class="math inline">\(y=2x^{2}+3x\)</span> either <span class="math inline">\(f(x)=2x^{2}+3x\)</span> Derivative: <span class="math inline">\(\frac{dy}{dx}=4x+3\)</span> <span class="math inline">\(\frac{d(2x^{2}+3x)}{dx}=4x+3\)</span> <span class="math inline">\(f'(x)=4x+3\)</span> <span class="math inline">\(\quad y'=4x+3\)</span> <span class="math inline">\(\quad \frac{d}{dx}(2x^{2}+3x)=4x+3\)</span></p>
+<p>Constant Rule: For a function <span class="math inline">\(f(x)=c\)</span> where c is a constant number <span class="math inline">\(f'(x)=0\)</span></p>
+<p>Algebraically, <span class="math display">\[f'(x)=\lim_{h\to0}\frac{f\left(x+h\right)-f\left(x\right)}{h}\]</span></p>
+<p align="center">
+<img alt="image" src="./images/fZoCRsLqBLevtxPkIv9A4F4FtuNswi4bW.png">
+</p>
+<p>Example: Find the derivative of the following</p>
+<p><span class="math display">\[\text{b)}f(x)=e\]</span></p>
+<p><span class="math display">\[\text{c)}y=\sin(2\pi)\]</span> a) <span class="math inline">\(y=5\)</span></p>
+</section>
+<section id="power-rule" class="level3">
+<h3 class="anchored" data-anchor-id="power-rule">Power Rule</h3>
+<p>For a variable raised to a constant power n,</p>
+<p><span class="math display">\[\frac{d}{dx}\Big(x^n\Big)=nx^{n-1}\]</span></p>
+<p>Example: Find the following derivatives: a) <span class="math inline">\(y=x^3\)</span></p>
+<p><span class="math display">\[)\:f(x)=x^{8}\quad\mathrm{c})\:y=x\quad\mathrm{d})\:f(x)=x^{2}\]</span></p>
+</section>
+<section id="constant-multiple-rule" class="level3">
+<h3 class="anchored" data-anchor-id="constant-multiple-rule">Constant Multiple Rule</h3>
+<p>For a constant <span class="math inline">\(a.\)</span></p>
+<p><span class="math display">\[\frac{d}{dx}\Big(ax^n\Big)=a\Big(nx^{n-1}\Big)\]</span></p>
+<p>Example:Find the derivative of each of the following:</p>
+<p><span class="math display">\[f(x)={\frac{x^{4}}{8}}\]</span></p>
+<p><span class="math display">\[y=3x^{5}\quad(b)\quad y=-6x^{3}\quad(c)\quad y=\frac{1}{3}x^{9}\]</span></p>
+</section>
+<section id="sum-difference-rule" class="level3">
+<h3 class="anchored" data-anchor-id="sum-difference-rule">Sum &amp; Difference Rule</h3>
+<p>For any number of terms,</p>
+<p><span class="math display">\[\frac{d}{dx}\big(f(x)+g(x)\big)=f'(x)+g'(x)\]</span></p>
+<p>Example: Find the derivative of each of the following:.</p>
+<p><span class="math display">\[\mid y=3x^{5}+7x^{3}-3x+2\quad(\mathbf{b})\quad y=-6x^{3}-5x\]</span></p>
+<p>Often we need to rewrite a power to use the rule:.</p>
+<details>
+<p>Example: Find the derivative of each of the following:.</p>
+<ol type="1">
+<li><p><span class="math inline">\(y=\sqrt{x}\)</span></p></li>
+<li><p><span class="math inline">\(f(x)=\frac{1}{x}\)</span></p></li>
+<li><p><span class="math inline">\(y=x\sqrt[3]{x}\)</span></p></li>
+</ol>
+<p><span class="math display">\[
+\begin{align*}
+    y = x \cdot x^{1/3} \\
+    f' = x
+\end{align*}
+\]</span></p>
+<p>$$</p>
+<p><span class="math display">\[(\text{e})\:y=\frac{x^2-3x}{x^2}\]</span></p>
+<p><span class="math display">\[\mid y={\frac{x}{\sqrt{x}}}\]</span></p>
+<p><span class="math display">\[
+\begin{align*}
+    y = x^{1-1/2} \\
+    y = x^1/2 \\
+    f' = \frac{1}{2}x^{-1/2} \\
+\end{align*}
+\]</span></p>
+<p>Example: Find the derivative of each of the following</p>
+<p><span class="math display">\[(\mathbf{b})\:y=x^4+3x^3+x^2-x+2\]</span></p>
+<p><span class="math display">\[y=x^{2}+7x\]</span></p>
+<ol start="3" type="a">
+<li><span class="math inline">\(y=2x-4x^{3}\)</span></li>
+</ol>
+<p><span class="math display">\[y={\frac{2}{x^{2}}}\]</span></p>
+<p>Example:Find the slope of the curve at theindicated point:</p>
+<ol type="a">
+<li><p><span class="math inline">\(y=9x-x^{3}\)</span> at the point(2,10).</p></li>
+<li><p><span class="math inline">\(y=x^4-\frac12x^2+2\)</span> at the point-2,16)</p></li>
+<li><p><span class="math inline">\(y=4\sqrt[3]{x^2}\)</span> at the point where <span class="math inline">\(x=8\)</span></p></li>
+</ol>
+<p><span class="math display">\[\mid y={\frac{\sqrt{x}-x^{2}}{x}}\:\mathrm{at}\:x=4\:.\]</span></p>
+</details></section>
+<section id="practice-3" class="level3">
+<h3 class="anchored" data-anchor-id="practice-3">Practice</h3>
+<ol type="1">
+<li>Using the definition of derivative find <span class="math inline">\(f'(x)\)</span> of the following <span class="math display">\[f(x)=x^2-2x\]</span></li>
+</ol>
+<p>2.Find the derivative of each of the following</p>
+<p><span class="math display">\[\mathbf{b})\:f(x)=7x^{3}-3x^{2}+13\]</span></p>
+<p><span class="math display">\[\mid f(x)=3x-\frac{1}{3}x^{3}\]</span></p>
+<p><span class="math display">\[\mid f(x)=5x^{2}-{\frac{4}{\sqrt{x}}}\]</span></p>
+<p>() <span class="math inline">\(f(x)=\frac{\pi}{2}x^{8}\)</span></p>
+<p>3.What is the slope of the function <span class="math inline">\(f(x)=3x^{3}+4x^{2}-6x+3\)</span> at thepoint (-2,7) ?</p>
+
+</section>
+</section>
+</section>
+<section id="product-rule_-fxgx" class="level1">
+<h1>Product Rule_ <span class="math inline">\(f(x)g(x)\)</span></h1>
+<p>For <span class="math inline">\(f(x)=4x^{3}\)</span> and <span class="math inline">\(g(x)=2x^{5}\)</span></p>
+<p><span class="math display">\[f'(x)=  g'(x)=\]</span></p>
+<p>For two functions multiplied together, we take the derivative one part at a time:</p>
+<p><span class="math display">\[y=\begin{pmatrix}4x^3\end{pmatrix}\begin{pmatrix}2x^5\end{pmatrix}\]</span></p>
+<p>Simplify First (if practical)</p>
+<p><span class="math display">\[y=8x^8\]</span></p>
+<p><span class="math display">\[\frac{dy}{dx}= 64x^7\]</span></p>
+<p>Using Product Rule</p>
+<p><span class="math inline">\(\frac{dy}{dx} =\)</span></p>
+<p>With more complicated functions, it would take us much longer to multiply and use the power rule. The product rule will be faster.</p>
+<hr>
+<p>Product Rule</p>
+<p>When we have two functions multiplied together,.</p>
+<p><span class="math display">\[\frac{d}{dx}\Big(f(x)g\big(x\big)\Big)=f'\big(x\big)g\big(x\big)+f\big(x\big)g'\big(x\big)\]</span></p>
+<p>OR</p>
+<p><span class="math display">\[y = u\cdot v \implies \frac{dy}{dx} = uv' + u'v\]</span></p>
+<hr>
+<p>Example: Find the derivative off <span class="math inline">\(y=\left(2x^{2}\right)\left(3x^{3}\right)\)</span></p>
+<p>Example: Find the derivative off <span class="math inline">\(y=\left(2x^{3}+3x\right)\left(x^{4}+2x^{2}-6\right)\)</span> (Do not simplify</p>
+<p>Example:Find the slope of the tangent to the curve <span class="math inline">\(y=(3x^2-5)\Big(2x^2-1\Big)\)</span> at <span class="math inline">\(x=-1\)</span></p>
+<section id="practice-4" class="level3">
+<h3 class="anchored" data-anchor-id="practice-4">Practice:</h3>
+<p>1.Find the derivative of each of the following.(Simplify the result)</p>
+<p><span class="math display">\[\mid y=2x^{3}\left(3x^{4}+x\right)\]</span></p>
+<p><span class="math display">\[\textbf{(b)}y=\begin{pmatrix}3x-2\end{pmatrix}\begin{pmatrix}4x^2+3\end{pmatrix}\]</span> a)</p>
+<ol start="2" type="1">
+<li>What is the derivative of the function <span class="math inline">\(y=\left(2x^{5}-6x+\pi\right)\left(-5x^{2}+e-3x^{7}\right)?\)</span> (Apply the rule, you do not need to simplify the final answer</li>
+</ol>
+<p>3.Given <span class="math inline">\(y=\left(2x-3x^{3}\right)\left(4+5x^{-2}\right)\)</span> , what is ? Simplify the result</p>
+<ol start="4" type="1">
+<li>What is the slope of the curve representing the functior</li>
+</ol>
+<p><span class="math inline">\(f(x)=\left(5x^3-6x^2\right)\left(5x^3-6x^2\right)\)</span> at the point (-1,121)</p>
+</section>
+</section>
+<section id="quotient-rule-fracfxgx" class="level1">
+<h1>Quotient Rule <span class="math inline">\(\frac{f(x)}{g(x)}\)</span></h1>
+<p>Again for the quotient rule, we find that taking the derivative all at once will not work.</p>
+<p>For <span class="math inline">\(f(x)=4x^{3}\)</span> and <span class="math inline">\(g(x)=2x^{s}\)</span></p>
+<p><span class="math display">\[g'(x)=\]</span></p>
+<p><span class="math display">\[f'(x)=\]</span></p>
+<p>For two functions that divide each other,</p>
+<section id="we-take-the-derivative-one-part-at-a-time" class="level3">
+<h3 class="anchored" data-anchor-id="we-take-the-derivative-one-part-at-a-time">we take the derivative one part at a time</h3>
+<p><span class="math display">\[y=\frac{4x^3}{2x^5}\]</span></p>
+<p>Simplify First (if possible)</p>
+<p><span class="math display">\[\text{y =}\]</span></p>
+<p><span class="math display">\[\frac{dy}{dx}=\]</span></p>
+<p>Using Quotient Rule</p>
+</section>
+<section id="quotient-rule" class="level3">
+<h3 class="anchored" data-anchor-id="quotient-rule">Quotient Rule</h3>
+<p>When we have two functions dividing each other,</p>
+<p><span class="math display">\[\frac{d}{dx}\Bigg(\frac{f(x)}{g(x)}\Bigg)=\frac{f'(x)g(x)-f(x)g'(x)}{\left(g(x)\right)^2}\]</span></p>
+<p>Example: id the derivative of <span class="math inline">\(y=\frac{3-2x}{x^{2}+2}\)</span></p>
+<p>Examle: ind the derivatie of <span class="math inline">\(y=\frac{2x^3}{4-x}\)</span></p>
+<p>Eamele in thesoeoteurve <span class="math inline">\(y=\frac{\left(3x^2-5\right)}{\left(2x^2-1\right)}\)</span> <span class="math inline">\(x=-1\)</span></p>
+</section>
+<section id="practice-5" class="level3">
+<h3 class="anchored" data-anchor-id="practice-5">Practice:</h3>
+<p>1.Find the derivative ofeach of thefollowing <span class="math display">\[y=\frac{4}{x^{3}}\]</span></p>
+<p><span class="math display">\[\mathbf{b})\quad y=\frac{e^{2}}{5x^{2}+4x}\]</span></p>
+<ol start="2" type="1">
+<li><p>Find the deriaiveof the funtion <span class="math inline">\(q(x)=6x^2+\frac{2x}{x+1}\)</span> without geting common denominator?(Apply the rule forpolynomials and the quotient rule when required)</p></li>
+<li><p>Given <span class="math inline">\(y=\frac{5x^4+6x}{5x-4}\)</span> ,Whatis <span class="math inline">\(D_{x}y\)</span></p></li>
+<li><p>Wha istheslope o the cuve representin th functon <span class="math inline">\(P\bigl(x\bigr)=\frac{2x^2+3x}{5-3x}\)</span> at the point(2,-14)?</p></li>
+</ol>
+<p>Chain Rule <span class="math inline">\(\begin{bmatrix}f\bigl(g\bigl(x\bigr)\bigr)\end{bmatrix}\)</span></p>
+<p>In MA1101 we learned about Composite Functions like <span class="math inline">\(f\bigl(g(x)\bigr)\)</span> For <span class="math inline">\(f(x)=x^3\)</span> and <span class="math inline">\(g(x)=x^{2}+1\)</span> we could,expand, and take the derivative</p>
+<p>Expanding is not always practical, sometimes we need the chain rule..</p>
+<p><span class="math display">\[y=f(g(x))=\left(x^2+1\right)^3\]</span></p>
+<p><span class="math display">\[\frac{dy}{dx}=\]</span></p>
+</section>
+<section id="chain-rule" class="level2">
+<h2 class="anchored" data-anchor-id="chain-rule">Chain Rule</h2>
+<p>When we have a composite function,</p>
+<p><span class="math display">\[\frac{d}{dx}\Big[f\big(g(x)\big)\Big]=f'(g(x))g'(x)\]</span></p>
+<section id="example-find-the-derivative-of-the-following-functions" class="level3">
+<h3 class="anchored" data-anchor-id="example-find-the-derivative-of-the-following-functions">Example: Find the derivative of the following functions:</h3>
+<p><span class="math display">\[y=\left(x^2+4x+6\right)^5\]</span></p>
+<ol start="2" type="a">
+<li><p><span class="math inline">\(f(x)=\left(x^{2}-x+1\right)^{3}\)</span></p></li>
+<li><p><span class="math inline">\(f(x)=\sqrt{5x+x^{2}}\)</span></p></li>
+</ol>
+<p><span class="math display">\[y=\frac{1}{\left(x^2-5\right)^4}\]</span></p>
+</section>
+<section id="practice-6" class="level3">
+<h3 class="anchored" data-anchor-id="practice-6">Practice:</h3>
+<p>1.Find the derivative of each of the following 司<span class="math inline">\(r=\frac{1}{\left(t^2-2t-5\right)^4}\)</span></p>
+<p><span class="math display">\[y=\sqrt[5]{3x+2}\]</span></p>
+<ol start="2" type="1">
+<li>Fin the sope of the tangent line to the curve <span class="math inline">\(y=\left(4+3x^2\right)^{\frac43}\)</span></li>
+</ol>
+<p>3.For <span class="math inline">\(y=\left(4-x^2\right)^{-2}\)</span> What is the slope of the graph of at the point <span class="math inline">\(\left(3,\frac{1}{25}\right)?\)</span></p>
+<ol start="4" type="1">
+<li>Find the derivative of the function <span class="math inline">\(q(x)=\left(4x^{2}-3+6x\right)^{18}\)</span></li>
+</ol>
+<p>5.Given <span class="math inline">\(f\Big(g\big(x\big)\Big)=\Big(x^{2}+1\Big)^{3}+2\Big(x^{2}+1\Big)^{2}+5\)</span> ,what is <span class="math inline">\(D_{x}f\big(g\big(x\big)\big)\)</span>?</p>
+<p>6.What is the slope of the curve representing the function <span class="math inline">\(P(x)=\sqrt[4]{\left(x^{2}+7x\right)^{3}}\)</span> at the point(14,71)?</p>
+</section>
+<section id="implicit-differentiation" class="level3">
+<h3 class="anchored" data-anchor-id="implicit-differentiation">Implicit Differentiation</h3>
+<p>There will be times when we are not able to solve for <span class="math inline">\(y\)</span> explicitly. For example. given the expression, <span class="math display">\[y^5+xy^2+3x^2=5\:,\]</span></p>
+<p>we are unable to get an expression <span class="math inline">\(y=f(x)\)</span></p>
+<p>Such a function where. <span class="math inline">\(y\)</span> is defined implicitly as a function of <span class="math inline">\(x\)</span> (i.e.) <span class="math inline">\(y\)</span> as a function of itself,which is a function of <span class="math inline">\(x\)</span> )is called an implicit function</p>
+<p>To find <span class="math inline">\(\frac{dy}{dx}\)</span> when <span class="math inline">\(y\)</span> is implicitly defined as function of <span class="math inline">\(x\)</span> , we differentiate each term of the equation with respect to. <span class="math inline">\(x\)</span> by applying the appropriate rule.</p>
+<p>Note: The derivative of <span class="math inline">\(y\)</span> with respect to <span class="math inline">\(x\)</span> is <span class="math inline">\(\frac{dy}{dx}\)</span> (or <span class="math inline">\(y'\)</span>).</p>
+<p>Example: Find <span class="math inline">\(\frac{dy}{dx}\)</span> if <span class="math inline">\(x+y=2\)</span></p>
+<p>Exam ple: Find <span class="math inline">\(\frac{dy}{dx}\)</span> if <span class="math inline">\(y^{2}+2x^{2}=5\)</span></p>
+<p>Example: Find <span class="math inline">\(\frac{dy}{dx}\)</span> if <span class="math inline">\(3y^{4}+xy^{2}+2x^{3}-6=0\)</span></p>
+<p>Example:Find the slope of a line tangent to the curve of <span class="math inline">\(2y^{3}+xy+1=0\)</span> at thepoint (-3,1).</p>
+</section>
+<section id="mixed-derivatives" class="level3">
+<h3 class="anchored" data-anchor-id="mixed-derivatives">Mixed Derivatives</h3>
+<p>So far we have focused on the powerrule,the product and quotient rules, and the chain rule of differentiation. In practice, finding a derivative will often involve. applying some combination of the above rules.Here we will look a few examples</p>
+<p>Example: Find the derivative of the following functions</p>
+<ol type="a">
+<li><p><span class="math inline">\(f\left(x\right)=\left(\frac{x^3+2x^2}{4-x}\right)^3\)</span></p></li>
+<li><p><span class="math inline">\(f\left(x\right)=\left(\left(x-7x^{3}\right)\left(14+x^{2}\right)\right)^{11}\)</span></p></li>
+</ol>
+<p><span class="math display">\[\text{c)}\quad f\left(x\right)=\frac{\left(8x-4+9x^3\right)\left(3x^2+4x^5-\frac{1}{x^3}\right)}{\left(x-9+x^5\right)}\]</span></p>
+<p>Example Fid the sope of y=(2x2) at <span class="math inline">\(x=1\)</span></p>
+</section>
+</section>
+<section id="higher-derivatives" class="level2">
+<h2 class="anchored" data-anchor-id="higher-derivatives">Higher Derivatives</h2>
+<p>Since the derivative of a function is also a function we may take the derivative of the derivative.</p>
+<p>The derivative of a function is called the first derivative.</p>
+<p>The derivative of the first derivative is the second derivative, and so on.</p>
+<p>The second derivative, third derivative and so on are collectively known as higher derivatives.</p>
+<p>Higher Derivative Notation</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 26%">
+<col style="width: 23%">
+<col style="width: 26%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>First</th>
+<th>Second</th>
+<th>Third</th>
+<th>Fourth</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(y'\)</span></td>
+<td><span class="math inline">\(y''\)</span></td>
+<td><span class="math inline">\(y'''\)</span></td>
+<td><span class="math inline">\(y^{(4)}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\frac{dy}{dx}\)</span></td>
+<td><span class="math inline">\(\frac{d^2y}{dx^2}\)</span></td>
+<td><span class="math inline">\(\frac{d^3y}{dx^3}\)</span></td>
+<td><span class="math inline">\(\frac{d^4y}{dx^4}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(D_y\)</span></td>
+<td><span class="math inline">\(D_x^2y\)</span></td>
+<td><span class="math inline">\(D_x^3y\)</span></td>
+<td><span class="math inline">\(D_x^4y\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(f'(x)\)</span></td>
+<td><span class="math inline">\(f''(x)\)</span></td>
+<td><span class="math inline">\(f'''(x)\)</span></td>
+<td><span class="math inline">\(f^{(4)}(x)\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>Example: Find the higher derivatives for <span class="math inline">\(y=5x^{3}-2x\)</span></p>
+<p>Example: Find the higher derivatives of <span class="math inline">\(f(x)=x(x^{2}-1)^{2}\)</span> (Hint: Simplify <span class="math inline">\(f\)</span> )</p>
+<p>Example: Evaluate the second derivatie of <span class="math inline">\(y=\frac{2}{1-x}\)</span> for <span class="math inline">\(x=-2\)</span></p>
+<p>Example: Find <span class="math inline">\(y^{n}\)</span> for the implicit function defined by <span class="math inline">\(2x^{2}+3y^{2}=6\)</span></p>
+<section id="practice-7" class="level3">
+<h3 class="anchored" data-anchor-id="practice-7">Practice:</h3>
+<ol type="1">
+<li>Find <span class="math inline">\(D_{x}y\)</span> given <span class="math inline">\(y=\frac{\sqrt{2x^2+1}}{3x}\)</span></li>
+</ol>
+<p>2.Given <span class="math inline">\(xy^{3}+3y+x^{2}=9\)</span> ,find <span class="math inline">\(y\)</span></p>
+<p>3.Evaluate the second derivative of y = x(1-x),for <span class="math inline">\(x=2\)</span></p>
+<ol start="4" type="1">
+<li>Find the derivativeof the funtion <span class="math inline">\(K(p)=\left(3\:p^{2}+p\sqrt{p^{3}+2\:p}\right)^{4}\)</span> (Do not simplify).</li>
+</ol>
+</section>
+<section id="given-lefty22right3pi-x4y3e2y3-what-is-d_xy" class="level3">
+<h3 class="anchored" data-anchor-id="given-lefty22right3pi-x4y3e2y3-what-is-d_xy">5.Given <span class="math inline">\(\left(y^{2}+2\right)^{3}=\pi x^{4}y+3e^{2}y^{3}\)</span> ,what is <span class="math inline">\(D_xy\)</span></h3>
+<ol start="6" type="1">
+<li>What is the second derivativeof the functio <span class="math inline">\(P\bigl(x\bigr)=x-\frac{2}{x^3}\)</span> athe point417</li>
+</ol>
+</section>
+</section>
+<section id="variables-other-than-x" class="level2">
+<h2 class="anchored" data-anchor-id="variables-other-than-x">Variables other than x</h2>
+<p>While most of our work has focused on the functions of <span class="math inline">\(x\)</span> ,the same rules of derivatives apply to any variables.</p>
+</section>
+<section id="practice-8" class="level2">
+<h2 class="anchored" data-anchor-id="practice-8">Practice:</h2>
+<p>1.Find the derivative of <span class="math inline">\(A\)</span> with respect to <span class="math inline">\(t:\)</span> <span class="math inline">\(A= 3t^{2}- 5t\)</span></p>
+<p>2.Find the derivative of <span class="math inline">\(z\)</span> with respect to <span class="math inline">\(r:4r^{3}-3r^{2}z=5\sqrt{z}\)</span></p>
+<p>3.Find the derivative of <span class="math inline">\(P\)</span> with respect to <span class="math inline">\(V\)</span> : <span class="math inline">\(P= \left ( 4V- 5\right ) \left ( - 3V^{2}+ 2\right ) ^{3}\)</span></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/coglinks\.github\.io\/notes\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../sems/sem2/calc1/index.qmd" class="pagination-link" aria-label="Calculus I">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Calculus I</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../sems/sem2/calc1/u3-transcendental.html" class="pagination-link" aria-label="Transcendental Functions and Their Derivatives">
+        <span class="nav-page-text">Transcendental Functions and Their Derivatives</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
