@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -324,7 +353,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../sems/sem3/dig-elec/t3-number-systems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Conversion from Decimal to Other Systems</span></a>
+ <span class="menu-text">Conversion from Other Systems to Decimal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -537,8 +566,18 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-access" id="toc-data-access" class="nav-link active" data-scroll-target="#data-access">Data access</a>
+  <ul class="collapse">
+  <li><a href="#data-link-addresses" id="toc-data-link-addresses" class="nav-link" data-scroll-target="#data-link-addresses">Data Link Addresses</a></li>
+  <li><a href="#role-of-the-data-link-layer-addresses-different-ip-networks" id="toc-role-of-the-data-link-layer-addresses-different-ip-networks" class="nav-link" data-scroll-target="#role-of-the-data-link-layer-addresses-different-ip-networks">Role of the Data Link Layer Addresses: Different IP Networks</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -563,8 +602,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="data-access" class="level2">
+<h2 class="anchored" data-anchor-id="data-access">Data access</h2>
+<p>In IPv4:</p>
+<p>In 192.168.1.110, 192.168.1 bits are the network part of the address while 110 is the host part of the address.</p>
+<p><span class="math inline">\(\underbrace{192.168.1.110}_{\text{Network part of address}} &amp; \underbrace{110}_\text{host}\)</span></p>
+<p>In a local network, the network of the address should not be differentbut the same. Only th ehost part changes.</p>
+<p>Segement is encapsulate in Layer 3 info. This is encapsulated in layer 2 info.</p>
+<section id="data-link-addresses" class="level3">
+<h3 class="anchored" data-anchor-id="data-link-addresses">Data Link Addresses</h3>
+<p>Each port of a routeer has different MAC addresses</p>
+</section>
+<section id="role-of-the-data-link-layer-addresses-different-ip-networks" class="level3">
+<h3 class="anchored" data-anchor-id="role-of-the-data-link-layer-addresses-different-ip-networks">Role of the Data Link Layer Addresses: Different IP Networks</h3>
+<p>IP address is used for end to end connection, while mac address is used for connectivity in a segment of a network</p>
+<p>MAC Addresses are kept locally in local network. It’s not visible from another network</p>
+<ul>
+<li>MAC Addresses are a layer 2 address</li>
+<li>IP Addresses are a layer 3 address</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>MAC</th>
+<th>IP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Layer 2 address</td>
+<td>Layer 3 address</td>
+</tr>
+<tr class="even">
+<td>Local source to destination communication</td>
+<td>Source to remote device communication</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -652,7 +734,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/coglinks\.github\.io\/notes\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

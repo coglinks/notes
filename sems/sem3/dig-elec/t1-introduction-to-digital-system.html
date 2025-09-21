@@ -353,7 +353,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../sems/sem3/dig-elec/t3-number-systems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Conversion from Decimal to Other Systems</span></a>
+ <span class="menu-text">Conversion from Other Systems to Decimal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -387,7 +387,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sems/sem3/net-fund/t3-protocols-and-reference-models.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../sems/sem3/net-fund/t3-protocols-and-reference-models.pdf" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T3 Protocols and Reference Models</span></a>
   </div>
 </li>
@@ -579,10 +579,7 @@ window.Quarto = {
   <li><a href="#physical-construction---dip-packages" id="toc-physical-construction---dip-packages" class="nav-link" data-scroll-target="#physical-construction---dip-packages">Physical Construction - DIP Packages</a>
   <ul class="collapse">
   <li><a href="#how-to-number-the-pins-of-an-ic" id="toc-how-to-number-the-pins-of-an-ic" class="nav-link" data-scroll-target="#how-to-number-the-pins-of-an-ic">How to number the pins of an IC</a></li>
-  <li><a href="#ttl" id="toc-ttl" class="nav-link" data-scroll-target="#ttl">TTL:</a></li>
-  <li><a href="#cmos" id="toc-cmos" class="nav-link" data-scroll-target="#cmos">CMOS:</a></li>
   </ul></li>
-  <li><a href="#advantages-of-digital-systems" id="toc-advantages-of-digital-systems" class="nav-link" data-scroll-target="#advantages-of-digital-systems">Advantages of Digital Systems</a></li>
   <li><a href="#limi" id="toc-limi" class="nav-link" data-scroll-target="#limi">Limi</a></li>
   <li><a href="#examples-of-adc-comparators" id="toc-examples-of-adc-comparators" class="nav-link" data-scroll-target="#examples-of-adc-comparators">Examples of ADC: Comparators</a></li>
   </ul>
@@ -632,15 +629,19 @@ window.Quarto = {
 <td>Discontinuous values when analog values are plotted against time</td>
 </tr>
 <tr class="odd">
+<td>Less accurate</td>
+<td>More accurate</td>
+</tr>
+<tr class="even">
 <td>Starts from zero to a specific value</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Intermediate values are guessed</td>
 <td>A change in values occurs when a specified exact attribute change occurs</td>
 </tr>
-<tr class="odd">
-<td></td>
+<tr class="even">
+<td>Varies in continuous steps</td>
 <td>Varies in descrete steps</td>
 </tr>
 </tbody>
@@ -648,7 +649,7 @@ window.Quarto = {
 <p>You convert analog to digital via sampling and then quantization:</p>
 <ul>
 <li>Sampling: Take samples of the analog signal at a specific resolution</li>
-<li>Quantisation: Convert samples to specific descrete levels</li>
+<li>Quantisation: Convert sampled amplitudes to specific descretely leveled values</li>
 <li>Encoding: convert levels to completely digital signals as in zeroes and ones</li>
 </ul>
 <section id="binary-digital-signal" class="level2">
@@ -676,28 +677,39 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="how-to-number-the-pins-of-an-ic">How to number the pins of an IC</h3>
 <p>There is a circle on one side of the IC. With the circle on top, number the pins counter-clockwise. Generaly <span class="math inline">\(7 = \mathrm{GND}\)</span> and <span class="math inline">\(14 = \mathrm{VCC}\)</span></p>
 <p>If you supply live voltage to GND, it will burn</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Parameter</th>
+<th>TTL</th>
+<th>CMOS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Logic 0</td>
+<td>0V - 0.8V</td>
+<td>0V - 0.6V</td>
+</tr>
+<tr class="even">
+<td>Invalid Region</td>
+<td>0.8V - 2V</td>
+<td>0.6V - 1V</td>
+</tr>
+<tr class="odd">
+<td>Logic 1</td>
+<td>2V - 5V</td>
+<td>1V - 1.5V</td>
+</tr>
+<tr class="even">
+<td>Supply Note</td>
+<td>Max voltage burns gate</td>
+<td>Max voltage burns gate</td>
+</tr>
+</tbody>
+</table>
+<p>k## Advantages of Digital Systems</p>
 </section>
-<section id="ttl" class="level3">
-<h3 class="anchored" data-anchor-id="ttl">TTL:</h3>
-<ul>
-<li>Logic 0: <span class="math inline">\(0 - 0.8\)</span></li>
-<li>Logic 1: <span class="math inline">\(2 - 5\)</span></li>
-<li>Invalid Region: <span class="math inline">\(0.8 - 2\)</span></li>
-<li>Supply of max voltage burns the gate</li>
-</ul>
-</section>
-<section id="cmos" class="level3">
-<h3 class="anchored" data-anchor-id="cmos">CMOS:</h3>
-<ul>
-<li>Logic 0: <span class="math inline">\(0 - 0.6\)</span></li>
-<li>Logic 1: <span class="math inline">\(1 - 1.5\)</span></li>
-<li>Invalid Region: <span class="math inline">\(0.6 - 1\)</span></li>
-<li>Supply of max voltage burns the gate</li>
-</ul>
-</section>
-</section>
-<section id="advantages-of-digital-systems" class="level2">
-<h2 class="anchored" data-anchor-id="advantages-of-digital-systems">Advantages of Digital Systems</h2>
 </section>
 <section id="limi" class="level2">
 <h2 class="anchored" data-anchor-id="limi">Limi</h2>

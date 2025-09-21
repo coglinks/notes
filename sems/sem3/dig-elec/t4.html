@@ -353,7 +353,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../sems/sem3/dig-elec/t3-number-systems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Conversion from Decimal to Other Systems</span></a>
+ <span class="menu-text">Conversion from Other Systems to Decimal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -387,7 +387,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../sems/sem3/net-fund/t3-protocols-and-reference-models.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../sems/sem3/net-fund/t3-protocols-and-reference-models.pdf" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T3 Protocols and Reference Models</span></a>
   </div>
 </li>
@@ -572,6 +572,10 @@ window.Quarto = {
    
   <ul>
   <li><a href="#de-morgans-theorem" id="toc-de-morgans-theorem" class="nav-link active" data-scroll-target="#de-morgans-theorem">De Morgan’s Theorem</a></li>
+  <li><a href="#standard-symbols" id="toc-standard-symbols" class="nav-link" data-scroll-target="#standard-symbols">Standard Symbols</a></li>
+  <li><a href="#constructing-gates-from-a-truth-table" id="toc-constructing-gates-from-a-truth-table" class="nav-link" data-scroll-target="#constructing-gates-from-a-truth-table">Constructing Gates from a Truth Table</a></li>
+  <li><a href="#logic-gate---exclusive-or-gate" id="toc-logic-gate---exclusive-or-gate" class="nav-link" data-scroll-target="#logic-gate---exclusive-or-gate">Logic Gate - Exclusive-OR Gate</a></li>
+  <li><a href="#boolean-theorem" id="toc-boolean-theorem" class="nav-link" data-scroll-target="#boolean-theorem">Boolean Theorem</a></li>
   </ul>
 </nav>
     </div>
@@ -612,9 +616,41 @@ window.Quarto = {
 <li>Change the gate</li>
 <li>Add a bubble where is none, remove a bubble where there is one</li>
 </ol>
-
-
 </section>
+</section>
+<section id="standard-symbols" class="level2">
+<h2 class="anchored" data-anchor-id="standard-symbols">Standard Symbols</h2>
+<div id="fig-nand-standard-symbol" class="quarto-float quarto-figure quarto-figure-center anchored" data-align="center" alt="nand-standard-symbol.png" width="300">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-nand-standard-symbol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="t4-img/nand-standard-symbol.png" id="fig-nand-standard-symbol" class="img-fluid figure-img" data-align="center" alt="nand-standard-symbol.png" width="300">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-nand-standard-symbol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="constructing-gates-from-a-truth-table" class="level2">
+<h2 class="anchored" data-anchor-id="constructing-gates-from-a-truth-table">Constructing Gates from a Truth Table</h2>
+<p>In a given truth table:</p>
+<ul>
+<li>Choose OR or AND logic</li>
+<li>Construct gates for each output using the chosen gate and not gates</li>
+<li>The 1 output are the most important</li>
+</ul>
+</section>
+<section id="logic-gate---exclusive-or-gate" class="level2">
+<h2 class="anchored" data-anchor-id="logic-gate---exclusive-or-gate">Logic Gate - Exclusive-OR Gate</h2>
+<p>Differing inputs give a high output. Same gives a low output</p>
+</section>
+<section id="boolean-theorem" class="level2">
+<h2 class="anchored" data-anchor-id="boolean-theorem">Boolean Theorem</h2>
+<ol start="4" type="1">
+<li><span class="math inline">\(x.x' = 0 = x.\overline{x}\)</span></li>
+</ol>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1032,8 +1068,8 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../sems/sem3/dig-elec/t3-number-systems.html" class="pagination-link" aria-label="Conversion from Decimal to Other Systems">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Conversion from Decimal to Other Systems</span>
+      <a href="../../../sems/sem3/dig-elec/t3-number-systems.html" class="pagination-link" aria-label="Conversion from Other Systems to Decimal">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Conversion from Other Systems to Decimal</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
