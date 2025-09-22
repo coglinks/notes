@@ -33,7 +33,7 @@ Analyzed complete circuits using  __truth tables \+ algebraic methods__ \.
 
 # Boolean Constants and Variables
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_0.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_0.jpg)
 
 Boolean algebra allows only two values—0 and 1\.
 
@@ -57,19 +57,19 @@ A 3\-input table would have 23 = 8 entries\.
 
 # Examples Of Truth Tables
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_1.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_1.png)
 
 The number of input combinations will equal 2N for an N\-input truth table
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_2.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_2.png)
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_3.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_3.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Logic Gate – INVERTER (NOT)
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_4.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_4.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -85,37 +85,37 @@ When a bubble is placed anywhere in a logic diagram\, it means inversion\.  That
 
 # Logic Gate - OR
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_5.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_5.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Logic gate NOR
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_6.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_6.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Logic Gate - AND
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_7.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_7.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Logic gate- NAND
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_8.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_8.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 Truth table/circuit symbol for a three input OR gate\.
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_9.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_9.jpg)
 
 # Multiple Input Gates
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_10.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_10.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -123,7 +123,7 @@ Truth table/circuit symbol for a three input OR gate\.
 
 The push button is wired to produce a logic 1 \(true\) when it is pressed\. Sometimes we want to know if the push button is not being pressed\, and so this circuit provides an expression that is true when the button is not pressed\.
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_11.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_11.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -131,21 +131,21 @@ The push button is wired to produce a logic 1 \(true\) when it is pressed\. Some
 
 Determine the OR gate output\. The OR gate inputs  _A _ and  _B _ are varying according to the timing diagrams shown\. For example\,  _A _ starts out LOW at time  _t_ 0\, goes HIGH at  _t_ 1\, back to LOW at  _t_ 3\, and so on\.
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_12.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_12.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_13.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_13.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 Determine the output  _x _ from the AND gate for the given input waveforms\.
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_14.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_14.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_15.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_15.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -157,13 +157,13 @@ If the  __temperature__  or  __pressure__  goes above the safe limit\, the compa
 
 The OR gate then activates the  __alarm__ \, warning operators of danger\.
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_16.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_16.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_17.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_17.jpg)
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_18.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_18.jpg)
 
 # Describing Logic Circuits Algebraically
 
@@ -183,9 +183,9 @@ Find the Boolean expression of x
 
 Solution:
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_19.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_19.jpg)
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_20.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_20.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -193,9 +193,9 @@ Find the Boolean expression of x
 
 Solution:
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_21.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_21.jpg)
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_22.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_22.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -253,7 +253,7 @@ List all possible input combinations
 
 Define the nodes: there are three nodes: u\, v\, w
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_23.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_23.jpg)
 
 | A | B | C |
 | :-: | :-: | :-: |
@@ -268,21 +268,21 @@ Define the nodes: there are three nodes: u\, v\, w
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_24.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_24.jpg)
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_25.jpg)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_25.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 Analyze the operation of the circuit below by creating a table showing the logic state at each node of the circuit
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_26.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_26.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Solution:
 
-![](Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates-img/Topic%202%20Boolean%20Algebra%20%26%20Logic%20Gates_27.png)
+![](Topic 2 Boolean Algebra %26 Logic Gates-img/Topic 2 Boolean Algebra %26 Logic Gates_27.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 

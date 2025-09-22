@@ -48,11 +48,11 @@ Purpose of alphanumeric codes such as ASCII code\.
 * Formal Notation
 
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_0.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_0.png)
 
 # Binary Number System
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_1.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_1.png)
 
 
 
@@ -78,7 +78,7 @@ Purpose of alphanumeric codes such as ASCII code\.
 * Formal Notation
 
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_2.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_2.png)
 
 # Hexadecimal Number System
 
@@ -93,7 +93,7 @@ Purpose of alphanumeric codes such as ASCII code\.
 * Formal Notation
 
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_3.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_3.png)
 
 # Conversion from Other Bases to Decimal
 
@@ -111,7 +111,7 @@ Collect all the remainders from the most recent \(MSB\) to the first one \(LSB\)
 
 # Decimal to Binary
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_4.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_4.png)
 
 Convert  <span style="color:#ff0000">726</span>  to its binary equivalent\.
 
@@ -127,11 +127,11 @@ Note: the last remainder is the MSB and the first remainder is LSB
 
 # Decimal to Octal
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_5.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_5.png)
 
 # Decimal to Hexadecimal
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_6.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_6.png)
 
 # Conversion from Decimal to Other Bases(2. Weighted method)
 
@@ -192,25 +192,25 @@ Group the binary number into threes\, starting from the right side
 
 Convert each group to its octal equivalent
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_7.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_7.png)
 
 # Convert from Binary to Hex
 
 Similar approach\, but group the bits into <span style="color:#ff0000"> fours </span> and convert each group into the Hex digit
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_8.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_8.png)
 
 # Octal to Binary
 
 Simply convert each group of 3 bits into the equivalent octal digit
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_9.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_9.png)
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_10.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_10.png)
 
 # Octal to Hexadecimal
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_11.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_11.png)
 
 This can be done in a three\-step process:
 
@@ -222,7 +222,7 @@ Convert the groups of four to hex\.
 
 # Hexadecimal to Binary
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_12.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_12.png)
 
 Convert the hex digits into groups of four bits
 
@@ -230,7 +230,7 @@ Combine them into a single binary number:
 
 # Hexadecimal to Octal
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_13.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_13.png)
 
 This can be done in a three\-step process:
 
@@ -256,7 +256,7 @@ Conversion is shown on the table at right
 
 Decimal numbers above 9 are  <span style="color:#ff0000">undefined</span> \, as are binary values from  <span style="color:#ff0000">1010 to 1111</span> \.
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_14.png)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_14.png)
 
 # Example:
 
@@ -264,11 +264,11 @@ Convert 0110100000111001 \(BCD\) to its decimal equivalent\.
 
 =6839 base 10
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_15.jpg)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_15.jpg)
 
 Convert BCD 011111000001 to its decimal equivalent\.
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_16.jpg)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_16.jpg)
 
 # Digital Displays Utilizing BCD Numbers
 
@@ -290,7 +290,7 @@ For instance\, to produce the digit “3” we will send a binary value of 0011 
   * Examples of use: transfer information between computers; computers & printers; internal storage\.
 __ASCII – American Standard Code__  __for Information Interchange__
 
-![](Topic%203%20Number%20Systems_PS-img/Topic%203%20Number%20Systems_PS_17.jpg)
+![](Topic 3 Number Systems_PS-img/Topic 3 Number Systems_PS_17.jpg)
 
 __See the entire table on page 49 of your textbook\.__
 
