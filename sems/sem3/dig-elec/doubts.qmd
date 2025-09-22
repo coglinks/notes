@@ -12,3 +12,5 @@ title: "Doubts"
 1. What is the purpose of a buffer gate?
 
 **Ans**
+
+2. What are the logic voltages of a CMOS gate?
