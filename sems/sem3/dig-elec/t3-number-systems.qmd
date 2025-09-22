@@ -1,4 +1,18 @@
+### Conversion from Other Systems to Decimal
+
+methods:
+
+1. Find the magnitude
+2. Repeated division method
+3. Weighted method
+4. Truth table
+
 ### Conversion from Decimal to Other Systems
+
+Methods:
+
+1. Truth table
+
 
 This is mostly useful for binary, not so much for other systems
 

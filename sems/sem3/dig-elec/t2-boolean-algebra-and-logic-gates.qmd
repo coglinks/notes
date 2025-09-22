@@ -75,3 +75,6 @@ Expression: $\mathrm{X = \overline{A+B}}$
 
 ![NOR Gate](t2-boolean-algebra-and-logic-gates-img/nor-gate.png){#fig-nor-gate align=center width=300 alt="nor-gate.png"}
 
+## Buffer Gate
+
+
