@@ -1,0 +1,249 @@
+---
+title: "Presentation Title"
+author: "Author"
+# format: 
+#   revealjs:
+#     slide-number: c/t
+#     width: 1600
+#     height: 900
+#     logo: img/logo.png
+#     footer: "Organization"
+#     incremental: true
+#     theme: [simple]
+---
+# AETN1112 - Digital ElectronicsKarnaugh Map
+
+# prepared by:
+Ghufran Jaafreh
+
+# Objectives:
+
+Recognize Karnaugh map
+
+• Draw K\-Map for 2\, 3\, and 4 input
+
+Draw K\-map for given SOP function
+
+Recognize Karnaugh map purpose
+
+Fill in the K\-Map from the truth table
+
+• Obtain Boolean expression from K\-Map
+
+• Draw K\-Map for a Boolean expression
+
+# Karnaugh Mapping
+
+Karnaugh Mapping \(or K\-Map\) is another way to show a truth table:
+
+Patterns in the K\-Map readily show logical groupings
+
+Allows us to minimize the complexity of our logic designs\.
+
+Theoretically can be used for any number of input variables—practically limited to 5 or 6 variables
+
+# 2-Variable K-Map
+
+A function with 2 variables\, A and B\, can be mapped on a simple 1\-dimensional K\-Map
+
+An unpopulated K\-Map is shown below:
+
+The logical values of A and B are shown above each cell\, e\.g\. AB
+
+The numerical equivalents of AB are shown at the bottom of each cell\, e\.g\. 11
+
+When variable A is true\, it is shown by a bracket above the columns\.  Same with variable B\.
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_0.png)
+
+# K-Maps – 3 Variables
+
+
+
+* We add another row to the map\.
+* Variable are A\, B and C
+* Adjacent K map square differ in only one variable both horizontally and vertically\.
+
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_1.png)
+
+The 3 variables K\- map using minterms can be written as below:
+
+We will now develop a large K\-Map which can display 4 variables:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_2.png)
+
+The 4 variables K\- map using minterms can be written as below:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_3.png)
+
+# Filling K-Map
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_4.png)
+
+# How to View a K-Map
+
+Think of a K\-Map as being rolled up in both directions
+
+Cells on one side abut against cells on the other side and are considered to be contiguous
+
+Similarly\, cells on the top are considered to join up with cells on the bottom\.
+
+# Rules for Grouping Cells in Karnaugh Maps
+
+Cells containing 1’s can be grouped together\.
+
+A SOP expression can be obtained by ORing all squares that contain a 1\.
+
+Groups cannot contain 0’s\.
+
+All cells containing 1’s must be accounted for when grouping\.
+
+Groupings must contain 2n cells\, for example\, 1\, 2\, 4\, 8\, … No other amounts are allowed to be grouped\.
+
+Groups can be square or rectangular or may contain a single cell\, but groups  <span style="color:#ff0000">cannot be diagonal </span> or have any other shape\.
+
+Cells containing 1’s can adjoin cells also containing 1’s on the opposite edge of the K\-Map in order to form a group\.
+
+Groups of cells can overlap each other\.
+
+For most effective reduction\, make each group as large as possible\.
+
+# Looking for Patterns in K-Maps
+
+__OCTETS__  \- Blocks of 8 are golden\.  They signify that  _we can reduce all of the logic in that block down to a single variable_ \, even though 4 variables are shown\.
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_5.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_6.png)
+
+# Blocks of 4 - Quads
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_7.png)
+
+Wrapping cells around the edges of the K\-Map results in additional quads\.
+
+Don’t forget that cells in four corners also make up a quad\.
+
+# Blocks of 2 - Pairs
+
+Quads signify that we can reduce all of the logic in that block down to 3 variables\.
+
+Here some obvious and less obvious pairs:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_8.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_9.png)
+
+# Single one’s
+
+Isolated cells are called singles\.
+
+They can exist anywhere on the K\-Map\.
+
+Each cell requires 4 variable to describe it\.
+
+Some examples are shown below:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_10.png)
+
+# Singles Only
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_11.png)
+
+# Example 1
+
+# Example
+
+Derive the output expression for the following K map:
+
+<span style="color:#ff0000">Solution</span>
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_12.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_13.png)
+
+# Exercise
+
+# Example – Reducing a Large Circuit
+
+This circuit is very complex and has an equally complex Boolean expression and Truth Table\.
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_14.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_15.png)
+
+# K-Map of Circuit
+
+Write the K\-Map of the circuit:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_16.png)
+
+# Example – Reducing a Large Circuit
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_17.png)
+
+# Comparing between the original and simplified circuits
+
+Draw the circuit gotten by K\-map and compare between the complexity
+
+The equivalent circuit \(left\) is much simpler than the original circuit \(right\)…  <span style="color:#ff0000">great\!\!</span>
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_18.png)
+
+# Selecting a Different Set of Cells
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_19.png)
+
+# Filling K Map from Boolean Expression
+
+K map can be filled by using the following steps:
+
+Get the expression into SOP form if it is not already in that form\.
+
+For each product term in the SOP expression\, place a 1 in each K\-map square whose label contains the same combination of input variables\.
+
+Place a 0 in all other squares\.
+
+# Example 1:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_20.png)
+
+# Don’t-Care Conditions
+
+# Example 2:
+
+Draw the K\- map for the below truth table then find the minimal expression using K\-mapping
+
+Solution:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_21.png)
+
+Draw the K\- map for the below truth table then find the minimal expression using K\-mapping
+
+Solution:
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_22.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_23.png)
+
+# Example 3:
+
+Let’s design a logic circuit that controls an elevator door in a three\-story building\.
+
+The circuit in the Figure has four inputs\.
+
+M is a logic signal that indicates when the elevator is moving
+
+\(M= 1\) or stopped \(M= 0\)\.
+
+F1\, F2\, and F3 are floor indicator signals that are normally LOW\, and they go HIGH only when the elevator is positioned at the level of that particular floor\.
+
+For example\, when the elevator is lined up level with the second floor\, F2 = 1 and F1 = F3 = 0\. The circuit output is the OPEN signal\, which is normally LOW and will go HIGH when the elevator door is to be opened\.
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_24.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_25.png)
+
+![](Topic%204.3%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification-img/Topic%2043%20K-%20map_Combinational%20Logic%20circuit%20analysis%20and%20simplification_26.png)
+
