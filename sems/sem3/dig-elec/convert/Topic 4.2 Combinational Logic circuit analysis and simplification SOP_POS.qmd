@@ -1,6 +1,6 @@
 ---
-title: "Presentation Title"
-author: "Author"
+title: "T4.2 Combinational Logic Circuit Analysis And Simplification SOP POS"
+author: "Ghufran Khalaf"
 # format: 
 #   revealjs:
 #     slide-number: c/t
@@ -12,11 +12,6 @@ author: "Author"
 #     theme: [simple]
 ---
 ![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_0.jpg)
-
-# AETN1112 - Digital ElectronicsLogic circuit simplification, SOP And POS
-
-# prepared by:
-Ghufran Jaafreh
 
 # Objectives
 
