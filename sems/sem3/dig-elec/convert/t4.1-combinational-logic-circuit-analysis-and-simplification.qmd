@@ -43,7 +43,7 @@ Describe the concept of active\-LOW and active\-HIGH logic signals
 
 # Example
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_0.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_0.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -53,17 +53,17 @@ Each OR gate input is an AND product term\,
 
 An AND gate with appropriate inputs can be used to generate each of these terms\.
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_1.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_1.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Example
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_2.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_2.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_3.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_3.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -71,19 +71,19 @@ An AND gate with appropriate inputs can be used to generate each of these terms\
 
 Write the expression for the output of the circuit below\, and use it to determine the complete truth table
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_4.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_4.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # DeMorgan’s Principle
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_5.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_5.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # DeMorgan (Cont’d)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_6.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_6.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -95,9 +95,9 @@ Determine the output expression for the circuit below and simplify it using DeMo
 
 <span style="color:#ff0000">Solution :</span>
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_7.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_7.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_8.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_8.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -121,9 +121,9 @@ Convert the following NAND gate into its equivalent:
 
 make the shape of the gate an OR shape; remove the bubble on the output and place two bubbles on the inputs:
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_9.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_9.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_10.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_10.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -135,9 +135,9 @@ Following the rules\, we don’t change the shape of the gate\, but we remove th
 
 Even though this gate looks different\, it is functionally identical to the previous gate\.
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_11.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_11.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_12.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_12.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -157,23 +157,23 @@ Note: this device is call a Buffer\. What we insert at the Input we gat at the o
 
 1                                  1
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_13.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_13.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_14.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_14.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Examples
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_15.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_15.jpg)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_16.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_16.jpg)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_17.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_17.jpg)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_18.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_18.jpg)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_19.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_19.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -183,7 +183,7 @@ Sketch the equivalent gate using DeMorgan’s principle?
 
 Write  the truth table for both gates in order to prove your work\.
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_20.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_20.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -199,29 +199,29 @@ Let's work through some examples
 
 # Example 1Logic Gates NAND Gate only
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_21.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_21.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Example 2Logic Gates using NOR Gate Only
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_22.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_22.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Logic Gate - EXCLUSIVE-OR (EXOR)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_23.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_23.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_24.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_24.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_25.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_25.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_26.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_26.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_27.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_27.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -231,15 +231,15 @@ Determine the output waveform for the input waveforms below:
 
 output x
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_28.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_28.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_29.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_29.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Logic Gate-EXCLUSIVE NOR (EXNOR)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_30.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_30.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -247,27 +247,27 @@ Represent  XOR equivalent logic circuit using the below Boolean expression and w
 
 Solution
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_31.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_31.jpg)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_32.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_32.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Inverter Using a NAND Gate – Circuit 1
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_33.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_33.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_34.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_34.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Inverter Using NOR Gate – Two Circuits
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_35.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_35.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_36.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_36.png)
 
 The output will be 0 if one or both inputs are 1\, all other times output is 1\.
 
@@ -297,37 +297,37 @@ When the input is 1\, then the output will be 0\.
 
 \(8\)x\+x’=1\,
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_38.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_38.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_39.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_39.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Boolean Multivariable Theorem
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_40.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_40.png)
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_41.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_41.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Example
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_42.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_42.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_43.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_43.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_44.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_44.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
 # Active Logic Levels
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_45.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_45.jpg)
 
 Interpretation of the two OR gate symbols\.
 
@@ -337,7 +337,7 @@ Active\-HIGH – an input/output has no inversion bubble\.
 
 Active\-LOW – an input or output has an inversion bubble\.
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_46.jpg)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_46.jpg)
 
 Interpretation of the two NAND gate symbols\.
 
@@ -351,7 +351,7 @@ A circuit is enabled when it allows the passage of an input signal to the output
 
 A circuit is disabled when it prevents the passage of an input signal to the output\.
 
-![](Topic 4 Combinational Logic circuit analysis and simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_47.png)
+![](topic-4-combinational-logic-circuit-analysis-and-simplification-img/Topic 4 Combinational Logic circuit analysis and simplification_47.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 

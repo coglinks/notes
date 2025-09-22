@@ -27,7 +27,7 @@ Identify typical digital signals & a timing diagram
   * Greater accuracy\.
 
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_0.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_0.png)
 
 # Analog and Digital Representations
 
@@ -38,7 +38,7 @@ Identify typical digital signals & a timing diagram
   * A change in temperature is shown on a digital display only when the temperature changes at least one degree\.
 
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_1.jpg)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_1.jpg)
 
 
 
@@ -48,9 +48,9 @@ Identify typical digital signals & a timing diagram
   * Mercury thermometer varies over a range of values with temperature\.
 
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_2.jpg)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_2.jpg)
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_3.jpg)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_3.jpg)
 
 # Binary Digital Signal
 
@@ -68,7 +68,7 @@ Identify typical digital signals & a timing diagram
 * of physical quantities\.
 
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_4.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_4.png)
 
 # Logic gates
 
@@ -94,7 +94,7 @@ __TTL__  – Transistor Transistor Logic
 
 __CMOS__  – Complementary Metal Oxide Semiconductor
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_5.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_5.png)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -110,11 +110,11 @@ Pins numbered CCW from top left
 
 Usually\, but not always\, \+Vcc is at upper right\, Ground at lower left\.
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_6.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_6.png)
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_7.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_7.png)
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_8.jpg)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_8.jpg)
 
 ©Ronald J\. Tocci\, Neal S\. Widmer\, Gregory L\. Moss\, Digital Systems: Principles and Applications\, 12/e
 
@@ -132,7 +132,7 @@ Logic 1 \(HIGH\): 2V → 5V
 
 Invalid Region: 0\.8V → 2V \(undefined\)
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_9.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_9.png)
 
 Example \(3\.3V Logic\):
 
@@ -144,7 +144,7 @@ Logic 1 = ON\, True\, or Current present
 
 Invalid = System cannot decide if 0 or 1 → may cause errors
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_10.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_10.png)
 
 # Advantages of Digital Systems
 
@@ -175,7 +175,7 @@ The comparators compare the input voltages with the 5 voltage\.
 
 Note how the output \(green\) is \+5 volts when the analog input \(blue\) exceeds the reference voltage \(red\)\, otherwise the output is zero\.
 
-![](Topic 1 Introduction to Digital System-img/Topic 1 Introduction to Digital System_11.png)
+![](t1-introduction-to-digital-system-img/Topic 1 Introduction to Digital System_11.png)
 
 # References
 

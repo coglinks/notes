@@ -54,7 +54,7 @@ The numerical equivalents of AB are shown at the bottom of each cell\, e\.g\. 11
 
 When variable A is true\, it is shown by a bracket above the columns\.  Same with variable B\.
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_0.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_0.png)
 
 # K-Maps – 3 Variables
 
@@ -65,21 +65,21 @@ When variable A is true\, it is shown by a bracket above the columns\.  Same wit
 * Adjacent K map square differ in only one variable both horizontally and vertically\.
 
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_1.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_1.png)
 
 The 3 variables K\- map using minterms can be written as below:
 
 We will now develop a large K\-Map which can display 4 variables:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_2.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_2.png)
 
 The 4 variables K\- map using minterms can be written as below:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_3.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_3.png)
 
 # Filling K-Map
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_4.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_4.png)
 
 # How to View a K-Map
 
@@ -113,13 +113,13 @@ For most effective reduction\, make each group as large as possible\.
 
 __OCTETS__  \- Blocks of 8 are golden\.  They signify that  _we can reduce all of the logic in that block down to a single variable_ \, even though 4 variables are shown\.
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_5.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_5.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_6.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_6.png)
 
 # Blocks of 4 - Quads
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_7.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_7.png)
 
 Wrapping cells around the edges of the K\-Map results in additional quads\.
 
@@ -131,9 +131,9 @@ Quads signify that we can reduce all of the logic in that block down to 3 variab
 
 Here some obvious and less obvious pairs:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_8.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_8.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_9.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_9.png)
 
 # Single one’s
 
@@ -145,11 +145,11 @@ Each cell requires 4 variable to describe it\.
 
 Some examples are shown below:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_10.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_10.png)
 
 # Singles Only
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_11.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_11.png)
 
 # Example 1
 
@@ -159,9 +159,9 @@ Derive the output expression for the following K map:
 
 <span style="color:#ff0000">Solution</span>
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_12.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_12.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_13.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_13.png)
 
 # Exercise
 
@@ -169,19 +169,19 @@ Derive the output expression for the following K map:
 
 This circuit is very complex and has an equally complex Boolean expression and Truth Table\.
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_14.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_14.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_15.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_15.png)
 
 # K-Map of Circuit
 
 Write the K\-Map of the circuit:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_16.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_16.png)
 
 # Example – Reducing a Large Circuit
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_17.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_17.png)
 
 # Comparing between the original and simplified circuits
 
@@ -189,11 +189,11 @@ Draw the circuit gotten by K\-map and compare between the complexity
 
 The equivalent circuit \(left\) is much simpler than the original circuit \(right\)…  <span style="color:#ff0000">great\!\!</span>
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_18.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_18.png)
 
 # Selecting a Different Set of Cells
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_19.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_19.png)
 
 # Filling K Map from Boolean Expression
 
@@ -207,7 +207,7 @@ Place a 0 in all other squares\.
 
 # Example 1:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_20.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_20.png)
 
 # Don’t-Care Conditions
 
@@ -217,15 +217,15 @@ Draw the K\- map for the below truth table then find the minimal expression usin
 
 Solution:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_21.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_21.png)
 
 Draw the K\- map for the below truth table then find the minimal expression using K\-mapping
 
 Solution:
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_22.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_22.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_23.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_23.png)
 
 # Example 3:
 
@@ -241,9 +241,9 @@ F1\, F2\, and F3 are floor indicator signals that are normally LOW\, and they go
 
 For example\, when the elevator is lined up level with the second floor\, F2 = 1 and F1 = F3 = 0\. The circuit output is the OPEN signal\, which is normally LOW and will go HIGH when the elevator door is to be opened\.
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_24.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_24.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_25.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_25.png)
 
-![](Topic 4.3 K- map_Combinational Logic circuit analysis and simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_26.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_26.png)
 
