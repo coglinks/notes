@@ -1,6 +1,5 @@
 ---
 title: "T4.2 Combinational Logic Circuit Analysis And Simplification SOP POS"
-author: "Ghufran Khalaf"
 # format: 
 #   revealjs:
 #     slide-number: c/t
@@ -11,7 +10,7 @@ author: "Ghufran Khalaf"
 #     incremental: true
 #     theme: [simple]
 ---
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_0.jpg)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_0.jpg)
 
 # Objectives
 
@@ -31,13 +30,13 @@ simplify the expression
 
 <span style="color:#ff0000">Solution:</span>
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_1.png)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_1.png)
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_2.png)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_2.png)
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_3.png)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_3.png)
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_4.png)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_4.png)
 
 # Minterms and Maxterms
 
@@ -60,9 +59,9 @@ An  <span style="color:#ff0000">SOP \(Sum of Products\) </span> circuit is in th
 
 A  <span style="color:#ff0000">POS \(Product of Sums\) </span> circuit is in the form of groups of OR gates collected by AND gates\,  <span style="color:#ff0000">note this is AND of maxterms</span>
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_5.jpg)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_5.jpg)
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_6.jpg)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_6.jpg)
 
 # SOP
 
@@ -132,9 +131,9 @@ For the truth table find the SOP or POS then simplify it using Boolean and Demor
 
 The simplified expression called  <span style="color:#ff0000">minimal </span>
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_7.jpg)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_7.jpg)
 
 # Solve it !
 
-![](Topic%204.2%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_8.jpg)
+![](Topic 4.2 Combinational Logic circuit analysis and simplification SOP_POS-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_8.jpg)
 
