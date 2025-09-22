@@ -15,3 +15,24 @@ In a gate drawing:
 
 1. Change the gate
 2. Add a bubble where is none, remove a bubble where there is one
+
+## Standard Symbols
+
+
+![](t4-img/nand-standard-symbol.png){#fig-nand-standard-symbol align=center width=300 alt="nand-standard-symbol.png"}
+
+## Constructing Gates from a Truth Table
+
+In a given truth table:
+
+- Choose OR or AND logic
+- Construct gates for each output using the chosen gate and not gates
+- The 1 output are the most important
+
+## Logic Gate - Exclusive-OR Gate
+
+Differing inputs give a high output. Same gives a low output
+
+## Boolean Theorem
+
+4. $x.x' = 0 = x.\overline{x}$
