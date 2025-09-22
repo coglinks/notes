@@ -11,3 +11,9 @@
 
 >  Line Configuration Mode: 
 > Used to configure console, SSH, Telnet or AUX access
+
+## T3 Protocols and Reference Models
+
+> Application: Represents data to the user, plus encoding and dialog control. (*pg 17*)
+
+dialog control?
