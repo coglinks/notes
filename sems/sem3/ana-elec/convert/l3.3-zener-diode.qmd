@@ -1,0 +1,197 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l3.3-zener-diode-img/l33-zener-diode_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L3.3 –Zener Diode
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+<span style="color:#000000">Describe the characteristics of a Zener diode and analyse its operation</span>
+
+<span style="color:#000000">Recognize a Zener diode by its schematic symbol</span>
+
+<span style="color:#000000">Discuss Zener breakdown</span>
+
+<span style="color:#000000">Define </span>  <span style="color:#000000"> _avalanche breakdown_ </span>
+
+<span style="color:#000000">Explain Zener breakdown characteristics</span>
+
+<span style="color:#000000">Describe Zener regulation</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Zener Diode
+
+<span style="color:#000000">A </span> Zener diode  <span style="color:#000000">is a silicon </span>  <span style="color:#000000"> _pn_ </span>  <span style="color:#000000"> _ _ </span>  <span style="color:#000000">junction device\.</span>
+
+<span style="color:#0000cc">Designed for operation in the reverse region</span>  <span style="color:#000000">\. </span>
+
+<span style="color:#000000">The breakdown voltage of a Zener diode is set by carefully controlling the doping level during manufacture\.</span>
+
+Recall diode reaches reverse breakdown\, its voltage remains almost constant even though the current changes drastically\, and this is the key to Zener diode operation\.
+
+![](l3.3-zener-diode-img/l33-zener-diode_1.png)
+
+![](l3.3-zener-diode-img/l33-zener-diode_2.png)
+
+![](l3.3-zener-diode-img/l33-zener-diode_3.png)
+
+<span style="color:#0000cc">V\-I characteristics</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Breakdown Characteristics__ </span>
+
+Zeners are commercially available with breakdown voltages from less than 1V to more than 250 V with specified tolerances from 1% to 20%\.
+
+When reverse voltage \( _V_ R\) is increased\, the reverse current \( _I_ R\) remains extremely small up to the “knee” of the curve\.
+
+<span style="color:#336600">Reverse current is also called the Zener current\, </span>  <span style="color:#336600"> _I_ </span>  <span style="color:#336600">Z</span>  <span style="color:#336600">\.</span>
+
+![](l3.3-zener-diode-img/l33-zener-diode_4.png)
+
+<span style="color:#0000cc">Reverse characteristic of a Zener</span>  <span style="color:#0000cc"> </span>  <span style="color:#0000cc">diode</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l3.3-zener-diode-img/l33-zener-diode_5.png)
+
+<span style="color:#c00000"> __Voltage Regulation:__ </span>
+
+Zener Equivalent circuit:
+
+<span style="color:#0000cc">Zener diode can be used as a type of voltage regulator for providing stable reference</span>  <span style="color:#0000cc"> </span>  <span style="color:#0000cc">voltages</span> \.
+
+<span style="color:#ff0000">Not efficient though\!</span>
+
+Limited to applications that require only low current to the load\.
+
+![](l3.3-zener-diode-img/l33-zener-diode_6.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Voltage Regulation With Variable input Voltage :__ </span>
+
+<span style="color:#336600">Increasing  Input Voltage:</span>
+
+![](l3.3-zener-diode-img/l33-zener-diode_7.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Recall
+
+![](l3.3-zener-diode-img/l33-zener-diode_8.png)
+
+Voltage divider circuit:
+
+What is V1?
+
+What is V2?
+
+![](l3.3-zener-diode-img/l33-zener-diode_9.png)
+
+DP3100 – Programmable Logic Controllers
+
+![](l3.3-zener-diode-img/l33-zener-diode_10.png)
+
+Voltage divider circuit:
+
+What is VL?
+
+What is Vr?
+
+![](l3.3-zener-diode-img/l33-zener-diode_11.png)
+
+DP3100 – Programmable Logic Controllers
+
+# Zener Diode
+
+![](l3.3-zener-diode-img/l33-zener-diode_12.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#0000cc"> __Example 1: \(Solution\)__ </span>
+
+First\, calculate the voltage drop across RL assuming the diode is open circuit as shown in Fig\. 116\.
+
+![](l3.3-zener-diode-img/l33-zener-diode_13.png)
+
+<span style="color:#0000cc">As V<</span>  <span style="color:#0000cc">Vz</span>  <span style="color:#0000cc">; the </span>  <span style="color:#0000cc">zener</span>  <span style="color:#0000cc"> diode will be in “OFF” state\.</span>
+
+![](l3.3-zener-diode-img/l33-zener-diode_14.png)
+
+![](l3.3-zener-diode-img/l33-zener-diode_15.png)
+
+![](l3.3-zener-diode-img/l33-zener-diode_16.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+For Example 1\(b\)\, now RL is equal to 3KΩ as shown below\.
+
+![](l3.3-zener-diode-img/l33-zener-diode_17.png)
+
+Again calculate the voltage drop across RL assuming the diode is open circuit as shown below\.
+
+![](l3.3-zener-diode-img/l33-zener-diode_18.png)
+
+![](l3.3-zener-diode-img/l33-zener-diode_19.png)
+
+<span style="color:#0000cc">As V>=</span>  <span style="color:#0000cc">Vz</span>  <span style="color:#0000cc">; the </span>  <span style="color:#0000cc">zener</span>  <span style="color:#0000cc"> diode will be in “ON” state\.</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l3.3-zener-diode-img/l33-zener-diode_20.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+

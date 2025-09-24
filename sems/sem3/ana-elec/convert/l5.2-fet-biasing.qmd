@@ -1,0 +1,163 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l5.2-fet-biasing-img/l52-fet-biasing_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L5.2
+
+      FET Biasing
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Understand Different biasing techniques for JFET\.
+
+Correctly bias JFET as an amplifier\.
+
+Design of Biasing circuit\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Field Effect Transistors (FET)
+
+<span style="color:#ff0000">Characteristics and Equations</span>
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_1.png)
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_2.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# FET Biasing
+
+<span style="color:#ff0000">Fixed Bias Configuration</span>
+
+<span style="color:#0000ff"> </span>  <span style="color:#0000ff"> _Shockley Equation_ </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Fixed Bias Configuration</span>
+
+Determine the following for the given network
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_3.png)
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_4.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Fixed Bias Configuration</span>
+
+Determine the following for the given network
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_5.png)
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_6.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Voltage Divider Bias Configuration</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Voltage Divider Bias Configuration</span>
+
+For the given network determine:
+
+ID
+
+VS
+
+VDS
+
+VD
+
+VG
+
+VGS
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_7.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Voltage Divider Bias Configuration</span>
+
+For the given network determine:
+
+ID
+
+VS
+
+VDS
+
+VD
+
+VG
+
+VGS
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_8.png)
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_9.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_10.png)
+
+For the network of following figure\, the levels of VDQ and IDQ are specified\. Determine the required values of RD and RS\.
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_11.png)
+
+![](l5.2-fet-biasing-img/l52-fet-biasing_12.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+

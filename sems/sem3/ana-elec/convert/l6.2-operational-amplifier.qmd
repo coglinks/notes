@@ -1,0 +1,153 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L6.2
+
+Op-Amp Applications
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Understand what a differential amplifier does
+
+Learn the basics of an operational amplifier
+
+Develop an understanding of what common mode operation is
+
+Describe double\-ended input operation
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Integrated Circuit (IC) LM124
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_1.gif)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_2.png)
+
+# Output Design
+
+What is the range of the voltage\-gain adjustment in the following circuit?
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_3.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_4.png)
+
+Design an Op\-Amp with voltage gain equal to \-5\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_5.png)
+
+The answer is Rx = 100 kΩ
+
+# Multiple-stage Gains
+
+Calculate the output voltage for the following circuit\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_6.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_7.png)
+
+Multiple\-stage Gains
+
+Calculate the output voltages  _V_ 2 and  _V_ 3 in the following circuit\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_8.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_9.png)
+
+When a number of stages are connected in series\, the overall gain is the product of the individual stage gains\.
+
+Following figure shows a connection of three stages\. The first stage is connected to provide noninverting gain\. The next two stages provide an inverting gain\.
+
+The overall circuit gain is then noninverting and is calculated by:
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_10.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_11.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_12.png)
+
+Multiple\-stage Gains
+
+Calculate the output voltage using the circuit of following figure for resistor components of value  _R_  _f _ = 470 kΩ\,  _R_ 1 = 4\.3 kΩ\,  _R_ 2 = 33 kΩ\, and  _R_ 3 = 33 kΩ for an input of 80 mV\.
+
+Also find gain and output of each OP\-AMP \(A1\, A2\, A3\, VO1\, VO2\, VO3\) and the total gain A\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_13.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_14.png)
+
+1\)
+
+2\)
+
+3\)
+
+4\)
+
+5\)
+
+6\)
+
+7\)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_15.png)
+
+Multiple\-stage Gains
+
+Consider a three\-stage OP\-AMP circuit with gains of \+10\, \-18\, and \-27 and 270 kΩ feedback resistor for all three circuits\. What output voltage VO will result for an input of 150 µV? Also find R1\, R2\, R3 and total gain A\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_16.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_17.png)
+
+For an input of  _V_ 1 = 150 µV\, the output voltage is
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_18.png)
+
+Multiple\-stage Gains
+
+Determine the values for R1\, R2 and R3 for the three OP\-AMPs to provide
+
+outputs that are 10\, 20\, and 50 times larger than the input\. Use a feedback resistor of
+
+_R_  _f _ = 500 kV in all stages\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_19.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_20.png)
+
+Multiple\-stage Gains
+
+Determine the output for the circuit in following figure with components  _R_  _f _ = 1 MΩ\,  _R_ 1 = 100 k Ω\,  _R_ 2 = 50 k Ω\, and  _R_ 3 = 500 k Ω\.
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_21.png)
+
+Also find output of first OP\-AMP\.
+
+The output voltage is then calculated to be:
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_22.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_23.png)
+
+![](l6.2-operational-amplifier-img/l62-operational-amplifier_24.png)
+

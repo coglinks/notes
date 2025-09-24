@@ -1,0 +1,462 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# Lecture # 4.4
+
+BJT as an Amplifier
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+<span style="color:#000000">Discuss Different type of BJT Biasing</span>
+
+<span style="color:#000000">Analyse different type of Bias circuits\.</span>
+
+<span style="color:#000000">Define </span>  <span style="color:#000000"> _Q\-point _ </span>  <span style="color:#000000">and describe how it affects the output of an amplifier</span>
+
+<span style="color:#000000">Explain how collector characteristic curves are produced</span>
+
+<span style="color:#3d9ac8"> </span>  <span style="color:#000000">Describe and draw a dc load line</span>
+
+<span style="color:#000000">State the conditions for linear operation</span>
+
+<span style="color:#000000">Explain what causes waveform distortion</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Bipolar Junction Transistor ( BJT)
+
+<span style="color:#ff0000"> __Graphical Analysis __ </span>
+
+<span style="color:#ff0000">Recall:</span>  <span style="color:#336600">\-Biasing of a transistor:</span>
+
+__Biasing: __ The DC voltages applied to a transistor in order to turn it on so that it can amplify the AC signal\.
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_1.png)
+
+<span style="color:#c00000">The DC input establishes an operating or quiescent point\.</span>
+
+<span style="color:#c00000">A\,B\, C\, D… </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __DC Biasing Circuits Types:__ </span>
+
+<span style="color:#7030a0">Fixed\-bias/ Base Bias circuit</span>
+
+<span style="color:#7030a0">Emitter\-stabilized bias circuit</span>
+
+<span style="color:#336600">Collector Collector\-emitter loop</span>
+
+<span style="color:#7030a0">Voltage divider bias circuit</span>
+
+<span style="color:#336600">DC bias with voltage feedback</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">1</span>  <span style="color:#336600">\-fixed Bias/ Base Bias Circuit:</span>
+
+Its simple because it uses only one resistor to obtain bias\.
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_2.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_3.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">1</span>  <span style="color:#ff0000">\- Analysis fixed Bias/ Base Bias Circuit:</span>
+
+Analysis of this circuit for the linear region shows that it is directly dependent on beta DC\. Starting with Kirchhoff’s voltage law around the base circuit\.
+
+<span style="color:#336600"> __The Base\-Emitter Loop__ </span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_4.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_5.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_6.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">1</span>  <span style="color:#ff0000">\- Analysis fixed Bias/ Base Bias Circuit:</span>
+
+<span style="color:#336600"> __b\. The Collector\-Emitter Loop__ </span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_7.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_8.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_9.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_10.png)
+
+<span style="color:#0000cc">I</span>  <span style="color:#0000cc">C</span>  <span style="color:#0000cc"> is dependent on beta \(B</span>  <span style="color:#0000cc">DC</span>  <span style="color:#0000cc">\)\. </span>
+
+The disadvantage of this is that a variation in  _B_  _DC_  causes IC and\, as a result\, VCE to change\, thus changing the Q\-point of the transistor\.
+
+<span style="color:#ff0000"> __This makes the base\-bias circuit extremely beta\-dependent and unpredictable\.__ </span>
+
+Hence base bias is used in switching circuits where the transistor is either in saturation or cut off but is rarely used in linear circuits\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_11.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Load __ </span>  <span style="color:#c00000"> __Line__ </span>  <span style="color:#c00000"> __ __ </span>  <span style="color:#c00000"> __Analysis__ </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_12.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_13.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_14.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">2</span>  <span style="color:#336600">\- Emitter Bias/ Emitter Feedback Configuration:</span>
+
+Adding a resistor  \(RE\) to the emitter circuit stabilizes the bias circuit\.
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_15.png)
+
+<span style="color:#0000ff">Idea is to help make base bias more predictable with negative feedback\, which negates any attempted change in collector current with an opposing change in base voltage\.</span>
+
+If the collector current tries to increase\, the emitter voltage increases\, causing an increase in base voltage because VB = VE \+ VBE\.
+
+Increase in base voltage reduces the voltage across RB\, reducing the base current and keeping the collector current from increasing\.
+
+While this is better for linear circuits than base bias\, it is still dependent on ßDC and is not as predictable as voltage\-divider bias\. To calculate IE\, you can write Kirchhoff’s voltage law \(KVL\) around the base circuit\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">2</span>  <span style="color:#336600">\- Analysis Emitter Bias/ Emitter Feedback Configuration:</span>
+
+<span style="color:#c00000"> __The Base\-Emitter Loop__ </span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_16.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_17.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">2</span>  <span style="color:#336600">\- Analysis Emitter Bias/ Emitter Feedback Configuration:</span>
+
+<span style="color:#c00000"> __b\. Collector Emitter Loop__ </span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_18.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_19.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_20.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_21.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_22.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_23.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">3\- Voltage Divider Configuration:</span>
+
+Method of biasing a transistor for linear operation using a single source resistive voltage divider\.
+
+Most widely used biasing method\.
+
+Developed by a resistive voltage divider that consists of  _R_ 1 and  _R_ 2\.
+
+<span style="color:#7030a0"> _V_ </span>  <span style="color:#7030a0">CC</span>  <span style="color:#7030a0"> is the dc collector supply voltage\. Two current paths are between point </span>  <span style="color:#7030a0"> _A _ </span>  <span style="color:#7030a0">and ground: one through </span>  <span style="color:#7030a0"> _R_ </span>  <span style="color:#7030a0">2</span>  <span style="color:#7030a0"> and the other through the base\-emitter junction of the transistor and </span>  <span style="color:#7030a0"> _R_ </span>  <span style="color:#7030a0">E</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_24.png)
+
+Voltage\-divider bias circuits are designed so that the base current is much smaller than the current \( _I_ 2\) through  _R_ 2  in
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">3\- Voltage Divider Configuration:</span>
+
+<span style="color:#000000">T</span>  <span style="color:#000000">he voltage\-divider circuit is very straightforward to </span>  <span style="color:#000000">analyze</span>  <span style="color:#000000"> because the loading effect of the </span>  <span style="color:#0000ff">base current can be ignored</span>  <span style="color:#0000ff">\. </span>
+
+<span style="color:#000000">A voltage divider in which the base current is small compared to the current in </span>  <span style="color:#000000"> _R_ </span>  <span style="color:#000000">2 </span>  <span style="color:#000000">is said to be a </span>  <span style="color:#0000ff"> __stiff voltage divider __ </span>  <span style="color:#000000">because the base voltage is relatively </span>  <span style="color:#c00000">independent of different transistors and temperature effects</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_25.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">3\- Voltage Divider Configuration:</span>
+
+Voltage\-divider circuit in which  _I_ B is small compared to  _I_ 2\, first calculate the voltage on the base using the unloaded voltage\-divider rule
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_26.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_27.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_28.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_29.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">3\- Voltage Divider Configuration:</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_30.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_31.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">3\- Voltage Divider Configuration:</span>
+
+<span style="color:#c00000">Stiff voltage Divider  Analysis</span>
+
+If the voltage divider in previous was not stiff\, how would  _V_ B be affected?
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_32.png)
+
+Voltage\-divider circuit is stiff\, which means that the  <span style="color:#336600">transistor does not appear as a significant load to the voltage divider\. </span>
+
+To determine if the divider is stiff\, you need to examine the dc input resistance looking in at the base as shown opposite\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#961a26"> __Bipolar Junction Transistor:__ </span>
+
+<span style="color:#0000cc"> __Bias configurations \(4\)__ </span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_33.png)
+
+Desirable to develop a bias circuit that is less sensitive to changes in current gain ß\.
+
+With voltage divider bias\,  values of  _V_  _CEQ _  and I _CQ_  _  _ can be independent of changes in gain ß\.
+
+DC voltages and currents remain close to the required values\.
+
+<span style="color:#c00000">I</span>  <span style="color:#c00000">BQ</span>  <span style="color:#c00000"> only changes with gain ß change\.</span>
+
+<span style="color:#ff0000"> __II\.  Voltage divider Bias:__ </span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_34.png)
+
+
+
+* Voltage divider bias analysed using two methods:
+  * <span style="color:#c00000"> __   Exact method__ </span>
+* <span style="color:#c00000"> __         2\.   Approximate method__ </span>
+
+
+Figure :  Voltage divider bias
+
+Figure :  Q point for voltage divider bias
+
+<span style="color:#961a26"> __Analog Electronics__ </span>
+
+<span style="color:#0000cc"> __Bias configurations \(4\)__ </span>
+
+<span style="color:#ff0000"> __II\.  Voltage divider Bias:__ </span>
+
+<span style="color:#c00000"> __ DC ANALYSIS 1:  EXACT METHOD__ </span>
+
+Using Thevenin theorem\, Thevenin equivalent resistance and voltage can be computed\.
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_35.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_36.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_37.png)
+
+Figure:  Vth determination
+
+Figure :  Rth determination
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_38.png)
+
+Figure DC component
+
+Figure :  Thevenin equivalent circuit
+
+<span style="color:#961a26"> __Analog Electronics  I  Review:__ </span>
+
+<span style="color:#0000cc"> __Bias configurations \(5\)__ </span>
+
+<span style="color:#ff0000"> __II\.  Voltage divider Bias:__ </span>
+
+<span style="color:#c00000"> __ DC ANALYSIS 2:  APPROXIMATE  METHOD__ </span>
+
+Approximate approach is applied if\,
+
+The difference between the exact and approximate methods is the effect of  Thevenin resistance \(Rth\)\.
+
+<span style="color:#961a26"> __Bipolar Junction Transistor:__ </span>
+
+<span style="color:#0000cc"> __Bias configurations:__ </span>
+
+For the voltage divider bias of  figure using  \(a\) exact method and \(b\) approximate method\, determine the values of   _V_  _C_ E and  _I_  _C_ \.
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_39.png)
+
+<span style="color:#336600">Voltage Divider Configuration Examples:</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_40.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_41.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_42.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_43.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_44.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_45.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">Voltage Divider Configuration Examples:</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_46.png)
+
+Note that the level of VB is the same as ETh determined in Example 7\.
+
+<span style="color:#0000ff">Primary difference between the exact and approximate techniques is the effect of </span>  <span style="color:#0000ff">R</span>  <span style="color:#0000ff">Th</span>  <span style="color:#0000ff"> in the exact analysis that separates </span>  <span style="color:#0000ff">E</span>  <span style="color:#0000ff">Th</span>  <span style="color:#0000ff"> and V</span>  <span style="color:#0000ff">B</span>  <span style="color:#0000ff">\.</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_47.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_48.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_49.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">Voltage Divider Configuration Examples:</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_50.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_51.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_52.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_53.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#336600">Voltage Divider Configuration Examples:</span>
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_54.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_55.png)
+
+![](l4.4-dc-biasing-bipolar-junction-transistor-ii-img/l44-dc-biasing-bipolar-junction-transistor-ii_56.png)
+
+<span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff"> _CQ_ </span>  <span style="color:#0000ff"> _ is about 30% greater with the approximate solution\, whereas V_ </span>  <span style="color:#0000ff"> _CEQ_ </span>  <span style="color:#0000ff"> _ is about 10% less\. _ </span>
+
+<span style="color:#0000ff"> _The results are notably different in magnitude\, but even though BR_ </span>  <span style="color:#0000ff"> _E_ </span>  <span style="color:#0000ff"> _ is only about three times larger than R_ </span>  <span style="color:#0000ff"> _2_ </span>  <span style="color:#0000ff"> _\, the results are still relatively close to each other\._ </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+

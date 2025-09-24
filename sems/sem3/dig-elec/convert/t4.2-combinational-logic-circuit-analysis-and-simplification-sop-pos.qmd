@@ -1,5 +1,6 @@
 ---
 title: "T4.2 Combinational Logic Circuit Analysis And Simplification SOP POS"
+number-sections: true
 # format: 
 #   revealjs:
 #     slide-number: c/t
@@ -10,11 +11,10 @@ title: "T4.2 Combinational Logic Circuit Analysis And Simplification SOP POS"
 #     incremental: true
 #     theme: [simple]
 ---
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_0.jpg)
 
-# Objectives
+## Objectives
 
-Simplify logic circuits using Boolean and DeMorgan's theorems\.
+Simplify logic circuits using Boolean and DeMorgan's theorems.
 
 Identify Canonical and Normal forms
 
@@ -24,116 +24,114 @@ Identify SOP and POS
 
 Extract SOP and POS from truth table
 
-# Review
+## Review
 
 simplify the expression
 
-<span style="color:#ff0000">Solution:</span>
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/logic-expression-q1.png)
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_1.png)
+Solution:
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_2.png)
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/logic-gate-q1.png)
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_3.png)
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/logic-expression-s1.png)
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_4.png)
+## Minterms and Maxterms
 
-# Minterms and Maxterms
+-   A minterm (standard product): an AND term consists of all literals in their normal form or in their complement form.
+    -   For example, two binary variables *x* and *y,*
+        -   *xy* *,* *xy* *',* *x'y* *,* *x'y* *'*
+    -   It is also called a standard product.
+    -   *n* variables can be combined to form 2 *n* minterms.
+-   A maxterm (standard sums): an OR term
+    -   For example, two binary variables *x* and *y,*
+        -   *x+y* *,* *x+y* *’,* *x’+y* *,* *x’+y* *’*
+    -   It is also called a standard sum.
+    -   2 *n* maxterms.
+    -   Each *maxterm* is the complement of its corresponding *minterm* , and vice versa.
 
+## SOP And POS
 
+An SOP (Sum of Products) circuit is in the form of groups of AND gates collected by OR gates, note this is sum of minterms
 
-* <span style="color:#ff0000">A </span>  <span style="color:#ff0000">minterm</span>  <span style="color:#ff0000"> \(standard product\): </span> an AND term consists of all literals in their normal form or in their complement form\.
-  * For example\, two binary variables  _x _ and  _y\,_
-    * _xy_  _\, _  _xy_  _'\, _  _x'y_  _\, _  _x'y_  _'_
-  * It is also called a standard product\.
-  * _n_  variables can be combined to form 2 _n _ minterms\.
-* <span style="color:#ff0000">A maxterm \(standard sums\): </span> an OR term
-  * For example\, two binary variables  _x _ and  _y\,_
-    * _x\+y_  _\, _  _x\+y_  _’\, _  _x’\+y_  _\, _  _x’\+y_  _’ _
-  * It is also called a standard sum\.
-  * 2 _n _ maxterms\.
-  * Each  _maxterm_  is the complement of its corresponding  _minterm_ \, and vice versa\.
-# SOP And POS
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/sop-example.jpg)
 
-An  <span style="color:#ff0000">SOP \(Sum of Products\) </span> circuit is in the form of groups of AND gates collected by OR gates\,  <span style="color:#ff0000">note this is sum of </span>  <span style="color:#ff0000">minterms</span>
+A POS (Product of Sums) circuit is in the form of groups of OR gates collected by AND gates, note this is AND of maxterms
 
-A  <span style="color:#ff0000">POS \(Product of Sums\) </span> circuit is in the form of groups of OR gates collected by AND gates\,  <span style="color:#ff0000">note this is AND of maxterms</span>
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/pos-example.jpg)
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_5.jpg)
+## SOP
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_6.jpg)
+#### Input expressions and minterms :
 
-# SOP
+-   If the value of the Boolean variable is 1 then we will take the variable without complementing it.
 
-<span style="color:#ff0000">Input expressions and </span>  <span style="color:#ff0000">minterms</span>  <span style="color:#ff0000">:</span>
+-   If the value of the Boolean variable is 0 then we will take the variable by complementing it.
 
-If the value of the Boolean variable is 1 then we will take the variable without complementing it\.
+Output:
 
-If the value of the Boolean variable is 0 then we will take the variable by complementing it\.
+The output function can be written in SOP form by adding all the min-terms when the output is HIGH(1).
 
-<span style="color:#ff0000">Output:</span>
+| **Variable** |     | **Minterm** |                |
+|:------------:|:---:|:-----------:|:--------------:|
+|      A       |  B  |    Term     | Representation |
+|      0       |  0  |    A’B’     |       m0       |
+|      0       |  1  |     A’B     |       m1       |
+|      1       |  0  |     AB’     |       m2       |
+|      1       |  1  |     AB      |       m3       |
 
-<span style="color:#000000">The output function can be written in SOP form by adding all the min\-terms when the output is HIGH\(1\)\.</span>
+## Example of SOP 1
 
-| __Variable__ |  | __Minterm__ |  |
-| :-: | :-: | :-: | :-: |
-| A | B | Term | Representation |
-| 0 | 0 | A’B’ | m0 |
-| 0 | 1 | A’B | m1 |
-| 1 | 0 | AB’ | m2 |
-| 1 | 1 | AB | m3 |
+Use the SOP to write the canonical form for the Truth Table
 
-# Example of SOP 1
+Design a logic circuit with three inputs, A, B, and C. Output to be HIGH only when a majority inputs are HIGH.
 
-Use the SOP to write  the canonical form for the Truth Table
+Solution:
 
-Design a logic circuit with three inputs\, A\, B\, and C\. Output to be HIGH only when a majority inputs are HIGH\.
+## POS
 
-<span style="color:#ff0000">Solution:</span>
+Input expressions and Maxterms:
 
-# POS
+-   If the value of the Boolean variable is 0, then we will take the variable without complementing it.
 
-<span style="color:#ff0000">Input expressions and Maxterms:</span>
+-   If the value of the Boolean variable is 1, then we will take the variable by complementing it.
 
-1\. If the value of the Boolean variable is 0 then we will take the variable without complementing it\.
+Output:
 
-2\. If the value of the Boolean variable is 1 then we will take the variable by complementing it\.
+The output function can be written in SOP form by adding all the min-terms when the output is HIGH( 0 ).
 
-<span style="color:#ff0000">Output:</span>
+| **Variable** |     | **Maxterm** |                |
+|:------------:|:---:|:-----------:|:--------------:|
+|      A       |  B  |    Term     | Representation |
+|      0       |  0  |     A+B     |       M0       |
+|      0       |  1  |    A+B’     |       M1       |
+|      1       |  0  |    A’+B     |       M2       |
+|      1       |  1  |    A’+B’    |       M3       |
 
-<span style="color:#000000">The output function can be written in SOP form by adding all the min\-terms when the output is HIGH\(</span>  <span style="color:#000000">0</span>  <span style="color:#000000">\)\.</span>
+## Example of POS
 
-| __Variable__ |  | __Maxterm__ |  |
-| :-: | :-: | :-: | :-: |
-| A | B | Term | Representation |
-| 0 | 0 | A\+B | M0 |
-| 0 | 1 | A\+B’ | M1 |
-| 1 | 0 | A’\+B | M2 |
-| 1 | 1 | A’\+B’ | M3 |
+Use the POS to write the canonical form for the Truth Table
 
-# Example of POS
+Solution
 
-Use the POS to write  the canonical form for the Truth Table
+# Inc
 
-<span style="color:#ff0000">Solution</span>
+## Exercise:
 
-# Exercise:
+Write the canonical form for the below truth table using SOP and POS, and use DeMorgan’s theorem to prove that the two expressions are equivalent
 
-Write the canonical form for the below truth table using SOP and POS\, and use DeMorgan’s theorem to prove that the two expressions are equivalent
-
-# Simplifying Logic Circuits
+## Simplifying Logic Circuits
 
 The logic circuits can be simplified using Boolean algebra and Karnaugh mapping
 
-If you have a complex logic circuit\, write the expression of the output then simplify using Boolean theorems
+If you have a complex logic circuit, write the expression of the output then simplify using Boolean theorems
 
 For the truth table find the SOP or POS then simplify it using Boolean and Demorgan’s theorem
 
-The simplified expression called  <span style="color:#ff0000">minimal </span>
+The simplified expression called minimal
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_7.jpg)
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_7.jpg)
 
-# Solve it !
+## Solve it !
 
-![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic 42 Combinational Logic circuit analysis and simplification SOP_POS_8.jpg)
-
+![](topic-4.2-combinational-logic-circuit-analysis-and-simplification-sop-pos-img/Topic%2042%20Combinational%20Logic%20circuit%20analysis%20and%20simplification%20SOP_POS_8.jpg)

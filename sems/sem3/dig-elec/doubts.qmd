@@ -1,16 +1,33 @@
 ---
 title: "Doubts"
 ---
+
 ## T1 Introduction To Digital System
 
-1. Are combination of logic gates a single logic gate
+1.  Are combination of logic gates a single logic gate
 
 **Ans** Yes
 
 ## T2 Boolean Algebra and Logic Gates
 
-1. What is the purpose of a buffer gate?
+1.  What is the purpose of a buffer gate?
 
 **Ans**
 
-2. What are the logic voltages of a CMOS gate?
+2.  What are the logic voltages of a CMOS gate?
+
+## T4.2 Combinational Logic Circuit Analysis And Simplification SOP POS
+
+1.  <div>
+
+    > **SOP**
+    >
+    > The output function can be written in SOP form by adding all the min-terms when the output is HIGH(1).
+    >
+    > **POS**
+    >
+    > The output function can be written in SOP form by adding all the min-terms when the output is HIGH(0).
+
+    </div>
+
+Isn't POS low instead of high?

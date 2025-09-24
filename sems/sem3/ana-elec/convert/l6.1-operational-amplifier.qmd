@@ -1,0 +1,233 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L6.1
+
+Operational Amplifier
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Understand what a differential amplifier does
+
+Learn the basics of an operational amplifier
+
+Develop an understanding of what common mode operation is
+
+Describe double\-ended input operation
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Basic Op-Amp
+
+__Operational __  __amplifier __  __or op\-amp\, __  __is __  __a very __  _high gain _  __differential  __  __amplifier with __  __a __  _high _  _input impedance _  __\(typically __  __a few meg\-Ohms\)  and __  _low output _  _impedance _  __\(less __  __than __  __100__  __ __  __\)\.__
+
+__Note the op\-amp has __  __two __  __inputs and one__  __ __  __output\.__
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Op-Amp Gain
+
+Op\-Amps have a very high gain\. They can be connected open\-loop or  closed\-loop\.
+
+<span style="color:#323299">Open\-loop </span> refers to a configuration where there is no feedback  from output back to the input\. In the open\-loop configuration  the gain can exceed 10\,000\.
+
+<span style="color:#323299">Closed\-loop </span> configuration reduces the gain\. In order to control  the gain of an op\-amp it must have feedback\. This feedback is a  negative feedback\. A  <span style="color:#323299">negative feedback </span> reduces the gain and  improves many characteristics of the op\-amp\.
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_1.png)
+
+# Operational amplifiers
+
+# Practical Op-Amp Circuits
+
+<span style="color:#323299"> __Inverting amplifier __ </span>
+
+<span style="color:#323299"> __Noninverting__ </span>  <span style="color:#323299"> __ __ </span>  <span style="color:#323299"> __amplifier  __ </span>
+
+<span style="color:#323299"> __Unity __ </span>  <span style="color:#323299"> __follower  __ </span>
+
+<span style="color:#323299"> __Summing __ </span>  <span style="color:#323299"> __amplifier  __ </span>
+
+<span style="color:#323299"> __Integrator  __ </span>
+
+<span style="color:#323299"> __Differentiator__ </span>
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Inverting Op-Amp
+
+__The __  __signal __  __input __  __is __  __applied __  __to __  __the __  <span style="color:#323299"> __inverting __ </span>  <span style="color:#323299"> __\(–\)__ </span>  <span style="color:#323299"> __ __ </span>  <span style="color:#323299"> __input__ </span>
+
+__The __  <span style="color:#323299"> __non\-inverting __ </span>  <span style="color:#323299"> __input __ </span>  <span style="color:#323299"> __\(\+\) __ </span>  __is__  __ __  __grounded__
+
+__The __  __resistor __  __R__  __f __  __is __  __the __  <span style="color:#323299"> __feedback resistor\. __ </span>  <span style="color:#323299"> __I__ </span>  __t __  __is __  __connected __  __from __  __the  __  __output __  __to __  __the __  __negative __  __\(inverting\) __  __input\. __  __This __  __is __  <span style="color:#323299"> _negative_ </span>  <span style="color:#323299"> _ _ </span>  <span style="color:#323299"> _feedback_ </span>  __\.__
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Inverting Op-Amp Gain
+
+__Gain can __  __be determined__  __ __  __from  __  __external resistors: R__  __f __  __and__  __ __  __R__  __1__
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_2.png)
+
+__Unity gain—voltage __  __gain is__  __ __  __1__
+
+__R__  __f  __  ____  __ __  __R__  __1__
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_3.png)
+
+__The __  __negative __  __sign __  __denotes a__  __ __  __180__  ____  __ __  __phase shift between __  __input __  __and  output\.__
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Example:
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_4.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_5.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_6.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_7.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_8.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_9.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_10.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_11.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_12.png)
+
+# Virtual Ground
+
+__An understanding __  __of __  __the  concept __  __of __  <span style="color:#323299"> __virtual __ </span>  <span style="color:#323299"> __ground  __ </span>  __provides __  __a __  __better  understanding __  __of __  __how __  __an__  __ __  __op\-  __  __amp__  __ __  __operates\.__
+
+__The __  _non\-inverting _  __input pin __  __is  at __  __ground\. __  _The inverting _  __input  pin __  __is __  __also __  __at 0 V for an __  __AC  signal\.__
+
+__The op\-amp __  __has such high __  __input impedance  __  __that even __  __with __  __a high __  __gain __  __there __  __is __  __no  current from __  __inverting __  __input __  __pin\, __  __therefore  there __  __is __  __no __  __voltage __  __from __  __inverting pin to  __  __ground—all __  __of the __  __current __  __is __  __through__  __ __  __R__  __f__  __\.__
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Inverting/Noninverting Op-Amps
+
+<span style="color:#323299"> __Inverting__ </span>  <span style="color:#323299"> __ __ </span>  <span style="color:#323299"> __Amplifier	Noninverting__ </span>  <span style="color:#323299"> __ __ </span>  <span style="color:#323299"> __Amplifier__ </span>
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Example:
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_13.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_14.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_15.png)
+
+The unity\-follower circuit\, as shown\, provides a gain of unity \(1\) with no polarity
+
+or phase reversal\.
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_16.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_17.png)
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Summing Amplifier
+
+__Because the op\-amp has a  high __  __input impedance\, __  __the  __  __multiple __  __inputs __  __are  __  __treated __  __as separate__  __ __  __inputs\.__
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_18.png)
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+Summing Amplifier
+
+<span style="color:#ff0000"> __Example:__ </span>
+
+<span style="color:#ff0000"> __Answer:__ </span>
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_19.png)
+
+Draw the summing operational amplifier circuit\.
+
+Summing Amplifier
+
+<span style="color:#ff0000"> __Example:__ </span>
+
+<span style="color:#ff0000"> __Answer:__ </span>
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_20.png)
+
+Draw the summing operational amplifier circuit\.
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_21.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_22.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_23.png)
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_24.png)
+
+# Integrator
+
+__The output __  __is __  __the integral  of the input\. Integration  __  __is __  __the operation of  __  __summing __  __the __  __area __  __under  a waveform or curve__  __ __  __over  a __  __period __  __of __  __time\. This  __  __circuit __  __is __  __useful __  __in low\-  __  __pass __  __filter __  __circuits __  __and  sensor __  __conditioning  __  __circuits\.__
+
+__v__  __o __  __\(t\) __  ____  __ __  ____  _ _  _ _  _1	_  ____  __ __  __v__  __1 __  __\(t\)dt__
+
+![](l6.1-operational-amplifier-img/l61-operational-amplifier_25.png)
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+
+# Differentiator
+
+__The __  __differentiator  __  __takes the derivative__  __ __  __of  the input\. __  __This __  __circuit  __  __is __  __useful __  __in __  __high\-pass  __  __filter__  __ __  __circuits\.__
+
+__v__  __o__  __ __  __\(t\)__  __ __  ____  __ __  ____  __RC__  __ __  __dv__  __1__  __ __  __\(t\)__
+
+Copyright ©2009 by Pearson Education\, Inc\.  Upper Saddle River\, New Jersey 07458 • All rights reserved\.
+
+Electronic Devices and Circuit Theory\, 10/e  Robert L\. Boylestad and Louis Nashelsky
+

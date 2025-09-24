@@ -1,0 +1,225 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L4.7
+      
+BJT AC Analysis
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Describe amplifier operation\.
+
+Discuss transistor models\.
+
+Describe and analyse the ac operation of BJT amplifiers\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#961a26"> __Bipolar Junction Transistor as Amplifier__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis:__ </span>
+
+A  <span style="color:#ff0000">model </span> is a combination of circuit elements\, properly chosen\, that best  approximates the actual behavior of a semiconductor device under specific  operating conditions\.
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_1.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_2.png)
+
+Defining the important parameters of any system\.
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_3.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_4.png)
+
+<span style="color:#961a26"> __Bipolar Junction Transistor__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_5.png)
+
+Why model? Help apply basic circuit analysis of the transistor amplifier\.
+
+Three model commonly used in small signal AC analysis of  BJT network:
+
+<span style="color:#c00000">r</span>  <span style="color:#c00000">e</span>  <span style="color:#c00000"> model\.</span>
+
+<span style="color:#c00000">Hybrid  </span>  <span style="color:#c00000">π</span>  <span style="color:#c00000"> model\.</span>
+
+<span style="color:#c00000">Hybrid equivalent model\.</span>
+
+<span style="color:#0000ff"> _r_ </span>  <span style="color:#0000ff"> _e_ </span>  <span style="color:#0000ff"> model which is reduced version of hybrid </span>  <span style="color:#0000ff">π</span>  <span style="color:#0000ff"> model is commonly used for high frequency analysis</span>  <span style="color:#0000ff">\.</span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_6.png)
+
+Figure   re model for common Emitter configuration
+
+<span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> _r_ </span>  <span style="color:#ff0000"> _e _ </span>  <span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> __Transistor__ </span>  <span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> __equivalent circuit \(Model\):__ </span>
+
+<span style="color:#c00000">r</span>  <span style="color:#c00000">e </span>  <span style="color:#c00000">is the ac emitter resistance</span>
+
+<span style="color:#961a26"> __Bipolar Junction Transistor__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis__ </span>
+
+AC equivalent of a transistor is obtained by:
+
+<span style="color:#c00000">Setting all DC sources to zero\.</span>
+
+<span style="color:#c00000">Replacing all capacitors to short circuit  equivalent\.</span>
+
+<span style="color:#c00000">Removing all elements bypassed by short equivalent by steps 1 and 2\.</span>
+
+<span style="color:#c00000">Redrawing the network in more convenient and logical form\.</span>
+
+<span style="color:#961a26"> __Bipolar Junction Transistor:__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis :__ </span>
+
+<span style="color:#ff0000">r</span>  <span style="color:#ff0000">e </span>  <span style="color:#ff0000">Model in </span>  <span style="color:#ff0000">Different </span>  <span style="color:#ff0000">Bias</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">Circuits:</span>
+
+<span style="color:#961a26"> __BJT AC Circuit Analysis __ </span>
+
+<span style="color:#0000cc"> __Example \- __ </span> For the following circuit:
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_7.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_8.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_9.png)
+
+<span style="color:#961a26"> __Bipolar Junction Transistor__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis:__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_10.png)
+
+<span style="color:#ff0000"> __ Voltage Divider __ </span>  <span style="color:#ff0000"> _r_ </span>  <span style="color:#ff0000"> _e _ </span>  <span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> __Transistor__ </span>  <span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> __equivalent circuit \(Model\):__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_11.png)
+
+_Substitute  r_  _e_  _ _
+
+_equivalent model\._
+
+Figure 2\.19:  Voltage divider ac equivalent circuit using re equivalent model\.
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_12.png)
+
+__Output Impedance __  <span style="color:#0000ff"> _Z_ </span>  <span style="color:#0000ff"> _o_ </span>  of the circuit:
+
+__Voltage gain __  <span style="color:#0000ff"> _A_ </span>  <span style="color:#0000ff"> _V_ </span>  <span style="color:#0000ff"> _  _ </span> :
+
+__Input Impedance __  <span style="color:#0000ff"> _Z_ </span>  <span style="color:#0000ff"> _i_ </span>  of the circuit:
+
+__Minus  sign: 180__  __0__  __ phase shift between  __  _V_  _o_  __ and __  _V_  _i_
+
+<span style="color:#961a26"> __Bipolar Junction Transistor__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis:__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_13.png)
+
+<span style="color:#ff0000"> __ Voltage Divider __ </span>  <span style="color:#ff0000"> _r_ </span>  <span style="color:#ff0000"> _e _ </span>  <span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> __Transistor__ </span>  <span style="color:#ff0000"> __ __ </span>  <span style="color:#ff0000"> __equivalent circuit \(Model\):__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_14.png)
+
+_Substitute  r_  _e_  _ _
+
+_equivalent model\._
+
+Voltage divider ac equivalent circuit using re equivalent model\.
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_15.png)
+
+<span style="color:#0000ff">For voltage divider bias circuit\, we can apply the following approximate approach to find r</span>  <span style="color:#0000ff">e</span>  <span style="color:#0000ff"> and </span>  <span style="color:#0000ff">r</span>  <span style="color:#0000ff">o</span>  <span style="color:#0000ff"> if</span>
+
+Diode resistance:
+
+Output impedance:
+
+<span style="color:#c00000">r</span>  <span style="color:#c00000">e </span>  <span style="color:#c00000">is the ac emitter resistance</span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_16.png)
+
+<span style="color:#c00000">V</span>  <span style="color:#c00000">A </span>  <span style="color:#c00000">is the early voltage\. </span>
+
+<span style="color:#961a26"> __BJT AC Circuit Analysis __ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_17.png)
+
+<span style="color:#0000cc"> __Example \- __ </span> For the following circuit:
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_18.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_19.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_20.png)
+
+<span style="color:#961a26"> __Analog Electronics  I  Review:__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis:__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_21.png)
+
+<span style="color:#ff0000"> __Effect of source resistor \(__ </span>  <span style="color:#ff0000"> __R__ </span>  <span style="color:#ff0000"> __s__ </span>  <span style="color:#ff0000"> __\) and load resistor  \(R__ </span>  <span style="color:#ff0000"> __L__ </span>  <span style="color:#ff0000"> __\)__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_22.png)
+
+Figure 2\.20:  Voltage bias with source resistor Rs and load resistor  RL
+
+So far we analysed the amplifier without any load been connected  <span style="color:#ff0000"> __\(No load gain\) __ </span> \.
+
+In addition we did not consider the effect of  internal resistance Rs of the source\.
+
+On amplifier data sheets\, the listed parameters  and gain are all for unloaded scenario\.
+
+<span style="color:#0000ff">The gain that results due to the application of source resistor </span>  <span style="color:#0000ff">R</span>  <span style="color:#0000ff">s</span>  <span style="color:#0000ff"> and load resistor  R</span>  <span style="color:#0000ff">L </span>  <span style="color:#0000ff">will have an effect on overall amplifier gain\.</span>
+
+<span style="color:#961a26"> __Bipolar Junction Transistor__ </span>
+
+<span style="color:#0000cc"> __BJT AC Circuit Analysis:__ </span>
+
+<span style="color:#ff0000"> __Effect of source resistor \(__ </span>  <span style="color:#ff0000"> __R__ </span>  <span style="color:#ff0000"> __s__ </span>  <span style="color:#ff0000"> __\) and load resistor  \(R__ </span>  <span style="color:#ff0000"> __L__ </span>  <span style="color:#ff0000"> __\)__ </span>
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_23.png)
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_24.png)
+
+Figure: Voltage bias with source resistor Rs and load resistor  RL
+
+__Voltage gain  due to R__  __L__  __ only__ :
+
+Observe from re equivalent circuit of figure above\, for voltage divider bias\, load resistance is in parallel with RC and source resistance Rs is in series with  signal source vs\.
+
+Thus:
+
+__Voltage gain  due to __  __R__  __s__  __ __ :
+
+![](l4.7-bjt-ac-analysis-img/l47-bjt-ac-analysis_25.png)
+
+<span style="color:#ff0000"> _Applying voltage divider at the input side _ </span>
+
+Here\, Avs is the overall gain from signal source Vs to output voltage Vo\.
+
+_\(For high value of R_  _L_  _\)_
+

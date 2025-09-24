@@ -1,0 +1,118 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L4.6
+Multistage Amplifiers
+
+__Dr\. Yasen Harrye__
+
+<span style="color:#961a26"> __Multistage Amplifiers:__ </span>
+
+Many applications cannot be handled with single\-transistor amplifiers in order to meet the specification of a   given  <span style="color:#ff0000">amplification gain</span> \,  <span style="color:#ff0000">input resistance </span> and  <span style="color:#ff0000">output resistance</span> \.
+
+As a solution – a transistor amplifier circuits can be connected in series or as a cascaded amplifiers\.
+
+This can be done either to increase the overall small\-signal voltage gain or provide an overall voltage gain greater than l with a very low output resistance\.
+
+<span style="color:#961a26"> __Multistage Amplifiers:__ </span>
+
+<span style="color:#ff0000"> __Darlington Connection__ </span>
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_1.png)
+
+A very popular connection of two bipolar junction transistors for operation is "superbeta" transistor\.
+
+The  <span style="color:#3c1dc1">main feature of the Darlington connection is that the current gain is the product of the current gains of the individual transistors</span> \.
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_2.png)
+
+<span style="color:#961a26"> __Multistage Amplifiers:__ </span>
+
+<span style="color:#ff0000"> __III Darlington Amplifier: Emitter Follower Configuration __ </span>
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_3.png)
+
+Impact of using the Darlington configuration is an  <span style="color:#ff0000">input impedance </span> much larger than that obtained with a single\-transistor network\.
+
+The  <span style="color:#ff0000">current gain </span> is also larger\.
+
+But the  <span style="color:#ff0000"> _voltage gain _ </span> for a single\-transistor or Darlington configuration remains slightly less than one\.
+
+Emitter Follower Darlington amplifier
+
+<span style="color:#961a26"> __Multistage Amplifiers:__ </span>
+
+<span style="color:#ff0000"> __III Darlington Amplifier: Emitter Follower Configuration __ </span>
+
+<span style="color:#0000ff"> __DC Bias Analysis __ </span>
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_4.png)
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_5.png)
+
+Beta of transistor replaced by βD
+
+The emitter current of  _Q_  _1 _ is equal to the base current of  _Q_  _2 _ so that
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_6.png)
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_7.png)
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_8.png)
+
+The base voltage of transistor  _Q_  _1_
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_9.png)
+
+Collector emitter voltage of transistor  _Q_  _2_
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_10.png)
+
+<span style="color:#961a26"> __Multistage Amplifiers:__ </span>
+
+The  Darlington configuration shown below\.
+
+Calculate IB1\, IE2\, VB1and VCE2\.
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_11.png)
+
+1\)
+
+2\)
+
+3\)
+
+4\)
+
+<span style="color:#961a26"> __Multistage Amplifiers:__ </span>
+
+The  Darlington configuration shown below\.
+
+Calculate IB1\, IE2\, VB1and VCE2\.
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_12.png)
+
+![](l4.6-multistage-amplifier-img/l46-multistage-amplifier_13.png)
+
+1\)
+
+2\)
+
+3\)
+
+4\)
+

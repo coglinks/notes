@@ -1,0 +1,331 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l2-diode-img/l2-diode_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# Lecture # 2 – Semiconductor Diodes
+
+# Objectives:
+
+Develop a working knowledge of the diode in  a variety of configurations using models appropriate for the  area of application\.
+
+Sketch a PN junction under zero bias and show the depletion zones indicating the  relative charges of each area\.
+
+Explain what happens to majority and minority carriers present in the different parts of  the diode\.
+
+Explain Biasing Voltage \(Forward and Reverse\)
+
+Show what happens to the depletion zone\, majority and minority carriers in the  presence of forward and reverse biasing voltages\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Diodes
+
+The diode is a 2\-terminal device\.
+
+![](l2-diode-img/l2-diode_1.png)
+
+A diode ideally conducts in  only one direction\.
+
+![](l2-diode-img/l2-diode_2.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Semiconductor Resistance:__ </span>
+
+Intrinsic semiconductor  <span style="color:#336600">\(not</span>  <span style="color:#336600"> </span>  <span style="color:#336600">doped\)</span>  <span style="color:#001f5f">: </span>  <span style="color:#001f5f"> </span>  <span style="color:#ff0000">high </span>  <span style="color:#ff0000">resistance </span> \(since very  few free electrons or holes\)\.
+
+N\-type semiconductor \(doped with donors\): <span style="color:#001f5f"> </span>  <span style="color:#ff0000">low </span>  <span style="color:#ff0000">resistance </span> \(due to  lots of free electrons\)\.
+
+P\-type semiconductor  <span style="color:#336600">\(doped</span>  <span style="color:#336600"> </span>  <span style="color:#336600">with</span>  <span style="color:#336600"> </span>  <span style="color:#336600">acceptors\): </span>  <span style="color:#ff0000">low </span>  <span style="color:#ff0000">resistance</span>  <span style="color:#006fc0"> </span> \(due  to lots of holes\)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Semiconductor Materials:__ </span>
+
+Materials commonly used in the development of  semiconductor devices:
+
+<span style="color:#336600">Silicon</span>  <span style="color:#336600"> </span>  <span style="color:#336600">\(Si\)</span>
+
+<span style="color:#336600">Germanium</span>  <span style="color:#336600"> </span>  <span style="color:#336600">\(Ge\)</span>
+
+<span style="color:#336600">G</span>  <span style="color:#336600">a</span>  <span style="color:#336600">lli</span>  <span style="color:#336600">um</span>  <span style="color:#336600"> </span>  <span style="color:#336600">A</span>  <span style="color:#336600">r</span>  <span style="color:#336600">s</span>  <span style="color:#336600">e</span>  <span style="color:#336600">n</span>  <span style="color:#336600">i</span>  <span style="color:#336600">de</span>  <span style="color:#336600"> </span>  <span style="color:#336600">\(G</span>  <span style="color:#336600">aA</span>  <span style="color:#336600">s\)</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+One end of a silicon or germanium crystal can be doped as a  _p_ \-  type material and the other end as an  _n_ \-type material\.
+
+The result is a  <span style="color:#cc3200"> _p\-n_ </span>  <span style="color:#cc3200"> _ _ </span>  <span style="color:#cc3200">junction</span> \.
+
+![](l2-diode-img/l2-diode_3.png)
+
+![](l2-diode-img/l2-diode_4.png)
+
+![](l2-diode-img/l2-diode_5.png)
+
+![](l2-diode-img/l2-diode_6.jpg)
+
+It turns out that doing this makes a  <span style="color:#ff0000"> _diode _ </span> – a device with very useful characteristics\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+Some  of the free electrons from the n\-type  material flow into p\-type material\.
+
+![](l2-diode-img/l2-diode_7.png)
+
+Creating an area near the junction where the free electrons  have left the n\-type material\, and the holes are filled in the p\-type  material\.
+
+This is called the <span style="color:#006fc0"> </span>  <span style="color:#ff0000"> _depletion_ </span>  <span style="color:#ff0000"> _ _ </span>  <span style="color:#ff0000"> _region_ </span> \.
+
+![](l2-diode-img/l2-diode_8.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l2-diode-img/l2-diode_9.jpg)
+
+If we consider the resistance of the p\-n junction\, we see that the  depletion region has  <span style="color:#3333ff"> _very high _ </span>  <span style="color:#3333ff"> _resistance_ </span>  <span style="color:#3333ff">\. </span>
+
+<span style="color:#ff0000">Why</span>  <span style="color:#ff0000">?</span>
+
+Because the depletion  region is just like an intrinsic semiconductor with no extra free  electrons and holes due to doping\.
+
+There exists a potential difference across the depletion layer and is called  <span style="color:#ff0000">barrier potential</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">\(V</span>  <span style="color:#ff0000">0</span>  <span style="color:#ff0000">\)</span> \.
+
+The typical barrier potential is approximately:
+
+<span style="color:#3333ff">For silicon\, V</span>  <span style="color:#3333ff">0</span>  <span style="color:#3333ff"> = 0\.7 V </span>
+
+<span style="color:#3333ff">For germanium\, </span>  <span style="color:#3333ff">V</span>  <span style="color:#3333ff">0 </span>  <span style="color:#3333ff">= 0\.3</span>  <span style="color:#3333ff"> </span>  <span style="color:#3333ff">V</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Diode Operating Conditions:__ </span>
+
+A diode has three operating conditions:
+
+<span style="color:#0000ff">No</span>  <span style="color:#0000ff"> </span>  <span style="color:#0000ff">bias</span>
+
+<span style="color:#0000ff">Reverse</span>  <span style="color:#0000ff"> </span>  <span style="color:#0000ff">bias</span>
+
+<span style="color:#0000ff">Forward</span>  <span style="color:#0000ff"> </span>  <span style="color:#0000ff">bias</span>
+
+![](l2-diode-img/l2-diode_10.png)
+
+![](l2-diode-img/l2-diode_11.jpg)
+
+<span style="color:#ff0000">No</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">Bias</span>
+
+No external voltage is applied:  <span style="color:#ff0000"> _V_ </span>  <span style="color:#ff0000"> _D_ </span>  <span style="color:#ff0000"> _ _ </span>  <span style="color:#ff0000">=</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">0</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">V</span>  <span style="color:#ff0000">               </span>  <span style="color:#ff0000"> _I_ </span>  <span style="color:#ff0000"> _D_ </span>  <span style="color:#ff0000"> _ _ </span>  <span style="color:#ff0000">=</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">0</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">A</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Diode Operating Conditions:__ </span>
+
+![](l2-diode-img/l2-diode_12.png)
+
+The reverse voltage causes the  depletion region to widen\.
+
+The electrons in the  _n_ \-type material  are attracted toward the positive  terminal of the voltage source\.
+
+The holes in the  _p_ \-type material are  attracted toward the negative  terminal of the voltage source\.
+
+![](l2-diode-img/l2-diode_13.png)
+
+![](l2-diode-img/l2-diode_14.jpg)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Diode Operating Conditions:__ </span>
+
+![](l2-diode-img/l2-diode_15.png)
+
+External voltage is applied across the  _p\-n _ junction in  the same polarity as the  _p_ \- and  _n_ \-type materials\.
+
+The forward voltage causes the  depletion region to narrow\.
+
+The electrons and holes are pushed  toward the  _p\-n_  _ _ junction\.
+
+The electrons and holes have  sufficient energy to cross the  _p\-n _  _ _ junction\.
+
+![](l2-diode-img/l2-diode_16.jpg)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Diode Characteristics:__ </span>
+
+![](l2-diode-img/l2-diode_17.png)
+
+![](l2-diode-img/l2-diode_18.jpg)
+
+![](l2-diode-img/l2-diode_19.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Practical Diode Characteristics:__ </span>
+
+![](l2-diode-img/l2-diode_20.jpg)
+
+Note the regions for  reverse bias\, and forwardd bias conditions\.
+
+Observe the scale  for each of these  conditions\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Practical Diode Characteristics:__ </span>
+
+![](l2-diode-img/l2-diode_21.jpg)
+
+Actual real diode is not perfect\.
+
+<span style="color:#ff0000">It has </span>  <span style="color:#ff0000">a very </span>  <span style="color:#ff0000">small </span>  <span style="color:#ff0000">current through </span>  <span style="color:#ff0000">it </span>  <span style="color:#ff0000">when  reverse</span>  <span style="color:#ff0000"> biased\.</span>
+
+And it has a small voltage across it when it is forward  biased\.
+
+<span style="color:#3333ff">0\.7 V for Si</span>
+
+<span style="color:#3333ff">0\.3 V for Ge</span>
+
+<span style="color:#3333ff">1\.2 V GaAs</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Reverse Breakdown characteristics of a Diode__ </span>
+
+![](l2-diode-img/l2-diode_22.jpg)
+
+If we apply excess voltage on a real diode in  <span style="color:#ff0000">the </span>  <span style="color:#ff0000">reverse </span>  <span style="color:#ff0000">direction</span> \, the  diode will be  <span style="color:#ff0000">destroyed </span>  <span style="color:#ff0000">and will </span>  <span style="color:#ff0000">let </span>  <span style="color:#ff0000">current </span>  <span style="color:#ff0000">flow </span>  <span style="color:#ff0000">in the </span>  <span style="color:#ff0000">reverse </span>  <span style="color:#ff0000">direction\.  </span>
+
+This is called the  <span style="color:#336600">breakdown</span>  <span style="color:#336600"> </span>  <span style="color:#336600">voltage</span> \.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#c00000"> __Diode Equivalent Circuit:__ </span>
+
+![](l2-diode-img/l2-diode_23.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+Light\-emitting diode
+
+Diode arrays
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#339933"> __Light\-Emitting Diode __ </span>  <span style="color:#339933"> __\(LED\)__ </span>
+
+An LED emits photons when it is forward biased\.
+
+The color of light emitted by the diode is determined by the type  of material used in doping\.
+
+The forward bias voltage is usually in the range of 2 V to 3 V\.
+
+![](l2-diode-img/l2-diode_24.jpg)
+
+![](l2-diode-img/l2-diode_25.jpg)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+Multiple diodes can be packaged together  in an integrated circuit \(IC\)\.
+
+![](l2-diode-img/l2-diode_26.png)
+
+![](l2-diode-img/l2-diode_27.png)
+
+![](l2-diode-img/l2-diode_28.png)
+
+![](l2-diode-img/l2-diode_29.png)
+
+![](l2-diode-img/l2-diode_30.png)
+
+__A __  __variety of__  __ __  __combinations  __  __exist\.__
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+\[1\] Boylestad\, Electronic Devices and Circuits\.
+
+\[2\] Thomas Floyd\, Electronic Devices\.
+

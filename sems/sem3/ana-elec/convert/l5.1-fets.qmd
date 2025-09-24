@@ -1,0 +1,362 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l5.1-fets-img/l51-fets_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L5.1
+
+      Field Effect Transistors
+(FET)
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Draw the physical layout of FETs and MOSFETs\, illustrating the depletion zone\, and identifying their terminals\.
+
+Draw the symbols for "N\-Channel and P\-Channel JFETs"\, and "N\-Channel and P­ Channel MOSFETs"\.
+
+Explain how the gate voltage affects JFETs and MOSFETs\.
+
+Identify the main characteristics of an enhancement N\-MOSFET\, and an enhancement P\-MOSFET for use as a switch\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Field Effect Transistors (FET)
+
+![](l5.1-fets-img/l51-fets_1.gif)
+
+__The Field effect transistors \(FETs\) __ are  <span style="color:#ff0000">unipolar devices</span>  because\, unlike BJTs that use both electron and hole current\, they operate only with one type of charge carrier\.
+
+Therefore\, FET is a unipolar device that depends on only one type of charge carrier\, either  free electrons or holes\.
+
+<span style="color:#0000ff">FET </span>  <span style="color:#0000ff">is </span>  <span style="color:#0000ff">a </span>  <span style="color:#0000ff">three\-terminal </span>  <span style="color:#0000ff">device </span>  <span style="color:#0000ff">similar </span>  <span style="color:#0000ff">to </span>  <span style="color:#0000ff">the </span>  <span style="color:#0000ff">bipolar  </span>  <span style="color:#0000ff">junction</span>  <span style="color:#0000ff"> transistor</span> \.
+
+There are basically two types of FETs:
+
+<span style="color:#0000ff">Junction </span>  <span style="color:#0000ff">field </span>  <span style="color:#0000ff">effect </span>  <span style="color:#0000ff">transistor\,</span>  <span style="color:#0000ff"> </span>  <span style="color:#0000ff"> __JFET__ </span>  <span style="color:#336600">\.</span>
+
+<span style="color:#0000ff">M</span>  <span style="color:#0000ff">etal\-oxide\-semiconductor </span>  <span style="color:#0000ff">field </span>  <span style="color:#0000ff">effect </span>  <span style="color:#0000ff">transistor\,</span>  <span style="color:#0000ff"> </span>  <span style="color:#0000ff"> __MOSFET__ </span>  <span style="color:#336600">\.</span>
+
+![](l5.1-fets-img/l51-fets_2.gif)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l5.1-fets-img/l51-fets_3.png)
+
+Recall that a  <span style="color:#ff0000">BJT</span>  is a current\-controlled device; that is\,  <span style="color:#336600">the base current controls the amount of collector current</span> \.
+
+<span style="color:#0000ff">A </span>  <span style="color:#ff0000">FET</span>  <span style="color:#0000ff"> is a voltage\-controlled device\, where the </span>  <span style="color:#0000ff"> _voltage between two of the terminals \(gate and source\) controls the current through the device_ </span>  <span style="color:#0000ff">\.</span>
+
+A major advantage of  <span style="color:#ff0000">FETs</span>  is their very high input resistance\.
+
+The three terminals are the:
+
+<span style="color:#ff0000">\- Gate\.</span>
+
+<span style="color:#ff0000">	\- Drain\.</span>
+
+<span style="color:#ff0000">	\- Source\.</span>
+
+![](l5.1-fets-img/l51-fets_4.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l5.1-fets-img/l51-fets_5.png)
+
+<span style="color:#0000ff">Because of their </span>  <span style="color:#0000ff"> __nonlinear characteristics__ </span>  <span style="color:#0000ff">\, they are generally </span>  <span style="color:#0000ff"> _not as widely used in amplifiers _ </span>  <span style="color:#0000ff">as BJTs except where very high input impedances are required\. </span>
+
+FETs are the preferred device in low\-voltage switching applications\,  <span style="color:#ff0000"> __Why?__ </span>
+
+Because they can perform fast switching\, faster than BJTs when turned on and off\.
+
+![](l5.1-fets-img/l51-fets_6.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">FETs</span>  are more temperature stable than  <span style="color:#ff0000">BJTs</span> \.
+
+<span style="color:#ff0000">FETs</span>  are usually smaller than  <span style="color:#ff0000">BJTs</span> \, making them particularly useful in integrated\-circuit \(IC\) chips\.
+
+<span style="color:#008000">The input impedance is extremely high \(Megohms\) for FETs\, so they require very little power from the driving source\.</span>
+
+![](l5.1-fets-img/l51-fets_7.jpg)
+
+![](l5.1-fets-img/l51-fets_8.jpg)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l5.1-fets-img/l51-fets_9.png)
+
+<span style="color:#ff0000">Junction Field Effect Transistor\- JFET</span>
+
+The  <span style="color:#ff0000"> __JFET__ </span>  \(junction field\-effect transistor\) is a type of FET that operates with a  reverse\-biased pn junction to control current in a channel\.
+
+<span style="color:#0000ff">Depending on their structure\, JFETs fall into either of two categories</span> \-
+
+<span style="color:#008000">            \- n channel\, called </span> n\-channel JFET\.
+
+<span style="color:#008000">            \- p channel\, </span>  <span style="color:#008000">called </span> p\-channel JFET\.
+
+![](l5.1-fets-img/l51-fets_10.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Schematics</span>
+
+![](l5.1-fets-img/l51-fets_11.png)
+
+![](l5.1-fets-img/l51-fets_12.png)
+
+The only difference is the direction of the arrow on the gate lead\.
+
+The arrow points in toward the n \-type channel\, whereas the arrow points outward from the p\- type channel\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l5.1-fets-img/l51-fets_13.png)
+
+BJTs are  current controlled devices\,
+
+<span style="color:#0000ff">FETs are voltage­ controlled devices</span> \, \(i\.e\. an input voltage controls an output current\)\.
+
+![](l5.1-fets-img/l51-fets_14.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+The amount of current flow \(for a fixed value of VGS\) depends upon two factors:
+
+![](l5.1-fets-img/l51-fets_15.png)
+
+<span style="color:#336600"> __The value of the drain\-source voltage\, V__ </span>  <span style="color:#336600"> __DS__ </span>  <span style="color:#336600"> __ __ </span>
+
+<span style="color:#336600"> __The drain\-source resistance\, designated __ </span>  <span style="color:#336600"> __r__ </span>  <span style="color:#336600"> __ds__ </span>  <span style="color:#336600"> __·__ </span>
+
+The value of rds is dependent on the  _doping level_ \,  _cross ­sectional area_ \, and  _length of the doped semiconductor material _ used for the channel\.
+
+<span style="color:#0000ff">In a JFET\, the source current\, I</span>  <span style="color:#0000ff">S </span>  <span style="color:#0000ff">\, and the drain current\, I</span>  <span style="color:#0000ff">D</span>  <span style="color:#0000ff"> are the same\. </span>
+
+In most cases\, therefore\, the current flow is considered to be only the drain current\, ID\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Basic Operation</span>
+
+
+
+* DC bias voltages applied to an n\-channel device:
+  * <span style="color:#0000ff">V</span>  <span style="color:#0000ff">DD</span>  provides a drain\-to\-source voltage and supplies current from drain to source\.
+  * <span style="color:#0000ff">V</span>  <span style="color:#0000ff">GG</span>  sets the reverse\-bias voltage between the gate and the source\.
+* <span style="color:#ff0000">JFET is always operated with the </span>  <span style="color:#ff0000"> _gate\-source _ </span>  <span style="color:#ff0000"> _pn_ </span>  <span style="color:#ff0000"> _ junction reverse\-biased_ </span>  <span style="color:#ff0000">\. </span>
+
+
+![](l5.1-fets-img/l51-fets_16.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Basic Operation</span>
+
+<span style="color:#336600">Reverse\-biasing of the gate\-source junction produces a depletion region along the </span>  <span style="color:#336600">pn</span>  <span style="color:#336600"> junction\, which extends into the channel\.</span>
+
+<span style="color:#c00000">It increases its resistance by restricting the channel width\.</span>
+
+![](l5.1-fets-img/l51-fets_17.png)
+
+Therefore\, the  <span style="color:#336600">channel width </span> and thus the  <span style="color:#336600">channel resistance </span> can be controlled by varying the gate voltage\, thereby controlling the amount of drain current\, ID\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Effects of VGS on channel width\, resistance\, and drain current \(VGG = VGS\)</span>
+
+![](l5.1-fets-img/l51-fets_18.png)
+
+![](l5.1-fets-img/l51-fets_19.png)
+
+![](l5.1-fets-img/l51-fets_20.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Characteristics and Parameters</span>
+
+![](l5.1-fets-img/l51-fets_21.png)
+
+Recall JFET operates as a voltage\-controlled\, constant\-current device\.
+
+<span style="color:#336600">The Drain </span>  <span style="color:#336600">C</span>  <span style="color:#336600">haracteristic curve of a JFET</span>
+
+![](l5.1-fets-img/l51-fets_22.png)
+
+![](l5.1-fets-img/l51-fets_23.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Characteristics and Parameters</span>
+
+![](l5.1-fets-img/l51-fets_24.png)
+
+<span style="color:#7030a0">Case when the gate\-to\-source voltage is zero \(V</span>  <span style="color:#7030a0">GS</span>  <span style="color:#7030a0"> = 0 V\)\.</span>
+
+Increasing VDD \(and thus VDS\) from 0V\, ID will increase proportionally\, between points A and B\.
+
+<span style="color:#336600"> __Ohmic Region:  __ </span> In this area\, the channel resistance is essentially constant because the depletion region is not large enough to have significant effect\.
+
+In ohmic region VDS and ID are related by Ohm’s law\.
+
+![](l5.1-fets-img/l51-fets_25.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Characteristics and Parameters</span>
+
+<span style="color:#7030a0">Case when the gate\-to\-source voltage is zero \(V</span>  <span style="color:#7030a0">GS</span>  <span style="color:#7030a0"> = 0 V\)\.</span>
+
+<span style="color:#0000ff">Breakdown </span> occurs at point C when ID begins to increase very rapidly with any further increase in VDS\.
+
+<span style="color:#ff0000">Breakdown can result in irreversible damage to the device\, so JFETs are always operated below breakdown and within the active region \(constant current\) \(between points B and C on the graph\)\. </span>
+
+![](l5.1-fets-img/l51-fets_26.png)
+
+<span style="color:#0000ff">Pinch\-off voltage is the value of V</span>  <span style="color:#0000ff">DS</span>  <span style="color:#0000ff"> at which drain current I</span>  <span style="color:#0000ff">D</span>  <span style="color:#0000ff"> reaches a constant saturation value\.</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Characteristics and Parameters</span>
+
+Family of drain characteristic curves is produced\, as VGS is set to increasingly more negative values by adjusting VGG
+
+![](l5.1-fets-img/l51-fets_27.png)
+
+![](l5.1-fets-img/l51-fets_28.png)
+
+<span style="color:#0000ff">Pinch\-off occurs at a lower V</span>  <span style="color:#0000ff">DS</span>  <span style="color:#0000ff"> as V</span>  <span style="color:#0000ff">GS</span>  <span style="color:#0000ff"> is increased to more negative values</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">JFET\- Characteristics</span>
+
+![](l5.1-fets-img/l51-fets_29.png)
+
+![](l5.1-fets-img/l51-fets_30.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">MOSFET \- Basic Operation</span>
+
+![](l5.1-fets-img/l51-fets_31.png)
+
+<span style="color:#0000ff">MOSFETs can operate in two modes:</span>
+
+<span style="color:#0000ff">Depletion mode </span>  <span style="color:#336600">\(like the JFET\)\, where the ability to pass current can be reduced or increased\.</span>
+
+The channel exists between the source and drain and allows a current to flow IDSS even when VGS = 0V\.
+
+<span style="color:#0000ff">Enhancement mode</span>  <span style="color:#336600">\, where the ability to pass current is increased\.</span>
+
+For current to flow channel need to be created by applying gate voltage above a threshold voltage VGS\(th\)\.
+
+![](l5.1-fets-img/l51-fets_32.png)
+
+<span style="color:#0000ff">The only difference between n\- and p\-channel devices is that the supply voltage used for p\-channel devices is of the opposite polarity from that used for n\-channel devices\.</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">MOSFET \- Basic Operation</span>
+
+![](l5.1-fets-img/l51-fets_33.png)
+
+![](l5.1-fets-img/l51-fets_34.png)
+
+<span style="color:#0000ff">Depletion MOSFET </span>
+
+<span style="color:#0000ff">Enhancement MOSFET </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+

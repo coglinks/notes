@@ -1,0 +1,174 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L6.3
+
+Op-Amp Applications
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Understand the operation of OP\-AMP as comparator
+
+Develop an understanding of analog\-to\-digital conversion techniques
+
+Develop an understanding of digital\-to\-analog conversion techniques
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# OP-AMP as Comparator
+
+A comparator circuit is used to compare two input signals\, and indicates at the output which input has the larger signal\.
+
+A comparator circuit accepts input of linear voltages and provides a digital output that indicates when one input is less than or greater than the second\.
+
+A basic comparator circuit can be represented as
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_1.png)
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_2.png)
+
+If the  __non\-inverting input__  is higher than the inverting input\, the output of the amplifier will saturate at the  __positive__  supply voltage\.
+
+If the  __inverting input__  is higher than the non\-inverting input\, the output of the amplifier will saturate at the  __negative__  supply voltage\.
+
+Here the reference voltage is connected to the inverting input\.
+
+The output will switch to its positive saturation level when the input  _V_  _i_  _ _ goes more positive than the \+6V reference voltage level\.
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_3.png)
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_4.png)
+
+The output  _V_  _o_  _ _ drives the LED on as an indication that the input is more positive than the reference level\.
+
+What is the reference voltage for each comparator in the following figure?
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_5.png)
+
+In digital circuitry the signals are at either one of the two levels\, representing the binary values of 1 or 0\.
+
+An analog–digital converter \(ADC\) obtains a digital value representing an input analog voltage\.
+
+A digital–analog converter \(DAC\) changes a digital value back into an analog voltage\.
+
+# Digital-to-Analog Conversion
+
+__D/A conversion __ is an important interface process for converting digital signals to analog \(linear\) signals\.
+
+One method of D/A conversion uses a  <span style="color:#0000ff">scaling adder </span> with input resistor values that represent the binary weights of the digital input code\.
+
+A more common method for D/A conversion is known as the  <span style="color:#0000ff">R\-2R ladder </span> method\.
+
+Following figure shows a four\-digit digital\-to\-analog converter \(DAC\)\.
+
+The switch symbols represent transistor switches for applying each of the four binary digits to the inputs\.
+
+The lowest\-value resistor R corresponds to the highest weighted binary input \(23\)\. All of the other resistors are multiples of R and correspond to the binary weights 22\, 21\, and 20\.
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_6.png)
+
+A  <span style="color:#0000ff">scaling adder </span> as a four\-digit digital\-to\-analog converter \(DAC\)\.
+
+Determine the output voltage of the DAC in following figure for digital inputs:
+
+0011
+
+1101
+
+Assume a binary 1 is represented by 5V and binary 0 is represented by 0V\.
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_7.png)
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_8.png)
+
+<span style="color:#ff0000">Note that </span>  <span style="color:#ff0000"> _D_ </span>  <span style="color:#ff0000">0</span>  <span style="color:#ff0000"> is the least significant binary digit and most significant digit is </span>  <span style="color:#ff0000"> _D_ </span>  <span style="color:#ff0000">3</span>  <span style="color:#ff0000">\.</span>
+
+::: {.notes}
+
+Each successive binary code increases the output voltage by So, for this particular straight binary sequence on the inputs, the output is a stairstep waveform
+going from 0 V to in steps, as shown in Figure. If the steps are very small, the output approximates a straight line (linear).
+
+:::
+
+R/2R ladder is more commonly used for D/A conversion than the scaling adder and is shown in the following figure\.
+
+It requires only two resistor values\. The network of resistors is called a  <span style="color:#0000ff"> _ladder network_ </span>  _\. _
+
+The output voltage is proportional to the binary weight of the input bits\.
+
+<span style="color:#3366ff">Generalized R\-2R equation for 4 bit DAC is</span>
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_9.png)
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_10.png)
+
+Reference voltage Vref is the voltage used to represent binary state of “1”\.
+
+R/2R ladder DAC\.
+
+::: {.notes}
+
+A ladder network accepts inputs of binary values at, typically, 0 V or Vref and provides an output voltage proportional to the binary input value. 
+
+
+
+:::
+
+Determine the output voltage of the DAC in following figure for digital inputs 0110 _2_ \. Consider Vref equal to 16 V\.
+
+<span style="color:#3366ff">Solution:</span>
+
+Generalized R\-2R Equation for 4 bit DAC is
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_11.png)
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_12.png)
+
+Therefore\, 0110 _2  _ digital converts to 6 V analog\.
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_13.png)
+
+# Analog-to-Digital Conversion
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_14.png)
+
+__A/D conversion __ is an interfacing process often used when a linear  __analog __ system must provide inputs to a  __digital __ system\.
+
+<span style="color:#0000ff"> _F_ </span>  <span style="color:#0000ff"> _lash _ </span> method of A/D conversion uses parallel comparators to compare the linear input signal with various reference voltages developed by a voltage divider\.
+
+When the input voltage exceeds the reference voltage for a given comparator\, a high level is produced on that comparator’s output\.
+
+2n \- 1 comparators are required for conversion to an n\-digit binary number\.
+
+<span style="color:#0000ff">Priority encoder is a digital device that produces a binary number on its output representing the highest value at its input\.</span>
+
+3\-bit analog\-to\-digital converter using op\-amps as comparators\.
+
+2\-bit Analogue to Digital Converter \(ADC\) circuit is shown in the figure\.
+
+This will give us a 2\-bit output code for all four possible values of analogue input\.
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_15.png)
+
+![](l6.3-operational-amplifier-img/l63-operational-amplifier_16.png)
+

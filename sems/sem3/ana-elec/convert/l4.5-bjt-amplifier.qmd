@@ -1,0 +1,241 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple]
+---
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_0.png)
+
+AETN 2101\-ANALOG  ELECTRONICS
+
+# L4.5
+
+      BJT as an Amplifier
+
+__Dr\. Yasen Harrye__
+
+# Learning Objectives:
+
+Describe amplifier operation\.
+
+Describe and analyse the operation of common\-emitter amplifiers\.
+
+Describe and analyse the operation of common\-collector amplifiers\.
+
+Describe and analyse the operation of common\-base amplifiers\.
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# Bipolar Junction Transistor ( BJT)
+
+Amplification is the process of linearly increasing the amplitude of an electrical signal and is one of the major properties of a transistor\.
+
+BJT exhibits current gain \(called beta\)\.
+
+<span style="color:#336600">When a BJT is biased in the active \(or linear\) region\, as previously described\, the BE junction has a low resistance due to forward bias and the BC junction has a high resistance due to reverse bias\.</span>
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_1.png)
+
+<span style="color:#0000ff">Basic transistor amplifier circuit with ac source voltage V</span>  <span style="color:#0000ff">s</span>  <span style="color:#0000ff"> and dc bias voltage V</span>  <span style="color:#0000ff">BB</span>  <span style="color:#0000ff"> superimposed\.</span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+The purpose of biasing is to establish a Q\-point about which variations in current and voltage can occur in response to an ac input signal\.
+
+<span style="color:#336600">In applications where small signal voltages must be amplified—such as from an antenna or a microphone—variations about the Q\-point are relatively small\. </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Linear BJT\-Amplifier:\-</span>
+
+A  <span style="color:#ff0000"> __linear amplifier __ </span> provides amplification of a signal without any distortion so that the output signal is an exact  <span style="color:#0000ff"> _amplified replica _ </span> of the input signal\.
+
+<span style="color:#c00000"> _Example opposite shows\, A voltage\-divider biased transistor with a sinusoidal ac source\._ </span>
+
+<span style="color:#336600"> _The coupling capacitors block dc and thus prevent the internal source resistance\, R_ </span>  <span style="color:#336600"> _s_ </span>  <span style="color:#336600"> _\, and the load resistance\, R_ </span>  <span style="color:#336600"> _L_ </span>  <span style="color:#336600"> _\, from changing the dc bias voltages at the base and collector\. _ </span>
+
+The capacitors ideally appear as shorts to the AC signal voltage\.
+
+<span style="color:#0000ff">An amplifier with voltage\-divider bias driven by an ac voltage source with an internal resistance\, Rs\.</span>
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_2.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Linear BJT\-Amplifier:\-</span>
+
+<span style="color:#336600"> _As the sinusoidal collector current increases\, the collector voltage decreases\. _ </span>
+
+The collector current varies above and below its Q\-point value\, ICQ\, in phase with the base current\.
+
+VCEQ\, 1800 out of phase with the base voltage\.
+
+<span style="color:#0000ff">An amplifier with voltage\-divider bias driven by an ac voltage source with an internal resistance\, Rs\.</span>
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_3.png)
+
+<span style="color:#0000ff"> _A transistor always produces a phase inversion between the base voltage and the collector voltage\._ </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Linear BJT\-Amplifier:\-</span>
+
+<span style="color:#0000cc"> _Graphical ac load line operation of the amplifier _ </span>
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_4.png)
+
+_Variation of the base current\, collector current\, and collector\-to\-emitter voltage about their dc Q\-point values\. Note: _  _I_  _b_  _ and _  _I_  _c_  _ are on different scales\._
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000">Amplifier Configurations</span>
+
+Three amplifier configurations are:
+
+<span style="color:#336600"> 1\. Common\-emitter\.</span>
+
+<span style="color:#336600">      2\. Common\-base\.</span>
+
+<span style="color:#336600">      3\. Common\-collector\. </span>
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+An amplifier that uses an emitter input signal to produce a collector output signal\.
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_5.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_6.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_7.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_8.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_9.png)
+
+Example:
+
+a\. Using the characteristics\, determine the resulting collector current if IE=3 mA and VCB=10 V\.
+
+b\. Using the characteristics\, determine the resulting collector current if IE remains at 3 mA but VCB is reduced to 2 V\.
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_10.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000"> 2\. Common\-Emitter</span>
+
+The most widely used type of BJT amplifier; it has the emitter as the reference terminal for the input and output signal\.
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_11.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_12.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_13.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_14.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_15.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_16.png)
+
+Example:
+
+Using the given characteristics curves\, determine IC at IB =30 µA and VCE =10 V
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_17.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000"> 2\. Common\-Emitter\.</span>
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_18.png)
+
+Example:
+
+Determine βac and βdc from the collector characteristics
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_19.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_20.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+<span style="color:#ff0000"> 2\. Common\-Collector</span>
+
+An amplifier configuration where the input is applied to the base and output is taken from the emitter\. The output signal is in phase with the input signal\.
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_21.png)
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_22.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+# BJT Bias Configurations
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_23.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
+![](l4.5-bjt-amplifier-img/l45-bjt-amplifier_24.png)
+
+::: {.notes}
+
+Explain the process as a self regulated system
+
+:::
+
