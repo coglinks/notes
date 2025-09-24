@@ -1,15 +1,5 @@
 ---
 title: "Presentation Title"
-author: "Author"
-format: 
-  revealjs:
-    slide-number: c/t
-    width: 1600
-    height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
 ---
 ![](end-of-transistor-biasing-problems-img/end-of-transistor-biasing-problems_0.png)
 

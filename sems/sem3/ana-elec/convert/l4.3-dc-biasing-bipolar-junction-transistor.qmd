@@ -1,15 +1,5 @@
 ---
 title: "Presentation Title"
-author: "Author"
-format: 
-  revealjs:
-    slide-number: c/t
-    width: 1600
-    height: 900
-    logo: img/logo.png
-    footer: "Organization"
-    incremental: true
-    theme: [simple]
 ---
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_0.png)
 
