@@ -18,6 +18,14 @@ format:
       dark: darkly
     mainfont: "IosevkaTerm Nerd Font Mono"
     fontsize: 20px
+  beamer:
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
 
 website:
   title: "AETN-1112 Digital Electronics"

@@ -1,18 +1,6 @@
 ---
-title: "Presentation Title"
+title: "Network Layer"
 ---
-# Topic 7: Network Layer
-
-# Introduction to Networks  v7.0 (ITN)
-
-::: {.notes}
-
-Cisco Networking Academy Program
-Introduction to Networks v7.0 (ITN)
-Module 8: Protocols and Modules
-
-
-:::
 
 # Topics
 
@@ -25,14 +13,6 @@ Module 8: Protocols and Modules
 | __Introduction to Routing__ | Explain how router use routing tables to forward packets\. |
 | __Basic Router Configuration__ | Configure initial settings\, interfaces and default gateway |
 
-::: {.notes}
-
-8 – Network Layer
-8.0 – Introduction
-8.0.2 – What will I learn to do in this module?
-
-
-:::
 
 # Network Layer CharacteristicsThe Network Layer
 
@@ -42,43 +22,27 @@ Module 8: Protocols and Modules
 
 * Provides services to allow end devices to exchange data\.
 * IP version 4 \(IPv4\) and IP version 6 \(IPv6\) are the principle network layer communication protocols\.
-* <span style="color:#ff0000">The network layer performs four basic operations:</span>
+* The network layer performs four basic operations:
   * Addressing end devices
   * Encapsulation
   * Routing
   * De\-encapsulation
-::: {.notes}
-
-8 – Network Layer
-8.1 – Network Layer Characteristics
-8.1.1 –  The Network Layer
-
-:::
 
 # Network Layer CharacteristicsIP Encapsulation
 
 ![](t7-network-layer-img/t7-network-layer-v6_1.png)
 
-<span style="color:#0033cc">IP encapsulates the transport layer segment\.</span>
+IP encapsulates the transport layer segment\.
 
-<span style="color:#0033cc">IP packet will be examined by all layer 3 devices as it traverses the network\.</span>
+IP packet will be examined by all layer 3 devices as it traverses the network\.
 
-<span style="color:#ff0000">The IP addressing does not change from source to destination\.</span>
-
-::: {.notes}
-
-8 – Network Layer
-8.1 – Network Layer Characteristics
-8.1.2 – IP Encapsulation
-
-
-:::
+The IP addressing does not change from source to destination\.
 
 # Network Layer CharacteristicsConnectionless
 
 _IP is Connectionless \- There is no connection with the destination established before sending data packets\._
 
-Connectionless communication is conceptually  <span style="color:#ff0000">similar to sending a letter </span> to someone without notifying the recipient in advance\.
+Connectionless communication is conceptually  similar to sending a letter  to someone without notifying the recipient in advance\.
 
 IP requires no initial exchange of control information to establish an end\-to\-end connection before packets are forwarded\.
 
@@ -106,7 +70,7 @@ _IP is Best Effort \- IP is inherently unreliable because packet delivery is not
   * Are present and functional when sending packets\,
   * Receives the packet
   * Are able to access and read the packet\.
-* <span style="color:#ff0000">The IP protocol was not designed to track and manage the flow of packets\. These functions\, if required\, are performed by other protocols at other layers\, primarily TCP at Layer 4\.</span>
+* The IP protocol was not designed to track and manage the flow of packets\. These functions\, if required\, are performed by other protocols at other layers\, primarily TCP at Layer 4\.
 ::: {.notes}
 
 8 – Network Layer
@@ -127,7 +91,7 @@ _IP is Best Effort \- IP is inherently unreliable because packet delivery is not
 
 
   * IP does not concern itself with the type of frame required at the data link layer or the media type at the physical layer\.
-  * <span style="color:#ff0000">As shown in the figure\, IP packets can be sent over any media type: copper\, fiber\, or wireless\.</span>
+  * As shown in the figure\, IP packets can be sent over any media type: copper\, fiber\, or wireless\.
 ::: {.notes}
 
 8 – Network Layer
@@ -164,12 +128,12 @@ Significant fields in the IPv4 header:
 | Function | Description |
 | :-: | :-: |
 | __Version__ | This will be for v4\, as opposed to v6\, a 4 bit field= 0100 |
-| __Differentiated Services__ | <span style="color:#ff0000">Used for </span>  <span style="color:#ff0000">QoS</span> : DiffServ – DS field or the older IntServ – ToS or Type of Service |
+| __Differentiated Services__ | Used for   QoS : DiffServ – DS field or the older IntServ – ToS or Type of Service |
 | __Header Checksum__ | Detect corruption in the IPv4 header |
-| __Time to Live \(TTL\)__ | <span style="color:#ff0000">Layer 3 hop count\. When it becomes zero the router</span>  <span style="color:#ff0000"> will discard the packet\.</span> |
+| __Time to Live \(TTL\)__ | Layer 3 hop count\. When it becomes zero the router   will discard the packet\. |
 | __Protocol__ | I\.D\.s next level protocol: ICMP\, TCP\, UDP\, etc\. |
-| <span style="color:#ff0000"> __Source IPv4 Address__ </span> | 32 bit source address |
-| <span style="color:#ff0000"> __Destination IPv4 Address__ </span> | 32 bit destination address |
+|  __Source IPv4 Address__  | 32 bit source address |
+|  __Destination IPv4 Address__  | 32 bit destination address |
 
 ::: {.notes}
 
@@ -183,9 +147,9 @@ Significant fields in the IPv4 header:
 
 
 
-* <span style="color:#ff0000">IPv4 address depletion </span> – We have basically run out of IPv4 addressing\.
-* <span style="color:#ff0000">Lack of end\-to\-end connectivity </span> – To make IPv4 survive this long\, private addressing and NAT were created\. This ended direct communications with public addressing\.
-* <span style="color:#ff0000">Increased network complexity </span> – NAT was meant as temporary solution and creates issues on the network as a side effect of manipulating the network headers addressing\.  <span style="color:#ff0000">NAT causes latency and troubleshooting issues</span> \.
+* IPv4 address depletion  – We have basically run out of IPv4 addressing\.
+* Lack of end\-to\-end connectivity  – To make IPv4 survive this long\, private addressing and NAT were created\. This ended direct communications with public addressing\.
+* Increased network complexity  – NAT was meant as temporary solution and creates issues on the network as a side effect of manipulating the network headers addressing\.  NAT causes latency and troubleshooting issues \.
 ::: {.notes}
 
 8 – Network Layer
@@ -202,10 +166,10 @@ Significant fields in the IPv4 header:
 
 
 * Developed to overcomes the limitations of IPv4\.
-* <span style="color:#ff0000">IPv6 improvements:</span>
-  * <span style="color:#ff0000">Increased address space </span> – based on 128 bit address\, not 32 bits
-  * <span style="color:#ff0000">Improved packet handling </span> – simplified header with fewer fields
-  * <span style="color:#ff0000">Eliminates the need for NAT </span> – since there is a huge amount of addressing\, there is no need to use private addressing internally and be mapped to a shared public address
+* IPv6 improvements:
+  * Increased address space  – based on 128 bit address\, not 32 bits
+  * Improved packet handling  – simplified header with fewer fields
+  * Eliminates the need for NAT  – since there is a huge amount of addressing\, there is no need to use private addressing internally and be mapped to a shared public address
 
 
 ![](t7-network-layer-img/t7-network-layer-v6_8.png)
@@ -225,7 +189,7 @@ Significant fields in the IPv4 header:
 
 
 * The IPv6 header is simplified\, but not smaller\.
-* The header is fixed  <span style="color:#ff0000">at 40 Bytes</span>  long\.
+* The header is fixed  at 40 Bytes  long\.
 * Some IPv4 fields were removed to improve performance:
   * Flag
   * Fragment Offset
@@ -270,18 +234,18 @@ Significant fields in the IPv4 header:
 
 * Each host device creates its own routing table\.
 * A host can send packets to the following destinations:
-  * Itself –  <span style="color:#ff0000">127\.0\.0\.1</span>  \(IPv4\) – the special address of the  <span style="color:#ff0000">loopback interface</span>
+  * Itself –  127\.0\.0\.1  \(IPv4\) – the special address of the  loopback interface
   * Local Hosts – on the same LAN
   * Remote Hosts – on the different LANs
-* <span style="color:#ff0000">The source device determines whether the destination is local or remote by comparing its own IP address with the destination IP address\.</span>
-* <span style="color:#0033cc">Remote traffic is forwarded directly to the </span>  <span style="color:#0033cc"> _default gateway _ </span>  <span style="color:#0033cc">on the LAN\.</span>
+* The source device determines whether the destination is local or remote by comparing its own IP address with the destination IP address\.
+* Remote traffic is forwarded directly to the    _default gateway _   on the LAN\.
 
 
 ![](t7-network-layer-img/t7-network-layer-v6_10.png)
 
 Default Gateway
 
-<span style="color:#ff0000">Intermediate Device</span>
+Intermediate Device
 
 ::: {.notes}
 
@@ -296,10 +260,10 @@ Default Gateway
 
 
 * A router or layer 3 switch can be a default\-gateway\.
-* <span style="color:#0033cc">Features of a default gateway \(DGW\)</span> :
+* Features of a default gateway \(DGW\) :
   * It must have an IP address in the same range as the rest of the LAN\.
   * It can accept data from the LAN and forward traffic to other networks\.
-* <span style="color:#ff0000">If a device has no default gateway or a bad default gateway\, its traffic will not be able to leave the LAN\.</span>
+* If a device has no default gateway or a bad default gateway\, its traffic will not be able to leave the LAN\.
 
 
 ![](t7-network-layer-img/t7-network-layer-v6_11.png)
@@ -326,7 +290,7 @@ All devices on the LAN use the DGW to send traffic remotely\.
 
 
 
-* Use  <span style="color:#ff0000">route print </span> or  <span style="color:#ff0000">netstat \-r</span>  to display the routing table\.
+* Use  route print  or  netstat \-r  to display the routing table\.
 * Three sections:
   * Interface List and MAC addressing
   * IPv4 Routing Table
@@ -337,7 +301,7 @@ IPv4 Routing Table for PC1
 
 ![](t7-network-layer-img/t7-network-layer-v6_13.png)
 
-<span style="color:#ffc000">Used to determine which route is used if there are more than one route to the same destination\.</span>
+Used to determine which route is used if there are more than one route to the same destination\.
 
 Default gateway for PC1
 
@@ -364,11 +328,11 @@ __R1 Routing Table__
 
 ![](t7-network-layer-img/t7-network-layer-v6_15.png)
 
-<span style="color:#000000"> _Packet arrives on the Gigabit Ethernet 0/0/0 interface of router R1\. R1 de\-encapsulates the Layer 2 Ethernet header and trailer\._ </span>
+ _Packet arrives on the Gigabit Ethernet 0/0/0 interface of router R1\. R1 de\-encapsulates the Layer 2 Ethernet header and trailer\._ 
 
-<span style="color:#000000"> _Router R1 examines the destination IPv4 address of the packet and searches for the best match in its IPv4 routing table\. The route entry indicates that this packet is to be forwarded to router R2\._ </span>
+ _Router R1 examines the destination IPv4 address of the packet and searches for the best match in its IPv4 routing table\. The route entry indicates that this packet is to be forwarded to router R2\._ 
 
-<span style="color:#000000"> _Router R1 encapsulates the packet into a _ </span>  _new Ethernet header and trailer_  <span style="color:#000000"> _\, and forwards the packet to the next hop router R2\._ </span>
+ _Router R1 encapsulates the packet into a _   _new Ethernet header and trailer_   _\, and forwards the packet to the next hop router R2\._ 
 
 ::: {.notes}
 
@@ -382,12 +346,12 @@ __R1 Routing Table__
 
 
 
-* There three  <span style="color:#0033cc">types of routes </span> in a routing table:
-* __Directly Connected networks __ –  <span style="color:#ff0000">Are automatically added by the router\, provided the interface is active and has IP addressing\.</span>
-* __Remote networks__  – Routes that the router does not have a direct connection and may be  <span style="color:#ff0000">learned:</span>
-  * <span style="color:#ff0000">Manually – </span>  <span style="color:#ff0000">with a static route</span>
-  * <span style="color:#ff0000">Dynamically </span> –  <span style="color:#ff0000">by using a dynamic routing protocol</span>
-* __Default Route __ –  <span style="color:#ff0000">a gateway of last resort</span> \, used when there is not a match in the routing table
+* There three  types of routes  in a routing table:
+* __Directly Connected networks __ –  Are automatically added by the router\, provided the interface is active and has IP addressing\.
+* __Remote networks__  – Routes that the router does not have a direct connection and may be  learned:
+  * Manually –   with a static route
+  * Dynamically  –  by using a dynamic routing protocol
+* __Default Route __ –  a gateway of last resort \, used when there is not a match in the routing table
 
 
 ![](t7-network-layer-img/t7-network-layer-v6_16.png)
@@ -406,19 +370,19 @@ __R1 Routing Table__
 
 Static Route Characteristics:
 
-Must be  <span style="color:#ff0000">configured manually</span>
+Must be  configured manually
 
-Must be  <span style="color:#ff0000">adjusted manually</span>  by the administrator  <span style="color:#ff0000">when there is a change in the topology</span>
+Must be  adjusted manually  by the administrator  when there is a change in the topology
 
-<span style="color:#ff0000">Good for small non\-redundant networks</span>
+Good for small non\-redundant networks
 
 Often used in conjunction with a dynamic routing protocol for configuring a default route
 
-<span style="color:#c00000">R1 is configured with a static route to reach the 10\.1\.1\.0l24 network\.  If this path changes\, R1 will require a new static route\.</span>
+R1 is configured with a static route to reach the 10\.1\.1\.0l24 network\.  If this path changes\, R1 will require a new static route\.
 
 ![](t7-network-layer-img/t7-network-layer-v6_18.png)
 
-<span style="color:#c00000">If the route from R1 via R2 is no longer available\, a new static route via R3 would need to be configured\.</span>
+If the route from R1 via R2 is no longer available\, a new static route via R3 would need to be configured\.
 
 ::: {.notes}
 
@@ -448,9 +412,9 @@ R2 is using the OSPF routing protocol to let R1 know about the 10\.1\.1\.0/24 ne
 
 ![](t7-network-layer-img/t7-network-layer-v6_20.png)
 
-<span style="color:#c00000">R1\, R2\, and R3 are using the OSPF dynamic routing protocol\.  </span>
+R1\, R2\, and R3 are using the OSPF dynamic routing protocol\.  
 
-<span style="color:#c00000">If there is network topology change\, they can automatically adjust to find a new path\.</span>
+If there is network topology change\, they can automatically adjust to find a new path\.
 
 ::: {.notes}
 
@@ -468,17 +432,17 @@ R2 is using the OSPF routing protocol to let R1 know about the 10\.1\.1\.0/24 ne
 
 
 
-* The  <span style="color:#ff0000"> _show ip route _ </span> command displays:
-* <span style="color:#0033cc">Route sources:</span>
-  * <span style="color:#0033cc">L</span>  \- Directly connected local interface IP address
-  * <span style="color:#0033cc">C</span>  – Directly connected network
-  * <span style="color:#0033cc">S</span>  – Static route\, manually configured
-  * <span style="color:#0033cc">O</span>  – OSPF
-  * <span style="color:#0033cc">D</span>  – EIGRP
-* <span style="color:#0033cc">Types of routes:</span>
-  * Directly Connected –  <span style="color:#0033cc">C</span>  and  <span style="color:#0033cc">L</span>
-  * <span style="color:#ff0000">Remote Routes </span> –  <span style="color:#ff0000">O</span> \,  <span style="color:#0033cc">D</span> \, etc\.
-  * Default Routes –  <span style="color:#0033cc">S\*</span>
+* The   _show ip route _  command displays:
+* Route sources:
+  * L  \- Directly connected local interface IP address
+  * C  – Directly connected network
+  * S  – Static route\, manually configured
+  * O  – OSPF
+  * D  – EIGRP
+* Types of routes:
+  * Directly Connected –  C  and  L
+  * Remote Routes  –  O \,  D \, etc\.
+  * Default Routes –  S\*
 ::: {.notes}
 
 8 – Network Layer
@@ -525,9 +489,9 @@ WARNING: Unauthorized access is prohibited\!
 
 R1\#  __copy running\-config startup\-config__
 
-<span style="color:#000000">Commands for basic router configuration</span>
+Commands for basic router configuration
 
-<span style="color:#000000">Configuration is saved to NVRAM\.</span>
+Configuration is saved to NVRAM\.
 
 ::: {.notes}
 
@@ -542,17 +506,17 @@ R1\#  __copy running\-config startup\-config__
 
 ![](t7-network-layer-img/t7-network-layer-v6_23.png)
 
-<span style="color:#0033cc"> __The commands to configure interface G0/0/0 on R1:__ </span>
+ __The commands to configure interface G0/0/0 on R1:__ 
 
 R1\(config\)\#  __interface gigabitEthernet 0/0/0__
 
 R1\(config\-if\)\#  __description Link to LAN__
 
-R1\(config\-if\)\#  <span style="color:#ffc000"> __ip__ </span>  __ address 192\.168\.10\.1 255\.255\.255\.0__
+R1\(config\-if\)\#   __ip__   __ address 192\.168\.10\.1 255\.255\.255\.0__
 
-R1\(config\-if\)\#  <span style="color:#ffc000"> __ipv6__ </span>  __ address 2001:db8:acad:10::1/64__
+R1\(config\-if\)\#   __ipv6__   __ address 2001:db8:acad:10::1/64__
 
-R1\(config\-if\)\#  <span style="color:#ff0000"> __no shutdown __ </span>
+R1\(config\-if\)\#   __no shutdown __ 
 
 R1\(config\-if\)\#  __exit__
 
@@ -566,7 +530,7 @@ R1\(config\)\#
 
 adds information about the network connected to the interface
 
-<span style="color:#ffc000">activates the interface</span>
+activates the interface
 
 ::: {.notes}
 
@@ -578,9 +542,9 @@ adds information about the network connected to the interface
 
 # Configure InterfacesVerify Interface Configuration
 
-<span style="color:#000000">To verify interface configuration or to view status of all interfaces use the </span>  <span style="color:#ff0000"> __show ip interface brief __ </span>  <span style="color:#000000">and </span>  <span style="color:#000000"> __show ipv6 interface brief __ </span>  <span style="color:#000000">commands shown here:</span>
+To verify interface configuration or to view status of all interfaces use the    __show ip interface brief __   and    __show ipv6 interface brief __   commands shown here:
 
-<span style="color:#ffc000">R1\#  </span>  <span style="color:#ffc000"> __show ip interface brief__ </span>
+R1\#     __show ip interface brief__ 
 
 Interface              IP\-Address      OK? Method Status                Protocol
 
@@ -590,7 +554,7 @@ GigabitEthernet0/0/1   209\.165\.200\.225 YES manual up                    up
 
 Vlan1                  unassigned      YES unset  administratively down down
 
-<span style="color:#ffc000">R1\#  </span>  <span style="color:#ffc000"> __show ipv6 interface brief__ </span>
+R1\#     __show ipv6 interface brief__ 
 
 GigabitEthernet0/0/0       \[up/up\]
 
@@ -620,15 +584,15 @@ unassigned
 
 ![](t7-network-layer-img/t7-network-layer-v6_24.png)
 
-<span style="color:#000000">The default gateway is used when a host sends a packet to a device on another network\.</span>
+The default gateway is used when a host sends a packet to a device on another network\.
 
-<span style="color:#ff0000">The default gateway address is generally the router interface address attached to the local network of the host\.</span>
+The default gateway address is generally the router interface address attached to the local network of the host\.
 
-<span style="color:#000000">To reach PC3\, PC1 addresses a packet with the IPv4 address of PC3\, but forwards the packet to its default gateway\, the G0/0/0 interface of R1\.</span>
+To reach PC3\, PC1 addresses a packet with the IPv4 address of PC3\, but forwards the packet to its default gateway\, the G0/0/0 interface of R1\.
 
-<span style="color:#ff0000">Network address of LAN1</span>
+Network address of LAN1
 
-<span style="color:#ff0000"> __Note__ </span>  <span style="color:#ff0000">: The IP address of the host and the router interface must be in the same network\.</span>
+ __Note__   : The IP address of the host and the router interface must be in the same network\.
 
 ::: {.notes}
 
@@ -640,9 +604,9 @@ unassigned
 
 ![](t7-network-layer-img/t7-network-layer-v6_25.png)
 
-<span style="color:#ff0000">A switch must have a default gateway address configured to </span>  <span style="color:#0033cc">remotely </span>  <span style="color:#ff0000">manage the switch </span>  <span style="color:#0033cc">from another network</span>  <span style="color:#ff0000">\. </span>
+A switch must have a default gateway address configured to   remotely   manage the switch   from another network  \. 
 
-Configured by using the  <span style="color:#ff0000"> __ip__ </span>  <span style="color:#ff0000"> __ default\-gateway __ </span> command\.
+Configured by using the   __ip__    __ default\-gateway __  command\.
 
 ::: {.notes}
 

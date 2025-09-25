@@ -6,17 +6,17 @@ title: "T3 Protocols and Reference Models"
 
 In IPv4:
 
-In 192.168.1.110, 192.168.1 bits are the network part of the address while 110 is the host part of the address.
+In 192.168.1.110:
 
-$\underbrace{192.168.1.110}_{\text{Network part of address}}  \underbrace{110}_\text{host}$
+$\underbrace{192.168.1}_{\text{Network part of address}}  \underbrace{110}_\text{\quad Host part of the address}$
 
-In a local network, the network of the address should not be differentbut the same. Only th ehost part changes.
+In a local network, the network of the address should not be different but the same. Only the host part changes.
 
-Segement is encapsulate in Layer 3 info. This is encapsulated in layer 2 info.
+(Segement is encapsulated in Layer 3 info) is encapsulated in layer 2 info.
 
 ### Data Link Addresses
 
-Each port of a routeer has different MAC addresses
+Each port of a \index{router} has different \index{MAC addresses}
 
 ### Role of the Data Link Layer Addresses: Different IP Networks
 
@@ -30,4 +30,4 @@ MAC Addresses are kept locally in local network. It's not visible from another n
 | MAC | IP |
 |-|-|
 | Layer 2 address | Layer 3 address |
-| Local source to destination communication | Source to remote device communication |
+| Source to local destination communication | Source to remote device communication |

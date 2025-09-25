@@ -1,0 +1,961 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\newif\ifbibliography
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% remove section numbering
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{makeidx}
+\makeindex
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Presentation Title},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Presentation Title}
+\author{}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+
+\begin{frame}{Topic 7: Network Layer}
+\phantomsection\label{topic-7-network-layer}
+\end{frame}
+
+\begin{frame}{Introduction to Networks v7.0 (ITN)}
+\phantomsection\label{introduction-to-networks-v7.0-itn}
+\note{Cisco Networking Academy Program Introduction to Networks v7.0
+(ITN) Module 8: Protocols and Modules}
+\end{frame}
+
+\begin{frame}{Topics}
+\phantomsection\label{topics}
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\textbf{Topic Title}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Topic Objective}
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\textbf{Network Layer Characteristics} & Explain how the network layer
+uses IP protocols for reliable communications. \\
+\textbf{IPv4 Packet} & Explain the role of the major header fields in
+the IPv4 packet. \\
+\textbf{IPv6 Packet} & Explain the role of the major header fields in
+the IPv6 packet. \\
+\textbf{How a Host Routes} & Explain how host devices use routing tables
+to direct packets \\
+\textbf{Introduction to Routing} & Explain how router use routing tables
+to forward packets. \\
+\textbf{Basic Router Configuration} & Configure initial settings,
+interfaces and default gateway \\
+\bottomrule\noalign{}
+\end{longtable}
+
+\note{8 -- Network Layer 8.0 -- Introduction 8.0.2 -- What will I learn
+to do in this module?}
+\end{frame}
+
+\begin{frame}{Network Layer CharacteristicsThe Network Layer}
+\phantomsection\label{network-layer-characteristics-the-network-layer}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_0.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  Provides services to allow end devices to exchange data.
+\item
+  IP version 4 (IPv4) and IP version 6 (IPv6) are the principle network
+  layer communication protocols.
+\item
+  {The network layer performs four basic operations:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Addressing end devices
+  \item
+    Encapsulation
+  \item
+    Routing
+  \item
+    De-encapsulation ::: \{.notes\}
+  \end{itemize}
+\end{itemize}
+
+8 -- Network Layer 8.1 -- Network Layer Characteristics 8.1.1 -- The
+Network Layer
+
+:::
+\end{frame}
+
+\begin{frame}{Network Layer CharacteristicsIP Encapsulation}
+\phantomsection\label{network-layer-characteristics-ip-encapsulation}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_1.png}}
+
+{IP encapsulates the transport layer segment.}
+
+{IP packet will be examined by all layer 3 devices as it traverses the
+network.}
+
+{The IP addressing does not change from source to destination.}
+
+\note{8 -- Network Layer 8.1 -- Network Layer Characteristics 8.1.2 --
+IP Encapsulation}
+\end{frame}
+
+\begin{frame}{Network Layer CharacteristicsConnectionless}
+\phantomsection\label{network-layer-characteristics-connectionless}
+\emph{IP is Connectionless - There is no connection with the destination
+established before sending data packets.}
+
+Connectionless communication is conceptually {similar to sending a
+letter } to someone without notifying the recipient in advance.
+
+IP requires no initial exchange of control information to establish an
+end-to-end connection before packets are forwarded.
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_2.png}}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_3.png}}
+
+\note{8 -- Network Layer 8.1 -- Network Layer Characteristics 8.1.4 --
+Connectionless}
+\end{frame}
+
+\begin{frame}{Network Layer CharacteristicsBest Effort}
+\phantomsection\label{network-layer-characteristics-best-effort}
+\emph{IP is Best Effort - IP is inherently unreliable because packet
+delivery is not guaranteed.}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_4.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  With no pre-established end-to-end connection, senders are unaware
+  whether destination devices:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Are present and functional when sending packets,
+  \item
+    Receives the packet
+  \item
+    Are able to access and read the packet.
+  \end{itemize}
+\item
+  {The IP protocol was not designed to track and manage the flow of
+  packets. These functions, if required, are performed by other
+  protocols at other layers, primarily TCP at Layer 4.} ::: \{.notes\}
+\end{itemize}
+
+8 -- Network Layer 8.1 -- Network Layer Characteristics 8.1.5 -- Best
+Effort
+
+:::
+\end{frame}
+
+\begin{frame}{Network Layer CharacteristicsMedia Independent}
+\phantomsection\label{network-layer-characteristics-media-independent}
+\begin{itemize}
+\tightlist
+\item
+  \emph{IP is media Independent: Operation is independent of the medium
+  (i.e., copper, fiber-optic, or wireless) carrying the data.}
+\end{itemize}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_5.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  IP does not concern itself with the type of frame required at the data
+  link layer or the media type at the physical layer.
+\item
+  {As shown in the figure, IP packets can be sent over any media type:
+  copper, fiber, or wireless.} ::: \{.notes\}
+\end{itemize}
+
+8 -- Network Layer 8.1 -- Network Layer Characteristics 8.1.6 -- Media
+Independent 8.1.7 Check Your Understanding -- IP Characteristics
+
+:::
+\end{frame}
+
+\begin{frame}{IPv4 PacketIPv4 Packet Header}
+\phantomsection\label{ipv4-packet-ipv4-packet-header}
+Diagram is read from left to right, 4 bytes per line
+
+\emph{The two most commonly referenced fields are the source and
+destination IP addresses} .
+
+These fields identify where the packet is coming from and where it is
+going.
+
+Typically, \emph{these addresses do not change while travelling from the
+source to the destination.}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_6.png}}
+
+\note{8 -- Network Layer 8.2 -- IPv4 Packet 8.2.1 -- IPv4 Packet Header}
+\end{frame}
+
+\begin{frame}{IPv4 PacketIPv4 Packet Header Fields}
+\phantomsection\label{ipv4-packet-ipv4-packet-header-fields}
+Significant fields in the IPv4 header:
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+Function
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\textbf{Version} & This will be for v4, as opposed to v6, a 4 bit field=
+0100 \\
+\textbf{Differentiated Services} & {Used for } {QoS} : DiffServ -- DS
+field or the older IntServ -- ToS or Type of Service \\
+\textbf{Header Checksum} & Detect corruption in the IPv4 header \\
+\textbf{Time to Live (TTL)} & {Layer 3 hop count. When it becomes zero
+the router} { will discard the packet.} \\
+\textbf{Protocol} & I.D.s next level protocol: ICMP, TCP, UDP, etc. \\
+{ \textbf{Source IPv4 Address} } & 32 bit source address \\
+{ \textbf{Destination IPv4 Address} } & 32 bit destination address \\
+\bottomrule\noalign{}
+\end{longtable}
+
+\note{8 -- Network Layer 8.2 -- IPv4 Packet 8.2.2 -- IPv4 Packet Header
+Fields}
+\end{frame}
+
+\begin{frame}{IPv6 PacketsLimitations of IPv4}
+\phantomsection\label{ipv6-packets-limitations-of-ipv4}
+\begin{itemize}
+\tightlist
+\item
+  {IPv4 address depletion } -- We have basically run out of IPv4
+  addressing.
+\item
+  {Lack of end-to-end connectivity } -- To make IPv4 survive this long,
+  private addressing and NAT were created. This ended direct
+  communications with public addressing.
+\item
+  {Increased network complexity } -- NAT was meant as temporary solution
+  and creates issues on the network as a side effect of manipulating the
+  network headers addressing. {NAT causes latency and troubleshooting
+  issues} . ::: \{.notes\}
+\end{itemize}
+
+8 -- Network Layer 8.3 -- IPv6 Packets 8.3.1 -- Limitations of IPv4
+
+:::
+\end{frame}
+
+\begin{frame}{IPv6 PacketsIPv6 Overview}
+\phantomsection\label{ipv6-packets-ipv6-overview}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_7.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  Developed to overcomes the limitations of IPv4.
+\item
+  {IPv6 improvements:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {Increased address space } -- based on 128 bit address, not 32 bits
+  \item
+    {Improved packet handling } -- simplified header with fewer fields
+  \item
+    {Eliminates the need for NAT } -- since there is a huge amount of
+    addressing, there is no need to use private addressing internally
+    and be mapped to a shared public address
+  \end{itemize}
+\end{itemize}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_8.png}}
+
+\note{8 -- Network Layer 8.3 -- IPv6 Packets 8.3.2 -- IPv6 Overview}
+\end{frame}
+
+\begin{frame}{IPv6 PacketsFields in the IPv6 Packet Header}
+\phantomsection\label{ipv6-packets-fields-in-the-ipv6-packet-header}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_9.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  The IPv6 header is simplified, but not smaller.
+\item
+  The header is fixed {at 40 Bytes} long.
+\item
+  Some IPv4 fields were removed to improve performance:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Flag
+  \item
+    Fragment Offset
+  \item
+    Header Checksum ::: \{.notes\}
+  \end{itemize}
+\end{itemize}
+
+8 -- Network Layer 8.3 -- IPv6 Packets 8.3.3 -- IPv4 Packet Header
+Fields in the IPv6 Packet Header
+
+:::
+\end{frame}
+
+\begin{frame}{IPv6 PacketsIPv6 Packet Header}
+\phantomsection\label{ipv6-packets-ipv6-packet-header}
+\begin{itemize}
+\tightlist
+\item
+  Significant fields in the IPv6 header:
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\centering\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+Function
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\textbf{Version} & This will be for v6, as opposed to v4, a 4 bit field=
+0110 \\
+\textbf{Traffic Class} & Used for QoS: Equivalent to DiffServ -- DS
+field \\
+\textbf{Flow Label} & Informs device to handle identical flow labels the
+same way, 20 bit field \\
+\textbf{Payload Length} & This 16-bit field indicates the length of the
+data portion or payload of the IPv6 packet \\
+\textbf{Next Header} & I.D.s next level protocol: ICMP, TCP, UDP,
+etc. \\
+\textbf{Hop Limit} & Replaces TTL field Layer 3 hop count \\
+\textbf{Source IPv6 Address} & 128 bit source address \\
+\textbf{Destination IPV6 Address} & 128 bit destination address \\
+\bottomrule\noalign{}
+\end{longtable}
+
+\note{8 -- Network Layer 8.3 -- IPv6 Packets 8.3.4 -- IPv6 Packet
+Header}
+\end{frame}
+
+\begin{frame}{How a Host RoutesHost Forwarding Decision}
+\phantomsection\label{how-a-host-routes-host-forwarding-decision}
+\begin{itemize}
+\tightlist
+\item
+  Each host device creates its own routing table.
+\item
+  A host can send packets to the following destinations:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Itself -- {127.0.0.1} (IPv4) -- the special address of the {loopback
+    interface}
+  \item
+    Local Hosts -- on the same LAN
+  \item
+    Remote Hosts -- on the different LANs
+  \end{itemize}
+\item
+  {The source device determines whether the destination is local or
+  remote by comparing its own IP address with the destination IP
+  address.}
+\item
+  {Remote traffic is forwarded directly to the } { \emph{default gateway
+  } } {on the LAN.}
+\end{itemize}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_10.png}}
+
+Default Gateway
+
+{Intermediate Device}
+
+\note{8 -- Network Layer 8.4 -- How a Host Routes 8.4.1 -- Host
+Forwarding Decision (Cont.)}
+\end{frame}
+
+\begin{frame}{How a Host RoutesDefault Gateway}
+\phantomsection\label{how-a-host-routes-default-gateway}
+\begin{itemize}
+\tightlist
+\item
+  A router or layer 3 switch can be a default-gateway.
+\item
+  {Features of a default gateway (DGW)} :
+
+  \begin{itemize}
+  \tightlist
+  \item
+    It must have an IP address in the same range as the rest of the LAN.
+  \item
+    It can accept data from the LAN and forward traffic to other
+    networks.
+  \end{itemize}
+\item
+  {If a device has no default gateway or a bad default gateway, its
+  traffic will not be able to leave the LAN.}
+\end{itemize}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_11.png}}
+
+\textbf{Local Network}
+
+192.168.10.0/24
+
+The host will know the default gateway either statically or through DHCP
+in IPv4.
+
+All devices on the LAN use the DGW to send traffic remotely.
+
+\note{8 -- Network Layer 8.4 -- How a Host Routes 8.4.2 -- Default
+Gateway}
+\end{frame}
+
+\begin{frame}{How a Host Routes Host Routing Tables}
+\phantomsection\label{how-a-host-routes-host-routing-tables}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_12.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  Use {route print } or {netstat -r} to display the routing table.
+\item
+  Three sections:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Interface List and MAC addressing
+  \item
+    IPv4 Routing Table
+  \item
+    IPv6 Routing Table
+  \end{itemize}
+\end{itemize}
+
+IPv4 Routing Table for PC1
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_13.png}}
+
+{Used to determine which route is used if there are more than one route
+to the same destination.}
+
+Default gateway for PC1
+
+\note{8 -- Network Layer 8.4 -- How a Host Routes 8.4.4 -- Host Routing
+Tables 8.4.5 -- Check Your Understanding -- How a Host Routes}
+\end{frame}
+
+\begin{frame}{Introduction to RoutingRouter Packet Forwarding Decision}
+\phantomsection\label{introduction-to-routing-router-packet-forwarding-decision}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_14.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{What happens when the router receives the frame from the host
+  device?}
+\end{itemize}
+
+\textbf{R1 Routing Table}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_15.png}}
+
+{ \emph{Packet arrives on the Gigabit Ethernet 0/0/0 interface of router
+R1. R1 de-encapsulates the Layer 2 Ethernet header and trailer.} }
+
+{ \emph{Router R1 examines the destination IPv4 address of the packet
+and searches for the best match in its IPv4 routing table. The route
+entry indicates that this packet is to be forwarded to router R2.} }
+
+{ \emph{Router R1 encapsulates the packet into a } } \emph{new Ethernet
+header and trailer} { \emph{, and forwards the packet to the next hop
+router R2.} }
+
+\note{8 -- Network Layer 8.5 -- Introduction to Routing 8.5.1 -- Router
+Packet Forwarding Decision}
+\end{frame}
+
+\begin{frame}{Introduction to RoutingIP Router Routing Table}
+\phantomsection\label{introduction-to-routing-ip-router-routing-table}
+\begin{itemize}
+\tightlist
+\item
+  There three {types of routes } in a routing table:
+\item
+  \textbf{Directly Connected networks } -- {Are automatically added by
+  the router, provided the interface is active and has IP addressing.}
+\item
+  \textbf{Remote networks} -- Routes that the router does not have a
+  direct connection and may be {learned:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {Manually -- } {with a static route}
+  \item
+    {Dynamically } -- {by using a dynamic routing protocol}
+  \end{itemize}
+\item
+  \textbf{Default Route } -- {a gateway of last resort} , used when
+  there is not a match in the routing table
+\end{itemize}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_16.png}}
+
+\note{8 -- Network Layer 8.5 -- Introduction to Routing 8.5.2 -- IP
+Router Routing Table}
+\end{frame}
+
+\begin{frame}{Introduction to RoutingStatic Routing}
+\phantomsection\label{introduction-to-routing-static-routing}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_17.png}}
+
+Static Route Characteristics:
+
+Must be {configured manually}
+
+Must be {adjusted manually} by the administrator {when there is a change
+in the topology}
+
+{Good for small non-redundant networks}
+
+Often used in conjunction with a dynamic routing protocol for
+configuring a default route
+
+{R1 is configured with a static route to reach the 10.1.1.0l24 network.
+If this path changes, R1 will require a new static route.}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_18.png}}
+
+{If the route from R1 via R2 is no longer available, a new static route
+via R3 would need to be configured.}
+
+\note{8 -- Network Layer 8.5 -- Introduction to Routing 8.5.3 -- Static
+Routing}
+\end{frame}
+
+\begin{frame}{Introduction to RoutingDynamic Routing}
+\phantomsection\label{introduction-to-routing-dynamic-routing}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_19.png}}
+
+Dynamic Routes Automatically:
+
+Discover remote networks
+
+Maintain up-to-date information
+
+Choose the best path to the destination
+
+Find new best paths when there is a topology change
+
+R1 is using the OSPF routing protocol to let R2 know about the
+192.168.10.0/24 network.
+
+R2 is using the OSPF routing protocol to let R1 know about the
+10.1.1.0/24 network.
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_20.png}}
+
+{R1, R2, and R3 are using the OSPF dynamic routing protocol. }
+
+{If there is network topology change, they can automatically adjust to
+find a new path.}
+
+\note{8 -- Network Layer 8.5 -- Introduction to Routing 8.5.4 -- Dynamic
+Routing}
+\end{frame}
+
+\begin{frame}{Introduction to RoutingIntroduction to an IPv4 Routing
+Table}
+\phantomsection\label{introduction-to-routing-introduction-to-an-ipv4-routing-table}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_21.png}}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_22.png}}
+
+\begin{itemize}
+\tightlist
+\item
+  The { \emph{show ip route } } command displays:
+\item
+  {Route sources:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    {L} - Directly connected local interface IP address
+  \item
+    {C} -- Directly connected network
+  \item
+    {S} -- Static route, manually configured
+  \item
+    {O} -- OSPF
+  \item
+    {D} -- EIGRP
+  \end{itemize}
+\item
+  {Types of routes:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Directly Connected -- {C} and {L}
+  \item
+    {Remote Routes } -- {O} , {D} , etc.
+  \item
+    Default Routes -- {S*} ::: \{.notes\}
+  \end{itemize}
+\end{itemize}
+
+8 -- Network Layer 8.5 -- Introduction to Routing 8.5.6 -- Introduction
+to an IPv4 Routing Table 8.5.7 -- Check Your Understanding --
+Introduction to Routing
+
+:::
+\end{frame}
+
+\begin{frame}{Configure Initial Router SettingsBasic Router
+Configuration Example}
+\phantomsection\label{configure-initial-router-settings-basic-router-configuration-example}
+R1(config)\# \textbf{hostname R1}
+
+R1(config)\# \textbf{enable secret class}
+
+R1(config)\# \textbf{line console 0}
+
+R1(config-line)\# \textbf{password cisco}
+
+R1(config-line)\# \textbf{login}
+
+R1 \textbf{(} config-line)\# \textbf{line vty 0 4}
+
+R1(config-line)\# \textbf{password cisco}
+
+R1(config-line)\# \textbf{login}
+
+R1(config-line)\# \textbf{transport input ssh telnet}
+
+R1(config-line)\# \textbf{exit}
+
+R1(config)\# \textbf{service password encryption}
+
+R1(config)\# \textbf{banner motd \#}
+
+Enter TEXT message. End with a new line and the \#
+
+**********************************************
+
+WARNING: Unauthorized access is prohibited!
+
+**********************************************
+
+R1\# \textbf{copy running-config startup-config}
+
+{Commands for basic router configuration}
+
+{Configuration is saved to NVRAM.}
+
+\note{10 -- Basic Router Configuration 10.1 -- Configure Initial Router
+Settings 10.1.2 -- Basic Routing Configuration Example 10.1.3 - Syntax
+Checker -- Configure Initial Router Settings}
+\end{frame}
+
+\begin{frame}{Configure InterfacesConfigure Router Interfaces Example}
+\phantomsection\label{configure-interfaces-configure-router-interfaces-example}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_23.png}}
+
+{ \textbf{The commands to configure interface G0/0/0 on R1:} }
+
+R1(config)\# \textbf{interface gigabitEthernet 0/0/0}
+
+R1(config-if)\# \textbf{description Link to LAN}
+
+R1(config-if)\# { \textbf{ip} } \_\_ address 192.168.10.1
+255.255.255.0\_\_
+
+R1(config-if)\# { \textbf{ipv6} } \_\_ address
+2001:db8:acad:10::1/64\_\_
+
+R1(config-if)\# { \textbf{no shutdown } }
+
+R1(config-if)\# \textbf{exit}
+
+R1(config)\#
+
+*Aug 1 01:43:53.435: \%LINK-3-UPDOWN: Interface GigabitEthernet0/0/0,
+changed state to down
+
+*Aug 1 01:43:56.447: \%LINK-3-UPDOWN: Interface GigabitEthernet0/0/0,
+changed state to up
+
+*Aug 1 01:43:57.447: \%LINEPROTO-5-UPDOWN: Line protocol on Interface
+GigabitEthernet0/0/0, changed state to up
+
+adds information about the network connected to the interface
+
+{activates the interface}
+
+\note{10 -- Basic Router Configuration 10.2 -- Configure Interfaces
+10.2.2 -- Configure Router Interfaces Example}
+\end{frame}
+
+\begin{frame}{Configure InterfacesVerify Interface Configuration}
+\phantomsection\label{configure-interfaces-verify-interface-configuration}
+{To verify interface configuration or to view status of all interfaces
+use the } { \textbf{show ip interface brief } } {and } { \textbf{show
+ipv6 interface brief } } {commands shown here:}
+
+{R1\# } { \textbf{show ip interface brief} }
+
+Interface IP-Address OK? Method Status Protocol
+
+GigabitEthernet0/0/0 192.168.10.1 YES manual up up
+
+GigabitEthernet0/0/1 209.165.200.225 YES manual up up
+
+Vlan1 unassigned YES unset administratively down down
+
+{R1\# } { \textbf{show ipv6 interface brief} }
+
+GigabitEthernet0/0/0 {[}up/up{]}
+
+FE80::201:C9FF:FE89:4501
+
+2001:DB8:ACAD:10::1
+
+GigabitEthernet0/0/1 {[}up/up{]}
+
+FE80::201:C9FF:FE89:4502
+
+2001:DB8:FEED:224::1
+
+Vlan1 {[}administratively down/down{]}
+
+unassigned
+
+\note{10 -- Basic Router Configuration 10.2 -- Configure Interfaces
+10.2.3 -- Verify Interface Configuration}
+\end{frame}
+
+\begin{frame}{Configure the Default GatewayDefault Gateway on a Host}
+\phantomsection\label{configure-the-default-gateway-default-gateway-on-a-host}
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_24.png}}
+
+{The default gateway is used when a host sends a packet to a device on
+another network.}
+
+{The default gateway address is generally the router interface address
+attached to the local network of the host.}
+
+{To reach PC3, PC1 addresses a packet with the IPv4 address of PC3, but
+forwards the packet to its default gateway, the G0/0/0 interface of R1.}
+
+{Network address of LAN1}
+
+{ \textbf{Note} } {: The IP address of the host and the router interface
+must be in the same network.}
+
+\note{10 -- Basic Router Configuration 10.3 -- Configure the Default
+Gateway 10.3.1 -- Default Gateway on a Host}
+
+\pandocbounded{\includegraphics[keepaspectratio]{t7-network-layer-img/t7-network-layer-v6_25.png}}
+
+{A switch must have a default gateway address configured to } {remotely
+} {manage the switch } {from another network} {. }
+
+Configured by using the { \textbf{ip} } { \_\_ default-gateway \_\_ }
+command.
+
+\note{10 -- Basic Router Configuration 10.3 -- Configure the Default
+Gateway 10.3.2 -- Default Gateway on a Switch 10.3.3 -- Syntax Checker
+-- Configure the Default Gateway}
+\end{frame}
+
+
+
+\printindex
+
+
+\end{document}
