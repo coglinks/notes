@@ -65,9 +65,25 @@ The 4 variables K\- map using minterms can be written as below:
 
 # Filling K-Map
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_4.png)
+Draw the K-Map X(A, B, C, D) = $\Sigma\ m(5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)$
+
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/kmap.png)
+
+::: {.note}
+
+Alternate expression: $\Pi\ M(0, 1, 2, 3, 4)$
+
+SOP:
+
+For the 1st cell, beginning term is $\bar{A}B\bar{C}D$
+
+POS: For the 1st cell, beginning term is $ABCD$
+
+:::
 
 # How to View a K-Map
+
+![](t4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-3d-representation.png){#fig-k-map-3d-representation align=center width=300 alt="k-map-3d-representation.png"}
 
 Think of a K\-Map as being rolled up in both directions
 
@@ -99,13 +115,19 @@ For most effective reduction\, make each group as large as possible\.
 
 __OCTETS__  \- Blocks of 8 are golden\.  They signify that  _we can reduce all of the logic in that block down to a single variable_ \, even though 4 variables are shown\.
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_5.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-pattern.png)
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_6.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-pattern-weird.png)
+
+> This is a group of 8s as k maps are continuous horizontally or vertically
 
 # Blocks of 4 - Quads
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_7.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-group-of-4.png)
+
+> Final, bottom, left, square is a group of 4 due to horizontal and vertical continuity
+
+> Minimize an expression means to simplify
 
 Wrapping cells around the edges of the K\-Map results in additional quads\.
 
@@ -117,9 +139,15 @@ Quads signify that we can reduce all of the logic in that block down to 3 variab
 
 Here some obvious and less obvious pairs:
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_8.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-group-of-2.png)
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_9.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-group-of-2-2nd.png)
+
+> In kmaps, diagonal continuity does not exist
+
+> In kmaps, we can reuse cells, i.e., we can use a previously simplified cell with another cell to simplify as a group of 2
+
+> We need the biggest group and the smallest group. Every group is a term. The bigger group the group, less are the number of resultant variables
 
 # Single one’s
 
@@ -131,11 +159,15 @@ Each cell requires 4 variable to describe it\.
 
 Some examples are shown below:
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_10.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-group-of-1.png)
 
 # Singles Only
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_11.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-example-of-ones.png)
+
+Make a boolean expression
+
+> $\mathrm{X = \bar{A}\bar{B}\bar{C}D + \bar{A}BCD}$
 
 # Example 1
 
