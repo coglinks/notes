@@ -1,20 +1,6 @@
 ---
-title: "Presentation Title"
-author: "Author"
-# format: 
-#   revealjs:
-#     slide-number: c/t
-#     width: 1600
-#     height: 900
-#     logo: img/logo.png
-#     footer: "Organization"
-#     incremental: true
-#     theme: [simple]
+title: "Karnough Map"
 ---
-# AETN1112 - Digital ElectronicsKarnaugh Map
-
-# prepared by:
-Ghufran Jaafreh
 
 # Objectives:
 
@@ -101,7 +87,7 @@ All cells containing 1’s must be accounted for when grouping\.
 
 Groupings must contain 2n cells\, for example\, 1\, 2\, 4\, 8\, … No other amounts are allowed to be grouped\.
 
-Groups can be square or rectangular or may contain a single cell\, but groups  <span style="color:#ff0000">cannot be diagonal </span> or have any other shape\.
+Groups can be square or rectangular or may contain a single cell\, but groups  cannot be diagonal  or have any other shape\.
 
 Cells containing 1’s can adjoin cells also containing 1’s on the opposite edge of the K\-Map in order to form a group\.
 
@@ -157,7 +143,7 @@ Some examples are shown below:
 
 Derive the output expression for the following K map:
 
-<span style="color:#ff0000">Solution</span>
+Solution
 
 ![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_12.png)
 
@@ -187,7 +173,7 @@ Write the K\-Map of the circuit:
 
 Draw the circuit gotten by K\-map and compare between the complexity
 
-The equivalent circuit \(left\) is much simpler than the original circuit \(right\)…  <span style="color:#ff0000">great\!\!</span>
+The equivalent circuit \(left\) is much simpler than the original circuit \(right\)…  great\!\!
 
 ![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_18.png)
 

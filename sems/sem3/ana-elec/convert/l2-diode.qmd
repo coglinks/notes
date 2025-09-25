@@ -1,7 +1,6 @@
 ---
 title: "Semiconductor Diodes"
 ---
-![](l2-diode-img/l2-diode_0.png)
 
 AETN 2101\-ANALOG ELECTRONICS
 
@@ -37,12 +36,6 @@ Intrinsic semiconductor \(not doped\) : high resistance \(since very few free el
 N\-type semiconductor \(doped with donors\): low resistance \(due to lots of free electrons\)\.
 
 P\-type semiconductor \(doped with acceptors\): low resistance \(due to lots of holes\)
-
-::: {.notes}
-
-
-
-:::
 
  __Semiconductor Materials:__ 
 

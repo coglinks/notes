@@ -1,12 +1,9 @@
----
-title: "Presentation Title"
----
-![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_0.png)
 
-AETN 2101\-ANALOG  ELECTRONICS
+---
+title: "Diodes Circuits Analysis"
+---
 
-# Lecture # 3.1 –Diodes Circuits Analysis 
-&
+
 Application
 
 # Learning Objectives:
@@ -19,47 +16,38 @@ Analysis of diode electronic circuits using the actual characteristics or applyi
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
 # Diodes
 
-A  __diode __ is a  __semiconductor __ device that allows electrical current to flow in one direction only\.
+- A  __diode __ is a  __semiconductor __ device that allows electrical current to flow in one direction only\.
+- The diode has two terminals\, called the  __anode __ and the  __cathode__ \.
+- A ring mark on the diode case identifies the terminal corresponding to the cathode\.
+- The other terminal corresponds to the anode\.
+- The diode consists of two layers of semiconducting material:
 
-The diode has two terminals\, called the  __anode __ and the  __cathode__ \.
+  * A   __P\-type __  semiconductor layer containing positive charge carriers \(holes\)\.  The P\-type layer corresponds to the anode \(A\) terminal of the     diode\.
+  * An   __N\-type__    __ __  semiconductor layer containing negative charge carriers \(electrons\)\.  The N\-type layer corresponds to the cathode \(K\) terminal of the     diode  \.
 
-A ring mark on the diode case identifies the terminal corresponding to the cathode\.
+::: {layout-nrow=2 layout-ncol=1}
 
-The other terminal corresponds to the anode\.
+![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_1.png){width=300}
 
-The diode consists of two layers of semiconducting material:
+![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_2.png){width=300}
 
-![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_1.png)
-
-![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_2.png)
-
-
-
-      * A  <span style="color:#0000ff"> __P\-type __ </span> semiconductor layer containing positive charge carriers \(holes\)\.  <span style="color:#339933">The P\-type layer corresponds to the anode \(A\) terminal of the</span>  <span style="color:#339933"> </span>  <span style="color:#339933">diode\.</span>
-      * An  <span style="color:#0000ff"> __N\-type__ </span>  <span style="color:#000080"> __ __ </span> semiconductor layer containing negative charge carriers \(electrons\)\.  <span style="color:#339933">The N\-type layer corresponds to the cathode \(K\) terminal of the</span>  <span style="color:#339933"> </span>  <span style="color:#339933">diode</span>  <span style="color:#339933">\.</span>
-
-
-![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_3.png)
-
-::: {.notes}
-
-Explain the process as a self regulated system
+![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_3.png){width=300}
 
 :::
 
-<span style="color:#c00000"> __Recall: Operation__ </span>
+ __Recall: Operation__ 
 
-When no voltage is present across the diode terminals\, the diode is in the “off” \(blocked\) state\. No current flows through the diode\, and the diode acts like an  <span style="color:#002060"> __open switch__ </span> \.
+When no voltage is present across the diode terminals\, the diode is in the “off” \(blocked\) state\. No current flows through the diode\, and the diode acts like an   __open switch__  \.
 
-<span style="color:#339933">When </span>  <span style="color:#339933">voltage at the anode is lower than the voltage at the cathode</span> \, the diode is said to be  <span style="color:#000080"> __reverse biased\. __ </span> Diode still acts as an open switch and no current flows through the diode\.
+When   voltage at the anode is lower than the voltage at the cathode \, the diode is said to be   __reverse biased\. __  Diode still acts as an open switch and no current flows through the diode\.
 
-<span style="color:#339933">When the voltage at the anode is higher than the voltage at the cathode</span> \, diode is said to be  <span style="color:#000080"> __forward biased\. __ </span> Diode acts as a closed switch\, allowing the current to flow from the anode to the cathode\.
+When the voltage at the anode is higher than the voltage at the cathode \, diode is said to be   __forward biased\. __  Diode acts as a closed switch\, allowing the current to flow from the anode to the cathode\.
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_4.png)
 
@@ -69,29 +57,29 @@ When no voltage is present across the diode terminals\, the diode is in the “o
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#c00000"> __Recall: I\-V characteristics__ </span>
+ __Recall: I\-V characteristics__ 
 
 Represents the current flowing through the diode as a function of the voltage across its terminals
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_7.png)
 
-<span style="color:#ff0000">Question: Is Real diode I\-V characteristics curve linear or non linear</span>  <span style="color:#ff0000">?</span>  <span style="color:#ff0000"> </span>
+Question: Is Real diode I\-V characteristics curve linear or non linear  ?   
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
 # Diodes Circuits Analysis
 
-<span style="color:#c00000"> __Load__ </span>  <span style="color:#0066ff"> </span>  <span style="color:#c00000"> __Line__ </span>  <span style="color:#c00000"> __  __ </span>  <span style="color:#c00000"> __Analysis:__ </span>
+ __Load__       __Line__    __  __    __Analysis:__ 
 
-The operating point of a diode can be determined by a  <span style="color:#0000ff">load\-line analysis </span> of the voltage\-current characteristic\.
+The operating point of a diode can be determined by a  load\-line analysis  of the voltage\-current characteristic\.
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_8.jpg)
 
@@ -101,23 +89,23 @@ Determine Point A\, where no current is flowing through the diode\. \(diode open
 
 Determine Point B\, where no voltage drop across the diode\. \(diode closed\)
 
-Construct  <span style="color:#0000ff">Load Line </span> by connecting the two points\.
+Construct  Load Line  by connecting the two points\.
 
-<span style="color:#0000ff">Operating point \(Q\-point\)</span>  is given by the intersection of the load line and the diode characteristic\.
+Operating point \(Q\-point\)  is given by the intersection of the load line and the diode characteristic\.
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_10.jpg)
 
-<span style="color:#336600">L</span>  <span style="color:#336600">oad line is determined </span>  <span style="color:#336600">by </span>  <span style="color:#336600">the  </span>  <span style="color:#336600">applied </span>  <span style="color:#336600">network\, </span>  <span style="color:#336600">whereas </span>  <span style="color:#336600">the </span>  <span style="color:#336600">diode </span>  <span style="color:#336600">characteristics  are </span>  <span style="color:#336600">defined by </span>  <span style="color:#336600">the </span>  <span style="color:#336600">selected</span>  <span style="color:#336600"> </span>  <span style="color:#336600">device\.</span>
+L  oad line is determined   by   the    applied   network\,   whereas   the   diode   characteristics  are   defined by   the   selected     device\.
 
-<span style="color:#0000ff">Q\- point </span>  <span style="color:#336600">is the </span>  <span style="color:#202124">quiescent</span>  <span style="color:#336600"> operating point\.</span>
+Q\- point   is the   quiescent   operating point\.
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#c00000"> __Load__ </span>  <span style="color:#0066ff"> </span>  <span style="color:#c00000"> __Line__ </span>  <span style="color:#c00000"> __  __ </span>  <span style="color:#c00000"> __Analysis:__ </span>
+ __Load__       __Line__    __  __    __Analysis:__ 
 
 Given the diode circuit below\, the intersections of the load line on its characteristics  can be determined by first applying Kirchhoff’s voltage  law in the clockwise direction\.
 
@@ -125,13 +113,13 @@ Given the diode circuit below\, the intersections of the load line on its charac
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
 # Analysis of Diodes Circuits
 
-<span style="color:#c00000"> __Load__ </span>  <span style="color:#0066ff"> </span>  <span style="color:#c00000"> __Line__ </span>  <span style="color:#c00000"> __ __ </span>  <span style="color:#c00000"> __Analysis:__ </span>
+ __Load__       __Line__    __ __    __Analysis:__ 
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_12.png)
 
@@ -139,61 +127,61 @@ Explain the process as a self regulated system
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
 # Diodes Circuits Analysis
 
-<span style="color:#c00000"> __Series __ </span>  <span style="color:#c00000"> __Diode__ </span>  <span style="color:#c00000"> __ __ </span>  <span style="color:#c00000"> __Configuration:__ </span>
+ __Series __    __Diode__    __ __    __Configuration:__ 
 
-<span style="color:#ff0000">For the  series diode configuration below\, calculate\, V</span>  <span style="color:#ff0000">D</span>  <span style="color:#ff0000">\,V</span>  <span style="color:#ff0000">R</span>  <span style="color:#ff0000"> and I</span>  <span style="color:#ff0000">D</span>  <span style="color:#ff0000">\. Assume a silicon diode</span>
+For the  series diode configuration below\, calculate\, V  D  \,V  R   and I  D  \. Assume a silicon diode
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_14.png)
 
-<span style="color:#ff0000"> __Question:__ </span>
+ __Question:__ 
 
-<span style="color:#ff0000">How will the circuit behave if the source voltage E\, is reduced to 0\.5V</span>  <span style="color:#ff0000">?</span>
+How will the circuit behave if the source voltage E\, is reduced to 0\.5V  ?
 
-<span style="color:#ff0000">Hint: Will the diode conduct or not</span>  <span style="color:#ff0000">?</span>
+Hint: Will the diode conduct or not  ?
 
-<span style="color:#0000ff">Answer:</span>
+Answer:
 
-<span style="color:#0000ff">The diode will not conduct\, I</span>  <span style="color:#0000ff">D</span>  <span style="color:#0000ff">=0</span>
+The diode will not conduct\, I  D  =0
 
-<span style="color:#0000ff">V</span>  <span style="color:#0000ff">D</span>  <span style="color:#0000ff">= E = 0\.5v</span>
+V  D  = E = 0\.5v
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_15.png)
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#c00000"> __Series __ </span>  <span style="color:#c00000"> __Diode__ </span>  <span style="color:#c00000"> __ __ </span>  <span style="color:#c00000"> __Configuration:__ </span>
+ __Series __    __Diode__    __ __    __Configuration:__ 
 
-<span style="color:#ff0000">Repeat  previous example when the diode is reversed </span>  <span style="color:#ff0000">i\.e</span>  <span style="color:#ff0000"> calculate\, V</span>  <span style="color:#ff0000">D</span>  <span style="color:#ff0000">\,V</span>  <span style="color:#ff0000">R</span>  <span style="color:#ff0000"> and I</span>  <span style="color:#ff0000">D</span>  <span style="color:#ff0000">\. Assume a silicon diode\.</span>
+Repeat  previous example when the diode is reversed   i\.e   calculate\, V  D  \,V  R   and I  D  \. Assume a silicon diode\.
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_16.png)
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_17.png)
 
-<span style="color:#0000ff">Answer:</span>
+Answer:
 
-<span style="color:#0000ff">The diode will not conduct\, I</span>  <span style="color:#0000ff">D</span>  <span style="color:#0000ff">=0</span>
+The diode will not conduct\, I  D  =0
 
-<span style="color:#0000ff">V</span>  <span style="color:#0000ff">D</span>  <span style="color:#0000ff">=E = 8v</span>
+V  D  =E = 8v
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#c00000"> __Series __ </span>  <span style="color:#c00000"> __Diode__ </span>  <span style="color:#c00000"> __ __ </span>  <span style="color:#c00000"> __Configuration:__ </span>
+ __Series __    __Diode__    __ __    __Configuration:__ 
 
-<span style="color:#ff0000">Determine I</span>  <span style="color:#ff0000">D</span>  <span style="color:#ff0000"> and V</span>  <span style="color:#ff0000">D</span>  <span style="color:#ff0000"> for the circuit using Load Line Analysis</span>  <span style="color:#ff0000">\.</span>
+Determine I  D   and V  D   for the circuit using Load Line Analysis  \.
 
 ![](l3.1-diode-circuits-analysis-img/l31-diode-circuits-analysis_18.png)
 
@@ -201,7 +189,7 @@ Explain the process as a self regulated system
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 

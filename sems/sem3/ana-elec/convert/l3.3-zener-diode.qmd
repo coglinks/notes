@@ -1,41 +1,34 @@
+
 ---
-title: "Presentation Title"
+title: "Zener Diode"
 ---
-![](l3.3-zener-diode-img/l33-zener-diode_0.png)
-
-AETN 2101\-ANALOG  ELECTRONICS
-
-# L3.3 –Zener Diode
-
-__Dr\. Yasen Harrye__
 
 # Learning Objectives:
 
-<span style="color:#000000">Describe the characteristics of a Zener diode and analyse its operation</span>
+Describe the characteristics of a Zener diode and analyse its operation
 
-<span style="color:#000000">Recognize a Zener diode by its schematic symbol</span>
+Recognize a Zener diode by its schematic symbol
 
-<span style="color:#000000">Discuss Zener breakdown</span>
+Discuss Zener breakdown
 
-<span style="color:#000000">Define </span>  <span style="color:#000000"> _avalanche breakdown_ </span>
+Define    _avalanche breakdown_ 
 
-<span style="color:#000000">Explain Zener breakdown characteristics</span>
+Explain Zener breakdown characteristics
 
-<span style="color:#000000">Describe Zener regulation</span>
+Describe Zener regulation
 
 ::: {.notes}
 
-Explain the process as a self regulated system
 
 :::
 
 # Zener Diode
 
-<span style="color:#000000">A </span> Zener diode  <span style="color:#000000">is a silicon </span>  <span style="color:#000000"> _pn_ </span>  <span style="color:#000000"> _ _ </span>  <span style="color:#000000">junction device\.</span>
+A  Zener diode  is a silicon    _pn_    _ _   junction device\.
 
-<span style="color:#0000cc">Designed for operation in the reverse region</span>  <span style="color:#000000">\. </span>
+Designed for operation in the reverse region  \. 
 
-<span style="color:#000000">The breakdown voltage of a Zener diode is set by carefully controlling the doping level during manufacture\.</span>
+The breakdown voltage of a Zener diode is set by carefully controlling the doping level during manufacture\.
 
 Recall diode reaches reverse breakdown\, its voltage remains almost constant even though the current changes drastically\, and this is the key to Zener diode operation\.
 
@@ -45,41 +38,41 @@ Recall diode reaches reverse breakdown\, its voltage remains almost constant eve
 
 ![](l3.3-zener-diode-img/l33-zener-diode_3.png)
 
-<span style="color:#0000cc">V\-I characteristics</span>
+V\-I characteristics
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#c00000"> __Breakdown Characteristics__ </span>
+ __Breakdown Characteristics__ 
 
 Zeners are commercially available with breakdown voltages from less than 1V to more than 250 V with specified tolerances from 1% to 20%\.
 
 When reverse voltage \( _V_ R\) is increased\, the reverse current \( _I_ R\) remains extremely small up to the “knee” of the curve\.
 
-<span style="color:#336600">Reverse current is also called the Zener current\, </span>  <span style="color:#336600"> _I_ </span>  <span style="color:#336600">Z</span>  <span style="color:#336600">\.</span>
+Reverse current is also called the Zener current\,    _I_   Z  \.
 
 ![](l3.3-zener-diode-img/l33-zener-diode_4.png)
 
-<span style="color:#0000cc">Reverse characteristic of a Zener</span>  <span style="color:#0000cc"> </span>  <span style="color:#0000cc">diode</span>
+Reverse characteristic of a Zener     diode
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
 ![](l3.3-zener-diode-img/l33-zener-diode_5.png)
 
-<span style="color:#c00000"> __Voltage Regulation:__ </span>
+ __Voltage Regulation:__ 
 
 Zener Equivalent circuit:
 
-<span style="color:#0000cc">Zener diode can be used as a type of voltage regulator for providing stable reference</span>  <span style="color:#0000cc"> </span>  <span style="color:#0000cc">voltages</span> \.
+Zener diode can be used as a type of voltage regulator for providing stable reference     voltages \.
 
-<span style="color:#ff0000">Not efficient though\!</span>
+Not efficient though\!
 
 Limited to applications that require only low current to the load\.
 
@@ -87,19 +80,19 @@ Limited to applications that require only low current to the load\.
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#c00000"> __Voltage Regulation With Variable input Voltage :__ </span>
+ __Voltage Regulation With Variable input Voltage :__ 
 
-<span style="color:#336600">Increasing  Input Voltage:</span>
+Increasing  Input Voltage:
 
 ![](l3.3-zener-diode-img/l33-zener-diode_7.png)
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
@@ -135,45 +128,21 @@ DP3100 – Programmable Logic Controllers
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
-<span style="color:#0000cc"> __Example 1: \(Solution\)__ </span>
+ __Example 1: \(Solution\)__ 
 
 First\, calculate the voltage drop across RL assuming the diode is open circuit as shown in Fig\. 116\.
 
 ![](l3.3-zener-diode-img/l33-zener-diode_13.png)
 
-<span style="color:#0000cc">As V<</span>  <span style="color:#0000cc">Vz</span>  <span style="color:#0000cc">; the </span>  <span style="color:#0000cc">zener</span>  <span style="color:#0000cc"> diode will be in “OFF” state\.</span>
-
-![](l3.3-zener-diode-img/l33-zener-diode_14.png)
-
-![](l3.3-zener-diode-img/l33-zener-diode_15.png)
-
-![](l3.3-zener-diode-img/l33-zener-diode_16.png)
+As V=  Vz  ; the   zener   diode will be in “ON” state\.
 
 ::: {.notes}
 
-Explain the process as a self regulated system
 
-:::
-
-For Example 1\(b\)\, now RL is equal to 3KΩ as shown below\.
-
-![](l3.3-zener-diode-img/l33-zener-diode_17.png)
-
-Again calculate the voltage drop across RL assuming the diode is open circuit as shown below\.
-
-![](l3.3-zener-diode-img/l33-zener-diode_18.png)
-
-![](l3.3-zener-diode-img/l33-zener-diode_19.png)
-
-<span style="color:#0000cc">As V>=</span>  <span style="color:#0000cc">Vz</span>  <span style="color:#0000cc">; the </span>  <span style="color:#0000cc">zener</span>  <span style="color:#0000cc"> diode will be in “ON” state\.</span>
-
-::: {.notes}
-
-Explain the process as a self regulated system
 
 :::
 
@@ -181,7 +150,7 @@ Explain the process as a self regulated system
 
 ::: {.notes}
 
-Explain the process as a self regulated system
+
 
 :::
 
