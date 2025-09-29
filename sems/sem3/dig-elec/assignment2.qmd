@@ -1,0 +1,34 @@
+---
+title: "Assignment 2"
+author:
+  - name: "Fairoos Kunhi - 60315610"
+format:
+  pdf:
+    include-in-header:
+      - text: |
+        \maketitle
+    documentclass: article
+    papersize: a4paper
+    geometry:
+      - top=20mm
+      - bottom=20mm
+      - left=20mm
+      - right=20mm
+    toc: false
+    number-sections: false
+    colorlinks: false
+---
+
+## Part-B
+
+##### 1. a)
+
+Maxterms: $(A+B+C), (A+B+\bar{C}), (A+\bar{B}+C), (\bar{A}+B+C)$
+
+##### 1. b)
+
+POS: $(A+B+C) + (A+B+\bar{C}) + (A+\bar{B}+C) + (\bar{A}+B+C)$
+
+##### 2. a. i.
+
+$11001101$
