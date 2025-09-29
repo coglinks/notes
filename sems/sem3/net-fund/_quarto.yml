@@ -18,10 +18,11 @@ format:
       dark: darkly
     mainfont: "IosevkaTerm Nerd Font Mono"
     fontsize: 20px
-  beamer:
+  pdf:
     include-in-header: 
       text: |
         \usepackage{makeidx}
+        \usepackage[a5paper,left=0.5in,right=0.5in,top=0.5in,bottom=0.5in,landscape]{geometry}
         \makeindex
     include-after-body: 
       text: |
