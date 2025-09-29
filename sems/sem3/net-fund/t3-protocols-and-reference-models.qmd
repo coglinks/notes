@@ -16,7 +16,7 @@ In a local network, the network of the address should not be different but the s
 
 ### Data Link Addresses
 
-Each port of a \index{router} has different \index{MAC addresses}
+Each port of a router has different \index{MAC addresses}
 
 ### Role of the Data Link Layer Addresses: Different IP Networks
 
