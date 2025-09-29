@@ -147,7 +147,7 @@ Here some obvious and less obvious pairs:
 
 > In kmaps, we can reuse cells, i.e., we can use a previously simplified cell with another cell to simplify as a group of 2
 
-> We need the biggest group and the smallest group. Every group is a term. The bigger group the group, less are the number of resultant variables
+> We need the biggest group and the smallest group. Every group is a term. The bigger group the group, less are the number of resultant variables in the boolean expression.
 
 # Single one’s
 
@@ -177,9 +177,13 @@ Derive the output expression for the following K map:
 
 Solution
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_12.png)
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/example-kmap.png)
 
 ![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_13.png)
+
+> Why make kmaps?
+
+> They help us in building circuits better as they simplify circuits. Simplified circuits are easier to deal with and allow us to fix it better when issues arise.
 
 # Exercise
 
