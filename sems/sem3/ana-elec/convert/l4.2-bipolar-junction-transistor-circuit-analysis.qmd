@@ -1,15 +1,6 @@
 ---
-title: "Presentation Title"
+title: "L4.2 – BJT Circuit- Analysis"
 ---
-![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_0.png)
-
-AETN 2101\-ANALOG  ELECTRONICS
-
-# L4.2 – BJT
-
-Circuit- Analysis
-
-__Dr\. Yasen Harrye__
 
 # Learning Objectives:
 
@@ -27,61 +18,43 @@ Describe the saturation condition in a BJT circuit\.
 
 Discuss the dc load line and apply it to circuit analysis\.
 
-Discuss how <span style="color:#0000cc"> </span> βdc changes with temperature\.
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
+Discuss how   βdc changes with temperature\.
 
 # Bipolar Junction Transistor ( BJT)
 
-<span style="color:#336600">BJT Circuit Analysis:</span>
+BJT Circuit Analysis:
 
 Consider the circuit opposite\.
 
-<span style="color:#c00000">Three</span>  transistor DC currents and  <span style="color:#c00000">three DC </span> voltages can be identified
+Three  transistor DC currents and  three DC  voltages can be identified
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_1.png)
 
-<span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff">B</span>  <span style="color:#0000ff">: </span> dc base current
+ _I_   B  :  dc base current
 
-<span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff">E</span>  <span style="color:#0000ff">: </span> dc emitter current
+ _I_   E  :  dc emitter current
 
-<span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff">C</span>  <span style="color:#0000ff">: </span> dc collector current
+ _I_   C  :  dc collector current
 
-<span style="color:#0000ff"> _V_ </span>  <span style="color:#0000ff">BE</span>  <span style="color:#0000ff">: </span> dc voltage at base with respect to emitter
+ _V_   BE  :  dc voltage at base with respect to emitter
 
-<span style="color:#0000ff"> _V_ </span>  <span style="color:#0000ff">CB</span>  <span style="color:#0000ff">: </span> dc voltage at collector with respect to base
+ _V_   CB  :  dc voltage at collector with respect to base
 
-<span style="color:#0000ff"> _V_ </span>  <span style="color:#0000ff">CE</span>  <span style="color:#0000ff">: </span> dc voltage at collector with respect to emitter
+ _V_   CE  :  dc voltage at collector with respect to emitter
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#336600">BJT Circuit Analysis:</span>
+BJT Circuit Analysis:
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_2.png)
 
-<span style="color:#c00000">B</span>  <span style="color:#c00000">ase\-emitter junction is forward\-biased\, it is like a forward\-biased diode and has a nominal forward voltage drop of:</span>
+B  ase\-emitter junction is forward\-biased\, it is like a forward\-biased diode and has a nominal forward voltage drop of:
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_3.png)
 
-<span style="color:#0000cc"> _Note: Actual transistor V_ </span>  <span style="color:#0000cc"> _BE_ </span>  <span style="color:#0000cc"> _ can be as high as 0\.9 V and is dependent on current_ </span>  <span style="color:#0000cc"> _\._ </span>
+ _Note: Actual transistor V_    _BE_    _ can be as high as 0\.9 V and is dependent on current_    _\._ 
 
-::: {.notes}
+BJT Circuit Analysis:
 
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#336600">BJT Circuit Analysis:</span>
-
-<span style="color:#ff0000">By applying Kirchhoff’s voltage law: </span>
+By applying Kirchhoff’s voltage law: 
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_4.png)
 
@@ -97,13 +70,7 @@ Also\, by Ohm’s law
 
 Substituting for VRB:
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#336600">BJT Circuit Analysis:</span>
+BJT Circuit Analysis:
 
 Voltage at the collector with respect to the grounded emitter is
 
@@ -127,13 +94,7 @@ Voltage across the reverse\-biased collector\-base junction is
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_15.png)
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-# Bipolar Junction Transistor ( BJT)Example:
+# Bipolar Junction Transistor ( BJT) Example:
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_16.png)
 
@@ -153,21 +114,15 @@ Explain the process as a self regulated system
 
 # Bipolar Junction Transistor ( BJT)
 
-<span style="color:#336600">Collector Curve Characteristics:</span>
+Collector Curve Characteristics:
 
-A set of  _collector characteristic curves _ can be generated that show how the collector current\,  _I_ C\, varies with the collector\-to\-emitter voltage\,  _V_ CE\, for specified values of base current\,  _I_ B\.
+A set of  collector characteristic curves can be generated that show how the collector current\,  $I_C$\, varies with the collector\-to\-emitter voltage\,  _V_ CE\, for specified values of base current\,  _I_ B\.
 
 Note in the circuit diagram that both  _V_ BB and  _V_ CC are variable sources of voltage\.
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_18.png)
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#336600">Collector Curve Characteristics:</span>
+Collector Curve Characteristics:
 
 Regions of operation  of the transistor:
 
@@ -177,15 +132,9 @@ _  Active _
 
 _ Cut\-off region _
 
-_ _  <span style="color:#ff0000">Breakdown Region        </span>
+_ _  Breakdown Region
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_19.jpg)
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
 
 Is the nonconducting state of a transistor\.
 
@@ -193,41 +142,23 @@ when  _I_ B = 0\, the transistor is in the cut\-off region of its operation\.
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_20.png)
 
-::: {.notes}
+ __Saturation Region:__ 
 
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#c00000"> __Saturation Region:__ </span>
-
-__Saturation: __ the collector current has reached a  <span style="color:#0000cc">maximum\.</span>
+_Saturation: the collector current has reached a  maximum\.
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_21.png)
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
 
 The bottom of the load line is at ideal cut\-off  where IC = 0 and VCE = VCC\.
 
 The top of the load line is at saturation where:
 
-<span style="color:#0000ff"> __I__ </span>  <span style="color:#0000ff"> __C__ </span>  <span style="color:#0000ff"> __ = I__ </span>  <span style="color:#0000ff"> __C__ </span>  <span style="color:#0000ff"> __\(sat\)__ </span>  <span style="color:#0000ff"> __= VCC/RC__ </span>
+ __I__    __C__    __ = I__    __C__    __\(sat\)__    __= VCC/RC__ 
 
-<span style="color:#0000ff"> __V__ </span>  <span style="color:#0000ff"> __CE__ </span>  <span style="color:#0000ff"> __ = V__ </span>  <span style="color:#0000ff"> __CE__ </span>  <span style="color:#0000ff"> __\(sat\)\. __ </span>
+ __V__    __CE__    __ = V__    __CE__    __\(sat\)\. __ 
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_22.png)
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-# Bipolar Junction Transistor ( BJT)Example:
+# Bipolar Junction Transistor ( BJT) Example:
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_23.png)
 
@@ -243,12 +174,6 @@ VCC=20V\, VB=10V\, IB=40uA\, Rc=2kohm\, RB=
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_24.png)
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_25.png)
 
 In the shown circuit\,
@@ -263,19 +188,12 @@ VCC=20V\, VB=10V\, IB=40uA\, Rc=2kohm
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_26.png)
 
-<span style="color:#ff0000">1\) </span>  <span style="color:#ff0000">Ic</span>  <span style="color:#ff0000">\(sat\)=</span>  <span style="color:#ff0000">Vcc</span>  <span style="color:#ff0000">/</span>  <span style="color:#ff0000">Rc</span>  <span style="color:#ff0000">=20/2kohm</span>  <span style="color:#ff0000">=10mA</span>
+1\)   Ic  \(sat\)=  Vcc  /  Rc  =20/2kohm  =10mA
 
-<span style="color:#ff0000">VCE\(sat\)=VCC=20V</span>
+VCE\(sat\)=VCC=20V
 
-<span style="color:#ff0000">2\) </span>  <span style="color:#ff0000">Ic</span>  <span style="color:#ff0000">=8\.5mA\, VCE=3\.5V</span>
+2\)   Ic  =8\.5mA\, VCE=3\.5V
 
-<span style="color:#ff0000">3\) VBE=0\.7  </span>
+3\) VBE=0\.7  
 
-<span style="color:#ff0000">    VCB=VCE\-VBE=3\.5\-0\.7=2\.8V</span>
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
+    VCB=VCE\-VBE=3\.5\-0\.7=2\.8V

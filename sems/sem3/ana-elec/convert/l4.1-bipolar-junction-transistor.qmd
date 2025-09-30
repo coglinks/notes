@@ -1,17 +1,6 @@
 ---
-title: "Presentation Title"
+title: "L4.1 – Bipolar Junction"
 ---
-![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_0.png)
-
-AETN 2101\-ANALOG  ELECTRONICS
-
-# L4.1 – Bipolar Junction
-
- Transistors (BJT)
-
-(Introduction)
-
-__Dr\. Yasen Harrye__
 
 # Learning Objectives:
 
@@ -21,15 +10,15 @@ Identify the symbols for  _npn_  _ _ and  _pnp_  _ _ transistors\.
 
 Name the three regions of a BJT and their labels\.
 
-<span style="color:#000000">Describe forward\-reverse bias</span>
+Describe forward\-reverse bias
 
-<span style="color:#000000">Show how to bias </span>  <span style="color:#000000"> _pnp_ </span>  <span style="color:#000000"> _ _ </span>  <span style="color:#000000">and </span>  <span style="color:#000000"> _npn_ </span>  <span style="color:#000000"> _ _ </span>  <span style="color:#000000">BJTs with dc sources</span>
+Show how to bias    _pnp_    _ _   and    _npn_    _ _   BJTs with dc sources
 
-<span style="color:#000000">Explain the internal operation of a BJT</span>
+Explain the internal operation of a BJT
 
-<span style="color:#000000">Discuss transistor currents</span>
+Discuss transistor currents
 
-<span style="color:#000000">Calculate any of the transistor currents if the other two are known\.</span>
+Calculate any of the transistor currents if the other two are known\.
 
 ::: {.notes}
 
@@ -57,21 +46,15 @@ The  __BJT __ is constructed with three doped semiconductor regions separated by
 
 The three regions are called:
 
-<span style="color:#0000cc"> __        \- __ </span>  <span style="color:#0000cc"> __ Emitter__ </span>
+ __        \- __    __ Emitter__ 
 
-<span style="color:#0000cc"> __        \-  Base__ </span>
+ __        \-  Base__ 
 
-<span style="color:#0000cc"> __        \-  Collector__ </span>
+ __        \-  Collector__ 
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_5.png)
 
-<span style="color:#c00000">substrate is a physical supporting material for the transistor</span>
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
+substrate is a physical supporting material for the transistor
 
 # Bipolar Junction Transistor
 
@@ -79,13 +62,7 @@ Explain the process as a self regulated system
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_7.png)
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#c00000">Schematic Symbols:</span>
+Schematic Symbols:
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_8.png)
 
@@ -95,39 +72,27 @@ Explain the process as a self regulated system
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_11.png)
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_12.png)
 
-For a BJT to operate properly as an amplifier\, the two  _pn_  _ _ junctions must be correctly biased with  <span style="color:#336600"> __external dc voltages\.__ </span>
+For a BJT to operate properly as an amplifier\, the two  _pn_  _ _ junctions must be correctly biased with   __external dc voltages\.__ 
 
-<span style="color:#0000cc">In this course\, we </span>  <span style="color:#0000cc">will </span>  <span style="color:#0000cc">use the </span>  <span style="color:#0000cc"> _npn_ </span>  <span style="color:#0000cc"> _ _ </span>  <span style="color:#0000cc">transistor for illustration\. </span>
+In this course\, we   will   use the    _npn_    _ _   transistor for illustration\. 
 
 Operation of the  _pnp_  _ _ is the same as for the  _npn_  _ _ except that the roles of the electrons and holes\, the bias voltage polarities\, and the current directions are all reversed\.
 
-<span style="color:#336600"> _Forward Biased _ </span>  <span style="color:#336600"> _npn_ </span>  <span style="color:#336600"> _ Transistor as Amplifier_ </span>
+ _Forward Biased _    _npn_    _ Transistor as Amplifier_ 
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_13.png)
 
-<span style="color:#ff0000"> _Note: In Both cases\, BE is Forward biased and BC terminals is Reverse Biased_ </span>
+ _Note: In Both cases\, BE is Forward biased and BC terminals is Reverse Biased_ 
 
-<span style="color:#336600"> _Forward Biased _ </span>  <span style="color:#336600"> _pnp_ </span>  <span style="color:#336600"> _ Transistor as Amplifier_ </span>
+ _Forward Biased _    _pnp_    _ Transistor as Amplifier_ 
 
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
-
-<span style="color:#c00000">BJT Transistor Currents:</span>
+BJT Transistor Currents:
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_14.png)
 
-<span style="color:#0000ff">T</span>  <span style="color:#0000ff">he arrow on the emitter inside the transistor symbols points in the direction of conventional current</span> \.
+T  he arrow on the emitter inside the transistor symbols points in the direction of conventional current \.
 
 Diagrams show that the emitter current \( _I_ E\) is the sum of the collector current \( _I_ C\) and the base current \( _I_ B\)\, expressed as follows
 
@@ -135,27 +100,21 @@ Diagrams show that the emitter current \( _I_ E\) is the sum of the collector cu
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_16.png)
 
-<span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff">B </span>  <span style="color:#0000ff">is very small compared to </span>  <span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff">E </span>  <span style="color:#0000ff">or </span>  <span style="color:#0000ff"> _I_ </span>  <span style="color:#0000ff">C</span>
+ _I_   B   is very small compared to    _I_   E   or    _I_   C
 
 The  collector current is compromised of two currents:
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_17.png)
 
-<span style="color:#ff0000">Note: capital\-letter subscripts indicate dc values</span>
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
+Note: capital\-letter subscripts indicate dc values
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_18.png)
 
-<span style="color:#0000cc"> __DC Beta \(__ </span>  <span style="color:#0000cc">β</span>  <span style="color:#0000cc">dc</span>  <span style="color:#0000cc"> </span>  <span style="color:#0000cc"> __\) and __ </span>  <span style="color:#0000cc"> __A__ </span>  <span style="color:#0000cc"> __C Beta \(__ </span>  <span style="color:#0000cc">β</span>  <span style="color:#0000cc">a</span>  <span style="color:#0000cc">c</span>  <span style="color:#0000cc"> </span>  <span style="color:#0000cc"> __\) __ </span>
+ __DC Beta \(__   β  dc      __\) and __    __A__    __C Beta \(__   β  a  c      __\) __ 
 
-<span style="color:#0000cc">β</span>  <span style="color:#0000cc">dc</span>  represents the  __current gain__  OR  __amplification factor __ of a transistor\.
+β  dc  represents the  __current gain__  OR  __amplification factor __ of a transistor\.
 
-<span style="color:#0000cc">β</span>  <span style="color:#0000cc">dc</span>  is sometimes referred to as  _h_  _fe_
+β  dc  is sometimes referred to as  _h_  _fe_
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_19.png)
 
@@ -163,17 +122,11 @@ Explain the process as a self regulated system
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_21.png)
 
-<span style="color:#ff0000">β</span>  <span style="color:#ff0000">dc</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">range from less than 20 to 200 or higher</span>
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
+β  dc     range from less than 20 to 200 or higher
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_22.png)
 
-<span style="color:#0000cc"> __DC Alpha \(__ </span>  <span style="color:#0000cc">α</span>  <span style="color:#0000cc"> __dc__ </span>  <span style="color:#0000cc"> __\) and AC Alpha \(__ </span>  <span style="color:#0000cc">α</span>  <span style="color:#0000cc"> __aa__ </span>  <span style="color:#0000cc"> __\)__ </span>
+ __DC Alpha \(__   α   __dc__    __\) and AC Alpha \(__   α   __aa__    __\)__ 
 
 The ratio of the collector current \( _I_ C\) to the emitter current \( _I_ E\) is  __alpha__ \(α dc\) and  __alpha__ \(α ac\) \.
 
@@ -191,13 +144,13 @@ Explain the process as a self regulated system
 
 :::
 
-<span style="color:#c00000">BJT Characteristics Parameters :</span>
+BJT Characteristics Parameters :
 
-<span style="color:#336600"> __Relationship between amplification factors β and α__ </span>
+ __Relationship between amplification factors β and α__ 
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_26.png)
 
-<span style="color:#336600"> __Relationship Between Currents:__ </span>
+ __Relationship Between Currents:__ 
 
 ![](l4.1-bipolar-junction-transistor-img/l41-bipolar-junction-transistor_27.png)
 
