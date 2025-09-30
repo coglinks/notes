@@ -14,7 +14,7 @@ title: "Network Layer"
 | __Basic Router Configuration__ | Configure initial settings\, interfaces and default gateway |
 
 
-# Network Layer CharacteristicsThe Network Layer
+# Network Layer Characteristics The Network Layer
 
 ![](t7-network-layer-img/t7-network-layer-v6_0.png)
 
@@ -28,7 +28,7 @@ title: "Network Layer"
   * Routing
   * De\-encapsulation
 
-# Network Layer CharacteristicsIP Encapsulation
+# Network Layer Characteristics IP Encapsulation
 
 ![](t7-network-layer-img/t7-network-layer-v6_1.png)
 
@@ -38,7 +38,7 @@ IP packet will be examined by all layer 3 devices as it traverses the network\.
 
 The IP addressing does not change from source to destination\.
 
-# Network Layer CharacteristicsConnectionless
+# Network Layer Characteristics Connectionless
 
 _IP is Connectionless \- There is no connection with the destination established before sending data packets\._
 
@@ -58,7 +58,7 @@ IP requires no initial exchange of control information to establish an end\-to\-
 
 :::
 
-# Network Layer CharacteristicsBest Effort
+# Network Layer Characteristics Best Effort
 
 _IP is Best Effort \- IP is inherently unreliable because packet delivery is not guaranteed\._
 
@@ -79,7 +79,7 @@ _IP is Best Effort \- IP is inherently unreliable because packet delivery is not
 
 :::
 
-# Network Layer CharacteristicsMedia Independent
+# Network Layer Characteristics Media Independent
 
 
 
@@ -101,7 +101,7 @@ _IP is Best Effort \- IP is inherently unreliable because packet delivery is not
 
 :::
 
-# IPv4 PacketIPv4 Packet Header
+# IPv4 Packet IPv4 Packet Header
 
 Diagram is read from left to right\, 4 bytes per line
 
@@ -121,7 +121,7 @@ Typically\,  _these addresses do not change while travelling from the source to 
 
 :::
 
-# IPv4 PacketIPv4 Packet Header Fields
+# IPv4 Packet IPv4 Packet Header Fields
 
 Significant fields in the IPv4 header:
 
@@ -143,7 +143,7 @@ Significant fields in the IPv4 header:
 
 :::
 
-# IPv6 PacketsLimitations of IPv4
+# IPv6 Packets Limitations of IPv4
 
 
 
@@ -159,7 +159,7 @@ Significant fields in the IPv4 header:
 
 :::
 
-# IPv6 PacketsIPv6 Overview
+# IPv6 Packets IPv6 Overview
 
 ![](t7-network-layer-img/t7-network-layer-v6_7.png)
 
@@ -182,7 +182,7 @@ Significant fields in the IPv4 header:
 
 :::
 
-# IPv6 PacketsFields in the IPv6 Packet Header
+# IPv6 Packets Fields in the IPv6 Packet Header
 
 ![](t7-network-layer-img/t7-network-layer-v6_9.png)
 
@@ -202,7 +202,7 @@ Significant fields in the IPv4 header:
 
 :::
 
-# IPv6 PacketsIPv6 Packet Header
+# IPv6 Packets IPv6 Packet Header
 
 
 
@@ -228,7 +228,7 @@ Significant fields in the IPv4 header:
 
 :::
 
-# How a Host RoutesHost Forwarding Decision
+# How a Host Routes Host Forwarding Decision
 
 
 
@@ -255,7 +255,7 @@ Intermediate Device
 
 :::
 
-# How a Host RoutesDefault Gateway
+# How a Host Routes Default Gateway
 
 
 
@@ -284,7 +284,7 @@ All devices on the LAN use the DGW to send traffic remotely\.
 
 :::
 
-# How a Host Routes Host Routing Tables
+# How a Host Routes  Host Routing Tables
 
 ![](t7-network-layer-img/t7-network-layer-v6_12.png)
 
@@ -315,7 +315,7 @@ Default gateway for PC1
 
 :::
 
-# Introduction to RoutingRouter Packet Forwarding Decision
+# Introduction to Routing Router Packet Forwarding Decision
 
 ![](t7-network-layer-img/t7-network-layer-v6_14.png)
 
@@ -342,7 +342,7 @@ __R1 Routing Table__
 
 :::
 
-# Introduction to RoutingIP Router Routing Table
+# Introduction to Routing IP Router Routing Table
 
 
 
@@ -351,20 +351,13 @@ __R1 Routing Table__
 * __Remote networks__  – Routes that the router does not have a direct connection and may be  learned:
   * Manually –   with a static route
   * Dynamically  –  by using a dynamic routing protocol
-* __Default Route __ –  a gateway of last resort \, used when there is not a match in the routing table
+* Default Route – a gateway of last resort , used when there is not a match in the routing table
 
+> Default routes are used to connect to the internet
 
 ![](t7-network-layer-img/t7-network-layer-v6_16.png)
 
-::: {.notes}
-
-8 – Network Layer
-8.5 – Introduction to Routing
-8.5.2 – IP Router Routing Table
-
-:::
-
-# Introduction to RoutingStatic Routing
+# Introduction to Routing Static Routing
 
 ![](t7-network-layer-img/t7-network-layer-v6_17.png)
 
@@ -392,7 +385,7 @@ If the route from R1 via R2 is no longer available\, a new static route via R3 w
 
 :::
 
-# Introduction to RoutingDynamic Routing
+# Introduction to Routing Dynamic Routing
 
 ![](t7-network-layer-img/t7-network-layer-v6_19.png)
 
@@ -424,7 +417,7 @@ If there is network topology change\, they can automatically adjust to find a ne
 
 :::
 
-# Introduction to RoutingIntroduction to an IPv4 Routing Table
+# Introduction to Routing Introduction to an IPv4 Routing Table
 
 ![](t7-network-layer-img/t7-network-layer-v6_21.png)
 
@@ -453,7 +446,7 @@ If there is network topology change\, they can automatically adjust to find a ne
 
 :::
 
-# Configure Initial Router SettingsBasic Router Configuration Example
+# Configure Initial Router Settings Basic Router Configuration Example
 
 R1\(config\)\#  __hostname R1__
 
@@ -502,7 +495,7 @@ Configuration is saved to NVRAM\.
 
 :::
 
-# Configure InterfacesConfigure Router Interfaces Example
+# Configure Interfaces Configure Router Interfaces Example
 
 ![](t7-network-layer-img/t7-network-layer-v6_23.png)
 
@@ -532,15 +525,9 @@ adds information about the network connected to the interface
 
 activates the interface
 
-::: {.notes}
+> In a router, all physical ports are desabled by default. They have to be enabled manually during SVI configuration with `no shutdown` cmd. Meanwhile, all physical ports are enabled in a switch.
 
-10 – Basic Router Configuration
-10.2 – Configure Interfaces
-10.2.2 – Configure Router Interfaces Example
-
-:::
-
-# Configure InterfacesVerify Interface Configuration
+# Configure Interfaces Verify Interface Configuration
 
 To verify interface configuration or to view status of all interfaces use the    __show ip interface brief __   and    __show ipv6 interface brief __   commands shown here:
 
@@ -572,15 +559,7 @@ Vlan1                      \[administratively down/down\]
 
 unassigned
 
-::: {.notes}
-
-10 – Basic Router Configuration
-10.2 – Configure Interfaces
-10.2.3 – Verify Interface Configuration
-
-:::
-
-# Configure the Default GatewayDefault Gateway on a Host
+# Configure the Default Gateway Default Gateway on a Host
 
 ![](t7-network-layer-img/t7-network-layer-v6_24.png)
 
@@ -594,26 +573,10 @@ Network address of LAN1
 
  __Note__   : The IP address of the host and the router interface must be in the same network\.
 
-::: {.notes}
-
-10 – Basic Router Configuration
-10.3 – Configure the Default Gateway
-10.3.1 – Default Gateway on a Host
-
-:::
-
 ![](t7-network-layer-img/t7-network-layer-v6_25.png)
 
 A switch must have a default gateway address configured to   remotely   manage the switch   from another network  \. 
 
-Configured by using the   __ip__    __ default\-gateway __  command\.
+Configured by using the _ip_ default\-gateway command\.
 
-::: {.notes}
-
-10 – Basic Router Configuration
-10.3 – Configure the Default Gateway
-10.3.2 – Default Gateway on a Switch
-10.3.3 – Syntax Checker – Configure the Default Gateway
-
-:::
-
+> We cannot assign ip address on a physical port of a switch. Only on the SVI.
