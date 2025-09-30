@@ -171,6 +171,7 @@ Make a boolean expression
 
 # Example 1
 
+
 # Example
 
 Derive the output expression for the following K map:
@@ -229,7 +230,11 @@ Place a 0 in all other squares\.
 
 # Example 1:
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_20.png)
+> In a boolean expression that isn't standard, you can add the missing variables by using the boolean property, $A+\bar{A}=1$. 1 doesn't change the output of the expression
+
+# missing text
+
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/k-map-example1.png)
 
 # Don’t-Care Conditions
 
