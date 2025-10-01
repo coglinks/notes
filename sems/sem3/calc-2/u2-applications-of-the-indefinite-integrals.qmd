@@ -1,3 +1,5 @@
+---
+---
 # MATH2010
 
 # Unit 2
@@ -24,21 +26,21 @@ This is usually a point on a curve called an initial value.
 
 This process gives us a particular solution.
 
-The graphs above all have thesame derivative, $3x^2$ and we are given an initial value of $F(1)=3$ What is the particular solution?
+The graphs above all have the same derivative, $3x^2$ and we are given an initial value of $F(1)=3$ What is the particular solution?
 
 ## FINDING THE PARTICULAR SOLUTION GIVEN AN INITIAL VALUE
 
-1. Perform the integration to find the antiderivative. 2.Use the given information (initial value) to solve for C. 3. Replace C in your indefinite integral and state the Particular Solution
+1. Perform the integration to find the anti-derivative. 2.Use the given information (initial value) to solve for C. 3. Replace C in your indefinite integral and state the Particular Solution
 
 E1Find the particular solution $f(x)$ given that $f^{\prime}(x)=x^{3}-x+1$ and the function passes through (2, 6).
 
 ![](./images/f88Fii3mIrHRvgPN7Gk76sWaxa5GvDt03.png)
 
-E in th aricularsoution ofe $f'(x)=\frac{x^2+4}{x^2}$ Iithefuntionhas a ital value of 2when $x=2$
+E in th particularization ofe $f'(x)=\frac{x^2+4}{x^2}$ the function has a ital value of 2when $x=2$
 
 ![](./images/fgz5SqwXK7gh6GUAr7o4wG2YWPzhiKRgN.png)
 
-E3 Find the particular slution of $\frac{dy}{dx}=x^{\frac13}-3\cos x$ , given $y(0)=4$
+E3 Find the particular solution of $\frac{dy}{dx}=x^{\frac13}-3\cos x$ , given $y(0)=4$
 
 ![](./images/fUTSeeeiQ6Ax2hLdznfuLkmwmNdAxvQrG.png)
 
@@ -58,7 +60,9 @@ What are the units for charge?.
 
 Voltage $V$ across a capacitor with capacitance $C$ is:
 
-$$\begin{aligned}V&=\frac{q}{C}\quad\Rightarrow\quad V=\\&=\frac{1}{C}\cdot q\end{aligned}$$
+\begin{align*}
+V&=\frac{q}{C}\quad\Rightarrow\quad V=\\&=\frac{1}{C}\cdot q \\
+\end{align*}
 
 What are the units for voltage?
 
@@ -70,9 +74,9 @@ a) Find an expression for the total charge, $q(t)$ ,that passes a point in the c
 
 b）Use your expression to determine the amount of charge that passes the point in 2 seconds.
 
-E2Theinitial voltage across a 5F capacitoris zero.
+E2The initial voltage across a 5F capacitors zero.
 
- a) What is the expressionfor voltage across the capacitor if $i=\frac{2t}{t^2+1}$
+ a) What is the expression for voltage across the capacitor if $i=\frac{2t}{t^2+1}$
 
 ![](./images/f9vx4bnEhiDTFPqGX4us9ne1MhQhu6ddX.png)
 
@@ -82,7 +86,7 @@ b)What is the voltage after 4 s?
 
 Current $i$ through an inductor with inductance $L$ is:
 
-$$\begin{aligned}&V=L\frac{di}{dt}\\&\frac{di}{dt}=\frac{1}{L}\cdot V\end{aligned}\quad\Rightarrow\quad i=$$
+\begin{align*}&V=L\frac{di}{dt}\\&\frac{di}{dt}=\frac{1}{L}\cdot V\end{align*}\quad\Rightarrow\quad i=
 
 ![](./images/fo9uCZBfor8yedDlwR8kDzp2gUOsLVkxH.png)
 
@@ -104,15 +108,15 @@ In MATH1030 we used the rectangle method to approximate the area under $f(x)$ an
 
 ![](./images/fnB3zSGzl3gMaXd5Xx9sLiYt8y0OvguP9.png)
 
-We can get an exact area of $f(x)$ byhaving an infinite number of rectangles.
+We can get an exact area of $f(x)$ by having an infinite number of rectangles.
 
 ![](./images/fCC7P1o5AObC6tLLfOSa09m4Uk1VgUf8c.png)
 
-We callthis exact area beneath a curve and above the axis-the Definite Integral
+We call this exact area beneath a curve and above the axis-the Definite Integral
 
 ### THE FUNDAMENTAL THEOREM OF CALCULUS
 
-If a function $f(x)$ is continuous on the closed interval $[a,b]$ and $F(x)$ is an antiderivativeof $f(x)$ on the interval then:.
+If a function $f(x)$ is continuous on the closed interval $[a,b]$ and $F(x)$ is an anti-derivative of $f(x)$ on the interval then:.
 
 $$\int\limits_{a}^{b}f(x)dx=F(x)\Big|_{a}^{b}=F(b)-F(a)\:\text{is the Definite Integral},$$
 with $a$ and $b$ as lower and upper bounds
@@ -127,9 +131,9 @@ $$\int\limits_0^4\Bigl(x^2+1\Bigr)dx$$
 
 EXACTAREA UNDER A CURVE
 
-The definite integral for a curve from a to b will give the sum of the SiGNED Areas.
+The definite integral for a curve from a to b will give the sum of the signed Areas.
 
-Area should be POsITIVE ONLY
+Area should be Positive ONLY
 
  To find Area we must be careful to use the HEIGHT from the Representative Rectangle.
 
@@ -139,7 +143,7 @@ Find the area under the curve $f(x)=x$ between $x=-4$ and $x=4$ .
 
 For all Area problems, it is important to understand the representative rectangles.
 
-REPREsENTATIVE RECTANGLE: is the same rectangle we used for approximation
+Representative RECTANGLE: is the same rectangle we used for approximation
 
 The height of the rectangle helps us determine what our definite integral should be Instead of $\Delta x$ or y we will now use dx and dy as we will use the Definite Integral to find areas.
 
@@ -147,11 +151,11 @@ The height of the rectangle helps us determine what our definite integral should
 
  Different areas will require different Representative Rectangles and have different heights
 
- Some Areas will require more than one Representative Rectangle Draw another rectangle anytime the nature of the area changes **Each rectangle willhave a different expression for the height
+ Some Areas will require more than one Representative Rectangle Draw another rectangle anytime the nature of the area changes **Each rectangle will have a different expression for the height
 
 For each graph of $f(x)$ ：
 
-1.Shade the area. 2. Draw the representative rectangle(s) and label it. 3.Write the definite integral needed tofind the area
+1.Shade the area. 2. Draw the representative rectangle(s) and label it. 3.Write the definite integral needed to find the area
 
 ![](./images/fsG2nSc6GFR8GMi6n0UpB6d9gyYGEzxp3.png)
 
@@ -161,9 +165,9 @@ For each graph of $f(x)$ ：
 
 ![](./images/fg9Bsk3giL3afHGnaioAVc0wgbq2BS4Sl.png)
 
-For functions of Y, area under the curve. isbetween the curve andthey axis:
+For functions of Y, area under the curve. is between the curve and they axis:
 
-The rectangle will be horizontal, the bounds are yvalues and the width of therectangle is $dy$ .
+The rectangle will be horizontal, the bounds are y values and the width of the rectangle is $dy$ .
 
 ![](./images/fYkIcOyizdL9Vlktr1hRgeAGbB6wQ1ZgR.png)
 
@@ -171,7 +175,7 @@ $$Area=\int_{0}^{4}f(y)dy$$
 
 ## Example:
 
-For each case below,draw representative rectangles and label them dx or dy: Write an expression for theheight of the rectangle
+For each case below,draw representative rectangles and label them dx or dy: Write an expression for the height of the rectangle
 
 ![](./images/ftZg2lKD31Gl9uINiTQSAotdoBwZfLZYB.png)
 
@@ -196,13 +200,13 @@ Find the exact area under the curve $y=-x^{2}+9$ between the lines $x=-3$ and $x
 
 ## Example:
 
-Find theexact shaded area underthe curve $y=2x^{5}-4x^{3}+2x$
+Find theexact shaded area under the curve $y=2x^{5}-4x^{3}+2x$
 
 ![](./images/fHgQnIODsl86dEbZKzQIhfuoi1zuadEVB.png)
 
 # 2.5 Area Under f(y)
 
-All of the functions we've seen so far are functions of $x$ .Some problems involve functions of $y$ . The area under the curveis thenbetween the curve and they-axis.
+All of the functions we've seen so far are functions of $x$ .Some problems involve functions of $y$ . The area under the curve is then between the curve and they-axis.
 
 $$x=\sin y$$
 
@@ -216,9 +220,9 @@ $$x=y^{3}$$
 
 ![](./images/fmIqims8rq7CZDXyOdX4va6LzZi2SgEub.png)
 
-IMPORTANT: The functions must be written with x as the dependant variable. ie $x=$
+IMPORTANT: The functions must be written with x as the dependent variable. ie $x=$
 
-Forthe areabetween they-axis and this curve $y=x^3$ with bounds $y=-1$ and $y=1$ ， we need to consider:
+For the area between they-axis and this curve $y=x^3$ with bounds $y=-1$ and $y=1$ ， we need to consider:
 
 The equation $y=x^3$
 
@@ -249,7 +253,7 @@ For all Area problems, it is important to understand the representative rectangl
 
 REPRESENTATIVE RECTANGLE: is the same rectangle we used for approximation
 
-The height of the rectanglehelpsus determine what our definite integral shouldbe
+The height of the rectanglehelpsus determine what our definite integral should be
 
 ![](./images/fBMQVq8eipZRyEeWMSTK3CEcpVb2Bi4gk.png)
 
@@ -284,17 +288,17 @@ These may be the intersection of the graphs..
 3: Find the equation for the height for each rectangle, $h(x)$
 
 $$A=\int_a^bh(x)dx$$
-4:Write the Definite Integrals foreach rectangle with its bounds.
+4:Write the Definite Integrals for each rectangle with its bounds.
 
  5: Evaluate the Definite Integral. Remember: Area has units.
 
 E1 For each of the following graphs:
 
-4. Shade the area between the two curves. 5.Draw the representative rectangle(s) and label it (them). 6.Write the definiteintegral(s) needed to find the area.
+4. Shade the area between the two curves. 5.Draw the representative rectangle(s) and label it (them). 6.Write the definite integral(s) needed to find the area.
 
 ![](./images/f8iTA5l4VVF927BQZdmfKxRpybYvuy1YL.png)
 
-E2 Find the shown enclosed areabounded by the curves $y=x^{4}-2x^{2}+1$ and $y=x^{2}-1$
+E2 Find the shown enclosed are bounded by the curves $y=x^{4}-2x^{2}+1$ and $y=x^{2}-1$
 
 ![](./images/fbX9plOTGfi0IefBQxpxgFpRYMaEcIkhm.png)
 
@@ -313,7 +317,7 @@ $$\int f(x)-g(x)\:dx$$
 $$\int x^2-x^3+1\mathrm{dx}$$
 nooooo!
 
-Whenyou are given twofunctions you need toknow which equation matches which curve.You could graph thefunctions on a graphic calculator todo this,but you should learn toidentify them bylooking at them.Let's review
+When you are given twofunctions you need toknow which equation matches which curve.You could graph thefunctions on a graphic calculator todo this,but you should learn toidentify them bylooking at them.Let's review
 
 absolute value
 
@@ -472,12 +476,12 @@ $$r=(f(x)-0)$$
 
 $$A(x)=\pi(f(x))^2$$
 
-$$\begin{aligned}
+\begin{align*}
 &r=(0-f(x)) \\
 &\text{.} A(x)=\pi(-f(x))^{2}  \\
 &&&=\pi(-1)^{2}(f(x))^{2} \\
 &&&=\pi(f(x))^{2}
-\end{aligned}$$
+\end{align*}
 
 ### 2.9Volume of Revolution - Washer Method
 
@@ -546,15 +550,43 @@ Given a more complex function, we see that the height of each shell depends on f
 
 ### SHELL METHOD-REVOLVING ABOUT Y-AXIS
 
-V =f A(x)dr where $A_{shell}=2\pi rh$ (area of thin shell r is $X$, and the height depends on $f(x)$
+$V = \int_a^b A(x)dr$ where $A_{shell}=2\pi rh$ (area of thin shell)
+
+r is $X$, and the height depends on $f(x)$
 
 E1 Using the shell method, find the volume of the solid generated by revolving the first-quadrant region bounded by $y=4-x^{2}$ about the y-axis.
 
 ![](./images/fUY7G6ZkX4vE5mCvcizX5nof7lK5Cp1sb.png)
 
-E2Use the shell method tofind the volume of the solid generated by revolving the region boundedby the $x$ -axis, $y=-\sin(x^{2})$ ， $x=0$ and $x=\sqrt{\pi}$ about the y-axis.
+E2 Use the shell method tofind the volume of the solid generated by revolving the region boundedby the $x$ -axis, $y=-\sin(x^{2})$ ， $x=0$ and $x=\sqrt{\pi}$ about the y-axis.
 
 ![](./images/f09NQfsg20K4kBPtFkyunlxXlmWByFk34.png)
+
+:::: {.columns}
+
+::: {.column = "40%"}
+\begin{align*}
+  u = x^2 \\ 
+  du = 2x dx \\
+  \int x \sin x^2 dx = \frac{1}{2} \int \sin x^2 2x dx \\
+  = \frac{1}{2} \int \sin u du \\
+  = \frac{1}{2} (- \cos x) + c \\
+\end{align*}
+
+:::
+
+::: {.column = "60%"}
+
+\begin{align*}
+  V = 2\pi \int_0^{\sqrt{\pi}} x |(-\sin (x^2))| dx \\
+  = 2\pi \int_0^{\sqrt{\pi}} x (-\sin (x^2)) dx \\
+  = 2\pi \left[ -\tfrac{1}{2} \cos (x^2) \right]_0^{\sqrt{\pi}} \\
+  = - \pi [ \cos \pi - \cos 0 ]
+\end{align*}
+
+:::
+
+::::
 
 # Recognize the difference between the methods:
 
@@ -600,17 +632,17 @@ We use the convention that $\theta$ is positive when measured anti-clockwise and
 
 A. The pole O (origin) has no specific angular coordinate $\theta$ , but it has radial coordinate $r=0$ Then we assign to O the polar coordinates $(0,\theta)$ for any angle $\theta$
 
-B. The angular coordinate $\theta$ associated to a given point is not unique. Since adding multiple of $2\pi$ to $\theta$ , does not change the location of the point, then the polar coordinates $(r,\theta)$ and $(r,\theta+2n\pi)$ represent the same point for anyinteger $n$
+B. The angular coordinate $\theta$ associated to a given point is not unique. Since adding multiple of $2\pi$ to $\theta$ , does not change the location of the point, then the polar coordinates $(r,\theta)$ and $(r,\theta+2n\pi)$ represent the same point for any integer $n$.
 
-For example, ll the following polar coordinates $\left(1,\:\frac{5\pi}{4}\right),\left(1,-\frac{3\pi}{4}\right)$ , $\left(1,\:\frac{13\pi}{4}\right)$ represent the same oint ir the plane.
+For example, all the following polar coordinates $\left(1,\:\frac{5\pi}{4}\right),\left(1,-\frac{3\pi}{4}\right)$ , $\left(1,\:\frac{13\pi}{4}\right)$ represent the same point in the plane.
 
 ![](./images/fX8L81oagQaQnLLEZHhO7MmVWeQYIeowN.png)
 
-(allrepresent the same point in the plane)
+(all represent the same point in the plane)
 
-$\Xi \mathbf{x} . {\underline {2}}{: }\left ( 2, \:\frac \pi 3\right ) , \left ( 2, - \frac {5\pi }3\right )$and$\left(2,\:\frac{7\pi}{3}\right)$ (allrepresenthe same poin inthe plane
+E2: $\left ( 2, \:\frac \pi 3\right ) , \left ( 2, - \frac {5\pi }3\right )$and$\left(2,\:\frac{7\pi}{3}\right)$ (all represent the same point in the plane)
 
-C. Since the radial coordinate $r$ is a directed distance, we allow $r$ to be negative with the convention that the points $(r,\theta)$ and $(-r,\theta)$ lie onthe same line throughthe origin O and at the same distance $|r|$ from O.
+C. Since the radial coordinate $r$ is a directed distance, we allow $r$ to be negative with the convention that the points $(r,\theta)$ and $(-r,\theta)$ lie on the same line through the origin O and at the same distance $|r|$ from O.
 
 If $r>0$ , the point lies in the same quadrant as $\theta$ If $r<0$ , the point lies in quadrant opposite to $\theta$ (quadrant in the opposite side of the pole).
 
@@ -657,10 +689,10 @@ Ex.1: Find the rectangular coordinates of the point $\begin{pmatrix}-4,\:\frac{2
 
 ### Solution
 
-$$\begin{aligned}
+\begin{align*}
 &x=-4\cos\left({\frac{2\pi}{3}}\right)=-4\left(-{\frac{1}{2}}\right)=2 \\
 &y=-4\sin\left(\frac{2\pi}{3}\right)=-4\left(\frac{\sqrt{3}}{2}\right)=-2\sqrt{3}
-\end{aligned}$$
+\end{align*}
 
 So, in Cartesian coordinates this point is $(2,-2\sqrt{3})$
 
@@ -771,9 +803,9 @@ Suppose f is continuous and nonnegative on the interval $\alpha\leq\theta\leq\be
 
 $$A=\frac{1}{2}\int\limits_{\alpha}^{\beta}r^2d\theta $$
 
-$\begin{aligned}&\text{Rex Poseremone the seen at the Poser thep of the palle coure r}=2+4\cos(\theta)\\&\theta=2p^{\frac{1}{1}}\\&\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}-\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac $
+$\begin{align*}&\text{Rex Poseremone the seen at the Poser thep of the palle coure r}=2+4\cos(\theta)\\&\theta=2p^{\frac{1}{1}}\\&\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}-\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac{1}{1}+\frac $
 
-$\begin{aligned}&\text{BeE Cocallist the thed Pere of the Pere Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallis Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocadlist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist}\end{aligned}$
+$\begin{align*}&\text{BeE Cocallist the thed Pere of the Pere Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallis Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocadlist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist Cocallist}\end{align*}$
 
 Ex.3: Calculate the shaded area of the polar curve $r=3sin(2\theta)$ between
 
