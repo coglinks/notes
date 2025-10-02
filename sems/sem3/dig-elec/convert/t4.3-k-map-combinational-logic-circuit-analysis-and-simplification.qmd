@@ -47,19 +47,18 @@ When variable A is true\, it is shown by a bracket above the columns\.  Same wit
 
 
 * We add another row to the map\.
-* Variable are A\, B and C
+* Variables are A\, B and C
 * Adjacent K map square differ in only one variable both horizontally and vertically\.
 
+The 3 variables K\- map using minterms can be written as below:
 
 ![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_1.png)
-
-The 3 variables K\- map using minterms can be written as below:
 
 We will now develop a large K\-Map which can display 4 variables:
 
 ![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_2.png)
 
-The 4 variables K\- map using minterms can be written as below:
+The 4 variables K-map using minterms can be written as below:
 
 ![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/Topic 43 K- map_Combinational Logic circuit analysis and simplification_3.png)
 
@@ -67,19 +66,26 @@ The 4 variables K\- map using minterms can be written as below:
 
 Draw the K-Map X(A, B, C, D) = $\Sigma\ m(5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)$
 
-![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/kmap.png)
+> **Steps:**
+>
+> - Convert the decimals to binary
+> - Input the binary numbers into their respective cells:
+>   - If an SOP expression is given, we input the binary numbers to cells that give an output of 1.
+>   - If a POS expression is given, we input the binary numbers to cells that give an output of 0.
 
-::: {.note}
+![](topic-4.3-k-map-combinational-logic-circuit-analysis-and-simplification-img/kmap.png)
 
 Alternate expression: $\Pi\ M(0, 1, 2, 3, 4)$
 
+
+# b?
 SOP:
 
-For the 1st cell, beginning term is $\bar{A}B\bar{C}D$
+For thekjk 1st cell, beginning term is $\bar{A}B\bar{C}D$
 
 POS: For the 1st cell, beginning term is $ABCD$
 
-:::
+# e?
 
 # How to View a K-Map
 
@@ -87,7 +93,7 @@ POS: For the 1st cell, beginning term is $ABCD$
 
 Think of a K\-Map as being rolled up in both directions
 
-Cells on one side abut against cells on the other side and are considered to be contiguous
+Cells on one side abut against cells on the other side and are considered to be continuous
 
 Similarly\, cells on the top are considered to join up with cells on the bottom\.
 
@@ -101,7 +107,7 @@ Groups cannot contain 0’s\.
 
 All cells containing 1’s must be accounted for when grouping\.
 
-Groupings must contain 2n cells\, for example\, 1\, 2\, 4\, 8\, … No other amounts are allowed to be grouped\.
+Groupings must contain $2^n$ cells\, for example\, 1\, 2\, 4\, 8\, … No other amounts are allowed to be grouped\.
 
 Groups can be square or rectangular or may contain a single cell\, but groups  cannot be diagonal  or have any other shape\.
 
@@ -167,7 +173,7 @@ Some examples are shown below:
 
 Make a boolean expression
 
-> $\mathrm{X = \bar{A}\bar{B}\bar{C}D + \bar{A}BCD}$
+> $\mathrm{X = \bar{A}\bar{B}\bar{C}D + \bar{A}BCD + A\bar{B}\bar{C}\bar{D}}$
 
 # Example 1
 
