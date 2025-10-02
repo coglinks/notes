@@ -1,53 +1,38 @@
 ---
-title: "Presentation Title"
+title: "L4.3 – Bipolar Junction Transistor"
 ---
-![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_0.png)
-
-AETN 2101\-ANALOG  ELECTRONICS
-
-# L4.3 – Bipolar Junction Transistor
-
-DC Biasing I
-
-__Dr\. Yasen Harrye__
 
 # Learning Objectives:
 
-<span style="color:#000000">Discuss and determine the dc operating point of a linear amplifier</span>
+Discuss and determine the dc operating point of a linear amplifier
 
-<span style="color:#000000">Explain the purpose of dc bias</span>
+Explain the purpose of dc bias
 
-<span style="color:#000000">Define </span>  <span style="color:#000000"> _Q\-point _ </span>  <span style="color:#000000">and describe how it affects the output of an amplifier</span>
+Define    _Q\-point _   and describe how it affects the output of an amplifier
 
-<span style="color:#000000">Explain how collector characteristic curves are produced</span>
+Explain how collector characteristic curves are produced
 
-<span style="color:#000000">Describe and draw a dc load line</span>
+Describe and draw a dc load line
 
-<span style="color:#000000">State the conditions for linear operation</span>
-
-::: {.notes}
-
-Explain the process as a self regulated system
-
-:::
+State the conditions for linear operation
 
 # Bipolar Junction Transistor ( BJT)
 
-<span style="color:#336600">Biasing of a transistor:</span>
+Biasing of a transistor:
+
+If an amplifier is not biased with correct dc voltages on the input and output\, it can go into  saturation or   cutoff   when an input signal is applied\.
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_1.png)
 
-<span style="color:#0000ff">Linear operation: larger output has same shape as input except that it is inverted</span>
-
-If an amplifier is not biased with correct dc voltages on the input and output\, it can go into  <span style="color:#ff0000">saturation or </span>  <span style="color:#ff0000">cutoff</span>  <span style="color:#ff0000"> when an input signal is applied\.</span>
+Linear operation: larger output has same shape as input except that it is inverted
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_2.png)
 
-<span style="color:#0000ff">Nonlinear operation: output voltage limited \(clipped\) by </span>  <span style="color:#0000ff">cutoff</span>
+Nonlinear operation: output voltage limited \(clipped\) by   cutoff
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_3.png)
 
-<span style="color:#0000ff">Nonlinear operation: output voltage limited \(clipped\) by saturation</span>
+Nonlinear operation: output voltage limited \(clipped\) by saturation
 
 ::: {.notes}
 
@@ -55,15 +40,15 @@ Explain the process as a self regulated system
 
 :::
 
-<span style="color:#336600">Operating Point:</span>
+Operating Point:
 
-<span style="color:#ff0000"> __Graphical Analysis __ </span>
+ __Graphical Analysis __ 
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_4.png)
 
-<span style="color:#c00000">The DC input establishes an operating or quiescent point \(Q\-Point\)\.</span>
+The DC input establishes an operating or quiescent point \(Q\-Point\)\.
 
-<span style="color:#c00000">A\,B\, C\, D… </span>
+A\,B\, C\, D… 
 
 ::: {.notes}
 
@@ -73,9 +58,9 @@ Explain the process as a self regulated system
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_5.png)
 
-<span style="color:#c00000"> __Graphical Analysis __ </span>
+ __Graphical Analysis __ 
 
-The transistor is biased with VCC and VBB to obtain certain values of  <span style="color:#0000cc">I</span>  <span style="color:#0000cc">B</span>  <span style="color:#0000cc">\, I</span>  <span style="color:#0000cc">C</span>  <span style="color:#0000cc">\, I</span>  <span style="color:#0000cc">E</span>  <span style="color:#0000cc">\, and V</span>  <span style="color:#0000cc">CE</span>  <span style="color:#0000cc">\. </span>
+The transistor is biased with VCC and VBB to obtain certain values of  I  B  \, I  C  \, I  E  \, and V  CE  \. 
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_6.png)
 
@@ -89,7 +74,7 @@ Explain the process as a self regulated system
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_8.png)
 
-<span style="color:#008000">Determined by the external circuit </span>  <span style="color:#008000">\(V</span>  <span style="color:#008000">CC</span>  <span style="color:#008000"> and R</span>  <span style="color:#008000">C</span>  <span style="color:#008000">\)\, not the transistor itself\, </span>
+Determined by the external circuit   \(V  CC   and R  C  \)\, not the transistor itself\, 
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_9.png)
 
@@ -97,7 +82,7 @@ Explain the process as a self regulated system
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_11.png)
 
-<span style="color:#0000cc">Equation of a straight line with a slope of \-1/R</span>  <span style="color:#0000cc">C</span>  <span style="color:#0000cc">\, an x intercept of V</span>  <span style="color:#0000cc">CE</span>  <span style="color:#0000cc"> = V</span>  <span style="color:#0000cc">CC</span>  <span style="color:#0000cc">\, and a y intercept of V</span>  <span style="color:#0000cc">CC </span>  <span style="color:#0000cc">/R</span>  <span style="color:#0000cc">C</span>  <span style="color:#0000cc">\, which is I</span>  <span style="color:#0000cc">C</span>  <span style="color:#0000cc">\(sat\)\.</span>
+Equation of a straight line with a slope of \-1/R  C  \, an x intercept of V  CE   = V  CC  \, and a y intercept of V  CC   /R  C  \, which is I  C  \(sat\)\.
 
 ::: {.notes}
 
@@ -107,7 +92,7 @@ Explain the process as a self regulated system
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_12.png)
 
-<span style="color:#c00000"> __Illustration of Q\-point adjustment\.__ </span>
+ __Illustration of Q\-point adjustment\.__ 
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_13.png)
 
@@ -119,9 +104,9 @@ Explain the process as a self regulated system
 
 :::
 
-<span style="color:#0000cc">The region along the load line including all points between saturation and </span>  <span style="color:#0000cc">cutoff</span>  <span style="color:#0000cc"> is known as the linear region of the transistor’s operation</span> \.
+The region along the load line including all points between saturation and   cutoff   is known as the linear region of the transistor’s operation \.
 
-Note: If the transistor is operated in this region\, the output voltage is  <span style="color:#ff0000"> __ideally__ </span>  a linear reproduction of the input\.
+Note: If the transistor is operated in this region\, the output voltage is   __ideally__   a linear reproduction of the input\.
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_15.png)
 
@@ -151,13 +136,13 @@ Explain the process as a self regulated system
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_22.png)
 
-<span style="color:#0000ff">2</span>  <span style="color:#0000ff">\- The Load Line:</span>
+2  \- The Load Line:
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_23.png)
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_24.png)
 
-<span style="color:#0000ff">3\- Maximum possible I</span>  <span style="color:#0000ff">B</span>  <span style="color:#0000ff">:</span>
+3\- Maximum possible I  B  :
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_25.png)
 
@@ -167,11 +152,11 @@ Explain the process as a self regulated system
 
 :::
 
-<span style="color:#ff0000">In the given transistor circuit\, </span>  <span style="color:#0000cc">V</span>  <span style="color:#0000cc">BB</span>  <span style="color:#0000cc">=10V</span>  <span style="color:#ff0000">\, RB=31kohm and Vin is a sinusoidal wave where </span>
+In the given transistor circuit\,   V  BB  =10V  \, RB=31kohm and Vin is a sinusoidal wave where 
 
-<span style="color:#ff0000">	</span>  <span style="color:#0000cc">V</span>  <span style="color:#0000cc">in\-max</span>  <span style="color:#0000cc">=3Vac</span>  <span style="color:#ff0000">\. </span>
+	  V  in\-max  =3Vac  \. 
 
-<span style="color:#ff0000">	Draw the </span>  <span style="color:#ff0000">Ic</span>  <span style="color:#ff0000"> and </span>  <span style="color:#ff0000">Vce</span>  <span style="color:#ff0000"> Signals\.</span>
+	Draw the   Ic   and   Vce   Signals\.
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_26.png)
 
@@ -185,11 +170,11 @@ Explain the process as a self regulated system
 
 :::
 
-<span style="color:#ff0000">In the given transistor circuit\, </span>  <span style="color:#0000cc">V</span>  <span style="color:#0000cc">BB</span>  <span style="color:#0000cc">=10V</span>  <span style="color:#ff0000">\, RB=31kohm and Vin is a sinusoidal wave where </span>
+In the given transistor circuit\,   V  BB  =10V  \, RB=31kohm and Vin is a sinusoidal wave where 
 
-<span style="color:#ff0000">	</span>  <span style="color:#0000cc">V</span>  <span style="color:#0000cc">in\-max</span>  <span style="color:#0000cc">=3Vac</span>  <span style="color:#ff0000">\. </span>
+	  V  in\-max  =3Vac  \. 
 
-<span style="color:#ff0000">	Draw the </span>  <span style="color:#ff0000">Ic</span>  <span style="color:#ff0000"> and </span>  <span style="color:#ff0000">Vce</span>  <span style="color:#ff0000"> Signals\.</span>
+	Draw the   Ic   and   Vce   Signals\.
 
 ![](l4.3-dc-biasing-bipolar-junction-transistor-img/l43-dc-biasing-bipolar-junction-transistor_29.png)
 
