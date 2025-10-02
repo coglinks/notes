@@ -144,7 +144,7 @@ when  _I_ B = 0\, the transistor is in the cut\-off region of its operation\.
 
  __Saturation Region:__ 
 
-_Saturation: the collector current has reached a  maximum\.
+Saturation: the collector current has reached a  maximum.
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_21.png)
 
@@ -152,9 +152,9 @@ The bottom of the load line is at ideal cut\-off  where IC = 0 and VCE = VCC\.
 
 The top of the load line is at saturation where:
 
- __I__    __C__    __ = I__    __C__    __\(sat\)__    __= VCC/RC__ 
+ I    C     = I    C    \(sat\)    = VCC/RC
 
- __V__    __CE__    __ = V__    __CE__    __\(sat\)\. __ 
+ V    CE     = V    CE    \(sat\)\.  
 
 ![](l4.2-bipolar-junction-transistor-circuit-analysis-img/l42-bipolar-junction-transistor-circuit-analysis_22.png)
 
