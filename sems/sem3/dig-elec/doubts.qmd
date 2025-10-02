@@ -31,3 +31,10 @@ title: "Doubts"
     </div>
 
 Isn't POS low instead of high?
+
+## T4.3 K-maps
+
+1. What do you call the following expression:
+
+$$X(A, B, C, D) = \Sigma\ m(5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)$$
+
