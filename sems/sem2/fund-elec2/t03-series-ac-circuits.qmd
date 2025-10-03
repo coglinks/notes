@@ -59,32 +59,32 @@ Calculating in complex mode (recommended to use):
 > Each attribute has its own angle except avg power
 
 - Polar notation
-$$
+
 \begin{align*}
     E &= I \cdot Z_T \\
     I &= \frac{E}{Z_T} \\
     V_{Z_x} &= I_T \cdot Z_x \\
     I_{Z_x} &= I \\
 \end{align*}
-$$
+
 
 - Rectangular notation
 
-$$
+
 \begin{align*}
     Z &= R+j(X_L-X_C) \\
 \end{align*}
-$$
+
 
 Calculating in non-complex mode (not recommended to use):
 
-$$
+
 \begin{align*}
     Z &= \sqrt{R^2+X} \\
     X &= X_L-X_C\\
     \theta &= \tan^{-1} \frac{X}{R} \\
 \end{align*}
-$$
+
 
 Calculations that are complex independant:
 
@@ -123,7 +123,6 @@ Derivation for $f$
 > **&#9432; Note** <br>
 > This is very simple, use when you forget the formula for $f$, all you need to remember is the condition for resonace.
 
-$$
 \begin{align*}
     X_L &= X_C \\
     \omega L &= \frac{1}{\omega C} \\
@@ -131,7 +130,6 @@ $$
     f^2 &= \frac{1}{(2\pi)^2LC} \\
     f& = \frac{1}{2\pi\sqrt{LC}} \\
 \end{align*}
-$$
 
 ### Applying the general approach to a series RLC circuit
 

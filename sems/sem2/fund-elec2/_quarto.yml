@@ -1,6 +1,26 @@
 project:
-  type: website
+  type: book
   output-dir: _site
+
+book:
+  title: "Fundamentals of Electricity II"
+  author: "A lazy unnamed author"
+  date: "8/18/2021"
+  chapters:
+    - index.qmd
+    - memorize-formula-constants.qmd
+    - doubts.qmd
+    - t01-sinusoidal-alternating-waveforms.qmd
+    - t02-basic-elements-and-phasors.qmd
+    - t03-series-ac-circuits.qmd
+    - t04-parallel-ac-circuits.qmd
+    - t05-series-parallel-ac-circuits.qmd
+    - "t06-power(ac).qmd"
+    - t07-introduction-to-three-phase-systems.qmd
+    - t08-resonance-and-filters.qmd
+    - t09-methods-of-analysis.qmd
+    - t10-network-theorems-ac.qmd
+    - t11-introduction-to-magnetic-circuits-and-transformers.qmd
 
 execute:
   freeze: auto
@@ -8,7 +28,8 @@ execute:
 
 format:
   pdf:
-    documentclass: article
+    include-in-header: preamble.tex
+    documentclass: book
     papersize: a4
     geometry:
       - top=20mm

@@ -8,9 +8,6 @@ title: '10. Network Theorems (AC)'
 |---|
 | For a circuit with multiple sources, the current in one branch is the sum of specific source currents |
 
-\begin{theorem}
-test
-\end{theorem}
 
 The specific source current is found by:
 

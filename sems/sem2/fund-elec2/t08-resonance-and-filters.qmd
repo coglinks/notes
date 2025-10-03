@@ -110,14 +110,12 @@ $$BW = f_2 - f_1$$
 
 Derivations:
 
-$$
 \begin{align*}
     BW &= \dfrac{f_S}{Q_S} = \dfrac{R}{2 \pi L}\\
     f_s &= \sqrt{f_1 f_2} \\
     f_1 &= f_S - \dfrac{BW}{2} \\
     f_2 &= f_S + \dfrac{BW}{2} \\
 \end{align*}
-$$
 
 ## Introduction to Filters
 

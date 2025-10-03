@@ -10,12 +10,10 @@ In parallel:
 - Susceptances are added together.
 - Impedances are treated in the same manner as resistors
 
-$$
 \begin{align*}
     Y &= \frac{1}{Z} \\
     B &= \frac{1}{X} \\
 \end{align*}
-$$
 
 | Admittance, $Y$ | Susceptance, $B$ |
 |---|---|

@@ -116,11 +116,13 @@ $$
 
  Energy stored in an inductor or capacitor:
 
+$$
 \begin{aligned}
     W_L &= P~t \\
     &=\left( \frac{2VI}{\pi} \right) \times \left( \frac{T_2}{2} \right) \\
         &= \boxed{\frac{V I T_2}{\pi}} \quad \text{(J)} \\
 \end{aligned}
+$$
 
 Now, since
 
